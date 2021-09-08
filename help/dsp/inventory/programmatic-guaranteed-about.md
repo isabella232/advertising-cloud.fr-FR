@@ -1,0 +1,45 @@
+---
+title: A propos des contrats garantis par programmation
+description: Découvrez les offres garanties par programmation (PG) et les SSP certifiées pour les fournir.
+feature: Private Inventory, Deal IDs, Programmatic Guaranteed Deals
+exl-id: 8cf85ae3-027d-4d9d-95a0-ac39d651627a
+source-git-commit: 0f0a2e907d39900968b29c3b59c8034b604911ce
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
+
+---
+
+# A propos des contrats garantis par programmation
+
+Une transaction (PG) garantie par un programme est un achat garanti effectué directement avec un éditeur via un ID de transaction (plutôt que par le biais de balises de serveur de publicités). PG est plus flexible pour vous et votre éditeur et offre plus de transparence que les achats de balises standard. La facturation et le reporting sont consolidés via Advertising Cloud DSP, ce qui vous permet de gagner du temps.
+
+## Fonctions d’un contrat PG
+
+* L&#39;affaire est toujours facturée DSP.
+* L&#39;accord a un prix et une quantité fixes.
+* La plateforme côté éditeur ou côté approvisionnement (SSP) gère l’ensemble des opérations d’ajustement du budget, de limitation du budget et de tout ciblage.
+* En règle générale, l’opération a une priorité plus élevée sur le serveur d’annonces de l’éditeur.
+* Les demandes d&#39;offre ne sont pas réservées à un seul accord ou à un seul acheteur.
+* Plusieurs types de vidéos sont pris en charge sur un seul identifiant de transaction.
+* Les SSP et les éditeurs disposent de SLA de diffusion.
+
+Les offres PG nécessitent un emplacement et des publicités par défaut PG afin que DSP puisse renvoyer une demande à chaque demande d’offre et satisfaire les contrats de niveau de diffusion avec les SSP. Une fois que vous avez configuré l’emplacement par défaut PG obligatoire, vous pouvez également cibler l’opération PG à d’autres emplacements.
+
+## SSP certifiés pour les contrats PG en DSP
+
+* [!DNL Ambient Digital]
+* [!DNL FreeWheel]
+* [!DNL Google Authorized Buyers]
+* [!DNL OpenX]
+* [!DNL Rubicon]
+* [!DNL SpotX]
+* [!DNL Telaria]
+
+>[!MORELIKETHIS]
+>
+>* [Conseils pour négocier un accord garanti programmatique](/help/dsp/inventory/programmatic-guaranteed-tips.md)
+>* [Configuration d’un contrat garanti programmatique](programmatic-guaranteed-set-up.md)
+>* [Partenaires SSP](ssp-partners.md)
+>* [Présentation des fonctionnalités du stock](inventory-overview.md)
+
