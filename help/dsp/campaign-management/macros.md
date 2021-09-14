@@ -3,9 +3,9 @@ title: Macros Advertising Cloud DSP
 description: Référencez les macros disponibles pour le suivi général et pour effectuer le suivi des clics sur les publicités tierces.
 feature: Ads
 exl-id: e31cc2e5-ad1f-4555-a87b-0e4c3731fe5f
-source-git-commit: 185fc7d79798a0a3a9ad5829b701aeb53a4a47c1
+source-git-commit: e0166dbad4fec41fdc64a65cb3a8ac97496c681f
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '295'
 ht-degree: 0%
 
 ---
@@ -51,9 +51,9 @@ Si une macro de clic est manquante lors de la création d’une publicité displ
 >[!MORELIKETHIS]
 >
 >* [Paramètres de publicité audio](/help/dsp/campaign-management/ads/ad-settings-audio.md)
->* [Paramètres de publicité audio](/help/dsp/campaign-management/ads/ad-settings-connected-tv.md)
->* [Paramètres de publicité audio](/help/dsp/campaign-management/ads/ad-settings-display.md)
->* [Paramètres de publicité audio](/help/dsp/campaign-management/ads/ad-settings-mobile.md)
->* [Paramètres de publicité audio](/help/dsp/campaign-management/ads/ad-settings-native.md)
->* [Paramètres de publicité audio](/help/dsp/campaign-management/ads/ad-settings-pre-roll.md)
+>* [Paramètres des publicités télévisées connectées](/help/dsp/campaign-management/ads/ad-settings-connected-tv.md)
+>* [Paramètres d’affichage des publicités](/help/dsp/campaign-management/ads/ad-settings-display.md)
+>* [Paramètres des publicités mobiles](/help/dsp/campaign-management/ads/ad-settings-mobile.md)
+>* [Paramètres des publicités natives](/help/dsp/campaign-management/ads/ad-settings-native.md)
+>* [Paramètres de publicité preroll](/help/dsp/campaign-management/ads/ad-settings-pre-roll.md)
 
