@@ -3,9 +3,9 @@ title: À propos de la gestion des emplacements dans Advertising Cloud DSP
 description: Découvrez la gestion des emplacements.
 feature: DSP Placements
 exl-id: 1d1382d9-b6c8-44bf-a708-8458769a39c6
-source-git-commit: d10e1c24ee7c93eaab3fd4fefe853860226cc8e2
+source-git-commit: 9d35b366122cab460e8d563b36597926ed71b6b0
 workflow-type: tm+mt
-source-wordcount: '359'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -37,7 +37,7 @@ Le tableau de bord comprend un graphique des tendances de haut niveau personnali
 
 Le tableau de bord affiche également les mesures de fréquence et de diffusion par emplacement, par défaut. Vous pouvez éventuellement afficher les mesures de performances des emplacements et créer des jeux de colonnes personnalisés. Vous pouvez télécharger l’intégralité du tableau de données dans le dossier de téléchargement par défaut du navigateur sous la forme d’un rapport au format XLSM (feuille de calcul Excel prenant en charge les macros).
 
-Pour chaque emplacement, vous pouvez ouvrir une vue détaillée ([la balise [!UICONTROL Inspector]](/help/dsp/campaign-management/reports/campaign-reports-about.md)), qui inclut des mesures de performances, des mesures de fréquence et de diffusion, ainsi que des jeux de colonnes personnalisés par site et par publicité. et les mesures de fréquence. Vous pouvez également agir rapidement sur les sites et publicités inclus, comme exclure un site ou suspendre une publicité. Pour ouvrir l’Inspecteur, placez le curseur sur la ligne d’emplacement, cliquez sur **[!UICONTROL More]**, puis sur **[!UICONTROL Sites]**, **[!UICONTROL Ads]** ou **[!UICONTROL Frequency]**. Vous pouvez exporter les données de l’onglet [!UICONTROL Sites], [!UICONTROL Ads] ou [!UICONTROL Frequency] vers le dossier de téléchargement par défaut de votre navigateur sous la forme d’un rapport au format XLSM.
+Pour chaque emplacement, vous pouvez ouvrir une vue détaillée ([la balise [!UICONTROL Inspector]](/help/dsp/campaign-management/reports/campaign-reports-about.md)), qui inclut les mesures de performances, le rythme et la diffusion, ainsi que les jeux de colonnes personnalisés par site, publicité et inventaire ; et les mesures de fréquence. Vous pouvez également agir rapidement sur les sites, publicités et inventaire inclus, comme exclure un site, suspendre une publicité ou modifier une transaction. Pour ouvrir l’Inspecteur, placez le curseur sur la ligne d’emplacement, cliquez sur **[!UICONTROL More]**, puis sur **[!UICONTROL Sites]**, **[!UICONTROL Ads]**, **[!UICONTROL Frequency]** ou **[!UICONTROL Inventory]**. Vous pouvez exporter les données de l’onglet [!UICONTROL Sites], [!UICONTROL Ads], [!UICONTROL Frequency] ou [!UICONTROL Inventory] vers le dossier de téléchargement par défaut de votre navigateur sous la forme d’un rapport au format XLSM.
 
 >[!NOTE]
 >
