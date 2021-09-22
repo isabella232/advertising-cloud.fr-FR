@@ -1,12 +1,12 @@
 ---
 title: Duplication d’un rapport personnalisé
 description: Découvrez comment créer un rapport personnalisé en dupliquant un rapport existant.
-feature: Custom Reports
+feature: DSP Custom Reports
 exl-id: null
-source-git-commit: 0f0a2e907d39900968b29c3b59c8034b604911ce
+source-git-commit: d10e1c24ee7c93eaab3fd4fefe853860226cc8e2
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '87'
+ht-degree: 1%
 
 ---
 

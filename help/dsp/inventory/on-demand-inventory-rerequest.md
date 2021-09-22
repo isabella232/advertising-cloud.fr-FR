@@ -1,11 +1,11 @@
 ---
 title: Demande de nouveau [!DNL On Demand] Offres de stock Premium
 description: Découvrez comment demander à nouveau des  [!DNL On Demand] transactions qui ont été précédemment refusées.
-feature: On Demand Inventory
+feature: DSP On Demand Inventory
 exl-id: db5a5708-16e3-4304-8bd0-f1aa8ecd0e3c
-source-git-commit: 0f0a2e907d39900968b29c3b59c8034b604911ce
+source-git-commit: d10e1c24ee7c93eaab3fd4fefe853860226cc8e2
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '350'
 ht-degree: 0%
 
 ---

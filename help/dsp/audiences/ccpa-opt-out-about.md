@@ -1,11 +1,11 @@
 ---
 title: À propos des [!UICONTROL CCPA Opt-out-of-Sale] segments et des rapports
 description: Découvrez comment créer des segments pour effectuer le suivi des identifiants à partir des demandes d’opposition à la vente des informations personnelles (CCPA) et comment récupérer des rapports sur les identifiants.
-feature: CCPA, Segments
+feature: CCPA, DSP Segments
 exl-id: 9256d34e-d0dd-4abf-bc96-2b599caf2a8e
-source-git-commit: 0f0a2e907d39900968b29c3b59c8034b604911ce
+source-git-commit: d10e1c24ee7c93eaab3fd4fefe853860226cc8e2
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '255'
 ht-degree: 0%
 
 ---

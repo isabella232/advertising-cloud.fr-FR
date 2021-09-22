@@ -1,11 +1,11 @@
 ---
 title: Paramètres des publicités télévisées connectées
 description: Reportez-vous à la description des paramètres de publicité disponibles pour les publicités télévisées connectées.
-feature: Ads
+feature: DSP Ads
 exl-id: 4daae9e4-27eb-4496-9186-f33aebd8daae
-source-git-commit: 0f0a2e907d39900968b29c3b59c8034b604911ce
+source-git-commit: d10e1c24ee7c93eaab3fd4fefe853860226cc8e2
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '605'
 ht-degree: 0%
 
 ---
