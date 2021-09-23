@@ -3,16 +3,16 @@ title: Affichage des sites, publicités et détails de fréquence d’un emplace
 description: Découvrez comment afficher les sites, publicités et données de fréquence ciblés pour un emplacement.
 feature: DSP Placements
 exl-id: 99bb4a4e-dc52-4130-87c4-5458e25bbc1e
-source-git-commit: b91255255d2718b56f41aabd8c1babe52aa32abc
+source-git-commit: 14c484de177a6c5e3d4976076ecdbc4fa9086606
 workflow-type: tm+mt
 source-wordcount: '0'
 ht-degree: 0%
 
 ---
 
-# Affichage des détails sur les sites, les publicités, la fréquence et le stock pour un emplacement
+# Affichage des sites, publicités et détails de fréquence d’un emplacement
 
-La section Emplacement [!UICONTROL Inspector] répertorie tous les sites, publicités et offres ciblés dans un emplacement. Il inclut également les données de fréquence pour l’emplacement.
+La section Emplacement [!UICONTROL Inspector] répertorie tous les sites ciblés et toutes les publicités d’un emplacement. Il inclut également les données de fréquence pour l’emplacement.
 
 1. Ouvrez la vue des emplacements pour la campagne ou le package parent :
 
@@ -31,7 +31,6 @@ La section Emplacement [!UICONTROL Inspector] répertorie tous les sites, public
    * Pour afficher tous les sites ciblés par l’emplacement, cliquez sur **[!UICONTROL Sites]**.
    * Pour afficher toutes les publicités de l’emplacement, cliquez sur **[!UICONTROL Ads]**.
    * Pour afficher les données de fréquence de l’emplacement, cliquez sur **[!UICONTROL Frequency]**.
-   * Pour afficher toutes les offres que le placement cible, cliquez sur **[!UICONTROL Inventory]**.
 
 1. (Facultatif) [Modifiez le mode Colonne](column-view-change.md) selon les besoins pour afficher les mesures requises.
 
