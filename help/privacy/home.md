@@ -1,9 +1,11 @@
 ---
 title: Assistance Advertising Cloud en matière de protection de la vie privée des clients
 description: Adobe Advertising Cloud fournit des contrôles de sécurité et de confidentialité pour aider les clients annonceurs à se conformer aux lois sur la confidentialité des consommateurs.
+cloud: Experience Cloud
+product: advertising cloud
 index: true
 exl-id: ffc50470-301e-44bc-9f56-63667dd8fb64
-source-git-commit: 00b9049833dcf610fd1f4140ea26e40dbb02fd56
+source-git-commit: ec21d8c18bced3fcd635df8b9b2734e028ceb118
 workflow-type: tm+mt
 source-wordcount: '0'
 ht-degree: 0%
