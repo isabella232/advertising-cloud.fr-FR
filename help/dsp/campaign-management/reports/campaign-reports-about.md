@@ -3,7 +3,7 @@ title: À propos des rapports In-Platform
 description: Découvrez les données du rapport incluses dans les vues de gestion de campagne.
 feature: DSP Campaign Data Views
 exl-id: e9f7dafe-e0db-4fec-bf5b-858cbcfdde45
-source-git-commit: c1441fb6fddf56a0f0346a967da49efa0fb602ff
+source-git-commit: df462aac1da30c1ebe9e1bb8afd8546d79432fde
 workflow-type: tm+mt
 source-wordcount: '0'
 ht-degree: 0%
@@ -62,24 +62,6 @@ Pour chaque emplacement, vous pouvez [ouvrir une (vue détaillée [!UICONTROL In
    * le nombre unique estimé d’appareils/navigateurs ou de personnes (selon la valeur [!UICONTROL Cross Device Level] spécifiée pour l’emplacement) qui ont reçu des impressions au niveau de fréquence spécifié.
    * nombre estimé d’impressions au niveau de fréquence spécifié
    * la fréquence moyenne estimée pour le niveau de fréquence spécifié. Cette valeur est égale à (Impressions estimées)/(Uniques estimées).
-
-* **[!UICONTROL Inventory]:** informations pour toutes les offres ciblées par l’emplacement dans une vue unique.
-
-L’onglet Inventaire comprend des fonctions de recherche et de filtrage, les mêmes options d’affichage en colonnes standard et personnalisées que celles disponibles sur la page principale et des boutons d’action rapide dans chaque ligne, tels que Modifier et Afficher le rapport. L’onglet Inventaire permet de résoudre rapidement les problèmes en affichant les statistiques de performances telles que les enchères, les offres, le taux de gagner, etc.
-
-# Dépannage de l’inventaire
-
-| Problème | Cause possible | Actions à entreprendre |
-| -----------| ---------- | ---------- |
-| [!UICONTROL Zero Auctions] | L’éditeur n’a pas commencé à envoyer de requêtes d’offre | Contactez l’éditeur pour activer l’opération. |
-|  | Problèmes de configuration de transaction tels que la saisie d’un ID de transaction externe incorrect, etc. | Confirmer les détails de l’opération et modifier l’opération |
-| [!UICONTROL Non-zero Auctions but no Bids] | Le ciblage de l’emplacement ne correspond pas aux requêtes d’offre entrantes de l’offre. <br><br> Par exemple, le référencement peut cibler une zone géographique différente de celle requise pour l’opération. | Modifier les paramètres de placement de manière appropriée afin d’éviter les incohérences de ciblage avec l’opération |
-|  | Le référencement n’a pas de type de média principal ou correct, comme requis par l’accord | Créer/joindre une publicité avec le type de média approprié à l’emplacement |
-|  | Le placement n&#39;a pas de budget adéquat | Modifier le budget de placement de manière appropriée pour autoriser l’enchère sur les requêtes entrantes |
-|  | Les dates de vol de placement ne chevauchent pas les dates de diffusion d’impression conformément à l’accord. | Modifier les dates de vol de l’emplacement |
-| [!UICONTROL Low Win Rate] | L’offre maximale au placement est définie en dessous du minimum requis par l’offre (plancher ou fixe). | Modifier l’offre maximale au placement de manière appropriée |
-|  | L’emplacement utilise des filtres avant offre qui limitent les | Limitez les seuils des filtres avant offre pour autoriser plus d’offres. |
-|  | Le ciblage d’audience au placement est trop restrictif | Vérifier que les cibles d’audience spécifiées disposent de suffisamment d’utilisateurs principaux et élargir l’audience si possible |
 
 ![Inspecteur de placement](/help/dsp/assets/placement-inspector-sites.png)
 
