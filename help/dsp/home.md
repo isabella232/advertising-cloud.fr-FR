@@ -5,9 +5,9 @@ cloud: Experience Cloud
 product: advertising cloud
 index: true
 exl-id: d4b67393-e8c5-4170-92eb-bcf643ba3ec3
-source-git-commit: ec21d8c18bced3fcd635df8b9b2734e028ceb118
+source-git-commit: 61a5739a4f208cd0e9106015347570d66225c9bd
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '891'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,9 @@ Les fonctionnalités suivantes sont nouvelles ou récemment modifiées.
 
 | Date | Fonctionnalité | Description | Pour plus d’informations |
 | ---- | ------- | ----------- | -------------------- |
+| 28 septembre 2021 | Vues de la gestion des campagnes | Une colonne &quot;[!UICONTROL Creation date]&quot; est désormais disponible dans les jeux de colonnes personnalisés pour les vues [!UICONTROL Campaigns], [!UICONTROL Packages], [!UICONTROL Placements] et [!UICONTROL Ads]. Vous pouvez également filtrer les vues [!UICONTROL Placements] et [!UICONTROL Ads] par [!UICONTROL Creation date]. | Voir &quot;[Création d’un affichage des colonnes personnalisé](/help/dsp/campaign-management/reports/column-view-create.md)&quot; et &quot;[Filtrage des données de campagne](/help/dsp/campaign-management/reports/campaign-data-filter.md)&quot;. |
+|  | Offres garanties par programmation | Vous pouvez désormais modifier la balise [!UICONTROL Max Bid] de l’emplacement par défaut pour un contrat PG garanti par un programme. Cependant, comme les contrats PG ont toujours un CPM fixe, seuls les clients internationaux doivent modifier le [!UICONTROL Max Bid] pour prendre en compte les frais de change. | — |
+|  |  | Les utilisateurs disposant de l’autorisation &quot;[!DNL FreeWheel Programmatic Guaranteed]&quot; peuvent désormais envoyer une publicité à [!DNL FreeWheel Programmatic Creative API] à partir de la vue [!UICONTROL Ads] ou de la vue [!UICONTROL Placements]. Vous pouvez toujours envoyer une publicité à partir de la vue [!UICONTROL Deals]. | —<!-- Add link to page on submitting ads to Freewheel once it's edited. --> |
 | 11 août 2021 | Visibilité des pré-offres | Des filtres de visibilité avant offre de [!DNL Oracle Advertising (Moat)] sont désormais disponibles pour vos emplacements. | Pour en savoir plus sur les [intégrations tierces pour la visibilité avant offre](/help/dsp/introduction/features/brand-safety-media-quality.md#pre-bid-viewability) et &quot;[Filtres de pré-offre de niveau emplacement et comment les utiliser](/help/dsp/optimization/optimization-pre-bid-filters.md)&quot;. |
 | 15 juillet | Aide | Ajout d’informations sur la manière dont Advertising Cloud DSP finance les comptes clients pour l’achat de médias et de services. | Voir &quot;[Financement du compte](/help/dsp/introduction/billing/account-funding.md)&quot;. |
 | 12 juin 2021 | Aide | Les stratégies publicitaires ont été mises à jour. | Voir &quot;[Stratégie des exigences en matière de publicité Adobe Advertising Cloud](/help/policies/ad-requirements-policy.md)&quot;. |
