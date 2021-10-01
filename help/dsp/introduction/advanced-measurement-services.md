@@ -2,9 +2,9 @@
 title: Available [!DNL Advanced Measurement Solutions]
 description: Consultez la liste des solutions disponibles pour les mesures avancées.
 exl-id: 1a8b76ee-d38d-4ee4-981b-e29497fa4095
-source-git-commit: 209dfce05228be879d9ba744590ff52ce572a807
+source-git-commit: d25e768fe5d277ef8d1c9ae7531b7a7d3c563622
 workflow-type: tm+mt
-source-wordcount: '508'
+source-wordcount: '514'
 ht-degree: 0%
 
 ---
@@ -77,4 +77,4 @@ Tout client souhaitant atteindre un type particulier d’acheteur pour stimuler 
 
 ## Plus d’informations
 
-Pour en savoir plus sur l’utilisation des services de mesure avancés afin de créer un programme d’apprentissage personnalisé pour votre campagne, y compris les restrictions et les prix régionaux, contactez l’équipe [!DNL Adobe Strategic Advertising Consultants] à l’adresse [!DNL asg@adobe.com].
+Pour en savoir plus sur l’utilisation de solutions de mesure avancées afin de créer un programme d’apprentissage personnalisé pour votre campagne, y compris les formats mesurables, les restrictions régionales et les prix pour chaque module, contactez l’équipe [!DNL Adobe Strategic Advertising Consultants] à l’adresse [!DNL asg@adobe.com].
