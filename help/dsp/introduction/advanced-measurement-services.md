@@ -2,9 +2,9 @@
 title: Available [!DNL Advanced Measurement Solutions]
 description: Consultez la liste des solutions disponibles pour les mesures avancées.
 exl-id: 1a8b76ee-d38d-4ee4-981b-e29497fa4095
-source-git-commit: 216d316abe7fcc5bc04ae7cca211e2f11cc1e589
+source-git-commit: 209dfce05228be879d9ba744590ff52ce572a807
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '508'
 ht-degree: 0%
 
 ---
@@ -35,8 +35,7 @@ Les packages de solution de mesure suivants sont disponibles pour valider le suc
 * Portée selon les individus
 Comprenez comment les audiences et les tactiques se chevauchent au niveau de la personne, y compris les expositions dans plusieurs environnements numériques, tels que les environnements de bureau, mobiles, natifs et audio.
 
-* ・	[!DNL Dynata] Enquêtes basées sur des panneaux
-Mener des enquêtes de contrôle/d’exposition afin de déterminer l’effet de l’exposition aux publicités sur des mesures telles que la sensibilisation, la familiarité et l’intention.
+* [!DNL Dynata] Enquêtes basées sur des panneaux Effectuez des enquêtes de contrôle/d’exposition afin de déterminer l’effet de l’exposition aux publicités sur des mesures telles que la sensibilisation, la familiarité et l’intention.
 
 * Trafic de pied
 
@@ -55,6 +54,7 @@ Comparez le comportement et l’opinion des groupes d’échantillons randomisé
 ## Trouver l’ajustement parfait des mesures : Solutions par verticalité
 
 ### Tout contrôle vertical
+
 * Experience Designer (Placebo et tests A/B)
 * Portée selon les individus
 Toute organisation qui cherche à mesurer selon plusieurs tactiques numériques ; organisations qui cherchent à présenter la valeur du son
@@ -66,10 +66,12 @@ Tout client qui souhaite comprendre la portée/la portée incrémentielle et l�
 Tout client qui cherche à mesurer la perception et la conscience de la marque sur plusieurs écrans ; adapté aux audiences de niche
 
 ### QSR, Vente au détail (brique et mortier)
+
 * Mesure des transactions
 * Mesure du trafic de pied
 
 ### QSR, vente au détail, voyage
+
 * Informations sur les transactions
 Tout client souhaitant atteindre un type particulier d’acheteur pour stimuler les ventes en magasin et en ligne
 
