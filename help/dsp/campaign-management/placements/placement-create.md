@@ -3,10 +3,10 @@ title: Création d’un emplacement
 description: Découvrez comment créer un emplacement.
 feature: DSP Placements
 exl-id: 4e37b571-9af4-4897-bff2-035a5f2600a5
-source-git-commit: d10e1c24ee7c93eaab3fd4fefe853860226cc8e2
+source-git-commit: 608774723f865c22bfdd5c911ac818600a495114
 workflow-type: tm+mt
-source-wordcount: '634'
-ht-degree: 1%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -29,7 +29,8 @@ ht-degree: 1%
    1. Spécifiez les paramètres [!UICONTROL Basics].
 
    1. Dans la section [!UICONTROL Goals] , indiquez la balise [!UICONTROL Gross Budget] et, éventuellement, spécifiez d’autres objectifs d’emplacement.
-Certains champs ont des valeurs par défaut que vous pouvez remplacer.
+
+      Certains champs ont des valeurs par défaut que vous pouvez remplacer.
 
       Si le module auquel l’emplacement est affecté a une fréquence au niveau du module, vos objectifs et paramètres de fréquence refléteront les paramètres du module.
 
