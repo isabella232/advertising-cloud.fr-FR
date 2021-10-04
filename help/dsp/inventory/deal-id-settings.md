@@ -3,9 +3,9 @@ title: Paramètres d’ID de transaction manuelle
 description: Voir la description des paramètres des ID de transaction saisis manuellement.
 feature: DSP Private Inventory, DSP Deal IDs
 exl-id: 0cd5e9e8-2b13-4b1e-a2e0-b8b492f75acf
-source-git-commit: d10e1c24ee7c93eaab3fd4fefe853860226cc8e2
+source-git-commit: c3d0783078adc8afafb55d6b6e7e48cdc875ce7c
 workflow-type: tm+mt
-source-wordcount: '497'
+source-wordcount: '535'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 |  | [!UICONTROL External deal ID] | Identifiant utilisé par votre éditeur et le fournisseur de services de messagerie pour identifier cette transaction. | Oui | Non |
 |  | [!UICONTROL Publisher] | Nom de l’éditeur qui vend cet inventaire. | Oui | Non |
 |  | [!UICONTROL SSP] | Plateforme côté offre (SSP) via laquelle cet accord sera exécuté. | Oui | Non |
-|  | [!UICONTROL Media type] | Le type de média qui sera acheté lors de cette transaction : [!UICONTROL Desktop video], [!UICONTROL Mobile video], [!UICONTROL Connected TV], [!UICONTROL Display] ou [!UICONTROL Audio]. Les options varient selon SSP. | Oui | Non |
+|  | [!UICONTROL Media type] | Le type de média qui sera acheté lors de cette transaction : [!UICONTROL Desktop video], [!UICONTROL Mobile video], [!UICONTROL Connected TV], [!UICONTROL Display] ou [!UICONTROL Audio]. Les options varient selon SSP.<br><br> Si l’accord autorise plusieurs types de médias, sélectionnez le type de média de l’emplacement par défaut lors de la création de l’accord. Vous pouvez ensuite sélectionner un autre type de média pour créer un emplacement avec le type de média supplémentaire.<!-- It would be ideal if this field was multi-select rather than a radio button, so you don't have to "change" the value later. --> | Oui | Non |
 |  | [!UICONTROL Deal type] | Engagement et structure de prix de l’opération :<br><ul><li>*[!UICONTROL Non guaranteed (floor)]*: Vous et l’éditeur n’avez pas engagé de nombre fixe de diffusions d’impression. L&#39;accord spécifie le prix minimum pour l&#39;inventaire, bien que le CPM puisse fluctuer et augmenter selon les conditions du marché.</li><li>*[!UICONTROL Non guaranteed (fixed)]*: Vous et l’éditeur n’avez pas engagé de nombre fixe de diffusions d’impression. La tarification est à un taux fixe négocié.</li><li>*[!UICONTROL Guaranteed (fixed)]*: Vous et l’éditeur avez convenu d’un nombre prédéfini d’impressions, de ciblage, de dates de vol et de prix fixe.<br><br><b>Remarque : </b> Les offres garanties exigent des dates de vol et un nombre spécifié d’impressions dans la  [!UICONTROL Tracking] section . Vous devrez également créer un emplacement par défaut garanti par programme (PG) pour l’opération, et vous pourrez éventuellement utiliser l’opération pour d’autres emplacements à la place.</li></ul> | Oui | Non |
 |  | [!UICONTROL CPM] | Le coût négocié par millier d’impressions (CPM). | Oui | Oui |
 |  | [Devise] | Devise de l’accord.<br><br>Tous les SSP acceptent des offres en USD. Lorsque le SSP accepte la devise de votre compte DSP, cette devise est également disponible. | Oui | Non |
