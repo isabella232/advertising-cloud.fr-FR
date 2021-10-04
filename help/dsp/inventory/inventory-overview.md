@@ -3,9 +3,9 @@ title: Présentation des fonctionnalités du stock dans Advertising Cloud DSP
 description: Découvrez les fonctionnalités d’inventaire disponibles.
 feature: DSP On Demand Inventory, DSP Private Inventory, DSP Deal IDs
 exl-id: b3d0b96e-e638-4bd2-ba14-d348a8fc030b
-source-git-commit: d10e1c24ee7c93eaab3fd4fefe853860226cc8e2
+source-git-commit: 582823095b8d41876676f3f06489030d9950173f
 workflow-type: tm+mt
-source-wordcount: '272'
+source-wordcount: '262'
 ht-degree: 0%
 
 ---
@@ -24,11 +24,11 @@ Explorez les offres prénégociées et non garanties que l’Adobe a traitées a
 
 ### Inventaire privé
 
-Configurez et gérez des transactions de marché privées (PMP), c’est-à-dire des transactions que vous avez négociées directement 1:1 avec l’éditeur, de sorte qu’un ou plusieurs annonceurs de votre compte puissent les cibler. Exécutez ces transactions via des identifiants de transaction ou des balises VAST (Video Ad Serving Template). Vous pouvez configurer des fichiers PMP non garantis ou configurer des jeux de données (PG) garantis par programmation avec des SSP spécifiques.
+Configurez et gérez des transactions de marché privées (PMP), c’est-à-dire des transactions que vous avez négociées directement 1:1 avec l’éditeur, de sorte qu’un ou plusieurs annonceurs de votre compte puissent les cibler. Exécutez ces transactions via des ID de transaction. Vous pouvez configurer des fichiers PMP non garantis ou configurer des jeux de données (PG) garantis par programmation avec des SSP spécifiques.
 
 ### Ad Serving simple
 
-[!DNL Simple Ad Serving] est une technologie rationalisée pour la diffusion et la création de rapports de publicités garanties et non décidées. Utilisez [!DNL Simple Ad Serving] lorsque votre éditeur ne peut pas exécuter votre opération via les ID de transaction. L’éditeur gère l’ensemble du ciblage, du rythme et de la limitation du budget, ainsi que la limitation de la fréquence. Exécutez ces transactions au moyen de balises publicitaires ou de pixels d’événement.
+[!DNL Simple Ad Serving] est une technologie rationalisée pour la diffusion et la création de rapports de publicités garanties et non décidées. Utilisez [!DNL Simple Ad Serving] lorsque votre éditeur ne peut pas exécuter votre opération via les ID de transaction. L’éditeur gère l’ensemble du ciblage, du rythme et de la limitation du budget, ainsi que la limitation de la fréquence. Exécutez ces transactions via des pixels de suivi d’événement.
 
 >[!MORELIKETHIS]
 >
