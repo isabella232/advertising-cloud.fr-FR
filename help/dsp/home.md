@@ -5,9 +5,9 @@ cloud: Experience Cloud
 product: advertising cloud
 index: true
 exl-id: d4b67393-e8c5-4170-92eb-bcf643ba3ec3
-source-git-commit: afdfaed21410fdd1808964d637b5210255af7d81
+source-git-commit: 30521ed6daf38235125acc1f99115bf9f94d6975
 workflow-type: tm+mt
-source-wordcount: '1025'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,7 @@ Les fonctionnalités suivantes sont nouvelles ou récemment modifiées.
 
 | Date | Fonctionnalité | Description | Pour plus d’informations |
 | ---- | ------- | ----------- | -------------------- |
+| 7 octobre 2021 | Aide | Toutes les [DSP et autres documents Advertising Cloud](https://experienceleague.adobe.com/docs/advertising-cloud.html) sur [!DNL Experience League] sont désormais automatiquement traduites dans toutes les langues disponibles. Pour modifier la langue affichée, utilisez le menu &quot;Changer la langue&quot; en bas à gauche d’une page.<br>![Changer de langue](/help/dsp/assets/change-language.png) |
 | 30 septembre 2021 | Sécurité des marques | (Version du 22 septembre) Les [!DNL DoubleVerify] produits de pré-enchère sur la sécurité de la marque ont été mis à jour vers [!DNL Brand Suitability Tiers], ce qui permet aux annonceurs de choisir entre trois niveaux de risque (faible, moyen et élevé) pour des segments spécifiques sans éviter toutes les instances d’une rubrique spécifique. Historiquement, les segments n’incluaient aucun niveau de tolérance.<br><br>Pour s’aligner sur la nouvelle structure de  [!DNL DoubleVerify] segment, DSP a migré vos segments de sécurité de marque existants vers leur nouveau segment de  *niveau moyen* recommandé. Vous pouvez éventuellement régler le niveau de segment sur *low* ou *high*.<br><br>**Remarque :** Une petite liste de segments ne comporte pas de niveaux mais de nouveaux noms, tels que &quot;Nuisance/Spyware/Malware,Warez&quot; > Incentivized/Malware/Clutter&quot;. | — |
 |  | Optimisation | Les objectifs d’optimisation et les filtres avant offre suivants ont été abandonnés :<ul><li>Objectifs d’optimisation :<ul><li>[!UICONTROL Always Max Bid & Highest Viewability Rate (Moat – GroupM)]</li><li>[!UICONTROL Always Max Bid & Highest Viewability Rate (Moat – MRC)]</li></ul><li>Objectifs des filtres avant offre :<ul><li>[!UICONTROL Viewability IAS]</li><li>[!UICONTROL Viewability Moat]</li></ul></ul> | Voir &quot;[Objectifs d’optimisation et Comment les utiliser](/help/dsp/optimization/optimization-goals.md)&quot; et &quot;[Filtres de pré-offre de niveau emplacement et Comment les utiliser](/help/dsp/optimization/optimization-pre-bid-filters.md)&quot;. |
 | 28 septembre 2021 | Vues de la gestion des campagnes | Une colonne &quot;[!UICONTROL Creation date]&quot; est désormais disponible dans les jeux de colonnes personnalisés pour les vues [!UICONTROL Campaigns], [!UICONTROL Packages], [!UICONTROL Placements] et [!UICONTROL Ads]. Vous pouvez également filtrer les vues [!UICONTROL Placements] et [!UICONTROL Ads] par [!UICONTROL Creation date]. | Voir &quot;[Création d’un affichage des colonnes personnalisé](/help/dsp/campaign-management/reports/column-view-create.md)&quot; et &quot;[Filtrage des données de campagne](/help/dsp/campaign-management/reports/campaign-data-filter.md)&quot;. |
