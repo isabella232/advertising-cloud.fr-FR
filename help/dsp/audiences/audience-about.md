@@ -3,9 +3,9 @@ title: Gestion de l’audience dans Advertising Cloud DSP
 description: Découvrez les fonctionnalités de gestion de l’audience.
 feature: DSP Audiences, DSP Segments
 exl-id: 624d2211-59a2-4791-b8f1-a9a5cecd0b8e
-source-git-commit: d10e1c24ee7c93eaab3fd4fefe853860226cc8e2
+source-git-commit: 578651a458ffd505573df0e9a61e26bd2176ad17
 workflow-type: tm+mt
-source-wordcount: '1026'
+source-wordcount: '1024'
 ht-degree: 0%
 
 ---
@@ -66,7 +66,7 @@ Vous pouvez cibler vos emplacements sur tous les types d’audiences suivants.
 
    >[!NOTE]
    >
-   >Pour plus d’informations sur la configuration et la collecte de données pour les segments dans ces solutions, consultez la documentation de [Audience Manager](https://experienceleague.adobe.com/docs/audience-manager/user-guide/aam-home.html), [Analytics](https://experienceleague.adobe.com/docs/analytics/landing/home.html) et [Adobe Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html).
+   >Pour plus d’informations sur la configuration et la collecte de données pour les segments dans ces solutions, consultez la documentation de [Audience Manager](https://experienceleague.adobe.com/docs/audience-manager/user-guide/aam-home.html), [Analytics](https://experienceleague.adobe.com/docs/analytics.html) et [Adobe Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html).
 
 ## Données sur la taille de l’audience
 
