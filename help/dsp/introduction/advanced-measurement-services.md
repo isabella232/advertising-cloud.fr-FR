@@ -2,9 +2,9 @@
 title: Solutions de mesure avancée
 description: Consultez la liste des solutions disponibles pour les mesures avancées.
 exl-id: 1a8b76ee-d38d-4ee4-981b-e29497fa4095
-source-git-commit: 1f1dc0b4b38652beb9bc7392ee17fa4eefad987b
+source-git-commit: b4976cdce6b4d5870c5cc3a1a09c1b5545cd3200
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '520'
 ht-degree: 0%
 
 ---
@@ -59,7 +59,7 @@ Les packages de solution de mesure suivants sont disponibles pour valider le suc
 
 ## Trouver l’ajustement parfait des mesures : Solutions par verticalité
 
-* Tout contrôle vertical
+* **N’importe quelle verticale :**
 
    * Experience Designer (Placebo et tests A/B)
 
@@ -79,13 +79,13 @@ Les packages de solution de mesure suivants sont disponibles pour valider le suc
 
       Tout client qui cherche à mesurer la perception et la conscience de la marque sur plusieurs écrans ; adapté aux audiences de niche
 
-* QSR, Vente au détail (brique et mortier)
+* **QSR, Retail (brique et mortar) :**
 
    * Mesure des transactions
 
    * Mesure du trafic de pied
 
-* QSR, vente au détail, voyage
+* **QSR, Retail, Travel :**
 
    * Informations sur les transactions
 
