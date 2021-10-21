@@ -3,7 +3,7 @@ title: À propos de [!UICONTROL Deal ID Inbox]
 description: En savoir plus sur les [!UICONTROL Deal ID inbox] qui vous permet d’accepter les offres privées que vous avez déjà négociées avec les éditeurs sur [!DNL FreeWheel], [!DNL Google Authorized Buyers] (formerly known as [!DNL AdX]), and [!DNL Magnite DV+] (anciennement [!DNL Rubicon]).
 feature: DSP Private Inventory, DSP Deal IDs
 exl-id: 959ad1d4-4671-4967-9f73-ec5b0464d0cd
-source-git-commit: e0713f3717a684fb5ef2808d7de769424b8972d2
+source-git-commit: 2539d9b8ec7de7202dd6c3400dda85aa133853e3
 workflow-type: tm+mt
 source-wordcount: '487'
 ht-degree: 0%
@@ -19,6 +19,16 @@ DSP [!UICONTROL Deal ID inbox] vous permet de configurer rapidement des offres q
 >Advertising Cloud DSP est le premier DSP à intégrer à la [!DNL FreeWheel] API.
 
 Dans le [!UICONTROL Deal ID inbox], vous pouvez afficher les détails de l’opération à mesure que votre éditeur les voit, accélérer la configuration de l’opération et éviter les erreurs de saisie manuelle.
+
+<!-- 
+Accepting a deal automatically pre-populates a new Deal ID record with details from the publisher, and you need to enter only the publisher [always? or just in some cases?], the media type, who can access the deal, and any attribute labels to apply to the deal so it's easy to find. [Are labels a dimension you can report on?]
+
+For each available deal, you can review the deal details sent directly from the publisher. Some deals are grouped as proposals (packages), and you can see the individual deal details by reviewing the deal.
+   
+You can accept any available deal or move an incorrect deal to the Ignored Deals tab. You can also un-ignore deals, which moves them back to the New Deals tab so you can potentially accept them.
+
+For each deal, you can select one publisher and one media type (Desktop Video, Mobile Video, Connected TV, Display, or Audio), and you can share the deal with specific advertisers and with all advertisers for a specific account.
+ -->
 
 DSP actualise automatiquement tous les détails de la transaction tous les jours à 4 h 30 HNE. Il actualise également tous les [!DNL FreeWheel] offres et mises à jour des offres existantes à partir de [!DNL Google] et [!DNL Magnite DV+] par heure. Vous pouvez également actualiser manuellement les détails de l’opération pour renseigner à tout moment les nouvelles offres.
 
