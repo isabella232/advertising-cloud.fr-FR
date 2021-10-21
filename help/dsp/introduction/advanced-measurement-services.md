@@ -2,9 +2,9 @@
 title: Solutions de mesure avancée
 description: Consultez la liste des solutions disponibles pour les mesures avancées.
 exl-id: 1a8b76ee-d38d-4ee4-981b-e29497fa4095
-source-git-commit: 851b3e5ebb6f6e8dcd6ea672c7220ed28f52dba4
+source-git-commit: 1f1dc0b4b38652beb9bc7392ee17fa4eefad987b
 workflow-type: tm+mt
-source-wordcount: '520'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -59,37 +59,37 @@ Les packages de solution de mesure suivants sont disponibles pour valider le suc
 
 ## Trouver l’ajustement parfait des mesures : Solutions par verticalité
 
-### Tout contrôle vertical
+* Tout contrôle vertical
 
-* Experience Designer (Placebo et tests A/B)
+   * Experience Designer (Placebo et tests A/B)
 
-* Portée selon les individus
+   * Portée selon les individus
 
-   Toute organisation qui cherche à mesurer selon plusieurs tactiques numériques ; organisations qui cherchent à présenter la valeur du son
+      Toute organisation qui cherche à mesurer selon plusieurs tactiques numériques ; organisations qui cherchent à présenter la valeur du son
 
-* Portée, fréquence et mesure des conversions basées sur les ménages
+   * Portée, fréquence et mesure des conversions basées sur les ménages
 
-   Tout client qui souhaite comprendre la portée/la portée incrémentielle et l’efficacité basée sur les coûts et/ou les mesures de conversion sur plusieurs tactiques numériques
+      Tout client qui souhaite comprendre la portée/la portée incrémentielle et l’efficacité basée sur les coûts et/ou les mesures de conversion sur plusieurs tactiques numériques
 
-* Portée sur plusieurs écrans, fréquence et mesure des conversions
+   * Portée sur plusieurs écrans, fréquence et mesure des conversions
 
-   Tout client qui souhaite comprendre la portée/la portée incrémentielle et l’efficacité basée sur les coûts et/ou les mesures de conversion sur plusieurs tactiques numériques par rapport à l’investissement de télévision linéaire.
+      Tout client qui souhaite comprendre la portée/la portée incrémentielle et l’efficacité basée sur les coûts et/ou les mesures de conversion sur plusieurs tactiques numériques par rapport à l’investissement de télévision linéaire.
 
-* Enquêtes basées sur des panneaux dynamiques
+   * Enquêtes basées sur des panneaux dynamiques
 
-   Tout client qui cherche à mesurer la perception et la conscience de la marque sur plusieurs écrans ; adapté aux audiences de niche
+      Tout client qui cherche à mesurer la perception et la conscience de la marque sur plusieurs écrans ; adapté aux audiences de niche
 
-### QSR, Vente au détail (brique et mortier)
+* QSR, Vente au détail (brique et mortier)
 
-* Mesure des transactions
+   * Mesure des transactions
 
-* Mesure du trafic de pied
+   * Mesure du trafic de pied
 
-### QSR, vente au détail, voyage
+* QSR, vente au détail, voyage
 
-* Informations sur les transactions
+   * Informations sur les transactions
 
-   Tout client souhaitant atteindre un type particulier d’acheteur pour stimuler les ventes en magasin et en ligne
+      Tout client souhaitant atteindre un type particulier d’acheteur pour stimuler les ventes en magasin et en ligne
 
 ## Plus d’informations
 
