@@ -3,9 +3,9 @@ title: Liste de contrôle de Campaign Launch
 description: Découvrez ce que vous devez faire avant de lancer une campagne.
 feature: DSP Placements, DSP Ads
 exl-id: bf0147d0-0b58-435d-a2de-5b98e0d3488c
-source-git-commit: d10e1c24ee7c93eaab3fd4fefe853860226cc8e2
+source-git-commit: e0713f3717a684fb5ef2808d7de769424b8972d2
 workflow-type: tm+mt
-source-wordcount: '119'
+source-wordcount: '118'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 ## Financement du compte
 
-Assurez-vous que votre compte dispose de suffisamment de crédit pour exécuter l’ensemble de la campagne. Vous pouvez vérifier et recharger les fonds du compte dans [!UICONTROL Settings] > [!UICONTROL Account] ou en contactant votre gestionnaire de compte d’Adobe.
+Assurez-vous que votre compte dispose de suffisamment de crédit pour exécuter l’ensemble de la campagne. Vous pouvez vérifier et recharger des fonds de compte dans [!UICONTROL Settings] > [!UICONTROL Account] ou en contactant votre [!DNL Adobe] gestionnaire de compte.
 
 ## État de la campagne
 
@@ -22,7 +22,7 @@ Vérifiez que les dates et le budget de la campagne sont correctement définis.
 
 ## État de l’emplacement
 
-Assurez-vous que l’état de l’emplacement est &quot;[!UICONTROL Active]&quot; ou &quot;[!UICONTROL Scheduled]&quot;. Vérifiez également que les autres paramètres d’emplacement (tels que la liste du site, le budget, l’objectif, les dates de vol et la fréquence) sont corrects.
+Assurez-vous que l’état de l’emplacement est &quot;[!UICONTROL Active]&quot; ou &quot;[!UICONTROL Scheduled].&quot; Vérifiez également que les autres paramètres d’emplacement (tels que la liste du site, le budget, l’objectif, les dates de vol et la fréquence) sont corrects.
 
 ## État de la publicité
 

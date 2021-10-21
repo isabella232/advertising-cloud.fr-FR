@@ -1,16 +1,16 @@
 ---
-title: Conditions préalables et informations clés pour la mise en oeuvre de  [!DNL Analytics for Advertising Cloud]
-description: Conditions préalables et informations clés pour la mise en oeuvre de  [!DNL Analytics for Advertising Cloud]
+title: Conditions préalables et informations clés relatives à la mise en oeuvre [!DNL Analytics for Advertising Cloud]
+description: Conditions préalables et informations clés relatives à la mise en oeuvre [!DNL Analytics for Advertising Cloud]
 feature: Integration with Adobe Analytics
 exl-id: 08e54e2b-ed9b-4489-8de5-ab1379b7133c
-source-git-commit: e2ee41c7e3e195f062ad1cc67080ed913d6d3d06
+source-git-commit: bfbfc293ad04b294c813ce7c8a11200e70fc812f
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '844'
 ht-degree: 0%
 
 ---
 
-# Conditions préalables et informations clés pour la mise en oeuvre de [!DNL Analytics for Advertising Cloud]
+# Conditions préalables et informations clés relatives à la mise en oeuvre [!DNL Analytics for Advertising Cloud]
 
 *Annonceurs avec Advertising Cloud DSP et Advertising Cloud Search*
 
@@ -19,7 +19,7 @@ Consultez les informations suivantes avant d’intégrer Advertising Cloud à Ad
 ## Conditions requises pour la création de rapports sur les données Advertising Cloud dans [!DNL Analytics]
 
 * Service Experience Cloud Identity : `visitorAPI.js` version 2.0 ou ultérieure
-* Toute version d’Adobe Analytics (y compris [!DNL Prime], [!DNL Premium] ou [!DNL Ultimate])
+* Toute version d’Adobe Analytics (y compris [!DNL Prime], [!DNL Premium]ou [!DNL Ultimate])
 * Adobe Analytics : `appMeasurement.js` version 2.1 ou ultérieure
 
 >[!TIP]
@@ -31,20 +31,20 @@ Consultez les informations suivantes avant d’intégrer Advertising Cloud à Ad
 * Service Experience Cloud Identity : `visitorAPI.js` version 2.1 ou ultérieure
 * Adobe Analytics : `!DNL appMeasurement.js` version 1.8 ou ultérieure
 
-## Exigences pour les rapports [!DNL Analytics] données dans Advertising Cloud
+## Conditions requises pour la création de rapports [!DNL Analytics] Données dans Advertising Cloud
 
 Fournissez les informations suivantes à l’équipe de mise en oeuvre d’Advertising Cloud :
 
-* Identifiant de la suite de rapports [!DNL Analytics] qui sera utilisé pour la création de rapports sur l’activité de médias payants et pour alimenter l’activité du site à des fins d’optimisation et de création de rapports dans Advertising Cloud
+* Le [!DNL Analytics] identifiant de suite de rapports qui sera utilisé pour la création de rapports sur l’activité de médias payants et pour alimenter l’activité du site à des fins d’optimisation et de création de rapports dans Advertising Cloud.
 * ID d’organisation Experience Cloud de l’entreprise (ID d’organisation).
 
-Vous trouverez ces deux ID dans l’écran [Résumé du débogueur Adobe Experience Cloud](https://experienceleague.adobe.com/docs/debugger/using/run-debugger.html).
+Vous trouverez ces deux identifiants sur la page [Écran récapitulatif du débogueur Adobe Experience Cloud](https://experienceleague.adobe.com/docs/debugger/using/run-debugger.html).
 
 ![Écran récapitulatif des Experience Cloud Debugger](/help/integrations/assets/a4adc-debugger-summary.png)
 
 ## [!DNL Analytics] Données dans Advertising Cloud {#lookback-a4adc}
 
-Les données [!DNL Analytics] étant envoyées à Advertising Cloud pour la création de rapports et l’optimisation, elles sont soumises aux règles d’attribution, notamment les intervalles d’impression et de recherche en amont des clics, qui sont configurés pour l’annonceur dans Advertising Cloud.
+Parce que [!DNL Analytics] Les données sont envoyées à Advertising Cloud à des fins de création de rapports et d’optimisation. Elles sont soumises aux règles d’attribution, notamment aux intervalles de recherche en amont des impressions et des clics, configurés pour l’annonceur dans Advertising Cloud.
 
 ![paramètres de l’intervalle de recherche en amont au niveau de l’annonceur dans Advertising Cloud](/help/integrations/assets/a4adc-lookbacks.png)
 
@@ -53,19 +53,19 @@ Les données [!DNL Analytics] étant envoyées à Advertising Cloud pour la cré
 
    >[!NOTE]
    >
-   > L’intervalle de recherche en amont des impressions est spécifique aux rapports Advertising Cloud, et non [!DNL Analytics for Advertising Cloud].
+   > L’intervalle de recherche en amont des impressions est spécifique à Advertising Cloud, et non [!DNL Analytics for Advertising Cloud], création de rapports.
 
-Le code JavaScript [!DNL Analytics for Advertising Cloud] utilise ces paramètres pour déterminer jusqu’où considérer comme valide une entrée d’affichage publicitaire ou de clic publicitaire sur le site. Pour plus d’informations sur la manière dont les affichages publicitaires et les clics publicitaires sont déterminés, voir &quot;[Advertising Cloud IDs Used by Analytics](ids.md)&quot;.
+Le [!DNL Analytics for Advertising Cloud] JavaScript utilise ces paramètres pour déterminer jusqu’où considérer comme valide une entrée d’affichage publicitaire ou de clic publicitaire sur le site. Pour plus d’informations sur la manière dont les affichages publicitaires et les clics publicitaires sont déterminés, voir &quot;[Advertising Cloud ID utilisés par Analytics](ids.md).&quot;
 
 ## Données Advertising Cloud dans [!DNL Analytics]
 
-[!DNL Analytics] définit les Advertising Cloud ID (AMO ID) dans l’accès Analytics, sous réserve du paramètre de persistance de l’eVar de l’annonceur, qui s’applique à la fois aux clics publicitaires et aux affichages publicitaires. Le paramètre de persistance est configuré sur le serveur principal Advertising Cloud et votre gestionnaire de compte d’Adobe peut le modifier.
+[!DNL Analytics] définit les Advertising Cloud ID (AMO ID) dans l’accès Analytics, sous réserve du paramètre de persistance de l’eVar de l’annonceur, qui s’applique à la fois aux clics publicitaires et aux affichages publicitaires. Le paramètre de persistance est configuré sur le serveur principal Advertising Cloud et votre [!DNL Adobe] le gestionnaire de compte peut le modifier.
 
 * [!DNL Analytics for Advertising Cloud] Expiration de l’eVar : 60 jours par défaut pour les AMO ID
 
 >[!NOTE]
 >
->Pour segmenter les données pour une période différente, vous pouvez [configurer des segments personnalisés](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-build.html) avec différentes intervalles de recherche en amont dans Analysis Workspace.
+>Pour segmenter les données pour une autre période, vous pouvez : [configuration de segments personnalisés](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-build.html) avec différentes intervalles de recherche en amont dans Analysis Workspace.
 
 ## Environnements publicitaires pris en charge
 
@@ -75,17 +75,17 @@ Le code JavaScript [!DNL Analytics for Advertising Cloud] utilise ces paramètre
 * Vidéo en ligne
 * Native
 
-Contactez votre gestionnaire de compte Adobe pour connaître les derniers environnements publicitaires pris en charge dans chaque canal.
+Contactez votre [!DNL Adobe] gestionnaire de compte pour les derniers environnements publicitaires pris en charge dans chaque canal.
 
 ## Informations à connaître avant l’implémentation
 
-* Aucun coût supplémentaire n’est facturé pour cette intégration et les appels au serveur ne génèrent pas non plus de [!DNL Analytics] ou de frais Advertising Cloud supplémentaires.
+* Aucun coût supplémentaire n’est facturé pour cette intégration et les appels au serveur ne génèrent pas non plus de frais supplémentaires. [!DNL Analytics] ou les frais Advertising Cloud.
 
 * [!DNL Analytics for Advertising Cloud] est indépendant du serveur de publicités : un affichage publicitaire ou un clic publicitaire peut survenir à partir de n’importe quel serveur d’annonces et les identifiants appropriés sont générés lors de l’entrée sur le site.
 
-* L’intégration transmet uniquement les [!DNL Analytics] événements standard et personnalisés à Advertising Cloud afin d’optimiser l’offre des efforts publicitaires et des médias payants ultérieurs. Il ne transmet pas de segments [!DNL Analytics], de mesures calculées et d’eVars à Advertising Cloud pour l’optimisation des offres.
+* L’intégration ne transmet que [!DNL Analytics] événements standard et personnalisés vers Advertising Cloud pour optimiser l’offre des efforts publicitaires et des médias payants ultérieurs. Ça ne passe pas. [!DNL Analytics] segments, mesures calculées et eVars à Advertising Cloud pour l’optimisation des offres.
 
-* Advertising Cloud crée des identifiants persistants dans [!DNL Analytics] en fonction de la dernière publicité sur laquelle l’utilisateur a cliqué ou consultée avant d’entrer sur le site, en fonction des [intervalles de recherche en amont des clics et affichages publicitaires](#lookback-a4adc) configurés dans Advertising Cloud. Si un visiteur du site devait avoir les deux types d’interactions d’entrée sur le site dans son profil et que le clic se trouve dans la période de recherche arrière, l’identifiant de clic publicitaire du visiteur remplacerait l’identifiant d’affichage publicitaire pour la création de rapports sur le site.
+* Advertising Cloud crée des identifiants persistants dans [!DNL Analytics] en fonction de la dernière publicité sur laquelle l’utilisateur a cliqué ou visionné avant d’accéder au site, en fonction de la variable [fenêtres de recherche en amont des clics et des affichages publicitaires](#lookback-a4adc) configuré dans Advertising Cloud. Si un visiteur du site devait avoir les deux types d’interactions d’entrée sur le site dans son profil et que le clic se trouve dans la période de recherche arrière, l’identifiant de clic publicitaire du visiteur remplacerait l’identifiant d’affichage publicitaire pour la création de rapports sur le site.
 
 * [!DNL Analytics for Advertising Cloud] le suivi des conversions dans Adobe Analytics utilise un intervalle de recherche en amont de suivi configurable (60 jours par défaut). Les rapports Advertising Cloud reflètent les conversions et l’engagement du site tout au long de cette période de recherche en amont de suivi.
 
@@ -101,17 +101,17 @@ Contactez votre gestionnaire de compte Adobe pour connaître les derniers enviro
 
 ### ID supplémentaire
 
-Une fois le service Identity Experience Cloud mis en oeuvre pour un site, les accès qui contiennent des données de [!DNL Analytics] ou d’Advertising Cloud contiennent un ID supplémentaire.
+Une fois le service Identity Experience Cloud mis en oeuvre pour un site, les accès qui contiennent des données provenant de [!DNL Analytics] ou Advertising Cloud contient un ID supplémentaire.
 
 Exemple : `sdid=2F3C18E511F618CC-45F83E994AEE93A0`
 
-Pour une intégration des données exacte, tous les appels Advertising Cloud utilisés par une activité [!DNL Analytics for Advertising Cloud] pour diffuser du contenu ou enregistrer la mesure d’objectif doivent avoir un accès [!DNL Analytics] correspondant partageant le même ID supplémentaire.
+Pour une intégration des données précise, tous les appels Advertising Cloud utilisés par une [!DNL Analytics for Advertising Cloud] activité pour diffuser du contenu ou enregistrer la mesure d’objectif doit avoir une [!DNL Analytics] accès qui partage le même ID supplémentaire.
 
-Lorsque vous effectuez un dépannage dans [!DNL Analytics], veillez à confirmer que l’ID supplémentaire est présent pour les accès [!DNL Analytics]. Dans [Adobe Experience Cloud Debugger](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html), vous pouvez voir cet ID dans l’onglet Advertising Cloud comme paramètre `sdid`.
+Lorsque vous résolvez les problèmes dans [!DNL Analytics], veillez à confirmer que l’ID supplémentaire est présent pour [!DNL Analytics] accès. Dans le [Débogueur Adobe Experience Cloud](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html), cet identifiant s’affiche dans l’onglet Advertising Cloud sous la forme `sdid` .
 
 >[!NOTE]
 >
-> Cette implémentation fonctionne de la même manière que l’intégration [!DNL Analytics for Target].
+> Cette implémentation fonctionne de la même manière que la variable [!DNL Analytics for Target] intégration.
 
 >[!MORELIKETHIS]
 >
