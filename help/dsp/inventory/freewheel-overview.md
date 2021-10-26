@@ -3,9 +3,9 @@ title: Présentation de la configuration des contrats PG dans FreeWheel
 description: 'Découvrez les conditions préalables et les étapes supplémentaires nécessaires à l’exécution de publicités pour des offres garanties par programmation avec les éditeurs sur FreeWheel. '
 feature: DSP Private Inventory, DSP Deal IDs
 exl-id: null
-source-git-commit: d10e1c24ee7c93eaab3fd4fefe853860226cc8e2
+source-git-commit: dfd5992f059645622b3a75d092d3eb7fe1bfa696
 workflow-type: tm+mt
-source-wordcount: '232'
+source-wordcount: '231'
 ht-degree: 0%
 
 ---
@@ -16,9 +16,9 @@ La configuration d’offres garanties par la programmation avec les éditeurs su
 
 >[!PREREQUISITES]
 >
->Contactez votre équipe de compte d’Adobe pour vous assurer que votre compte [!DNL DSP] dispose des autorisations suivantes.
+>Travaillez avec votre [!DNL Adobe] de l’équipe de compte pour vous assurer que [!DNL DSP] compte dispose des autorisations suivantes.
 >
->1. Autorisation d’utiliser le workflow garanti par la programmation [!DNL FreeWheel], qui est nécessaire pour envoyer une publicité pour une offre garantie par la programmation à [!DNL FreeWheel].
+>1. Autorisation d’utiliser la variable [!DNL FreeWheel] workflow garanti par la programmation, qui est requis pour envoyer une publicité pour une offre garantie par la programmation à [!DNL FreeWheel].
 >
 >1. (Si vous travaillez avec des éditeurs britanniques qui ont besoin d’un numéro d’horloge avec chaque publicité) Autorisation d’inclure des numéros d’horloge dans vos publicités.
 
@@ -29,7 +29,7 @@ La configuration d’offres garanties par la programmation avec les éditeurs su
 
    Pour certains éditeurs britanniques, vous devez inclure un numéro d’horloge Clearcast dans votre publicité.
 
-1. [Acceptez l’](#programmatic-guaranteed-set-up.md#pg-setup-deal-id-inbox) ID de transaction que vous avez déjà négocié avec un éditeur sur FreeWheel à l’aide de la boîte de réception Deal ID.
+1. [Acceptation de l’ID de transaction](#programmatic-guaranteed-set-up.md#pg-setup-deal-id-inbox) vous avez déjà négocié avec un éditeur sur FreeWheel à l’aide de la boîte de réception Deal ID.
 
    Une fois que vous avez accepté l’offre, suivez les invites à 1) sélectionnez la publicité à utiliser pour l’offre et 2) créez un emplacement par défaut garanti par programme pour diffuser l’annonce.
 
@@ -37,12 +37,12 @@ La configuration d’offres garanties par la programmation avec les éditeurs su
 
    La publicité doit être envoyée et approuvée avant son exécution.
 
-1. [Vérifiez l’état d’envoi de la publicité](freewheel-check-status.md).
+1. [Vérification de l’état d’envoi de la publicité](freewheel-check-status.md).
 
 >[!MORELIKETHIS]
 >
 >* [Acceptation d’une transaction dans la boîte de réception Deal ID](deal-id-inbox-accept.md)
 >* [Envoyer une publicité pour une transaction garanti programmatique à FreeWheel](freewheel-submit.md)
->* [Vérification de l’état des publicités  [!DNL FreeWheel] pour les transactions garanties par programmation](freewheel-check-status.md)
+>* [Vérification de l’état des publicités pour [!DNL FreeWheel] Offres garanties par la programmation](freewheel-check-status.md)
 >* [Codes d’erreur pour les envois d’annonce FreeWheel](freewheel-error-codes.md)
 
