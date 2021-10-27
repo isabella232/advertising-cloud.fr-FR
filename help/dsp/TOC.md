@@ -8,9 +8,9 @@ user-guide-title: Guide d’Advertising Cloud DSP
 user-guide-description: Découvrez les principales fonctionnalités, tâches, paramètres et autres ressources nécessaires à la gestion, à l’optimisation et à la création de rapports sur vos stratégies d’affichage publicitaire à l’aide d’Advertising Cloud DSP.
 breadcrumb-title: Guide de DSP
 index: true
-source-git-commit: 851b3e5ebb6f6e8dcd6ea672c7220ed28f52dba4
+source-git-commit: b113d8337e5108ccc1a2ba99d23900bb1cb72cee
 workflow-type: tm+mt
-source-wordcount: '742'
+source-wordcount: '752'
 ht-degree: 3%
 
 ---
@@ -176,6 +176,12 @@ ht-degree: 3%
    + [Exécution d’un rapport personnalisé](/help/dsp/reports/report-run-now.md)
    + [Paramètres des rapports personnalisés](/help/dsp/reports/report-settings.md)
    + [Colonnes de rapport disponibles](/help/dsp/reports/report-columns.md)
+   + Destinations de rapports {#report-destinations}
+      + [A propos [!UICONTROL Report Destinations]](/help/dsp/reports/report-destinations/report-destination-about.md)
+      + [Créez un [!UICONTROL Report Destination]](/help/dsp/reports/report-destinations/report-destination-create.md)
+      + [Modifier une [!UICONTROL Report Destination]](/help/dsp/reports/report-destinations/report-destination-edit.md)
+      + [Suppression d’une [!UICONTROL Report Destination]](/help/dsp/reports/report-destinations/report-destination-delete.md)
+      + [[!UICONTROL Report Destination] Paramètres](/help/dsp/reports/report-destinations/report-destination-settings.md)
 + [Intégrations à Adobe Experience Cloud](https://experienceleague.adobe.com/docs/advertising-cloud/integrations/home.html)<!-- Dupe link to this file, so need to use an absolute link in one of the listings -->
 + [Assistance clientèle](https://helpx.adobe.com/fr/contact/enterprise-support.ec.html)
 + [Notes de mise à jour d’Adobe Experience Cloud](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html)
