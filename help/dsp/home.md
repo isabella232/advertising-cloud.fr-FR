@@ -5,9 +5,9 @@ cloud: Experience Cloud
 product: advertising cloud
 index: true
 exl-id: d4b67393-e8c5-4170-92eb-bcf643ba3ec3
-source-git-commit: 202b537dba5af3e8926584ae2d5df04df0763a70
+source-git-commit: 4e09e4afe0befb40518c847b99d35689ed2f87a8
 workflow-type: tm+mt
-source-wordcount: '1362'
+source-wordcount: '1365'
 ht-degree: 0%
 
 ---
@@ -50,3 +50,5 @@ Les fonctionnalités suivantes sont nouvelles ou récemment modifiées.
 | 15 octobre 2020 | Inventaire privé | Tous les utilisateurs peuvent désormais configurer et modifier les détails de l’ID de la transaction à l’aide d’un nouveau formulaire d’ID de transaction, qui est une version simplifiée de l’ancienne version. [!UICONTROL Smart Ad Serving] formulaire. Pour configurer les détails d’un nouvel ID de transaction, accédez à [!UICONTROL Inventory] > [!UICONTROL Deals], cliquez sur [!UICONTROL Create], puis cliquez sur [!UICONTROL Deal ID Beta]. | Voir &quot;[Créer manuellement les détails de l’identifiant de transaction](/help/dsp/inventory/deal-id-create.md)&quot; et &quot;[Paramètres d’ID de transaction manuelle](/help/dsp/inventory/deal-id-settings.md).&quot; |
 |  | Prévisions de placement | Pour les emplacements avec une fréquence de placement, la variable [!UICONTROL Forecast] de la section des paramètres d’emplacement inclut une nouvelle [!UICONTROL Estimated Maximums] , qui indique la capacité supplémentaire disponible avec la configuration de ciblage actuelle. | — |
 | 2 septembre 2020 | Rapports | Toute organisation disposant de plusieurs comptes DSP peut éventuellement activer des données inter-comptes dans des rapports personnalisés, en fonction des besoins de l’organisation. | Voir la section &quot;Rapports inter-comptes&quot; dans &quot;[À propos des rapports personnalisés](/help/dsp/reports/report-about.md#cross-account-reporting).&quot; |
+
+{style=&quot;table-layout:auto&quot;}
