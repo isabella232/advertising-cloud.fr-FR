@@ -3,9 +3,9 @@ title: À propos de la gestion des emplacements dans Advertising Cloud DSP
 description: Découvrez la gestion des emplacements.
 feature: DSP Placements
 exl-id: 1d1382d9-b6c8-44bf-a708-8458769a39c6
-source-git-commit: 4a30463e9cb5783beab0ea3fa6989089e7f90457
+source-git-commit: 0d6d5e807053f042e0da1da65fed5e33a34dd4a9
 workflow-type: tm+mt
-source-wordcount: '359'
+source-wordcount: '364'
 ht-degree: 0%
 
 ---
@@ -27,9 +27,9 @@ Vous pouvez créer un emplacement manuellement ou en dupliquant un emplacement e
 * Audio
 * Télévision connectée
 
-## Tableau de bord [!UICONTROL Placements]
+## Le [!UICONTROL Placements] Tableau de bord
 
-Le tableau de bord [!UICONTROL Placements] centralise les performances et les rapports économiques sur tous vos emplacements, fournissant des instantanés rapides des performances de vos emplacements au cours d’une période spécifiée.
+Le [!UICONTROL Placements] Le tableau de bord centralise les performances et les rapports économiques sur tous vos emplacements, fournissant ainsi des instantanés rapides des performances de vos emplacements au cours d’une période spécifiée.
 
 ![Tableau de bord des emplacements](/help/dsp/assets/placement-dashboard.png)
 
@@ -37,16 +37,16 @@ Le tableau de bord comprend un graphique des tendances de haut niveau personnali
 
 Le tableau de bord affiche également les mesures de fréquence et de diffusion par emplacement, par défaut. Vous pouvez éventuellement afficher les mesures de performances des emplacements et créer des jeux de colonnes personnalisés. Vous pouvez télécharger l’intégralité du tableau de données dans le dossier de téléchargement par défaut du navigateur sous la forme d’un rapport au format XLSM (feuille de calcul Excel prenant en charge les macros).
 
-Pour chaque emplacement, vous pouvez ouvrir une vue détaillée ([la balise [!UICONTROL Inspector]](/help/dsp/campaign-management/reports/campaign-reports-about.md)), qui inclut des mesures de performances, des mesures de fréquence et de diffusion, ainsi que des jeux de colonnes personnalisés par site et par publicité. et les mesures de fréquence. Vous pouvez également agir rapidement sur les sites et publicités inclus, comme exclure un site ou suspendre une publicité. Pour ouvrir l’Inspecteur, placez le curseur sur la ligne d’emplacement, cliquez sur **[!UICONTROL More]**, puis sur **[!UICONTROL Sites]**, **[!UICONTROL Ads]** ou **[!UICONTROL Frequency]**. Vous pouvez exporter les données de l’onglet [!UICONTROL Sites], [!UICONTROL Ads] ou [!UICONTROL Frequency] vers le dossier de téléchargement par défaut de votre navigateur sous la forme d’un rapport au format XLSM.
+Pour chaque emplacement, vous pouvez ouvrir une vue détaillée ([la valeur [!UICONTROL Inspector]](/help/dsp/campaign-management/reports/campaign-reports-about.md)), qui inclut des mesures de performances, des mesures de fréquence et de diffusion, ainsi que des jeux de colonnes personnalisés par site, publicité et inventaire ; et également les mesures de fréquence. Vous pouvez également effectuer des actions rapides sur les sites, publicités et inventaires inclus, comme exclure un site, suspendre une publicité ou modifier une transaction. Pour ouvrir l’Inspecteur, placez le curseur sur la ligne d’emplacement, cliquez sur **[!UICONTROL More]**, puis cliquez sur **[!UICONTROL Sites]**, **[!UICONTROL Ads]**, **[!UICONTROL Frequency]** ou **[!UICONTROL Inventory]**. Vous pouvez exporter les données du [!UICONTROL Sites], [!UICONTROL Ads], [!UICONTROL Frequency]ou [!UICONTROL Inventory]  dans le dossier de téléchargement par défaut de votre navigateur sous la forme d’un rapport au format XLSM.
 
 >[!NOTE]
 >
->Vous pouvez personnaliser davantage le contenu et la remise des rapports d’emplacement par l’intermédiaire de [rapports personnalisés](/help/dsp/reports/report-about.md).
+>Vous pouvez personnaliser davantage le contenu et l’envoi de rapports d’emplacement au moyen de [rapports personnalisés](/help/dsp/reports/report-about.md).
 
 >[!MORELIKETHIS]
 >
 >* [Création d’un emplacement](/help/dsp/campaign-management/placements/placement-create.md)
 >* [Paramètres d’emplacement](/help/dsp/campaign-management/placements/placement-settings.md)
 
-   >*[Performance de dépannage](/help/dsp/optimization/troubleshooting-performance.md)
+   >*[Résolution des problèmes de performances](/help/dsp/optimization/troubleshooting-performance.md)
 

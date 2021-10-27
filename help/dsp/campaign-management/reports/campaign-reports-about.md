@@ -3,9 +3,9 @@ title: À propos des rapports In-Platform
 description: Découvrez les données du rapport incluses dans les vues de gestion de campagne.
 feature: DSP Campaign Data Views
 exl-id: e9f7dafe-e0db-4fec-bf5b-858cbcfdde45
-source-git-commit: b2393d5e66ba5d3d2dc9816825c05eda076eaad1
+source-git-commit: 0b0f5df3ae9180dcbc2aeb5d7833956934767915
 workflow-type: tm+mt
-source-wordcount: '646'
+source-wordcount: '907'
 ht-degree: 0%
 
 ---
@@ -45,7 +45,7 @@ Vous pouvez également, si vous le souhaitez, superposer les trois mesures afin 
 
 Vous pouvez [personnaliser les graphiques de tendance ;](campaign-data-visualization-manage.md) par campagne et les mêmes mesures sont conservées dans tous les graphiques de tendance de la campagne.
 
-### Inspecteur de placement
+### Emplacement [!UICONTROL Inspector] {#placement-inspector}
 
 Pour chaque emplacement, vous pouvez : [ouvrir une (vue détaillée) [!UICONTROL Inspector])](placement-details-view.md), qui comprend les données détaillées suivantes :
 
@@ -63,7 +63,25 @@ Pour chaque emplacement, vous pouvez : [ouvrir une (vue détaillée) [!UICONTROL
    * nombre estimé d’impressions au niveau de fréquence spécifié
    * la fréquence moyenne estimée pour le niveau de fréquence spécifié. Cette valeur est égale à (Impressions estimées)/(Uniques estimées).
 
-![Inspecteur de placement](/help/dsp/assets/placement-inspector-sites.png)
+* **[!UICONTROL Inventory]:** Informations sur toutes les offres ciblées par l’emplacement.
+
+   Le [!UICONTROL Inventory] comprend les fonctions de recherche et de filtrage, les mêmes options d’affichage en colonnes standard et personnalisées que celles disponibles sur la page principale, ainsi que des boutons d’action rapide dans chaque ligne, tels que [!UICONTROL Edit] et [!UICONTROL View Report]. Le [!UICONTROL Inventory] permet de résoudre rapidement les problèmes en affichant les statistiques de performances, telles que [!UICONTROL Auctions], [!UICONTROL Bids], et [!UICONTROL Win Rate].
+
+#### Dépannage de l’inventaire
+
+| Problème | Cause possible | Actions à entreprendre |
+| -----------| ---------- | ---------- |
+| [!UICONTROL Zero Auctions] | L’éditeur n’a pas commencé à envoyer de requêtes d’offre. | Contactez l’éditeur pour activer l’opération. |
+|  | L’opération a été mal configurée, par exemple en saisissant un identifiant d’opération externe incorrect. | Confirmez les détails de l’opération et modifiez-la. |
+| [!UICONTROL Auctions but no Bids] | Le ciblage de l’emplacement ne correspond pas aux requêtes d’offre entrantes pour l’opération. <br><br> Par exemple, un emplacement peut cibler une zone géographique qui n’est pas éligible à l’opération. | Modifiez les cibles d’emplacement selon les besoins afin d’éviter les non-correspondances de ciblage. |
+|  | L’emplacement ne comporte pas de publicité principale avec le type de média requis pour l’opération. | Créez et joignez une publicité avec le type de média approprié à l’emplacement. |
+|  | Le placement n&#39;a pas le budget adéquat. | Augmentez le budget d’emplacement afin d’autoriser l’enchère sur les requêtes entrantes. |
+|  | Les dates de vol de placement ne chevauchent pas les dates de remise de l’impression pour l’opération. | Modifiez les dates de vol de l’emplacement selon les besoins. |
+| [!UICONTROL Low Win Rate] | L’offre maximale de l’emplacement (plancher ou fixe) est inférieure au minimum requis par l’offre. | Augmenter le [!UICONTROL Max Bid] selon les besoins. |
+|  | L’emplacement utilise des filtres avant offre qui limitent l’offre. | Réduisez les seuils des filtres pré-enchère pour autoriser plus d’offres. |
+|  | Le ciblage de l’audience pour l’emplacement est trop restrictif. | Vérifiez si les cibles d’audience spécifiées disposent de suffisamment d’utilisateurs principaux et développez l’audience si possible. |
+
+![Inspecteur de placement](/help/dsp/assets/placement-inspector.png)
 
 Vous pouvez exporter les données du [!UICONTROL Sites], [!UICONTROL Ads]ou [!UICONTROL Frequency] dans le dossier de téléchargement par défaut de votre navigateur sous la forme d’un rapport au format XLSM.
 
