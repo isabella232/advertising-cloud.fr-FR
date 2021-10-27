@@ -3,9 +3,9 @@ title: Conditions préalables et informations clés relatives à la mise en oeuv
 description: Conditions préalables et informations clés relatives à la mise en oeuvre [!DNL Analytics for Advertising Cloud]
 feature: Integration with Adobe Analytics
 exl-id: 08e54e2b-ed9b-4489-8de5-ab1379b7133c
-source-git-commit: bfbfc293ad04b294c813ce7c8a11200e70fc812f
+source-git-commit: 688aece01640647a61df730cbe464597b476b033
 workflow-type: tm+mt
-source-wordcount: '844'
+source-wordcount: '835'
 ht-degree: 0%
 
 ---
@@ -18,13 +18,15 @@ Consultez les informations suivantes avant d’intégrer Advertising Cloud à Ad
 
 ## Conditions requises pour la création de rapports sur les données Advertising Cloud dans [!DNL Analytics]
 
-* Service Experience Cloud Identity : `visitorAPI.js` version 2.0 ou ultérieure
+* L’une des options suivantes :
+   * SDK Web Adobe Experience Platform : `alloy.js`
+   * Service Experience Cloud Identity : `visitorAPI.js` version 2.0 ou ultérieure
 * Toute version d’Adobe Analytics (y compris [!DNL Prime], [!DNL Premium]ou [!DNL Ultimate])
 * Adobe Analytics : `appMeasurement.js` version 2.1 ou ultérieure
 
 >[!TIP]
 >
->Pour améliorer la fidélité des données, utilisez la version la plus récente du service Identity Experience Cloud avec prise en charge de CNAME, ainsi que la version la plus récente d’Analytics AppMeasurement pour JavaScript.
+>Pour améliorer la fidélité des données, utilisez la version la plus récente de chaque bibliothèque.
 
 ## Conditions requises pour le partage de segments Analytics avec Advertising Cloud
 
