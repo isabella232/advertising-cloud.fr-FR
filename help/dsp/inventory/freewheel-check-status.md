@@ -3,9 +3,9 @@ title: Vérification de l’état des publicités pour une [!DNL [!DNL FreeWheel
 description: Découvrez comment trouver l’état des publicités pour [!DNL Freewheel] offres garanties par programmation.
 feature: DSP Private Inventory, DSP Deal IDs
 exl-id: null
-source-git-commit: 55854d9ab1a535767315941fe4ca5777a8069b5e
+source-git-commit: 07b964aca7f634a29342e4d09a5e5352570f4d79
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '231'
 ht-degree: 0%
 
 ---
@@ -15,6 +15,18 @@ ht-degree: 0%
 Déterminer si des publicités envoyées à [!DNL Freewheel] ont réussi. Vous pouvez soumettre à nouveau n’importe quelle publicité, si nécessaire.
 
 Pour toute question ou problème concernant le renvoi, contactez votre [!DNL Adobe] gestionnaire de compte.
+
+## Vérifiez l’état à partir du [!UICONTROL Ads] Affichage
+
+1. Dans le menu principal, cliquez sur **[!UICONTROL Campaigns]**.
+
+1. Cliquez sur le nom de la campagne.
+
+1. Dans le sous-menu, cliquez sur **[!UICONTROL Ads]**.
+
+1. En regard du nom de la publicité, cliquez sur  **[!UICONTROL ...]>[!UICONTROL see Freewheel status]**.
+
+1. (Facultatif) Pour soumettre à nouveau une publicité à approbation, placez le curseur sur la ligne de publicité, puis cliquez sur **[!UICONTROL More]>[!UICONTROL Resubmit]**.
 
 ## Vérifiez l’état à partir du [!UICONTROL Deals] Affichage
 
@@ -31,18 +43,6 @@ Pour toute question ou problème concernant le renvoi, contactez votre [!DNL Ado
    Le [!UICONTROL Submission Status] indique si la publicité a été envoyée et approuvée.
 
    Pour les envois ayant échoué, la variable [!UICONTROL API] La colonne Réponse indique l’erreur. Pour obtenir la liste complète des codes d’erreur pour les envois ayant échoué et les étapes suivantes pour les corriger, voir &quot;[Codes d’erreur pour [!DNL FreeWheel] Envois de publicités](freewheel-error-codes.md).&quot;
-
-1. (Facultatif) Pour soumettre à nouveau une publicité à approbation, placez le curseur sur la ligne de publicité, puis cliquez sur **[!UICONTROL More]>[!UICONTROL Resubmit]**.
-
-## Vérifiez l’état à partir du [!UICONTROL Ads] Affichage
-
-1. Dans le menu principal, cliquez sur **[!UICONTROL Campaigns]**.
-
-1. Cliquez sur le nom de la campagne.
-
-1. Dans le sous-menu, cliquez sur **[!UICONTROL Ads]**.
-
-1. En regard du nom de la publicité, cliquez sur  **... >[!UICONTROL see Freewheel status]**.
 
 1. (Facultatif) Pour soumettre à nouveau une publicité à approbation, placez le curseur sur la ligne de publicité, puis cliquez sur **[!UICONTROL More]>[!UICONTROL Resubmit]**.
 
