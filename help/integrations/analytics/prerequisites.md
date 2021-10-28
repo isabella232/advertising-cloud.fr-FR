@@ -3,9 +3,9 @@ title: Conditions préalables et informations clés relatives à la mise en oeuv
 description: Conditions préalables et informations clés relatives à la mise en oeuvre [!DNL Analytics for Advertising Cloud]
 feature: Integration with Adobe Analytics
 exl-id: 08e54e2b-ed9b-4489-8de5-ab1379b7133c
-source-git-commit: 688aece01640647a61df730cbe464597b476b033
+source-git-commit: d4d743ade0e2dad2b967b8316ff2261d0a82d5b0
 workflow-type: tm+mt
-source-wordcount: '835'
+source-wordcount: '845'
 ht-degree: 0%
 
 ---
@@ -80,6 +80,8 @@ Le [!DNL Analytics for Advertising Cloud] JavaScript utilise ces paramètres pou
 Contactez votre [!DNL Adobe] gestionnaire de compte pour les derniers environnements publicitaires pris en charge dans chaque canal.
 
 ## Informations à connaître avant l’implémentation
+
+* L’équipe de mise en oeuvre d’Advertising Cloud configure l’intégration.
 
 * Aucun coût supplémentaire n’est facturé pour cette intégration et les appels au serveur ne génèrent pas non plus de frais supplémentaires. [!DNL Analytics] ou les frais Advertising Cloud.
 
