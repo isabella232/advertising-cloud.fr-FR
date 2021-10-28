@@ -3,9 +3,9 @@ title: À propos des rapports In-Platform
 description: Découvrez les données du rapport incluses dans les vues de gestion de campagne.
 feature: DSP Campaign Data Views
 exl-id: e9f7dafe-e0db-4fec-bf5b-858cbcfdde45
-source-git-commit: 0b0f5df3ae9180dcbc2aeb5d7833956934767915
+source-git-commit: 1ca7639fac40eb8d3fbc3b4f7e0f45b29368f49b
 workflow-type: tm+mt
-source-wordcount: '907'
+source-wordcount: '929'
 ht-degree: 0%
 
 ---
@@ -35,7 +35,7 @@ Au sein d’une campagne, vous pouvez filtrer les données en fonction de l’en
 
 Dans chaque onglet d’entité, chaque ligne comprend par défaut des mesures de fréquence et de diffusion, mais vous pouvez [modification du mode Colonnes](column-view-change.md) ou même [création d’un affichage de colonne personnalisé](column-view-create.md) pour appliquer à tous les sous-onglets de la campagne. Vous pouvez également [personnaliser les tableaux de données ;](campaign-data-views-about.md) par d’autres moyens. Chaque tableau de données comprend une [!UICONTROL Subtotals] qui affiche soit la somme, soit la valeur moyenne de chaque mesure sur toutes les lignes visibles.
 
-Pour chaque campagne, vous pouvez également personnaliser les graphiques de tendance de série temporelle avec trois mesures, disponibles dans chaque vue d’entité. Par défaut, les données pour [!UICONTROL Net Spend], [!UICONTROL Impressions], et [!UICONTROL Net CPM] sont inclus dans des graphiques distincts (graphiques en courbes). Vous pouvez éventuellement modifier les mesures.
+Pour chaque campagne, vous pouvez également personnaliser les graphiques de tendance de série temporelle avec trois mesures, disponibles dans chaque vue d’entité. Par défaut, les données pour [!UICONTROL Net Spend], [!UICONTROL Impressions], et [!UICONTROL Net CPM] sont inclus dans des graphiques distincts (graphiques en courbes). Vous pouvez éventuellement modifier les mesures. Pour activer les données horaires dans les graphiques de tendance de série temporelle, définissez votre sélection de date sur un seul jour ([!UICONTROL Today], [!UICONTROL Yesterday]ou un jour spécifique).
 
 ![graphiques de tendances distincts pour trois mesures](/help/dsp/assets/trend-chart-separate.png)
 
