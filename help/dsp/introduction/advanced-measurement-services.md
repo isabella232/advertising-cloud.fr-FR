@@ -2,7 +2,7 @@
 title: Solutions de mesure avancée
 description: Consultez la liste des solutions disponibles pour les mesures avancées.
 exl-id: 1a8b76ee-d38d-4ee4-981b-e29497fa4095
-source-git-commit: b4976cdce6b4d5870c5cc3a1a09c1b5545cd3200
+source-git-commit: 927fd18c39ff93fae6222c0376cbe41810c06ca2
 workflow-type: tm+mt
 source-wordcount: '520'
 ht-degree: 0%
@@ -93,4 +93,4 @@ Les packages de solution de mesure suivants sont disponibles pour valider le suc
 
 ## Plus d’informations
 
-Pour plus d’informations sur toutes les offres de mesure d’ [!DNL Strategic Advertising Consulting], décrivant les informations de tarification ainsi que les formats et régions disponibles pour chaque solution, contactez votre responsable de succès client. Des études de cas spécifiques aux solutions sont également disponibles sur demande.
+Pour plus d’informations sur toutes les solutions de mesure avancées, en décrivant les informations de tarification, ainsi que les formats et régions disponibles pour chaque solution, contactez votre [!DNL Adobe] gestionnaire de succès client. Des études de cas spécifiques aux solutions sont également disponibles sur demande.
