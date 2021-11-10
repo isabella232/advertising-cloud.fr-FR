@@ -3,9 +3,9 @@ title: A propos des contrats garantis par programmation
 description: Découvrez les offres garanties par programmation (PG) et les SSP certifiées pour les fournir.
 feature: DSP Private Inventory, DSP Deal IDs, DSP Programmatic Guaranteed Deals
 exl-id: 8cf85ae3-027d-4d9d-95a0-ac39d651627a
-source-git-commit: 2ebcaa488499485b1da549e0324d15ca8160512a
+source-git-commit: 96f756b0f5239e2378d0a4da18335d909f96ab94
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '226'
 ht-degree: 0%
 
 ---
@@ -31,8 +31,8 @@ Les offres PG nécessitent un emplacement et des publicités par défaut PG afin
 * [!DNL Ambient Digital]
 * [!DNL FreeWheel]
 * [!DNL Google Authorized Buyers]
-* [!DNL Magnite CTV] (anciennement  [!DNL Telaria])
-* [!DNL Magnite DV+] (anciennement  [!DNL Rubicon])
+* [!DNL Magnite CTV] (anciennement [!DNL Telaria])
+* [!DNL Magnite DV+] (anciennement [!DNL Rubicon])
 * [!DNL OpenX]
 * [!DNL SpotX]
 
