@@ -3,7 +3,7 @@ title: Advertising Cloud ID utilisés par [!DNL Analytics]
 description: Advertising Cloud ID utilisés par [!DNL Analytics]
 feature: Integration with Adobe Analytics
 exl-id: ed1aab7b-9bd0-4d42-9bfb-9c6fa6db76bc
-source-git-commit: bfbfc293ad04b294c813ce7c8a11200e70fc812f
+source-git-commit: 1ba45d789c4ad365166df829ac74e0200cdc8851
 workflow-type: tm+mt
 source-wordcount: '1156'
 ht-degree: 0%
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 *Applicable à Advertising Cloud DSP et Advertising Cloud Search*
 
-Advertising Cloud utilise deux identifiants pour le suivi des performances sur site : l’identifiant EF et l’identifiant AMO.
+Advertising Cloud utilise deux identifiants pour le suivi des performances sur site : la valeur *EF ID* et le *AMO ID*.
 
 Lorsqu’une impression de publicité se produit, Advertising Cloud crée les valeurs AMO ID et EF ID et les stocke. Lorsqu’un visiteur qui a vu une publicité arrive sur le site sans cliquer sur une publicité, [!DNL Analytics] appelle ces valeurs à partir d’Advertising Cloud via la fonction [!DNL Analytics for Advertising Cloud] Code JavaScript. Pour le trafic d’affichage publicitaire, [!DNL Analytics] génère un ID supplémentaire (`SDID`), qui est utilisé pour associer l’EF ID et l’AMO ID à [!DNL Analytics]. Pour le trafic de clics publicitaires, ces identifiants sont inclus dans l’URL de la page d’entrée à l’aide de la variable `s_kwcid` et `ef_id` paramètres de chaîne de requête.
 
@@ -67,7 +67,7 @@ Exemple `EF `ID : WcmibgAAAHJK1RyY:1551968087687:d
 
 ### La Dimension d’identifiant EF dans [!DNL Analytics]
 
-Dans [!DNL Analytics] rapports, vous pouvez trouver les données d’identifiant EF en recherchant la variable [!UICONTROL EF ID] et en utilisant la dimension [!UICONTROL EF ID Instance] mesure.
+Dans [!DNL Analytics] rapports, vous pouvez rechercher les données d’identifiant EF en recherchant la variable [!UICONTROL EF ID] et en utilisant la dimension [!UICONTROL EF ID Instance] mesure.
 
 `EF IDs` sont soumises à la limite de 500 000 identifiants uniques dans Analysis Workspace. Une fois la valeur de 500 000 atteinte, tous les nouveaux codes de suivi sont signalés sous le titre d’un élément de ligne &quot;[!UICONTROL Low Traffic].&quot; En raison de la possibilité d’une fidélité des rapports manquante, la variable `EF IDs` ne sont pas classées et vous ne devez pas les utiliser pour les segments ou la création de rapports dans [!DNL Analytics].
 
