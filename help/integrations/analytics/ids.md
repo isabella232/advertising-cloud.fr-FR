@@ -3,9 +3,9 @@ title: Advertising Cloud ID utilisés par [!DNL Analytics]
 description: Advertising Cloud ID utilisés par [!DNL Analytics]
 feature: Integration with Adobe Analytics
 exl-id: ed1aab7b-9bd0-4d42-9bfb-9c6fa6db76bc
-source-git-commit: 1ba45d789c4ad365166df829ac74e0200cdc8851
+source-git-commit: 143e8e756d13597bf923d0b6f5b2510f834e6e0f
 workflow-type: tm+mt
-source-wordcount: '1156'
+source-wordcount: '1157'
 ht-degree: 0%
 
 ---
@@ -69,13 +69,13 @@ Exemple `EF `ID : WcmibgAAAHJK1RyY:1551968087687:d
 
 Dans [!DNL Analytics] rapports, vous pouvez rechercher les données d’identifiant EF en recherchant la variable [!UICONTROL EF ID] et en utilisant la dimension [!UICONTROL EF ID Instance] mesure.
 
-`EF IDs` sont soumises à la limite de 500 000 identifiants uniques dans Analysis Workspace. Une fois la valeur de 500 000 atteinte, tous les nouveaux codes de suivi sont signalés sous le titre d’un élément de ligne &quot;[!UICONTROL Low Traffic].&quot; En raison de la possibilité d’une fidélité des rapports manquante, la variable `EF IDs` ne sont pas classées et vous ne devez pas les utiliser pour les segments ou la création de rapports dans [!DNL Analytics].
+Les identifiants EF sont soumis à la limite d’identifiant unique de 500 000 dans Analysis Workspace. Une fois la valeur de 500 000 atteinte, tous les nouveaux codes de suivi sont signalés sous le titre d’un élément de ligne &quot;[!UICONTROL Low Traffic].&quot; En raison de la possibilité d’une fidélité de création de rapports manquante, les identifiants EF ne sont pas classés et vous ne devez pas les utiliser pour les segments ou la création de rapports dans [!DNL Analytics].
 
 ## Advertising Cloud AMO ID
 
 L’AMO ID effectue le suivi de chaque combinaison d’annonces unique à un niveau moins granulaire et est utilisé pour [!DNL Analytics] classification des données et ingestion de mesures publicitaires (telles que les impressions, les clics et les coûts) à partir d’Advertising Cloud. L’AMO ID est stocké dans une [!DNL Analytics] [eVar](https://experienceleague.adobe.com/docs/analytics/components/dimensions/evar.html) ou la dimension rVar (AMO ID) et est utilisée exclusivement pour la création de rapports dans [!DNL Analytics].
 
-L’AMO ID est également appelé `s_kwcid`, parfois appelé &quot;calamar&quot;.
+L’AMO ID est également appelé `s_kwcid`, qui est parfois prononcé en tant que &quot;[!DNL the squid].&quot;
 
 ### Format AMO ID pour [!DNL DSP]
 
