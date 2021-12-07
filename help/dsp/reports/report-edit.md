@@ -2,8 +2,7 @@
 title: Modifier un rapport personnalisé
 description: Découvrez comment modifier les paramètres de rapport personnalisés.
 feature: DSP Custom Reports
-exl-id: null
-source-git-commit: d10e1c24ee7c93eaab3fd4fefe853860226cc8e2
+source-git-commit: 1ae45d0ceee2efc4fc52b86fd6737d4c7467a6ca
 workflow-type: tm+mt
 source-wordcount: '70'
 ht-degree: 1%
@@ -16,8 +15,8 @@ ht-degree: 1%
 1. Dans le menu principal, cliquez sur **[!UICONTROL Reports]**.
 1. Effectuez l’une des opérations suivantes :
    * Cliquez sur le nom du rapport.
-   * Dans la colonne [!UICONTROL Options] de la ligne du rapport, cliquez sur **[!UICONTROL options]>[!UICONTROL Edit]**.
-1. Modifiez les [paramètres du rapport](/help/dsp/reports/report-settings.md).
+   * Dans le [!UICONTROL Options] pour la ligne du rapport, cliquez sur **[!UICONTROL options]>[!UICONTROL Edit]**.
+1. Modifiez la variable [paramètres de rapport](/help/dsp/reports/report-settings.md).
 1. Cliquez sur **[!UICONTROL Edit Custom Report]**.
 
 >[!MORELIKETHIS]

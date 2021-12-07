@@ -2,8 +2,7 @@
 title: Spécifications des publicités spécifiques à l’éditeur
 description: Référencez les spécifications publicitaires pour les éditeurs pris en charge.
 feature: DSP Ads
-exl-id: null
-source-git-commit: d10e1c24ee7c93eaab3fd4fefe853860226cc8e2
+source-git-commit: 1ae45d0ceee2efc4fc52b86fd6737d4c7467a6ca
 workflow-type: tm+mt
 source-wordcount: '75'
 ht-degree: 0%
@@ -12,7 +11,7 @@ ht-degree: 0%
 
 # Spécifications des publicités spécifiques à l’éditeur
 
-Certains éditeurs présentent des spécifications publicitaires plus strictes que les [spécifications publicitaires générales](/help/dsp/assets/ad-specs.pdf) d’Advertising Cloud.  Lorsque les spécifications de l’éditeur sont plus strictes que celles d’Advertising Cloud, veillez à respecter les spécifications de l’éditeur.
+Certains éditeurs présentent des spécifications publicitaires plus strictes que celles d’Advertising Cloud. [spécifications publicitaires générales](/help/dsp/assets/ad-specs.pdf).  Lorsque les spécifications de l’éditeur sont plus strictes que celles d’Advertising Cloud, veillez à respecter les spécifications de l’éditeur.
 
 Les liens suivants vous conduisent aux spécifications publicitaires de certains éditeurs avec des exigences plus strictes.
 

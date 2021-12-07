@@ -1,9 +1,8 @@
 ---
 title: Vérification de l’état des publicités pour une [!DNL [!DNL FreeWheel]] Accord PG
-description: Learn how to find the status of ads for [!DNL Freewheel] programmatic guaranteed deals.
+description: Découvrez comment trouver l’état des publicités pour [!DNL Freewheel] offres garanties par programmation.
 feature: DSP Private Inventory, DSP Deal IDs
-exl-id: null
-source-git-commit: a0619f77aac5e6c527fc344570bbcedf17dcfe36
+source-git-commit: 1ae45d0ceee2efc4fc52b86fd6737d4c7467a6ca
 workflow-type: tm+mt
 source-wordcount: '228'
 ht-degree: 0%
@@ -12,21 +11,21 @@ ht-degree: 0%
 
 # Vérification de l’état des publicités pour [!DNL Freewheel] Offres garanties par la programmation
 
-See if ads submissions to [!DNL Freewheel] were successful. You can resubmit any ad as needed.
+Déterminer si des publicités envoyées à [!DNL Freewheel] ont réussi. Vous pouvez soumettre à nouveau n’importe quelle publicité, si nécessaire.
 
 Pour toute question ou problème concernant le renvoi, contactez votre [!DNL Adobe] gestionnaire de compte.
 
-## Check the Status from the [!UICONTROL Ads] View
+## Vérifiez l’état à partir du [!UICONTROL Ads] Affichage
 
-1. In the main menu, click **[!UICONTROL Campaigns]**.
+1. Dans le menu principal, cliquez sur **[!UICONTROL Campaigns]**.
 
 1. Cliquez sur le nom de la campagne.
 
-1. In the submenu, click **[!UICONTROL Ads]**.
+1. Dans le sous-menu, cliquez sur **[!UICONTROL Ads]**.
 
 1. En regard du nom de la publicité, cliquez sur  **[!UICONTROL ...]>[!UICONTROL see Freewheel status]**.
 
-1. (Optional) To resubmit an ad for approval, hold the cursor over the ad row, and then click **[!UICONTROL More]>[!UICONTROL Resubmit]**.
+1. (Facultatif) Pour soumettre à nouveau une publicité à approbation, placez le curseur sur la ligne de publicité, puis cliquez sur **[!UICONTROL More]>[!UICONTROL Resubmit]**.
 
 ## Vérifiez l’état à partir du [!UICONTROL Deals] Affichage
 
@@ -40,16 +39,16 @@ Pour toute question ou problème concernant le renvoi, contactez votre [!DNL Ado
 
 1. (Facultatif) Filtrez les données pour vous aider à localiser des offres et publicités spécifiques.
 
-   The [!UICONTROL Submission Status] column indicates whether or not the ad was submitted and approved.
+   Le [!UICONTROL Submission Status] indique si la publicité a été envoyée et approuvée.
 
-   Pour les envois ayant échoué, la variable [!UICONTROL API] La colonne Réponse indique l’erreur. For a full list of error codes for failed submissions, and next steps to correct them, see &quot;[Error Codes for [!DNL FreeWheel] Ad Submissions](freewheel-error-codes.md).&quot;
+   Pour les envois ayant échoué, la variable [!UICONTROL API] La colonne Réponse indique l’erreur. Pour obtenir la liste complète des codes d’erreur pour les envois ayant échoué et les étapes suivantes pour les corriger, voir &quot;[Codes d’erreur pour [!DNL FreeWheel] Envois de publicités](freewheel-error-codes.md).&quot;
 
-1. (Optional) To resubmit an ad for approval, hold the cursor over the ad row, and then click **[!UICONTROL More]>[!UICONTROL Resubmit]**.
+1. (Facultatif) Pour soumettre à nouveau une publicité à approbation, placez le curseur sur la ligne de publicité, puis cliquez sur **[!UICONTROL More]>[!UICONTROL Resubmit]**.
 
 >[!MORELIKETHIS]
 >
 >* [Présentation de la configuration de transactions garanties par la programmation dans [!DNL Freewheel]](freewheel-overview.md)
 >* [Envoyer une publicité pour une transaction garantie par un programme à [!DNL Freewheel]](freewheel-submit.md)
 >* [Codes d’erreur pour [!DNL Freewheel] Envois de publicités](freewheel-error-codes.md)
->* [Accept a Deal in the Deal ID Inbox](deal-id-inbox-accept.md)
+>* [Acceptation d’une transaction dans la boîte de réception Deal ID](deal-id-inbox-accept.md)
 

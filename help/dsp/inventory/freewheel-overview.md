@@ -2,8 +2,7 @@
 title: Présentation de la configuration des contrats PG dans [!DNL Freewheel]
 description: 'Découvrez les conditions préalables et les étapes supplémentaires nécessaires à l’exécution de publicités pour des offres garanties par programmation avec les éditeurs sur [!DNL Freewheel]. '
 feature: DSP Private Inventory, DSP Deal IDs
-exl-id: null
-source-git-commit: a0619f77aac5e6c527fc344570bbcedf17dcfe36
+source-git-commit: 1ae45d0ceee2efc4fc52b86fd6737d4c7467a6ca
 workflow-type: tm+mt
 source-wordcount: '221'
 ht-degree: 0%
