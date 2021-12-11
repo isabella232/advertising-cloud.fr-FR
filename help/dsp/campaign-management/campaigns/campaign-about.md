@@ -3,9 +3,9 @@ title: Gestion de campagne dans Advertising Cloud DSP
 description: Découvrez la gestion des campagnes.
 feature: DSP Campaigns
 exl-id: f9f3aba2-995c-45df-8e65-52999f9cc539
-source-git-commit: d10e1c24ee7c93eaab3fd4fefe853860226cc8e2
+source-git-commit: 19d6a2edf07eecf874537dd9d356737ed9156bd9
 workflow-type: tm+mt
-source-wordcount: '188'
+source-wordcount: '202'
 ht-degree: 0%
 
 ---
@@ -16,10 +16,10 @@ Les campagnes constituent le cadre général des conditions de vol. Tous les par
 
 Vous pouvez créer des campagnes manuellement ou en dupliquant des campagnes existantes. Vous pouvez également modifier des campagnes existantes.
 
-## Tableau de bord [!UICONTROL Campaigns]
+## Le [!UICONTROL Campaigns] Tableau de bord
 
 <!-- standardize on "dashboard" or "view" -->
-Le tableau de bord [!UICONTROL Campaigns] centralise les performances et les rapports économiques sur l’ensemble de vos campagnes, fournissant un aperçu rapide des performances de vos campagnes au cours d’une période spécifiée.
+Le [!UICONTROL Campaigns] Le tableau de bord centralise les performances et les rapports économiques sur l’ensemble de vos campagnes, fournissant un aperçu rapide des performances de vos campagnes au cours d’une période spécifiée.
 
 ![Tableau de bord des campagnes](/help/dsp/assets/campaign-dashboard.png)
 
@@ -27,7 +27,7 @@ Par défaut, le tableau de bord affiche les mesures de fréquence et de diffusio
 
 >[!NOTE]
 >
->Vous pouvez personnaliser davantage le contenu et la diffusion des rapports de campagne à l’aide de [rapports personnalisés](/help/dsp/reports/report-about.md).
+>Vous pouvez personnaliser davantage le contenu et la diffusion des rapports de campagne à l&#39;aide de [rapports personnalisés](/help/dsp/reports/report-about.md).
 
 Pour afficher tous les packages, emplacements et annonces d’une campagne, cliquez sur le nom de la campagne.
 
@@ -35,4 +35,5 @@ Pour afficher tous les packages, emplacements et annonces d’une campagne, cliq
 >
 >* [Création d’une campagne](campaign-create.md)
 >* [Paramètres de campagne](campaign-settings.md)
+>* [Vidéo : DSP structure de compte et interface utilisateur](https://experienceleague.adobe.com/docs/advertising-cloud-learn/tutorials/dsp/ui.html)
 
