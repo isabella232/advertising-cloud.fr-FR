@@ -3,9 +3,9 @@ title: Création d’un module
 description: Découvrez comment créer un package.
 feature: DSP Packages
 exl-id: 009b65b4-0686-46ca-9f47-01ad4c6a4683
-source-git-commit: d10e1c24ee7c93eaab3fd4fefe853860226cc8e2
+source-git-commit: 19d6a2edf07eecf874537dd9d356737ed9156bd9
 workflow-type: tm+mt
-source-wordcount: '83'
+source-wordcount: '96'
 ht-degree: 1%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 1%
 1. Dans le menu principal, cliquez sur **[!UICONTROL Campaigns]**.
 1. Cliquez sur le nom de l&#39;opération dans laquelle vous souhaitez créer le kit.
 1. Dans l’onglet Packages , cliquez sur **[!UICONTROL Create]>[!UICONTROL Package]**.
-1. Saisissez les [paramètres du package](package-settings.md).
+1. Saisissez le [paramètres du package](package-settings.md).
 1. Cliquez sur **[!UICONTROL Save and Close]**.
 
 Une fois que vous avez créé un module, vous pouvez lui attribuer des emplacements.
@@ -30,4 +30,5 @@ Une fois que vous avez créé un module, vous pouvez lui attribuer des emplaceme
 >* [Modification d’un module](package-edit.md)
 >* [Joindre un emplacement à un package](package-attach-placement.md)
 >* [Paramètres du module](package-settings.md)
+>* [Vidéo : Création d’un module](https://experienceleague.adobe.com/docs/advertising-cloud-learn/tutorials/dsp/package-create.html)
 
