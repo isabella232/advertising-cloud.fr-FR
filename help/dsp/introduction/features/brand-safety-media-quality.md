@@ -3,9 +3,9 @@ title: Sécurité des marques et qualité des médias
 description: En savoir plus sur la sécurité de la marque et les fonctionnalités de qualité multimédia.
 feature: DSP Introduction
 exl-id: df5be5d4-490e-479f-b76d-4fda4acd4201
-source-git-commit: 75227ae12d1095c8a537444b1924023bc2b54be3
+source-git-commit: 6a0b863d1cdf31eb8a659196a83e9636a3a49ff5
 workflow-type: tm+mt
-source-wordcount: '1310'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -114,13 +114,13 @@ Vous pouvez définir des filtres de visibilité par défaut pour chaque annonceu
 
 ### Ciblage de rubrique
 
-DSP ciblage de rubrique vous permet de cibler ou de bloquer des listes de mots-clés en exploitant nos partenaires contextuels de pointe [!DNL Comscore] et [!DNL Oracle Data Cloud] ([!DNL Grapeshot]).
-
-Le ciblage des rubriques vous permet de vous assurer que vos publicités sont toujours diffusées dans un environnement qui s’aligne sur votre marque, que ce soit en bloquant des contenus nocifs ou en veillant à dépenser dans un contexte qui garantit un meilleur résultat.
+DSP ciblage de rubrique vous permet de cibler ou de bloquer des listes de mots-clés en exploitant nos partenaires contextuels de pointe [!DNL Comscore] et [!DNL Oracle Data Cloud] ([!DNL Grapeshot]). Le ciblage des rubriques vous permet de vous assurer que vos publicités sont toujours diffusées dans un environnement qui s’aligne sur votre marque, que ce soit en bloquant des contenus nocifs ou en veillant à dépenser dans un contexte qui garantit un meilleur résultat.
 
 Le ciblage des rubriques nécessite de créer des segments de rubrique personnalisés directement avec [!DNL Comscore] ou [!DNL Grapeshot] (en utilisant [!DNL Oracle Data Cloud]). Une fois créés dans la plateforme partenaire, vous pouvez [cibler ou exclure un identifiant de segment dans la variable [!UICONTROL Audience Targeting] section pour chaque emplacement](/help/dsp/campaign-management/placements/placement-settings.md). Des frais supplémentaires peuvent s’appliquer pour cette fonctionnalité.
 
-* Pour créer une [!DNL Comscore] et créer des segments personnalisés, vous pouvez demander une connexion pour [!DNL Activation Segment Manager] at ]http://agents.comscore.com](http://agents.comscore.com). Voir [[!DNL Comscore] centre d’aide](https://comscoreactivation.zendesk.com/hc/) pour obtenir des instructions complètes sur la configuration de segments personnalisés. Les frais pour les segments personnalisés sont visibles dans [!DNL Segment Manager] lors de leur création.
+Pour créer des segments de rubrique personnalisés :
+
+* Pour créer une [!DNL Comscore] et créer des segments personnalisés, vous pouvez demander une connexion pour [!DNL Activation Segment Manager] at [http://agents.comscore.com](http://agents.comscore.com). Voir [[!DNL Comscore] centre d’aide](https://comscoreactivation.zendesk.com/hc/) pour obtenir des instructions complètes sur la configuration de segments personnalisés. Les frais pour les segments personnalisés sont visibles dans [!DNL Segment Manager] lors de leur création.
 
 * Pour commencer à utiliser [!DNL Oracle Data Cloud], contactez [!DNL Oracle Data Cloud] ou [!DNL Adobe] gestionnaire de compte.
 
