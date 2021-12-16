@@ -3,9 +3,9 @@ title: Sécurité des marques et qualité des médias
 description: En savoir plus sur la sécurité de la marque et les fonctionnalités de qualité multimédia.
 feature: DSP Introduction
 exl-id: df5be5d4-490e-479f-b76d-4fda4acd4201
-source-git-commit: e0713f3717a684fb5ef2808d7de769424b8972d2
+source-git-commit: 75227ae12d1095c8a537444b1924023bc2b54be3
 workflow-type: tm+mt
-source-wordcount: '1263'
+source-wordcount: '1310'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ En plus d’offrir une gestion centralisée de la qualité, nous pensons à donn
 
 ### Vérification de l’inventaire avec [!DNL Ads.txt] Assistance
 
-[[!DNL Ads.txt], which stands for [!DNL Authorized Digital Sellers]](https://iabtechlab.com/ads-txt) est une initiative lancée par la [!DNL Interactive Advertising Bureau] ([!DNL IAB]) en juin 2017 afin de faciliter la représentation adéquate des stocks sur le marché ouvert, et de lutter ainsi contre les sources illégitimes de trafic et d’usurpation de domaine. Les éditeurs et les distributeurs participants déclarent publiquement les entreprises autorisées à vendre leur inventaire numérique et la nature de ces relations, en maintenant une `ads.txt` au niveau supérieur du domaine (par exemple `example.com/ads.txt`).
+[[!DNL Ads.txt], qui signifie [!DNL Authorized Digital Sellers]](https://iabtechlab.com/ads-txt) est une initiative lancée par la [!DNL Interactive Advertising Bureau] ([!DNL IAB]) en juin 2017 afin de faciliter la représentation adéquate des stocks sur le marché ouvert, et de lutter ainsi contre les sources illégitimes de trafic et d’usurpation de domaine. Les éditeurs et les distributeurs participants déclarent publiquement les entreprises autorisées à vendre leur inventaire numérique et la nature de ces relations, en maintenant une `ads.txt` au niveau supérieur du domaine (par exemple `example.com/ads.txt`).
 
 Prise en charge des DSP [!DNL ads.txt] en lisant les `ads.txt` et vous donner la possibilité d’acheter uniquement auprès d’un [!DNL ads.txt] vendeurs. Par exemple, en faisant correspondre les vendeurs, nous voyons accéder aux `nytimes.com` au New York Times&#39; `ads.txt` , nous pouvons identifier celles qui sont légitimes et celles qui ne le sont pas, et nous bloquerons les contrevenants si l&#39;emplacement est configuré pour n&#39;acheter qu&#39;auprès de vendeurs vérifiés. <!-- can we actually mention NY Times? -->
 
@@ -118,9 +118,11 @@ DSP ciblage de rubrique vous permet de cibler ou de bloquer des listes de mots-c
 
 Le ciblage des rubriques vous permet de vous assurer que vos publicités sont toujours diffusées dans un environnement qui s’aligne sur votre marque, que ce soit en bloquant des contenus nocifs ou en veillant à dépenser dans un contexte qui garantit un meilleur résultat.
 
-Le ciblage des rubriques nécessite de créer des segments de rubrique directement avec [!DNL Comscore] ou [!DNL Grapeshot] (en utilisant [!DNL Oracle Data Cloud]). Une fois créés dans la plateforme partenaire, vous pouvez [cibler ou exclure un identifiant de segment dans la variable[!UICONTROL  Audience Targeting] section pour chaque emplacement](/help/dsp/campaign-management/placements/placement-settings.md). Des frais supplémentaires peuvent s’appliquer pour cette fonctionnalité.
+Le ciblage des rubriques nécessite de créer des segments de rubrique personnalisés directement avec [!DNL Comscore] ou [!DNL Grapeshot] (en utilisant [!DNL Oracle Data Cloud]). Une fois créés dans la plateforme partenaire, vous pouvez [cibler ou exclure un identifiant de segment dans la variable [!UICONTROL Audience Targeting] section pour chaque emplacement](/help/dsp/campaign-management/placements/placement-settings.md). Des frais supplémentaires peuvent s’appliquer pour cette fonctionnalité.
 
-Pour commencer, contactez votre fournisseur préféré ou votre [!DNL Adobe] gestionnaire de compte.
+* Pour créer une [!DNL Comscore] et créer des segments personnalisés, vous pouvez demander une connexion pour [!DNL Activation Segment Manager] at ]http://agents.comscore.com](http://agents.comscore.com). Voir [[!DNL Comscore] centre d’aide](https://comscoreactivation.zendesk.com/hc/) pour obtenir des instructions complètes sur la configuration de segments personnalisés. Les frais pour les segments personnalisés sont visibles dans [!DNL Segment Manager] lors de leur création.
+
+* Pour commencer à utiliser [!DNL Oracle Data Cloud], contactez [!DNL Oracle Data Cloud] ou [!DNL Adobe] gestionnaire de compte.
 
 ![Logo Comscore](/help/dsp/assets/comscore-logo.png) ![Logo du graphique](/help/dsp/assets/oracle-grapeshot-logo.png)
 
