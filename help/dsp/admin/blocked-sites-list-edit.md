@@ -1,17 +1,12 @@
 ---
-type: Documentation
-cloud: Experience Cloud
-solution: Advertising Cloud
-product: advertising cloud
 title: Modification d’une liste de sites bloqués au niveau du compte ou de l’annonceur
-description: Modification d’une liste de sites bloqués au niveau du compte ou de l’annonceur
-source-git-commit: 27367fdee872cea9016cccd12aa082aa7455dbce
+description: Découvrez comment gérer la liste des sites bloqués pour un compte ou un annonceur.
+source-git-commit: bfed4856e9b67537a84bd3169b284e6e027ca957
 workflow-type: tm+mt
-source-wordcount: '172'
+source-wordcount: '184'
 ht-degree: 0%
 
 ---
-
 
 # Modification d’une liste de sites bloqués au niveau du compte ou de l’annonceur
 
@@ -43,6 +38,7 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
-> [Sécurité des marques et qualité des médias](/help/dsp/introduction/features/brand-safety-media-quality.md)
+>* [À propos des listes de sites bloqués au niveau du compte et des annonceurs](/help/dsp/admin/blocked-sites-list-about.md)
+   > [Sécurité des marques et qualité des médias](/help/dsp/introduction/features/brand-safety-media-quality.md)
 >* [Paramètres d’emplacement](/help/dsp/campaign-management/placements/placement-settings.md)
 
