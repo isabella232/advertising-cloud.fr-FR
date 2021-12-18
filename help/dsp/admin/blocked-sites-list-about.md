@@ -1,9 +1,9 @@
 ---
 title: À propos des listes de sites bloqués au niveau du compte et des annonceurs
 description: En savoir plus sur la liste des sites bloqués pour un compte ou un annonceur.
-source-git-commit: 32988f3bd4e4b63304f6b2a53949eda7842a60f0
+source-git-commit: 490147fb8479474ce95c17d59b512254596746c2
 workflow-type: tm+mt
-source-wordcount: '171'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ Les listes au niveau des annonceurs remplacent les listes au niveau du compte.
 
 >[!NOTE]
 >
->* En plus d’Advertising Cloud DSP, les listes de sites bloqués au niveau du compte et de l’annonceur sont appliquées. [liste de sites bloqués globalement](/help/dsp/introduction/features/brand-safety-media-quality.md), qui comprend les sites considérés comme dangereux pour les publicités.
+>* En plus d’Advertising Cloud DSP, les listes de sites bloqués au niveau du compte et de l’annonceur sont appliquées. [liste de sites bloqués globalement](/help/dsp/introduction/features/brand-safety-media-quality.md#global-blocked-sites), qui comprend les sites considérés comme dangereux pour les publicités.
 >* Les utilisateurs peuvent également ajouter des sites ciblés à n’importe quel emplacement.
 >* Les listes de sites bloqués remplacent toujours les listes de sites ciblés. Si un emplacement exclut et inclut la même cible pour une publicité, la cible est exclue.
 
