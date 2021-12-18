@@ -5,9 +5,9 @@ cloud: Experience Cloud
 product: advertising cloud
 index: true
 exl-id: d4b67393-e8c5-4170-92eb-bcf643ba3ec3
-source-git-commit: 99179eab681332ef1e8dc835aab10e113c4b3e0b
+source-git-commit: 5c7eab5f3bc1d8fc4a437e8f5b498caafed9a30f
 workflow-type: tm+mt
-source-wordcount: '1438'
+source-wordcount: '1464'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,7 @@ Les fonctionnalités suivantes sont nouvelles ou récemment modifiées.
 
 | Date | Fonctionnalité | Description | Pour plus d’informations |
 | ---- | ------- | ----------- | -------------------- |
+| 17 décembre 2021 | Aide | Des informations sur les sites bloqués sont désormais disponibles. | Voir &quot;[À propos des listes de sites bloqués au niveau du compte et des annonceurs](/help/dsp/admin/blocked-sites-list-about.md)&quot; et &quot;[Modification d’une liste de sites bloqués au niveau du compte ou de l’annonceur](/help/dsp/admin/blocked-sites-list-edit.md).&quot; |
 | 10 décembre 2021 | Tutoriels vidéo | De nouveaux tutoriels vidéo sont disponibles : &quot;Présentation d’Advertising Cloud DSP&quot;, &quot;Structure de compte et interface utilisateur&quot;, &quot;Création d’un module&quot;, &quot;Téléchargement en masse de balises publicitaires tierces&quot; et &quot;Modification des emplacements à l’aide des outils de modification en masse&quot;. | Voir &quot;[Tutorials Advertising Cloud](https://experienceleague.adobe.com/docs/advertising-cloud-learn/tutorials/overview.html).&quot; |
 | 12 novembre 2021 | [!UICONTROL Deal IDs] | Dans le [!UICONTROL Deal ID] settings, &quot;[!DNL Rubicon]&quot; a été remplacé par &quot;[!DNL Magnite DV+],&quot; où [!DNL DV+] désigne l’affichage, la vidéo et d’autres formats tels que l’audio. Cela reflète la nouvelle valorisation de marque pour [!DNL Magnite] SSP. **Remarque :** [!DNL Magnite DV+] est toujours répertorié comme &quot;&quot;[!DNL Rubicon]&quot; dans la variable [!UICONTROL Deal ID Inbox]. | Voir &quot;[Partenaires SSP](/help/dsp/inventory/ssp-partners.md).&quot; |
 | 27 octobre 2021 | Rapports personnalisés | Vous pouvez désormais créer et gérer des [!DNL Amazon S3] et différents types d’emplacements de distribution FTP, appelés *[!DNL report destinations]*, pour vos rapports personnalisés. Une fois que vous avez configuré les destinations de rapport, vous pouvez configurer chacun de vos nouveaux rapports personnalisés à diffuser vers un ou plusieurs emplacements d’un seul type de destination ou vers des destinataires par courrier électronique. Mises à jour de votre [!DNL Amazon S3] Les informations d’identification et FTP n’interrompent pas la remise des rapports.<br><br>Vos rapports existants sont toujours envoyés aux destinataires de messagerie spécifiés. Pour configurer une diffusion vers une autre destination de rapport, créez un rapport avec la nouvelle destination. | Voir &quot;[A propos [!UICONTROL Report Destinations]](/help/dsp/reports/report-destinations/report-destination-about.md),&quot;[Créez un [!UICONTROL Report Destination]](/help/dsp/reports/report-destinations/report-destination-create.md),&quot;[[!UICONTROL Report Destination] Paramètres](/help/dsp/reports/report-destinations/report-destination-settings.md),&quot; et &quot;[Paramètres des rapports personnalisés](/help/dsp/reports/report-settings.md).&quot; |

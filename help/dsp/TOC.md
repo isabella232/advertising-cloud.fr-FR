@@ -8,7 +8,7 @@ user-guide-title: Guide d’Advertising Cloud DSP
 user-guide-description: Découvrez les principales fonctionnalités, tâches, paramètres et autres ressources nécessaires à la gestion, à l’optimisation et à la création de rapports sur vos stratégies d’affichage publicitaire à l’aide d’Advertising Cloud DSP.
 breadcrumb-title: Guide de DSP
 index: true
-source-git-commit: aba948d8840aa986bc7fe3e8a167da2316bdbdd0
+source-git-commit: af7027962a1b565ceef649f1abff2ff7f740d9cc
 workflow-type: tm+mt
 source-wordcount: '768'
 ht-degree: 3%
