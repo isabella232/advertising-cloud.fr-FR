@@ -3,7 +3,7 @@ title: Sécurité des marques et qualité des médias
 description: En savoir plus sur la sécurité de la marque et les fonctionnalités de qualité multimédia.
 feature: DSP Introduction
 exl-id: df5be5d4-490e-479f-b76d-4fda4acd4201
-source-git-commit: fac152a5e3d040bcfacda97f05f3990fd17f677d
+source-git-commit: 3bca3d5b4a1ec0bf9bb23946248de350b8bbf2a6
 workflow-type: tm+mt
 source-wordcount: '1315'
 ht-degree: 0%
@@ -120,7 +120,7 @@ Le ciblage des rubriques nécessite de créer des segments de rubrique personnal
 
 Pour créer des segments de rubrique personnalisés :
 
-* Pour créer une [!DNL Comscore] et créer des segments personnalisés, vous pouvez demander une connexion pour [!DNL Activation Segment Manager] at [http://agents.comscore.com](http://agents.comscore.com). Voir [[!DNL Comscore] centre d’aide](https://comscoreactivation.zendesk.com/hc/) pour obtenir des instructions complètes sur la configuration de segments personnalisés. Les frais pour les segments personnalisés sont visibles dans [!DNL Segment Manager] lors de leur création.
+* Pour créer une [!DNL Comscore] et créer des segments personnalisés, vous pouvez demander une connexion pour [!DNL Activation Segment Manager] at [https://agents.comscore.com](https://agents.comscore.com). Voir [[!DNL Comscore] centre d’aide](https://comscoreactivation.zendesk.com/hc/) pour obtenir des instructions complètes sur la configuration de segments personnalisés. Les frais pour les segments personnalisés sont visibles dans [!DNL Segment Manager] lors de leur création.
 
 * Pour commencer à utiliser [!DNL Oracle Data Cloud], contactez [!DNL Oracle Data Cloud] ou [!DNL Adobe] gestionnaire de compte.
 
