@@ -3,9 +3,9 @@ title: 'Prise en charge de Adobe Advertising Cloud pour le California Consumer P
 description: Découvrez la prise en charge de la capture des demandes d’opposition à la vente des consommateurs.
 feature: CCPA
 exl-id: 2c0cd4f5-798f-479a-99cd-f555cd676766
-source-git-commit: e00f87009fb36a057069caa53f30c7414a2ee444
+source-git-commit: adb3118d291d110e653a62cc1a323410b1a596b2
 workflow-type: tm+mt
-source-wordcount: '1035'
+source-wordcount: '1031'
 ht-degree: 0%
 
 ---
@@ -48,7 +48,7 @@ Vous pouvez communiquer les demandes d’opposition à la vente des consommateur
 
 ### Méthode 2 : Communication des demandes d’opposition à la vente des informations personnelles du CCPA à l’aide de l’API Adobe Experience Platform Privacy Service
 
-*Les annonceurs n’ont affecté qu’un identifiant d’organisation Experience Cloud (identifiant de l’organisation IMS).*
+*Les annonceurs ont affecté un Adobe Experience Cloud [!DNL Organization ID] ([!DNL IMS Org ID]) uniquement*
 
 1. Déployez une bibliothèque JavaScript pour récupérer les cookies de votre client. La même bibliothèque, `AdobePrivacy.js`, est utilisé pour toutes les solutions Adobe Experience Cloud.
 
