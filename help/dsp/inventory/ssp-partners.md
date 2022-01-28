@@ -3,9 +3,9 @@ title: Partenaires SSP
 description: Consultez la liste des plateformes côté offre et des partenaires d’échange ouverts disponibles.
 feature: DSP Private Inventory
 exl-id: 8487f4ce-0232-4145-ad8b-b0631fd0ab7f
-source-git-commit: fa8c8c1637dfc7a3e9409f6637f77d751d96ae6c
+source-git-commit: c34487bef4504f5187bfe28e87f6114ec01ff489
 workflow-type: tm+mt
-source-wordcount: '455'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -21,8 +21,8 @@ Une plateforme côté offre (SSP) est une plateforme technologique publicitaire 
 | SSP répertorié | Société | ID de siège | Prise en charge garantie par les programmes | Région | Devise prise en charge | Bureau vidéo | Mobile de la vidéo | Video CTV | Afficher le bureau | Afficher le mobile | Affichage natif | Ordinateur de bureau audio et mobile |
 |--- |--- |--- |--- |--- |--- |--- |--- |--- |--- |--- |--- |--- |
 | [!DNL Adap.tv] | [!DNL Verizon Media Group] | [!DNL TubeMogul] ou Adobe Advertising Cloud | Non | Global | USD | X | X | X |  |  |  |  |
-| [!DNL AdColony] (précédemment [!DNL Opera]) | [!DNL Digital Turbine] | [!DNL TubeMogul] | Non | Global | USD |  | x |  |  |  |  |  |
-| [!DNL AdsWizz] | [!DNL Sirius XM Pandora] | Adobe Advertising Cloud | Non | Global | USD, EUR, GBP |  |  |  |  |  |  | x |
+| [!DNL AdColony] (précédemment [!DNL Opera]) | [!DNL Digital Turbine] | [!DNL TubeMogul] | Non | Global | USD |  | x |  | x | x |  |  |
+| [!DNL AdsWizz] | [!DNL Sirius XM Pandora] | Adobe Advertising Cloud | Oui | Global | USD, EUR, GBP |  |  |  |  |  |  | x |
 | [!DNL Ambient Digital] | n/a | [!DNL TubeMogul] | Oui | SEA | USD |  | x |  | x |  |  | x |
 | [!DNL AppNexus] | [!DNL Xandr] | Identifiant du siège de la vidéo : 9094<br>Afficher l’ID de siège : 3939 | Non | Global | USD | x | x | x | x | x |  |  |
 | [!DNL DailyMotion] | n/a | [!DNL TubeMogul] ou Adobe Advertising Cloud | Non | États-Unis + EMEA | USD, EUR | x | x | x |  |  |  |  |
