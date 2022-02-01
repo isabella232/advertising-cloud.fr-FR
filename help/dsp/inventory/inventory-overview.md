@@ -3,7 +3,7 @@ title: Présentation des fonctionnalités du stock dans Advertising Cloud DSP
 description: Découvrez les fonctionnalités d’inventaire disponibles.
 feature: DSP On Demand Inventory, DSP Private Inventory, DSP Deal IDs
 exl-id: b3d0b96e-e638-4bd2-ba14-d348a8fc030b
-source-git-commit: 877771cbd3a8e0668add8da15bc2abe02ab4380b
+source-git-commit: 3039557f4929b716d86840cd3cb4a5aa54125145
 workflow-type: tm+mt
 source-wordcount: '186'
 ht-degree: 0%
@@ -20,7 +20,7 @@ Les types d’inventaire disponibles sont les suivants :
 
 * **[!DNL On Demand]Inventaire :** Explorez les offres prénégociées et non garanties que l’Adobe a traitées avec nos partenaires éditeurs de premier plan.
 
-* **Inventaire privé :** Configurez et gérez des transactions de marché privées (PMP) que vous avez négociées directement avec l’éditeur au format 1:1.
+* **Inventaire privé [!DNL Deal IDs]:** Configurez et gérez des transactions de marché privées (PMP) que vous avez négociées directement avec l’éditeur au format 1:1.
 
 * **[!DNL Simple Ad Serving]:** Utilisez une technologie rationalisée pour la diffusion et la création de rapports d’annonces garanties et non prises de décision lorsque votre éditeur ne peut pas exécuter votre opération via des ID de transaction.
 
