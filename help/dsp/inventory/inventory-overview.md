@@ -3,9 +3,9 @@ title: Présentation des fonctionnalités du stock dans Advertising Cloud DSP
 description: Découvrez les fonctionnalités d’inventaire disponibles.
 feature: DSP On Demand Inventory, DSP Private Inventory, DSP Deal IDs
 exl-id: b3d0b96e-e638-4bd2-ba14-d348a8fc030b
-source-git-commit: 1e2700e99afd05757b8cfb7a8a0fce3d1824507e
+source-git-commit: 877771cbd3a8e0668add8da15bc2abe02ab4380b
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '186'
 ht-degree: 0%
 
 ---
@@ -16,21 +16,13 @@ Advertising Cloud DSP peut prendre en charge vos besoins en matière d’inventa
 
 Une fois que vous avez accès à vos offres d’inventaire ou que vous les avez identifiées dans DSP, vous pouvez les utiliser comme cibles d’emplacement pour vos campagnes.
 
-## Types de stock disponibles
+Les types d’inventaire disponibles sont les suivants :
 
-### Inventaire à la demande
+* **[!DNL On Demand]Inventaire :** Explorez les offres prénégociées et non garanties que l’Adobe a traitées avec nos partenaires éditeurs de premier plan.
 
-Explorez les offres prénégociées et non garanties que l’Adobe a traitées avec nos partenaires éditeurs de premier plan. Vous pouvez accéder au stock à partir des principaux éditeurs de la région sans avoir besoin de négociations ou de contrats 1:1.
+* **Inventaire privé :** Configurez et gérez des transactions de marché privées (PMP) que vous avez négociées directement avec l’éditeur au format 1:1.
 
-### Inventaire privé
-
-#### ID de transaction
-
-Configurez et gérez des transactions de marché privées (PMP), c’est-à-dire des transactions que vous avez négociées directement 1:1 avec l’éditeur, de sorte qu’un ou plusieurs annonceurs de votre compte puissent les cibler. Exécutez ces transactions via des ID de transaction. Vous pouvez configurer des fichiers PMP non garantis ou configurer des jeux de données (PG) garantis par programmation avec des SSP spécifiques.
-
-#### Ad Serving simple
-
-[!DNL Simple Ad Serving] est une technologie rationalisée pour la diffusion et la création de rapports de publicités garanties et non décidées. Utilisation [!DNL Simple Ad Serving] lorsque votre éditeur ne peut pas exécuter votre transaction via des identifiants d’opération. L’éditeur gère l’ensemble du ciblage, du rythme et de la limitation du budget, ainsi que la limitation de la fréquence. Exécutez ces transactions via des pixels de suivi d’événement.
+* **[!DNL Simple Ad Serving]:** Utilisez une technologie rationalisée pour la diffusion et la création de rapports d’annonces garanties et non prises de décision lorsque votre éditeur ne peut pas exécuter votre opération via des ID de transaction.
 
 >[!MORELIKETHIS]
 >
@@ -38,5 +30,5 @@ Configurez et gérez des transactions de marché privées (PMP), c’est-à-dire
 >* [A propos de la boîte de réception Deal ID](deal-id-inbox-about.md)
 >* [A propos des contrats garantis par programmation](programmatic-guaranteed-about.md)
 >* [Partenaires SSP](ssp-partners.md)
+>* [À propos du stock privé](private-inventory-about.md)
 
-<!-- >* [About Private Inventory](private-inventory-about.md) -->

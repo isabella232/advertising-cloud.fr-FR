@@ -8,10 +8,10 @@ user-guide-title: Guide d’Advertising Cloud DSP
 user-guide-description: Découvrez les principales fonctionnalités, tâches, paramètres et autres ressources nécessaires à la gestion, à l’optimisation et à la création de rapports sur vos stratégies d’affichage publicitaire à l’aide d’Advertising Cloud DSP.
 breadcrumb-title: Guide de DSP
 index: true
-source-git-commit: af7027962a1b565ceef649f1abff2ff7f740d9cc
+source-git-commit: cf08c97a6a9fecd637f1776b186a18a5c5cc6435
 workflow-type: tm+mt
-source-wordcount: '768'
-ht-degree: 3%
+source-wordcount: '845'
+ht-degree: 2%
 
 ---
 
@@ -151,6 +151,7 @@ ht-degree: 3%
       + [Demande de nouveau [!DNL On Demand] Premium Offres d’inventaire](/help/dsp/inventory/on-demand-inventory-rerequest.md)
       + [Afficher l’état de votre [!DNL On Demand] Traiter les demandes et les abonnements](/help/dsp/inventory/on-demand-inventory-view-status.md)
    + Inventaire privé {#private-inventory}
+      + [À propos du stock privé](/help/dsp/inventory/private-inventory-about.md)
       + ID de transaction {#deal-ids}
          + [!UICONTROL Deal ID Inbox] {#inbox}
             + [À propos de [!UICONTROL Deal ID Inbox]](/help/dsp/inventory/deal-id-inbox-about.md)
@@ -158,15 +159,28 @@ ht-degree: 3%
          + ID d’opération saisis manuellement {#manual}
             + [Créer manuellement [!UICONTROL Deal ID] Détails](/help/dsp/inventory/deal-id-create.md)
             + [Manuel [!UICONTROL Deal ID] Paramètres](/help/dsp/inventory/deal-id-settings.md)
-      + Offres garanties par la programmation {#programmatic-guaranteed-deal}
-         + [Présentation des contrats garantis par programmation](/help/dsp/inventory/programmatic-guaranteed-about.md)
-         + [Conseils pour négocier un accord garanti programmatique](/help/dsp/inventory/programmatic-guaranteed-tips.md)
-         + [Configuration d’un contrat garanti programmatique](/help/dsp/inventory/programmatic-guaranteed-set-up.md)
-         + [!DNL FreeWheel] Offres garanties par la programmation {#freewheel}
+         + Offres garanties par la programmation {#programmatic-guaranteed-deal}
+            + [Présentation des contrats garantis par programmation](/help/dsp/inventory/programmatic-guaranteed-about.md)
+            + [Conseils pour négocier un accord garanti programmatique](/help/dsp/inventory/programmatic-guaranteed-tips.md)
+            + [Configuration d’un contrat garanti programmatique](/help/dsp/inventory/programmatic-guaranteed-set-up.md)
+            + [!DNL FreeWheel] Offres garanties par la programmation {#freewheel}
             + [Présentation de la configuration de transactions garanties par la programmation dans [!DNL FreeWheel]](/help/dsp/inventory/freewheel-overview.md)
             + [Envoyer une publicité pour une transaction garantie par un programme à [!DNL FreeWheel]](/help/dsp/inventory/freewheel-submit.md)
             + [Vérification de l’état des publicités pour [!DNL FreeWheel] Offres garanties par la programmation](/help/dsp/inventory/freewheel-check-status.md)
             + [Codes d’erreur pour les envois d’annonce FreeWheel](/help/dsp/inventory/freewheel-error-codes.md)
+      + [Modifier les paramètres d’ID de transaction](/help/dsp/inventory/deal-id-edit.md)
+      + [Définition des emplacements et des publicités pour un identifiant de transaction](/help/dsp/inventory/deal-id-attach-placements.md)
+      + [Modification des comptes ayant accès à un ID de transaction](/help/dsp/inventory/deal-id-share.md)
+      + [Modification des annonceurs ayant accès à un ID de transaction](/help/dsp/inventory/deal-id-edit-advertisers.md)
+      + [Modification des balises d’attribut pour un ID de transaction](/help/dsp/inventory/deal-id-edit-attribute-tags.md)
+      + [Liste des emplacements et des publicités pour une transaction privée](/help/dsp/inventory/private-deal-view-placements.md)
+      + [Afficher un rapport détaillé pour une transaction privée](/help/dsp/inventory/private-deal-view-report.md)
+      + [Archivage ou désarchivage d’une transaction privée](/help/dsp/inventory/private-deal-archive-unarchive.md)
+      + [!UICONTROL Simple Ad Serving] Offres {#sas}
+         + [A propos [!UICONTROL Simple Ad Serving]](/help/dsp/inventory/simple-deal-about.md)
+         + [Créez un [!UICONTROL Simple Ad Serving] Deal](/help/dsp/inventory/simple-deal-create.md)
+         + [[!UICONTROL Simple Ad Serving] Paramètres de transaction](/help/dsp/inventory/simple-deal-settings.md)
+         + [Affichage des pixels de suivi d’événement pour un événement [!UICONTROL Simple Ad Serving] Deal](/help/dsp/inventory/simple-deal-show-pixels.md)
 + Rapports personnalisés {#custom-reports}
    + [À propos des rapports personnalisés](/help/dsp/reports/report-about.md)
    + [Créer un rapport personnalisé](/help/dsp/reports/report-create.md)
