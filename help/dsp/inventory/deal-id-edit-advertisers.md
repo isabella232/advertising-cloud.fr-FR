@@ -2,7 +2,8 @@
 title: Modification des annonceurs ayant accès à un ID de transaction
 description: Découvrez comment spécifier les publicitaires qui peuvent accéder à un ID de transaction.
 feature: DSP Private Inventory, DSP Deal IDs
-source-git-commit: 22f5d8279fadfcf79e2cd41566321f423d63eb16
+exl-id: 6efbc5dc-90d8-46a5-88fe-218990c6336d
+source-git-commit: 3e47fec28a17cb64de42309c0368293e1ef1cdea
 workflow-type: tm+mt
 source-wordcount: '102'
 ht-degree: 0%
@@ -27,5 +28,4 @@ ht-degree: 0%
 >* [À propos du stock privé](private-inventory-about.md)
 >* [Modification des comptes ayant accès à un ID de transaction](/help/dsp/inventory/deal-id-share.md)
 >* [Paramètres d’ID de transaction manuelle](deal-id-settings.md)
-
 
