@@ -3,7 +3,7 @@ title: Optimisation des campagnes par DSP
 description: Découvrez comment DSP optimise les packages dans vos campagnes.
 feature: DSP Optimization
 exl-id: 054582ef-b677-4725-b25c-b82bf3e5b43e
-source-git-commit: d2ad7d47d9cf13411fc831526a6fa4ff698b0a15
+source-git-commit: b40c6f08b94e546e5fc068c46b279292a4d8a14f
 workflow-type: tm+mt
 source-wordcount: '682'
 ht-degree: 0%
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Optimisation des campagnes par DSP
 
-Cette page décrit comment le moteur d’optimisation Advertising Cloud DSP, optimisé par [!DNL Adobe Sensei], optimise les modules de vos campagnes. Pour obtenir des conseils et des astuces sur l’optimisation manuelle de vos campagnes, contactez votre [!DNL Adobe] gestionnaire de compte. <!-- add link to trading playbook if we add it to help -->
+Cette page décrit comment le moteur d’optimisation Advertising Cloud DSP, optimisé par [!DNL Adobe Sensei], optimise les modules de vos campagnes. Pour obtenir des conseils et des astuces sur l’optimisation manuelle de vos campagnes, contactez votre [!DNL Adobe] l&#39;équipe du compte. <!-- add link to trading playbook if we add it to help -->
 
 Les objectifs d’optimisation des packages fonctionnent à deux niveaux :
 

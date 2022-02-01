@@ -3,7 +3,7 @@ title: À propos des objectifs personnalisés
 description: Découvrez les objectifs personnalisés pour définir vos événements de succès dans des modules optimisés pour le CPA le plus bas ou le ROAS le plus élevé.
 feature: DSP Optimization
 exl-id: 623cb1ef-85ab-4535-aa3a-8e6ec8ae15ee
-source-git-commit: d2ad7d47d9cf13411fc831526a6fa4ff698b0a15
+source-git-commit: b40c6f08b94e546e5fc068c46b279292a4d8a14f
 workflow-type: tm+mt
 source-wordcount: '269'
 ht-degree: 0%
@@ -21,7 +21,7 @@ Chaque objectif personnalisé comprend une ou plusieurs mesures, ou *propriété
 >[!NOTE]
 >
 >* [!DNL Analytics] les dimensions et les segments ne sont pas disponibles pour l’optimisation d’Advertising Cloud.
->* Pour utiliser les événements Analytics dans DSP, utilisez [!DNL Adobe] gestionnaire de compte pour configurer une intégration au niveau de l’annonceur.
+>* Pour utiliser les événements Analytics dans DSP, utilisez [!DNL Adobe] l’équipe du compte pour configurer une intégration au niveau de l’annonceur.
 >* [!DNL Analytics] les événements personnalisés suivent cette convention d’affectation des noms : `custom_event_[*event #*]_[*Analytics report suite ID*]`. Exemple : `custom_event_16_examplersid`
 
 
@@ -29,7 +29,7 @@ Supposons, par exemple, que trois mesures (propriétés de transaction) soient p
 
 Voir [bonnes pratiques pour la création d’objectifs personnalisés](custom-goal-best-practices.md) pour obtenir des conseils sur la configuration de vos objectifs personnalisés.
 
-Une fois que [créer un objectif personnalisé ;](custom-goal-create.md), vous pouvez [l’affecter à un package](/help/dsp/campaign-management/packages/package-settings.md) pour la création de rapports et l’optimisation algorithmique à l’aide d’Adobe Sensei.
+Une fois que [créer un objectif personnalisé ;](custom-goal-create.md), vous pouvez [l’affecter à un module](/help/dsp/campaign-management/packages/package-settings.md) pour la création de rapports et l’optimisation algorithmique à l’aide d’Adobe Sensei.
 
 >[!MORELIKETHIS]
 >

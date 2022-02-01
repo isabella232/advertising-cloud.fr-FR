@@ -2,7 +2,8 @@
 title: Partenaires certifiés du service publicitaire
 description: Voir tous les serveurs de publicités et unités publicitaires certifiés.
 feature: DSP Ads
-source-git-commit: 1ae45d0ceee2efc4fc52b86fd6737d4c7467a6ca
+exl-id: 084b4c04-a876-4770-9efc-57268c333aa6
+source-git-commit: b40c6f08b94e546e5fc068c46b279292a4d8a14f
 workflow-type: tm+mt
 source-wordcount: '225'
 ht-degree: 0%
@@ -40,7 +41,7 @@ ht-degree: 0%
 | [!DNL Innovid] | X | X |  | X |  |
 | [!DNL InSkin] |  |  | X |  | Les peaux à fort impact doivent être diffusées à partir d’un identifiant d’offre d’affichage 180x150 sur le réseau d’inventaire Inzone. |
 | [!DNL Jivox] |  | X |  |  |  |
-| [!DNL Kargo] |  | X |  |  | Ancre, OC, pointer, ventilation et sidekick 320x50 ; Sortie 300x250 </br></br>Contactez votre [!DNL Adobe] gestionnaire de compte pour obtenir de l’aide sur la configuration des unités publicitaires. |
+| [!DNL Kargo] |  | X |  |  | Ancre, OC, pointer, ventilation et sidekick 320x50 ; Sortie 300x250 </br></br>Contactez votre [!DNL Adobe] équipe du compte pour obtenir de l’aide sur la configuration des unités d’annonce. |
 | [!DNL Linkstorm] |  |  | X |  |  |
 | [!DNL mCanvas] |  |  | X |  |  |
 | [!DNL Medialets] |  | X |  |  |  |

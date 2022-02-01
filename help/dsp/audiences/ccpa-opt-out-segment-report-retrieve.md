@@ -3,7 +3,7 @@ title: Récupération des rapports d’exclusion de la vente pour les consommate
 description: Découvrez comment récupérer les rapports d’ID envoyés pour les demandes d’opposition à la vente.
 feature: CCPA, DSP Segments
 exl-id: 8ada787a-6dcf-455b-88f4-701743e68292
-source-git-commit: e0713f3717a684fb5ef2808d7de769424b8972d2
+source-git-commit: b40c6f08b94e546e5fc068c46b279292a4d8a14f
 workflow-type: tm+mt
 source-wordcount: '163'
 ht-degree: 0%
@@ -16,7 +16,7 @@ Vous pouvez récupérer les rapports mensuels des identifiants que les clients o
 
 >[!NOTE]
 >
->Vous pouvez éventuellement récupérer les rapports d’opposition à la vente des consommateurs à l’aide d’Advertising Cloud [!DNL Trafficking API]. Pour obtenir des instructions, reportez-vous à la documentation du [!DNL Trafficking API]. Si votre entreprise n’utilise pas la variable [!DNL Trafficking API] mais est intéressé par plus d’informations, contactez votre [!DNL Adobe] gestionnaire de compte.
+>Vous pouvez éventuellement récupérer les rapports d’opposition à la vente des consommateurs à l’aide d’Advertising Cloud [!DNL Trafficking API]. Pour obtenir des instructions, reportez-vous à la documentation du [!DNL Trafficking API]. Si votre entreprise n’utilise pas la variable [!DNL Trafficking API] mais est intéressé par plus d’informations, contactez votre [!DNL Adobe] l&#39;équipe du compte.
 
 1. Dans le menu principal, cliquez sur **[!UICONTROL Audiences]>[!UICONTROL Segments]**.
 1. Au-dessus de la liste des segments, cliquez sur **[!UICONTROL Access CCPA Reports]**.

@@ -3,7 +3,7 @@ title: Présentation de [!DNL Analytics for Advertising Cloud]
 description: Présentation de [!DNL Analytics for Advertising Cloud]
 feature: Integration with Adobe Analytics
 exl-id: 31367c8b-3410-4110-9ae6-11defe625355
-source-git-commit: bfbfc293ad04b294c813ce7c8a11200e70fc812f
+source-git-commit: b40c6f08b94e546e5fc068c46b279292a4d8a14f
 workflow-type: tm+mt
 source-wordcount: '1086'
 ht-degree: 0%
@@ -45,7 +45,7 @@ Principaux avantages :
 
 Pour utiliser [!DNL Analytics] en tant qu’outil de reporting multimédia payant, votre entreprise a besoin d’une connexion Experience Cloud avec accès à Analysis Workspace. Votre équipe Advertising Cloud vous aidera à mapper vos données Advertising Cloud à des suites de rapports individuelles dans Analysis Workspace. Vous pouvez envoyer des données Advertising Cloud à n’importe quelle suite de rapports, mais vous devez connaître les suites de rapports qui ont été mappées à Advertising Cloud et celles qui ne l’ont pas fait. Selon la suite de rapports, cela peut modifier les données signalées.
 
-[Advertising Cloud ID dans [!DNL Analytics]](ids.md) fonctionne comme les autres eVars, avec une expiration personnalisée et persistante. Par défaut, l’intervalle de recherche en amont des attributions est défini sur 60 jours pendant la mise en oeuvre d’Advertising Cloud. Pour modifier ce paramètre, utilisez les [!DNL Adobe] gestionnaire de compte.
+[Advertising Cloud ID dans [!DNL Analytics]](ids.md) fonctionne comme les autres eVars, avec une expiration personnalisée et persistante. Par défaut, l’intervalle de recherche en amont des attributions est défini sur 60 jours pendant la mise en oeuvre d’Advertising Cloud. Pour modifier ce paramètre, utilisez les [!DNL Adobe] l&#39;équipe du compte.
 
 Les dimensions Advertising Cloud sont ajoutées avec le suffixe &quot;(AMO ID)&quot; (par exemple, &quot;Type de publicité (AMO ID)&quot;). Voir &quot;[Mesures Advertising Cloud dans Analysis Workspace](advertising-cloud-metrics-in-analytics.md)&quot; pour une liste des dimensions disponibles.
 

@@ -3,7 +3,7 @@ title: Liste de contrôle de Campaign Launch
 description: Découvrez ce que vous devez faire avant de lancer une campagne.
 feature: DSP Placements, DSP Ads
 exl-id: bf0147d0-0b58-435d-a2de-5b98e0d3488c
-source-git-commit: e0713f3717a684fb5ef2808d7de769424b8972d2
+source-git-commit: b40c6f08b94e546e5fc068c46b279292a4d8a14f
 workflow-type: tm+mt
 source-wordcount: '118'
 ht-degree: 0%
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 ## Financement du compte
 
-Assurez-vous que votre compte dispose de suffisamment de crédit pour exécuter l’ensemble de la campagne. Vous pouvez vérifier et recharger des fonds de compte dans [!UICONTROL Settings] > [!UICONTROL Account] ou en contactant votre [!DNL Adobe] gestionnaire de compte.
+Assurez-vous que votre compte dispose de suffisamment de crédit pour exécuter l’ensemble de la campagne. Vous pouvez vérifier et recharger des fonds de compte dans [!UICONTROL Settings] > [!UICONTROL Account] ou en contactant votre [!DNL Adobe] l&#39;équipe du compte.
 
 ## État de la campagne
 

@@ -3,7 +3,7 @@ title: Afficher l’état de votre [!DNL On Demand] Traiter les demandes et les 
 description: Découvrez comment afficher l’état de votre [!DNL On Demand] traiter les demandes et les abonnements.
 feature: DSP On Demand Inventory
 exl-id: 8dd6d922-c4a3-4ddb-bca9-f6f782da1320
-source-git-commit: d2ad7d47d9cf13411fc831526a6fa4ff698b0a15
+source-git-commit: b40c6f08b94e546e5fc068c46b279292a4d8a14f
 workflow-type: tm+mt
 source-wordcount: '289'
 ht-degree: 0%
@@ -37,7 +37,7 @@ L’approbation ou le refus de l’éditeur peut être basé sur le type de comp
 
    Pour savoir pourquoi une demande a été refusée pour chaque annonceur, cliquez sur ![refusé](/help/dsp/assets/denied.png). Si la raison du refus est quelque chose qui peut être résolu, alors vous pouvez [demander à nouveau l’accord](/help/dsp/inventory/on-demand-inventory-rerequest.md).
 
-Si vous avez des questions sur le processus d’approbation, contactez votre [!DNL Adobe] gestionnaire de compte.
+Si vous avez des questions sur le processus d’approbation, contactez votre [!DNL Adobe] l&#39;équipe du compte.
 
 >[!MORELIKETHIS]
 >

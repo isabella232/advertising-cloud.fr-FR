@@ -3,7 +3,7 @@ title: Conditions préalables et informations clés relatives à la mise en oeuv
 description: Conditions préalables et informations clés relatives à la mise en oeuvre [!DNL Analytics for Advertising Cloud]
 feature: Integration with Adobe Analytics
 exl-id: 08e54e2b-ed9b-4489-8de5-ab1379b7133c
-source-git-commit: d4d743ade0e2dad2b967b8316ff2261d0a82d5b0
+source-git-commit: b40c6f08b94e546e5fc068c46b279292a4d8a14f
 workflow-type: tm+mt
 source-wordcount: '845'
 ht-degree: 0%
@@ -61,7 +61,7 @@ Le [!DNL Analytics for Advertising Cloud] JavaScript utilise ces paramètres pou
 
 ## Données Advertising Cloud dans [!DNL Analytics]
 
-[!DNL Analytics] définit les Advertising Cloud ID (AMO ID) dans l’accès Analytics, sous réserve du paramètre de persistance de l’eVar de l’annonceur, qui s’applique à la fois aux clics publicitaires et aux affichages publicitaires. Le paramètre de persistance est configuré sur le serveur principal Advertising Cloud et votre [!DNL Adobe] le gestionnaire de compte peut le modifier.
+[!DNL Analytics] définit les Advertising Cloud ID (AMO ID) dans l’accès Analytics, sous réserve du paramètre de persistance de l’eVar de l’annonceur, qui s’applique à la fois aux clics publicitaires et aux affichages publicitaires. Le paramètre de persistance est configuré sur le serveur principal Advertising Cloud et votre [!DNL Adobe] l’équipe du compte peut la modifier.
 
 * [!DNL Analytics for Advertising Cloud] Expiration de l’eVar : 60 jours par défaut pour les AMO ID
 
@@ -77,7 +77,7 @@ Le [!DNL Analytics for Advertising Cloud] JavaScript utilise ces paramètres pou
 * Vidéo en ligne
 * Native
 
-Contactez votre [!DNL Adobe] gestionnaire de compte pour les derniers environnements publicitaires pris en charge dans chaque canal.
+Contactez votre [!DNL Adobe] équipe de compte pour les derniers environnements publicitaires pris en charge dans chaque canal.
 
 ## Informations à connaître avant l’implémentation
 

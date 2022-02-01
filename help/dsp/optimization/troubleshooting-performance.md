@@ -3,7 +3,7 @@ title: Résolution des problèmes de performances
 description: Référencez les problèmes de performances courants et voyez comment les résoudre.
 feature: DSP Optimization
 exl-id: adb32257-dede-4623-9840-33221c218443
-source-git-commit: d2ad7d47d9cf13411fc831526a6fa4ff698b0a15
+source-git-commit: b40c6f08b94e546e5fc068c46b279292a4d8a14f
 workflow-type: tm+mt
 source-wordcount: '518'
 ht-degree: 0%
@@ -17,7 +17,7 @@ ht-degree: 0%
 | Pas de dépenses en placement | L’emplacement n’inclut pas les publicités et/ou celles-ci ne sont pas principales. | Vérifiez que toutes les publicités attendues sont jointes à l’emplacement et qu’elles sont approuvées et principales.<br><br>Voir également si l’emplacement inclut un planning de publicité personnalisé, qui peut limiter la période d’envol de chaque publicité. Pour afficher le planning de publicité d’un emplacement dans la vue Emplacements, cliquez sur  **[!UICONTROL ...]>[!UICONTROL Ad schedule]** en regard du nom de l’emplacement. |
 |  | Les dates affectées ne se trouvent pas dans les dates de vol configurées. | Vérifiez que les dates de vol sont valides au niveau de la campagne, du package et de l’emplacement &#x200B;. |
 |  | L&#39;objectif du budget a été atteint et/ou n&#39;est pas assez élevé. | Vérifiez les paramètres du budget aux niveaux de l&#39;opération, du kit et de l&#39;emplacement. |
-|  | Le compte n&#39;a pas assez de financement. | Pour vérifier si votre compte est correctement financé, accédez à **[!UICONTROL Settings]>[!UICONTROL Account]** et observez la quantité de [!UICONTROL Usable Funds]. Si vous avez besoin d’ajouter d’autres fonds, contactez votre [!DNL Adobe] gestionnaire de compte. |
+|  | Le compte n&#39;a pas assez de financement. | Pour vérifier si votre compte est correctement financé, accédez à **[!UICONTROL Settings]>[!UICONTROL Account]** et observez la quantité de [!UICONTROL Usable Funds]. Si vous avez besoin d’ajouter d’autres fonds, contactez votre [!DNL Adobe] l&#39;équipe du compte. |
 |  | Aucun inventaire n’est disponible. | Vérifiez si les sources d’inventaire spécifiées ([!UICONTROL Public], [!UICONTROL Private]ou [!UICONTROL On Demand]) sont :<ul><li>Configurez correctement.</li><li>Principale et via des enchères.</li><li>Compatible avec la publicité et le type d’emplacement applicables.</li></ul><br>Si les sources d’inventaire sont toutes valides et principales, ciblez d’autres sources d’inventaire ou toutes les sources d’inventaire lorsque cela est possible. |
 |  | Aucun utilisateur n’est disponible. | Vérifiez que les cibles d’audience spécifiées incluent suffisamment d’utilisateurs principaux. Dans le cas contraire, développez les cibles en ajoutant davantage d’audiences. |
 | Faibles dépenses en placement | Le [!UICONTROL Non Bids] La section du rapport de diagnostic de placement indique les raisons possibles pour lesquelles l’emplacement n’a pas enchéri. | [Consultez la section [!UICONTROL Non Bids] rapport](/help/dsp/campaign-management/reports/placement-diagnostics.md) pour comprendre pourquoi l’emplacement n’a pas enchéri.  <!-- add link/edit text when file available: See the [in-depth guide to possible Non-Bid Reasons (NBR)](link) for more information. --> |

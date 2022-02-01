@@ -3,7 +3,7 @@ title: Advertising Cloud ID utilisés par [!DNL Analytics]
 description: Advertising Cloud ID utilisés par [!DNL Analytics]
 feature: Integration with Adobe Analytics
 exl-id: ed1aab7b-9bd0-4d42-9bfb-9c6fa6db76bc
-source-git-commit: 143e8e756d13597bf923d0b6f5b2510f834e6e0f
+source-git-commit: b40c6f08b94e546e5fc068c46b279292a4d8a14f
 workflow-type: tm+mt
 source-wordcount: '1157'
 ht-degree: 0%
@@ -120,7 +120,7 @@ où :
 * `{ef_userid}` est l’identifiant utilisateur numérique unique attribué par Advertising Cloud à l’annonceur.
 * `{ef_sid}` est l’identifiant numérique utilisé par Advertising Cloud pour le moteur de recherche spécifié, tel que `3` pour [!DNL Google Ads] ou `10` pour [!DNL Microsoft Advertising].
 
-Vous trouverez ci-dessous les formats AMO ID complets pour quelques moteurs de recherche. Pour connaître les formats AMO ID des autres moteurs de recherche, contactez votre [!DNL Adobe] gestionnaire de compte.
+Vous trouverez ci-dessous les formats AMO ID complets pour quelques moteurs de recherche. Pour connaître les formats AMO ID des autres moteurs de recherche, contactez votre [!DNL Adobe] l&#39;équipe du compte.
 
 Format AMO ID pour [!DNL Google Ads]:
 

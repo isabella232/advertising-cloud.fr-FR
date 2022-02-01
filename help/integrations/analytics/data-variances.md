@@ -3,7 +3,7 @@ title: Écarts de données attendus entre [!DNL Analytics] et Advertising Cloud
 description: Écarts de données attendus entre [!DNL Analytics] et Advertising Cloud
 feature: Integration with Adobe Analytics
 exl-id: 34685e04-d4f9-4e27-b83e-b56164244b2b
-source-git-commit: d2ad7d47d9cf13411fc831526a6fa4ff698b0a15
+source-git-commit: b40c6f08b94e546e5fc068c46b279292a4d8a14f
 workflow-type: tm+mt
 source-wordcount: '3282'
 ht-degree: 0%
@@ -44,7 +44,7 @@ Si un intervalle de recherche en amont des rapports ou un modèle d’attributio
 
 >[!IMPORTANT]
 >
->La bonne pratique consiste à utiliser les mêmes intervalles de recherche en amont et modèle d’attribution dans Advertising Cloud et [!DNL Analytics]. Travaillez avec votre [!DNL Adobe] le gestionnaire de compte, si nécessaire, pour identifier les paramètres actuels et conserver la synchronisation des configurations.
+>La bonne pratique consiste à utiliser les mêmes intervalles de recherche en amont et modèle d’attribution dans Advertising Cloud et [!DNL Analytics]. Travaillez avec votre [!DNL Adobe] l’équipe du compte si nécessaire afin d’identifier les paramètres actuels et de conserver la synchronisation des configurations.
 
 Ces mêmes concepts s’appliquent à tout autre canal, tel que les canaux qui utilisent des intervalles de recherche en amont différents ou des modèles d’attribution.
 
@@ -86,7 +86,7 @@ Tenez compte de ces différences lors de la comparaison des conversions d’affi
 >
 >Pour éviter toute confusion, [!DNL Analytics] rend les données historiques indisponibles dans l’interface de création de rapports. Vous pouvez afficher les données historiques si vous redéfinissez le paramètre d’attribution initial de l’eVar, bien que vous ne devriez pas modifier les paramètres d’attribution de l’eVar simplement pour accéder aux données historiques. Adobe recommande d’utiliser un nouvel eVar lorsque vous souhaitez appliquer un nouveau paramètre d’attribution pour les données déjà en cours d’enregistrement, plutôt que de modifier les paramètres d’attribution pour un eVar qui dispose déjà d’une quantité significative de données historiques.
 
-Voir une liste de [!DNL Analytics] les modèles d’attribution et leurs définitions à l’adresse [https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/attribution/models.html](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/attribution/models.html).
+Consultez la liste des [!DNL Analytics] les modèles d’attribution et leurs définitions à l’adresse [https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/attribution/models.html](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/attribution/models.html).
 
 Si vous êtes connecté à Advertising Cloud, vous trouverez une liste de modèles d’attribution à l’adresse
 [https://enterprise-na.efrontier.com/CMDashboard/help/external/tracking/r_appendix_-_how_attribution_rules_are_calculated.htm](https://enterprise-na.efrontier.com/CMDashboard/help/external/tracking/r_appendix_-_how_attribution_rules_are_calculated.htm).
@@ -161,7 +161,7 @@ Dans les rapports Advertising Cloud, vous pouvez comparer de la même manière l
 
 ```Clicks to [!UICONTROL EF ID Instances] = (ef_id_instances / Clicks)```
 
-Bien que vous vous attendiez à un taux de correspondance élevé entre l’AMO ID et l’EF ID, ne vous attendez pas à une parité de 100 %, car l’AMO ID et l’EF ID suivent fondamentalement différentes données, et cette différence peut entraîner de légères différences dans le total [!UICONTROL AMO ID Instances] et [!UICONTROL EF ID Instances]. Si le total [!UICONTROL AMO ID Instances] in [!DNL Analytics] différer de [!UICONTROL EF ID Instances] Dans Advertising Cloud, en revanche, de plus de 1 %, contactez votre [!DNL Adobe] gestionnaire de compte pour obtenir de l’aide.
+Bien que vous vous attendiez à un taux de correspondance élevé entre l’AMO ID et l’EF ID, ne vous attendez pas à une parité de 100 %, car l’AMO ID et l’EF ID suivent fondamentalement différentes données, et cette différence peut entraîner de légères différences dans le total [!UICONTROL AMO ID Instances] et [!UICONTROL EF ID Instances]. Si le total [!UICONTROL AMO ID Instances] in [!DNL Analytics] différer de [!UICONTROL EF ID Instances] Dans Advertising Cloud, en revanche, de plus de 1 %, contactez votre [!DNL Adobe] l’équipe du compte pour obtenir de l’aide.
 
 Pour plus d’informations sur l’AMO ID et l’EF ID, voir [Advertising Cloud ID utilisés par Analytics](ids.md).
 
@@ -187,7 +187,7 @@ où l’identifiant EF est &quot;`test_ef_id`&quot; et l’AMO ID est &quot;`tes
 
 Dans cet exemple, l’ajout de la balise d’ancrage ajoute des caractères inattendus à l’AMO ID, ce qui entraîne la présence d’une valeur qu’Analytics ne reconnaît pas. Cet AMO ID ne serait pas classé et les conversions qui y sont associées tomberaient sous &quot;[!UICONTROL unspecified]&quot; ou &quot;[!UICONTROL none]&quot; dans [!DNL Analytics] rapports.
 
-Heureusement, même si des problèmes comme celui-ci sont communs, ils ne génèrent généralement pas un fort pourcentage d&#39;incohérences. Cependant, si vous constatez une différence importante entre les AMO ID dans [!DNL Analytics] et les identifiants EF dans Advertising Cloud, contactez votre [!DNL Adobe] gestionnaire de compte pour obtenir de l’aide.
+Heureusement, même si des problèmes comme celui-ci sont communs, ils ne génèrent généralement pas un fort pourcentage d&#39;incohérences. Cependant, si vous constatez une différence importante entre les AMO ID dans [!DNL Analytics] et les identifiants EF dans Advertising Cloud, contactez votre [!DNL Adobe] l’équipe du compte pour obtenir de l’aide.
 
 ## Autres considérations relatives aux mesures
 
@@ -201,7 +201,7 @@ Elles semblent similaires, mais les clics et les visites représentent des donn�
 
 Par définition, un clic peut conduire à plusieurs visites.
 
-Examinez l’exemple suivant : Les utilisateurs 1 et 2 accèdent tous deux à un site en cliquant sur une publicité Advertising Cloud. L’utilisateur 1 affiche quatre pages, puis quitte le site pour la journée. Le clic initial se traduit donc par une visite. L’utilisateur 2 consulte deux pages, quitte un déjeuner de 45 minutes, revient, affiche deux autres pages, puis quitte le site ; dans ce cas, le clic initial génère deux visites.
+Examinez l’exemple suivant : Les utilisateurs 1 et 2 accèdent tous deux à un site en cliquant sur une publicité Advertising Cloud. L’utilisateur 1 affiche quatre pages, puis quitte le site pour la journée. Le clic initial se traduit donc par une visite. L’utilisateur 2 consulte deux pages, part pour un déjeuner de 45 minutes, revient, affiche deux autres pages, puis quitte le site ; dans ce cas, le clic initial génère deux visites.
 
 ![Exemple de différence entre clics et visites](/help/integrations/assets/a4adc-visits-example.png)
 

@@ -2,13 +2,13 @@
 title: Paramètres des rapports personnalisés
 description: Reportez-vous à la description des paramètres de rapport personnalisés.
 feature: DSP Custom Reports
-source-git-commit: ff14691fd2b6fa56c303dca3ac0e4c897c322f72
+exl-id: 1d37fc96-0f9b-4eb2-ba8d-9534f627adaf
+source-git-commit: b40c6f08b94e546e5fc068c46b279292a4d8a14f
 workflow-type: tm+mt
 source-wordcount: '1129'
 ht-degree: 0%
 
 ---
-
 
 # Paramètres des rapports personnalisés
 
@@ -32,7 +32,7 @@ ht-degree: 0%
 
 **[!UICONTROL Add Filters]:** (Facultatif) Dimensions supplémentaires par lesquelles filtrer les données, que les dimensions soient incluses ou non sous forme de colonnes dans le rapport : *[!UICONTROL Account]*,\* *[!UICONTROL Advertiser]*, *[!UICONTROL Campaign]*, *[!UICONTROL Placement]*, *[!UICONTROL Ad]*, *[!UICONTROL Ad Type]*, *[!UICONTROL Video]*, *[!UICONTROL Video Duration]*, *[!UICONTROL Country]*, et *[!UICONTROL Package]*.
 
-\* *[!UICONTROL Account]* est disponible pour les types de rapports suivants uniquement lorsque votre entreprise est configurée pour [rapport entre comptes](report-about.md#cross-account-reporting):  [!UICONTROL Custom], [!UICONTROL Site], [!UICONTROL Segment], [!UICONTROL Geo], [!UICONTROL Device], [!UICONTROL Frequency (by Impression)], et [!UICONTROL Conversion]. Contactez votre [!DNL Adobe] gestionnaire de compte pour en savoir plus sur les rapports entre comptes.
+\* *[!UICONTROL Account]* est disponible pour les types de rapports suivants uniquement lorsque votre entreprise est configurée pour [rapport entre comptes](report-about.md#cross-account-reporting):  [!UICONTROL Custom], [!UICONTROL Site], [!UICONTROL Segment], [!UICONTROL Geo], [!UICONTROL Device], [!UICONTROL Frequency (by Impression)], et [!UICONTROL Conversion]. Contactez votre [!DNL Adobe] équipe de compte pour plus d’informations sur les rapports entre comptes.
 
 Pour appliquer un ou plusieurs filtres, procédez comme suit :
 

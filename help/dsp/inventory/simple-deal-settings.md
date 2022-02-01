@@ -2,7 +2,7 @@
 title: '[!UICONTROL Simple Ad Serving] Paramètres de transaction'
 description: En savoir plus sur les paramètres disponibles pour [!UICONTROL Simple Ad Serving] les offres.
 feature: DSP Simple Ad Serving
-source-git-commit: 22f5d8279fadfcf79e2cd41566321f423d63eb16
+source-git-commit: b40c6f08b94e546e5fc068c46b279292a4d8a14f
 workflow-type: tm+mt
 source-wordcount: '474'
 ht-degree: 0%
@@ -18,7 +18,7 @@ ht-degree: 0%
 | Paramètre | Description |
 |-----------|-------------|
 | **[!UICONTROL Serving Type]** | Type de média pour cette affaire : *[!UICONTROL Video],* *[!UICONTROL Display],* ou *[!UICONTROL Audio].* |
-| **[!UICONTROL Publisher Site Served On]** | Nom de l’éditeur qui vend cet inventaire. Recherchez un éditeur en saisissant au moins les deux premiers caractères du nom. Pour ajouter un éditeur qui n’est pas répertorié, contactez votre [!DNL Adobe] gestionnaire de compte. |
+| **[!UICONTROL Publisher Site Served On]** | Nom de l’éditeur qui vend cet inventaire. Recherchez un éditeur en saisissant au moins les deux premiers caractères du nom. Pour ajouter un éditeur qui n’est pas répertorié, contactez votre [!DNL Adobe] l&#39;équipe du compte. |
 | **[!UICONTROL Advertiser]** | Un seul annonceur sur le compte qui peut accéder à cette offre. Sélectionnez également l&#39;opération et (éventuellement) le kit dans lequel l&#39;opération est disponible. |
 | **[!UICONTROL Media Quality Assessment?]** | (Certains utilisateurs) Permet à la publicité de s’exécuter sur un autre DSP pour la vérification tierce. <!-- Who can select this? It's disabled for me. Need to see if there are additional fields when this is enabled. --> |
 | **[!UICONTROL Ad Source]** | La seule option est *[!UICONTROL Site Serve (Event Pixels)]*. |
@@ -39,7 +39,7 @@ ht-degree: 0%
 
 | Paramètre | Description |
 |-----------|-------------|
-| **[!UICONTROL Media CPM]** | Le coût par millier d’impressions (CPM), tel qu’il est reflété dans la carte de taux de votre contrat. Contactez votre [!DNL Adobe] gestionnaire de compte pour cette valeur. <br><br>Indiquez également la devise de l’opération. Tous les utilisateurs peuvent sélectionner USD ou, si le SSP prend en charge d’autres devises, la devise du compte DSP. |
+| **[!UICONTROL Media CPM]** | Le coût par millier d’impressions (CPM), tel qu’il est reflété dans la carte de taux de votre contrat. Contactez votre [!DNL Adobe] équipe du compte pour cette valeur. <br><br>Indiquez également la devise de l’opération. Tous les utilisateurs peuvent sélectionner USD ou, si le SSP prend en charge d’autres devises, la devise du compte DSP. |
 | **[!UICONTROL Third Party Billed Fees]** | (Facultatif) Des frais tiers statiques à suivre en tant que coût non facturable et la devise de l’opération.<br><br>Tous les utilisateurs peuvent sélectionner USD ou, si le SSP prend en charge d’autres devises, la devise du compte DSP. **REMARQUE :** Les frais facturables sont reflétés dans la variable [!UICONTROL Net CPM] mesure. |
 | **[!UICONTROL Third Party Fee Description]** | (Facultatif) Description des frais tiers. |
 | **[!UICONTROL Flight Dates]** | Les dates de début et de fin du trafic utilisant cette transaction. Les dates de vol doivent être incluses dans les dates de vol de l&#39;opération. Les balises de publicité renvoient une réponse uniquement pendant le vol spécifié.<br><br> La bonne pratique consiste à créer une campagne de diffusion d’annonces simple distincte d’une durée d’un an et à y créer des pixels de suivi. |

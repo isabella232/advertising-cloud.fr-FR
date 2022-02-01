@@ -3,7 +3,7 @@ title: Gestion de l’audience dans Advertising Cloud DSP
 description: Découvrez les fonctionnalités de gestion de l’audience.
 feature: DSP Audiences, DSP Segments
 exl-id: 624d2211-59a2-4791-b8f1-a9a5cecd0b8e
-source-git-commit: e0713f3717a684fb5ef2808d7de769424b8972d2
+source-git-commit: b40c6f08b94e546e5fc068c46b279292a4d8a14f
 workflow-type: tm+mt
 source-wordcount: '1024'
 ht-degree: 0%
@@ -18,7 +18,7 @@ Dans Advertising Cloud DSP, vous pouvez créer et gérer des segments d’audien
 
    * [Segments personnalisés](/help/dsp/audiences/custom-segment-create.md) pour effectuer le suivi a) des utilisateurs exposés aux publicités provenant de périphériques de bureau, mobiles et CTV, et b) des utilisateurs qui visitent des pages web spécifiques.
 
-   * [Segments d’exclusion de la vente du CCPA](/help/dsp/audiences/ccpa-opt-out-segment-create.md) pour effectuer le suivi des ID d’utilisateurs à partir des demandes d’opposition à la vente des consommateurs sur votre site web, en vertu du California Consumer Privacy Act (CCPA). Vous pouvez récupérer les rapports mensuels des identifiants d’utilisateur à partir des demandes d’opposition à la vente.
+   * [Segments d’exclusion de la vente du CCPA](/help/dsp/audiences/ccpa-opt-out-segment-create.md) pour effectuer le suivi des ID d’utilisateurs à partir des demandes d’opposition à la vente des consommateurs sur votre site web, en vertu de la California Consumer Privacy Act (CCPA). Vous pouvez récupérer les rapports mensuels des identifiants d’utilisateur à partir des demandes d’opposition à la vente.
 
       Pour plus d’informations sur la prise en charge d’Advertising Cloud pour les demandes d’opposition à la vente des informations personnelles (CCPA), voir [Prise en charge de Adobe Advertising Cloud pour le California Consumer Privacy Act : Prise en charge de l’exclusion des clients](https://experienceleague.adobe.com/docs/advertising-cloud/privacy/ad-cloud-ccpa-opt-out-of-sale.html).
 
@@ -34,7 +34,7 @@ Advertising Cloud DSP peut importer vos propres segments de données propriétai
 
 Advertising Cloud DSP peut également importer des segments tiers personnalisés, y compris des combinaisons complexes de segments tiers. Vous pouvez fournir les segments à n’importe quel groupe d’annonceurs, si nécessaire.
 
-Contactez votre [!DNL Adobe] gestionnaire de compte pour plus d’informations.
+Contactez votre [!DNL Adobe] pour plus d’informations.
 
 ## Audiences disponibles en tant que cibles de placement
 
@@ -102,11 +102,11 @@ Le [!UICONTROL Segments] view répertorie également les types de segments suiva
 
 * Tous les segments propriétaires importés sont disponibles pour l’utilisateur.
 
-   Vous ne pouvez pas modifier ni partager les segments propriétaires qui ont été partagés avec vous. Contactez votre [!DNL Adobe] gestionnaire de compte si vous devez partager des segments propriétaires avec d’autres utilisateurs.
+   Vous ne pouvez pas modifier ni partager les segments propriétaires qui ont été partagés avec vous. Contactez votre [!DNL Adobe] l’équipe de compte si vous devez partager des segments propriétaires avec d’autres utilisateurs.
 
 * Tous les segments tiers personnalisés sont disponibles pour l’utilisateur.
 
-   Vous ne pouvez pas modifier ni partager des segments tiers qui ont été partagés avec vous. Contactez votre [!DNL Adobe] gestionnaire de compte si vous devez partager des segments tiers avec d’autres utilisateurs.
+   Vous ne pouvez pas modifier ni partager des segments tiers qui ont été partagés avec vous. Contactez votre [!DNL Adobe] si vous devez partager des segments tiers avec d’autres utilisateurs.
 
 >[!MORELIKETHIS]
 >

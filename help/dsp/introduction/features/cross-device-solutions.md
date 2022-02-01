@@ -3,7 +3,7 @@ title: Solutions multi-appareils
 description: En savoir plus sur les fonctionnalités multi-appareils.
 feature: DSP Introduction
 exl-id: 29f8ec41-35a6-4a29-a638-82a2929a8fe6
-source-git-commit: e0713f3717a684fb5ef2808d7de769424b8972d2
+source-git-commit: b40c6f08b94e546e5fc068c46b279292a4d8a14f
 workflow-type: tm+mt
 source-wordcount: '1110'
 ht-degree: 0%
@@ -85,7 +85,7 @@ Avec l’attribution basée sur les personnes, vous pouvez attribuer des convers
 
 ### Activation de la mesure d’attribution basée sur les personnes
 
-Si vous souhaitez activer la mesure d’attribution entre appareils, contactez votre [!DNL Adobe] gestionnaire de compte. Pour [!DNL Adobe Device Co-op] , vous devrez fournir vos [!DNL Adobe Device Co-op] contrat et Experience Cloud [!DNL Organization ID] (anciennement appelée [!DNL IMS org ID]).
+Si vous souhaitez activer la mesure d’attribution entre appareils, contactez votre [!DNL Adobe] l&#39;équipe du compte. Pour [!DNL Adobe Device Co-op] , vous devrez fournir vos [!DNL Adobe Device Co-op] contrat et Experience Cloud [!DNL Organization ID] (anciennement appelée [!DNL IMS org ID]).
 
 Pour savoir si un compte publicitaire est configuré pour utiliser un graphique d’appareil pour la mesure d’attribution :
 
@@ -101,7 +101,7 @@ Pour savoir si un compte publicitaire est configuré pour utiliser un graphique 
 
 Lorsqu’un graphique d’appareil est activé pour la mesure d’attribution, la variable [!UICONTROL Conversion] Le rapport comprend un [!UICONTROL Cross-Device Breakout] qui vous permet d’inclure jusqu’à trois colonnes distinctes pour chaque mesure de conversion, notamment :
 
-* &lt;*Conversion*>[!UICONTROL (tp)]: Inclut le nombre total de conversions (nombre total de personnes), qui inclut à la fois les conversions sur le même appareil et les conversions sur plusieurs appareils (le cas échéant). Dans le rapport, &quot;[!UICONTROL (tp)]&quot; est ajouté au nom de la mesure de conversion, au type de règle et aux types de conversion dans le chemin de conversion (par exemple, &quot;Réponses(le)(tl)(tp)).
+* &lt;*Conversion*>[!UICONTROL (tp)]: Inclut le nombre total de conversions (nombre total de personnes), qui comprend à la fois les conversions sur le même appareil et les conversions sur plusieurs appareils (le cas échéant). Dans le rapport, &quot;[!UICONTROL (tp)]&quot; est ajouté au nom de la mesure de conversion, au type de règle et aux types de conversion dans le chemin de conversion (par exemple, &quot;Réponses(le)(tl)(tp)).
 
 * &lt;*Conversion*>[!UICONTROL (sd)]: (Facultatif) Inclut uniquement les conversions pour lesquelles un seul appareil a été suivi dans le chemin de conversion. Dans le rapport, &quot;[!UICONTROL (sd)]&quot; est ajouté au nom de la mesure de conversion, au type de règle et aux types de conversion dans le chemin de conversion (par exemple, &quot;Réponses(le)(tl)(sd)).
 

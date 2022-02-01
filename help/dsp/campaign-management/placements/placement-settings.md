@@ -3,7 +3,7 @@ title: Paramètres d’emplacement
 description: Voir la description des paramètres d’emplacement disponibles.
 feature: DSP Placements
 exl-id: 36097132-e589-4d49-bf86-54f61eae5b67
-source-git-commit: e0713f3717a684fb5ef2808d7de769424b8972d2
+source-git-commit: b40c6f08b94e546e5fc068c46b279292a4d8a14f
 workflow-type: tm+mt
 source-wordcount: '3280'
 ht-degree: 0%
@@ -304,7 +304,7 @@ Vous pouvez éventuellement exporter la liste des sites ciblés et bloqués sous
    * Pour sélectionner manuellement un intervalle, cliquez à l’intérieur d’une cellule, puis faites-le glisser pour sélectionner l’intervalle.
 1. Cliquez sur **[!UICONTROL Save]**.
 
-**[!UICONTROL Topic Targeting]:** (Facultatif) disponible pour les annonceurs configurés avec [!DNL Comscore] et [!DNL Grapeshot] segments) Noms ou identifiants de segments spécifiques provenant de [!DNL Comscore] et [!DNL Grapeshot] à inclure en tant que cibles. Des frais supplémentaires peuvent s’appliquer pour cette fonctionnalité. Pour activer cette fonction et configurer des segments de rubrique, contactez votre [!DNL Adobe] gestionnaire de compte.
+**[!UICONTROL Topic Targeting]:** (Facultatif) disponible pour les annonceurs configurés avec [!DNL Comscore] et [!DNL Grapeshot] segments) Noms ou identifiants de segments spécifiques provenant de [!DNL Comscore] et [!DNL Grapeshot] à inclure en tant que cibles. Des frais supplémentaires peuvent s’appliquer pour cette fonctionnalité. Pour activer cette fonction et configurer des segments de rubrique, contactez votre [!DNL Adobe] l&#39;équipe du compte.
 
 Pour spécifier le ciblage de rubrique :
 
