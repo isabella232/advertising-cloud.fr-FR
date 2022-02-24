@@ -1,8 +1,8 @@
 ---
-title: '[!UICONTROL Simple Ad Serving] Paramètres de transaction'
+title: '"[!UICONTROL Simple Ad Serving] Paramètres de transaction"'
 description: En savoir plus sur les paramètres disponibles pour [!UICONTROL Simple Ad Serving] les offres.
 feature: DSP Simple Ad Serving
-source-git-commit: b40c6f08b94e546e5fc068c46b279292a4d8a14f
+source-git-commit: 2c94b6c02b4e24878639dd9edbc0455e1751f679
 workflow-type: tm+mt
 source-wordcount: '474'
 ht-degree: 0%
