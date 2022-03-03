@@ -5,13 +5,13 @@ cloud: Experience Cloud
 solution: Advertising Cloud
 product: advertising cloud
 user-guide-title: Guide d’Advertising Cloud DSP
-user-guide-description: Découvrez les principales fonctionnalités, tâches, paramètres et autres ressources nécessaires à la gestion, à l’optimisation et à la création de rapports sur vos stratégies d’affichage publicitaire à l’aide d’Advertising Cloud DSP.
+user-guide-description: Découvrez les principales fonctionnalités, tâches, paramètres et autres ressources nécessaires pour gérer, optimiser et établir des rapports sur vos stratégies de publicité display à lʼaide dʼAdvertising Cloud DSP.
 breadcrumb-title: Guide de DSP
 index: true
-source-git-commit: c44113736f472c4971729403835a61ed6e07b47f
+source-git-commit: 18ae0e34f518e58f045c123cfe75f65b12b46fb7
 workflow-type: tm+mt
-source-wordcount: '845'
-ht-degree: 2%
+source-wordcount: '864'
+ht-degree: 6%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 2%
       + [Solutions multi-appareils](/help/dsp/introduction/features/cross-device-solutions.md)
    + [Financement du compte](/help/dsp/introduction/billing/account-funding.md)
    + [Devises prises en charge](/help/dsp/currency.md)
-   + Assistance en matière de protection de la vie privée des clients {#privacy}
+   + Prise en charge de la confidentialité des consommateurs {#privacy}
       + [Prise en charge du Règlement général sur la protection des données](https://experienceleague.adobe.com/docs/advertising-cloud/privacy/ad-cloud-gdpr.html)
       + Prise en charge de la CCPA {#ccpa}
          + [Prise en charge de la California Consumer Privacy Act : Accès et suppression des données des consommateurs](https://experienceleague.adobe.com/docs/advertising-cloud/privacy/ccpa/ad-cloud-ccpa-access-delete.html)
@@ -197,8 +197,14 @@ ht-degree: 2%
       + [Suppression d’une [!UICONTROL Report Destination]](/help/dsp/reports/report-destinations/report-destination-delete.md)
       + [[!UICONTROL Report Destination] Paramètres](/help/dsp/reports/report-destinations/report-destination-settings.md)
 + Administration {#admin}
-   + [À propos des listes de sites bloqués au niveau du compte et des annonceurs](/help/dsp/admin/blocked-sites-list-about.md)
-   + [Modification d’une liste de sites bloqués au niveau du compte ou de l’annonceur](/help/dsp/admin/blocked-sites-list-edit.md)
+   + [Modification de votre profil](/help/dsp/admin/user-own-profile-edit.md)
+   + Utilisateurs {#users}
+      + [Invitation d’un nouvel utilisateur](/help/dsp/admin/user-invite.md)
+      + [Réenvoyer une invitation d’utilisateur en attente](/help/dsp/admin/user-resend-invite.md)
+      + [Annuler l’invitation d’un utilisateur en attente](/help/dsp/admin/user-uninvite.md)
+   + Sites bloqués {#sites}
+      + [À propos des listes de sites bloqués au niveau du compte et des annonceurs](/help/dsp/admin/blocked-sites-list-about.md)
+      + [Modification d’une liste de sites bloqués au niveau du compte ou de l’annonceur](/help/dsp/admin/blocked-sites-list-edit.md)
 + [Intégrations à Adobe Experience Cloud](https://experienceleague.adobe.com/docs/advertising-cloud/integrations/home.html)<!-- Dupe link to this file, so need to use an absolute link in one of the listings -->
 + [Assistance clientèle](https://helpx.adobe.com/fr/contact/enterprise-support.ec.html)
 + [Notes de mise à jour d’Adobe Experience Cloud](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html)
