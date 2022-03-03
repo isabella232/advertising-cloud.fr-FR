@@ -1,9 +1,9 @@
 ---
 title: Annuler l’invitation d’un utilisateur en attente
 description: Découvrez comment annuler une invitation d’utilisateur en attente.
-source-git-commit: 93006a63b5d0298d9bd866c2ffd79da67ef11811
+source-git-commit: baa351de79532352f28d2dc5691c2e425a8e3207
 workflow-type: tm+mt
-source-wordcount: '89'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -17,6 +17,7 @@ Vous pouvez annuler l’invitation d’un utilisateur avec une invitation en att
 1. Effectuez l’une des opérations suivantes :
 
    * Dans le menu principal, cliquez sur **[!UICONTROL Settings]>[!UICONTROL Users]**.
+
    * Dans le menu principal, cliquez sur **[!UICONTROL Settings]>[!UICONTROL Account]**, puis cliquez sur **[!UICONTROL Edit users]**.
 
 1. Dans le **[!UICONTROL Invitations]** , cliquez sur **[!UICONTROL X]** en regard de l’invitation.

@@ -1,7 +1,7 @@
 ---
 title: Invitation d’un nouvel utilisateur pour votre compte d’organisation
 description: Découvrez comment inviter un nouvel utilisateur à rejoindre le compte.
-source-git-commit: b61b0102ff34524598776df23b44e560ddfe1baf
+source-git-commit: 65d5b9275b24d66972f464a07d6e1a751721ada2
 workflow-type: tm+mt
 source-wordcount: '121'
 ht-degree: 0%
@@ -19,6 +19,7 @@ Si nécessaire, vous pouvez annuler l’invitation d’un utilisateur avec une i
 1. Effectuez l’une des opérations suivantes :
 
    * Dans le menu principal, cliquez sur **[!UICONTROL Settings]>[!UICONTROL Users]**.
+
    * Dans le menu principal, cliquez sur **[!UICONTROL Settings]>[!UICONTROL Account]**, puis cliquez sur **[!UICONTROL Edit users]**.
 
 1. Dans le **[!UICONTROL Invitations]** , cliquez sur **[!UICONTROL Send Invite]**.
