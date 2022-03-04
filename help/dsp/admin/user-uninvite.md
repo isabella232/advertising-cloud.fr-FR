@@ -1,9 +1,9 @@
 ---
 title: Annuler l’invitation d’un utilisateur en attente
 description: Découvrez comment annuler une invitation d’utilisateur en attente.
-source-git-commit: baa351de79532352f28d2dc5691c2e425a8e3207
+source-git-commit: 315fd6189e1805f9f1f4184cc0aa47d12740616a
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '85'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,7 @@ Vous pouvez annuler l’invitation d’un utilisateur avec une invitation en att
 >[!MORELIKETHIS]
 >
 >* [Invitation d’un nouvel utilisateur pour votre compte d’organisation](user-invite.md)
->* [Réenvoyer une invitation d’utilisateur en attente pour votre compte d’organisation](user-resend-invite.md)
+>* [Réenvoyer une invitation d’utilisateur en attente](user-resend-invite.md)
 
 
 <!-- >* [Edit User Permissions or Delete a User](user-edit.md) -->
