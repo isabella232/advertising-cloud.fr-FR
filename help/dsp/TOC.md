@@ -8,9 +8,9 @@ user-guide-title: Guide d’Advertising Cloud DSP
 user-guide-description: Découvrez les principales fonctionnalités, tâches, paramètres et autres ressources nécessaires pour gérer, optimiser et établir des rapports sur vos stratégies de publicité display à lʼaide dʼAdvertising Cloud DSP.
 breadcrumb-title: Guide de DSP
 index: true
-source-git-commit: 18ae0e34f518e58f045c123cfe75f65b12b46fb7
+source-git-commit: d4537714e884eb1ce1b62d4097b7ad6f30767edf
 workflow-type: tm+mt
-source-wordcount: '864'
+source-wordcount: '871'
 ht-degree: 6%
 
 ---
@@ -37,8 +37,8 @@ ht-degree: 6%
       + [Instructions de segments d’intégrité acceptables](https://experienceleague.adobe.com/docs/advertising-cloud/policies/health-segment-guidelines.html)
       + [[!DNL DSP] Instructions d’utilisation des données](https://experienceleague.adobe.com/docs/advertising-cloud/policies/data-usage-guidelines.html)
    + [Solutions de mesure avancée](/help/dsp/introduction/advanced-measurement-services.md)
-+ Gestion de campagne {#campaign-management}
-   + [Présentation de la structure de gestion de campagne](/help/dsp/campaign-management/campaign-management-overview.md)
++ Campaign Management {#campaign-management}
+   + [Présentation de la structure Campaign Management](/help/dsp/campaign-management/campaign-management-overview.md)
    + Campagnes {#campaigns}
       + [Gestion de campagne](/help/dsp/campaign-management/campaigns/campaign-about.md)
       + [Création d’une campagne](/help/dsp/campaign-management/campaigns/campaign-create.md)
@@ -205,6 +205,9 @@ ht-degree: 6%
    + Sites bloqués {#sites}
       + [À propos des listes de sites bloqués au niveau du compte et des annonceurs](/help/dsp/admin/blocked-sites-list-about.md)
       + [Modification d’une liste de sites bloqués au niveau du compte ou de l’annonceur](/help/dsp/admin/blocked-sites-list-edit.md)
+   + Notifications {#notifications}
+      + [A propos des abonnements aux alertes](/help/dsp/admin/alerts-about.md)
+      + [Gestion des abonnements aux alertes](/help/dsp/admin/alerts-manage.md)
 + [Intégrations à Adobe Experience Cloud](https://experienceleague.adobe.com/docs/advertising-cloud/integrations/home.html)<!-- Dupe link to this file, so need to use an absolute link in one of the listings -->
 + [Assistance clientèle](https://helpx.adobe.com/fr/contact/enterprise-support.ec.html)
 + [Notes de mise à jour d’Adobe Experience Cloud](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html)
