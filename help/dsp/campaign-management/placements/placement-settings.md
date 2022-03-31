@@ -3,9 +3,9 @@ title: Paramètres d’emplacement
 description: Voir la description des paramètres d’emplacement disponibles.
 feature: DSP Placements
 exl-id: 36097132-e589-4d49-bf86-54f61eae5b67
-source-git-commit: b40c6f08b94e546e5fc068c46b279292a4d8a14f
+source-git-commit: c2fbaf3381ca4380c18d55931e9f4f662da892af
 workflow-type: tm+mt
-source-wordcount: '3280'
+source-wordcount: '3278'
 ht-degree: 0%
 
 ---
@@ -411,7 +411,7 @@ Quel niveau de [Ads.txt](https://iabtechlab.com/ads-txt-about/) le filtrage pré
    * Pour créer un pixel :
       1. Cliquez sur **[!UICONTROL Create]**.
       1. Renseignez les informations suivantes :
-         * **[!UICONTROL Pixel name]:** Nom du pixel ; la longueur maximale est de 500 caractères. Utilisez un nom qui vous aidera à identifier facilement le pixel.
+         * **[!UICONTROL Pixel name]:** Nom du pixel ; la longueur maximale est de 500 caractères. Utilisez un nom qui vous aide à identifier facilement le pixel.
          * **[!UICONTROL Pixel event fires on]:** Événement qui déclenche le déclenchement du pixel. Les événements disponibles varient en fonction du type de publicité.
          * **[!UICONTROL Pixel type]:** Si le pixel est un *[!UICONTROL IMG URL]* (fichier image 1x1 pixel), *[!UICONTROL HTML]* ou *[!UICONTROL JavaScript URL]*.
          * **[!UICONTROL Pixel URL]:** URL de l’image de pixel.
@@ -426,7 +426,7 @@ Quel niveau de [Ads.txt](https://iabtechlab.com/ads-txt-about/) le filtrage pré
    * Pour créer un pixel :
       1. Cliquez sur **[!UICONTROL Create]**.
       1. Renseignez les informations suivantes :
-         * **[!UICONTROL Conversion pixel name]:** Nom du pixel ; la longueur maximale est de 500 caractères. Utilisez un nom qui vous aidera à identifier facilement le pixel.
+         * **[!UICONTROL Conversion pixel name]:** Nom du pixel ; la longueur maximale est de 500 caractères. Utilisez un nom qui vous aide à identifier facilement le pixel.
          * **[!UICONTROL Conversion category]:** Type de conversion.
          * **[!UICONTROL Impression conversion window]:** Nombre de jours après une impression publicitaire au cours desquels l’impression peut être attribuée à une conversion. La valeur par défaut est de 30 jours.
          * **[!UICONTROL Click conversion window]:** Nombre de jours après un clic publicitaire pendant lesquels le clic peut être attribué à une conversion. La valeur par défaut est de 30 jours.
