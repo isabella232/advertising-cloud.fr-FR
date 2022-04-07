@@ -3,25 +3,25 @@ title: Joindre une publicité à un emplacement
 description: Découvrez comment joindre une publicité à un emplacement.
 feature: DSP Ads
 exl-id: 4d85b89b-217f-46eb-a8b2-27da4c220be7
-source-git-commit: d10e1c24ee7c93eaab3fd4fefe853860226cc8e2
+source-git-commit: af5e9449802c98b92a3d0107a00c47fe2b2031ca
 workflow-type: tm+mt
-source-wordcount: '523'
+source-wordcount: '528'
 ht-degree: 1%
 
 ---
 
 # Joindre une publicité à un emplacement
 
-## Joindre une nouvelle publicité à partir de la vue [!UICONTROL Ads]
+## Ajout d’une nouvelle publicité à partir du [!UICONTROL Ads] Affichage
 
 1. Dans le menu principal, cliquez sur **[!UICONTROL Campaigns]**.
 1. Cliquez sur le nom de la campagne.
 1. Dans le sous-menu, cliquez sur **[!UICONTROL Ads]**.
-1. En regard du nom de la publicité, cliquez sur **... >[!UICONTROL Add to Placements]**.
+1. En regard du nom de la publicité, cliquez sur  **... >[!UICONTROL Add to Placements]**.
 1. Dans l’écran Placer la publicité , effectuez l’une des opérations suivantes :
    * Pour créer un emplacement pour la publicité, procédez comme suit :
       1. Cliquez sur **[!UICONTROL Create New Placement]**.
-      1. Saisissez les [paramètres de placement](/help/dsp/campaign-management/placements/placement-settings.md), puis cliquez sur **[!UICONTROL Create Placement]**.
+      1. Saisissez le [paramètres de placement](/help/dsp/campaign-management/placements/placement-settings.md), puis cliquez sur **[!UICONTROL Create Placement]**.
    * Pour ajouter la publicité à un ou plusieurs emplacements existants :
       1. Cliquez sur **[!UICONTROL Select a Placement].**
       1. Effectuez l’une des opérations suivantes :
@@ -36,19 +36,19 @@ ht-degree: 1%
          * Pour revenir à la vue Publicités, cliquez sur **[!UICONTROL I'm done for now]**.
          * Pour joindre la publicité à un autre emplacement, cliquez sur **[!UICONTROL Attach To Other Placement]**.
 
-## Joindre une publicité nouvelle ou existante à partir de la vue [!UICONTROL Placements]
+## Ajout d’une publicité nouvelle ou existante à partir du [!UICONTROL Placements] Affichage
 
 1. Dans le menu principal, cliquez sur **[!UICONTROL Campaigns]**.
 1. Cliquez sur le nom de la campagne.
 1. Dans le sous-menu, cliquez sur **[!UICONTROL Placements]**.
-1. En regard du nom de l’emplacement, cliquez sur **... > [!UICONTROL Attach Ads].**
-1. Dans l’écran [!UICONTROL Add Ad to Placement], effectuez l’une des opérations suivantes :
+1. En regard du nom de l’emplacement, cliquez sur  **... > [!UICONTROL Attach Ads].**
+1. Dans le [!UICONTROL Add Ad to Placement] effectuez l’une des opérations suivantes :
    * Pour créer une publicité, procédez comme suit :
       1. Cliquez sur **[!UICONTROL Create a New Ad]**.
-      1. Renseignez les paramètres de publicité pour les [publicités audio](ad-settings-audio.md), la [télévision connectée](ad-settings-connected-tv.md), les [publicités display](ad-settings-display.md), les [publicités mobiles](ad-settings-mobile.md), les [publicités natives](ad-settings-native.md) ou [publicités preroll](ad-settings-pre-roll.md).
+      1. Saisissez les paramètres de publicité pour [annonces audio](ad-settings-audio.md), [télévision connectée](ad-settings-connected-tv.md), [publicités display](ad-settings-display.md), [annonces mobiles](ad-settings-mobile.md), [annonces natives](ad-settings-native.md)ou [publicités preroll](ad-settings-pre-roll.md).
       1. Cliquez sur **[!UICONTROL Save & Submit for Review]**.
 
-         La [révision de la publicité](ad-about.md) de la nouvelle publicité prend entre 24 et 48 heures et inclut des vérifications des catégories sensibles, la fonctionnalité de clic sur l’URL et le rendu de l’aperçu. La colonne [!UICONTROL Status] indique si DSP a approuvé la publicité. Les publicités rompues peuvent avoir un état en attente de plus de 24 à 48 heures, vous avez donc le temps de corriger les erreurs avant qu’elles ne soient rejetées.
+         Le [révision publicitaire](ad-about.md) pour la nouvelle publicité prend entre 24 et 48 heures et inclut des vérifications pour les catégories sensibles, la fonctionnalité de clic sur l’URL et le rendu d’aperçu. Le [!UICONTROL Status] indique si DSP a approuvé la publicité. Les publicités rompues peuvent avoir un état en attente de plus de 24 à 48 heures, vous avez donc le temps de corriger les erreurs avant qu’elles ne soient rejetées.
 
          >[!NOTE]
          >
@@ -66,10 +66,10 @@ ht-degree: 1%
       1. (Facultatif) Pour remplacer la période de vol par défaut et la rotation des publicités pour des publicités spécifiques dans l’emplacement :
          1. Cliquez sur **[!UICONTROL Custom Schedule Ads]**.
          1. Effectuez l’une des opérations suivantes :
-            * Pour ajouter un vol, cliquez sur **[!UICONTROL Add Flight]**, puis indiquez la date de début et la date de fin.
-            * Pour ajouter un vol existant à une publicité, cliquez sur **[!UICONTROL +]** dans la ligne de publicité pour la colonne de vol.
-            * Pour supprimer un vol existant d’une publicité, cliquez sur **[!UICONTROL x]** dans la ligne de publicité pour la colonne de vol.
-            * (Lorsque plusieurs publicités ont le même vol) Pour faire pivoter les publicités de manière inégale, cliquez sur **[!UICONTROL Even Rotation]** dans les informations sur le vol, puis saisissez le poids relatif de rotation de chaque publicité, en pourcentage.
+            * Pour ajouter un vol, cliquez sur **[!UICONTROL Add Flight]**, puis spécifiez la date de début et la date de fin.
+            * Pour ajouter un vol existant à une publicité, cliquez sur **[!UICONTROL +]** dans la ligne publicitaire de la colonne &quot;vol&quot;.
+            * Pour supprimer un vol existant d’une publicité, cliquez sur **[!UICONTROL x]** dans la ligne publicitaire de la colonne &quot;vol&quot;.
+            * (Lorsque plusieurs publicités ont le même vol) Pour faire pivoter les publicités de manière inégale, cliquez sur **[!UICONTROL Even Rotation]** dans les informations sur le vol, puis saisissez le poids relatif de rotation de chaque publicité, sous forme de pourcentage.
 Le poids total doit être égal à 100.
          1. Dans le coin supérieur droit, cliquez sur **[!UICONTROL Continue]**.
          1. Vérifiez les détails du vol, puis cliquez sur **[!UICONTROL Save & Finish]**.
@@ -79,7 +79,8 @@ Le poids total doit être égal à 100.
 >[!MORELIKETHIS]
 >
 >* [A propos de la gestion des publicités](ad-about.md)
->* [Créer une publicité](ad-create.md)
+>* [Créer une publicité unique](ad-create.md)
+>* [Créer plusieurs publicités tierces](ad-create-multiple.md)
 >* [Modifier une publicité](ad-edit.md)
 >* [Liste des emplacements associés à une publicité](ad-list-placements.md)
 >* [Modification de la planification des publicités pour un emplacement](/help/dsp/campaign-management/placements/placement-edit-ad-schedule.md)

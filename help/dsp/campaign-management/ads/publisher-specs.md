@@ -2,9 +2,9 @@
 title: Spécifications des publicités spécifiques à l’éditeur
 description: Référencez les spécifications publicitaires pour les éditeurs pris en charge.
 feature: DSP Ads
-source-git-commit: 1ae45d0ceee2efc4fc52b86fd6737d4c7467a6ca
+source-git-commit: 3eb63e9d7161c354736ce53ee21518882c541884
 workflow-type: tm+mt
-source-wordcount: '75'
+source-wordcount: '76'
 ht-degree: 0%
 
 ---
@@ -27,6 +27,6 @@ Les liens suivants vous conduisent aux spécifications publicitaires de certains
 >[!MORELIKETHIS]
 >
 >* [A propos de la gestion des publicités](ad-about.md)
->* [Créer une publicité](ad-create.md)
+>* [Créer plusieurs publicités tierces](ad-create-multiple.md)
 >* [Spécifications des publicités](/help/dsp/assets/ad-specs.pdf)
 

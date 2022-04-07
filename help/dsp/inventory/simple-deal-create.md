@@ -3,9 +3,9 @@ title: '"Créez un [!UICONTROL Simple Ad Serving] Deal"'
 description: '"Découvrez comment créer un pixel de suivi pour un [!UICONTROL Simple Ad Serving] deal."'
 feature: DSP Simple Ad Serving
 exl-id: d8de85ec-616c-44ed-9a1a-cc25713ad4a4
-source-git-commit: 05578e9252f0eec6dd4e003d317742007edb3351
+source-git-commit: 3eb63e9d7161c354736ce53ee21518882c541884
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '390'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 0%
 
          * Pour les publicités existantes, sélectionnez les publicités à utiliser.
 
-         * Pour les nouvelles publicités, créez un proxy. [publicité propriétaire](/help/dsp/campaign-management/ads/ad-create.md) ou [publicité tierce](/help/dsp/campaign-management/ads/ad-create-third-party.md).
+         * Pour les nouvelles publicités, créez un proxy. [publicité tierce](/help/dsp/campaign-management/ads/ad-create-multiple.md).
       >[!NOTE]
       > DSP ne diffusera pas réellement les publicités que vous spécifiez. L’éditeur diffusera la publicité.
 

@@ -1,16 +1,16 @@
 ---
-title: Gestion de campagne dans Advertising Cloud DSP - Aperçu
+title: Présentation de Campaign Management dans Advertising Cloud DSP
 description: Découvrez la hiérarchie et les composants de la gestion de campagne.
 feature: DSP Packages, DSP Placements, DSP Ads
 exl-id: c94e08d0-0dd5-4cf9-8df2-9eb4c591375c
-source-git-commit: 19d6a2edf07eecf874537dd9d356737ed9156bd9
+source-git-commit: d180b91f7bf5ae72a51e5335638a98c5fc4b4e86
 workflow-type: tm+mt
-source-wordcount: '359'
+source-wordcount: '324'
 ht-degree: 0%
 
 ---
 
-# Gestion de campagne dans Advertising Cloud DSP - Aperçu
+# Présentation de Campaign Management dans Advertising Cloud DSP
 
 Les campagnes Advertising Cloud DSP présentent la hiérarchie suivante :
 
@@ -18,9 +18,7 @@ Les campagnes Advertising Cloud DSP présentent la hiérarchie suivante :
    * Package(s)
       * Emplacement(s)
          * Publicités
-            * Creative(s)
 
-<!-- Add "Feature: DSP Creatives" once we have other topics on creatives; get Bob to update the feature list. -->
 <!-- Do clients think in terms of insertion orders? If yes, then work in the following info.:
 In Advertising Cloud DSP, an insertion order is represented as a campaign, and line items are represented as packages. Each package will include placements, which can use different strategies and tactics to deliver the line item requirements.
 -->
@@ -43,22 +41,15 @@ A [placement](/help/dsp/campaign-management/placements/placement-about.md) stock
 
 ## [!UICONTROL Ads]
 
-[Publicités](/help/dsp/campaign-management/ads/ad-about.md) inclure des ressources de création et des URL de suivi ; Vous pouvez soit charger vos ressources créatives et DSP diffuseront gratuitement les publicités qui les utilisent, soit charger des balises de diffusion de publicités tierces.
+[Publicités](/help/dsp/campaign-management/ads/ad-about.md) inclure des ressources de création et des URL de suivi ; Vous pouvez charger des balises de diffusion de publicités tierces individuellement ou en bloc à l’aide de feuilles de balises partenaires ou du modèle de balise en bloc. Vous pouvez également créer manuellement des publicités d’affichage natives pour DSP à diffuser.
 
 Une fois vos publicités configurées, vous devrez joindre chaque publicité à un emplacement. Vous pouvez joindre une seule publicité à un ou plusieurs emplacements.
 
 Toutes les publicités principales et approuvées d’un emplacement principal dans une principale campagne peuvent être exécutées en fonction des paramètres de ciblage de l’emplacement.
 
-## [!UICONTROL Creatives]
-
-Vous pouvez télécharger des fichiers audio et vidéo à utiliser dans les publicités pour des campagnes spécifiées.
-<!-- add link to [About Creative Management](/help/dsp/campaign-management/creatives/creative-about.md) when it's available-->
-
-Vous pouvez immédiatement créer une publicité à l’aide de l’élément créatif chargé ou vous pouvez en créer une ultérieurement à partir de la vue Créatifs ou Publicités.
-
 >[!MORELIKETHIS]
 >
->* [Gestion de campagne](/help/dsp/campaign-management/campaigns/campaign-about.md)
+>* [À propos de Campaign Management](/help/dsp/campaign-management/campaigns/campaign-about.md)
 >* [À propos de la gestion de modules](/help/dsp/campaign-management/packages/package-about.md)
 >* [À propos de la gestion des emplacements](/help/dsp/campaign-management/placements/placement-about.md)
 >* [A propos de la gestion des publicités](/help/dsp/campaign-management/ads/ad-about.md)

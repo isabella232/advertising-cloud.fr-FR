@@ -3,9 +3,9 @@ title: Duplication d’une publicité
 description: Découvrez comment dupliquer une publicité.
 feature: DSP Ads
 exl-id: 65c29be7-ca88-4608-bde2-5f1267d095ef
-source-git-commit: d10e1c24ee7c93eaab3fd4fefe853860226cc8e2
+source-git-commit: 322823a1df355b687827544f5464d01093b94213
 workflow-type: tm+mt
-source-wordcount: '176'
+source-wordcount: '177'
 ht-degree: 0%
 
 ---
@@ -17,13 +17,13 @@ Vous pouvez dupliquer une publicité dans la même campagne.
 1. Dans le menu principal, cliquez sur **[!UICONTROL Campaigns]**.
 1. Cliquez sur le nom de la campagne.
 1. Dans le sous-menu, cliquez sur **[!UICONTROL Ads]**.
-1. En regard du nom de la publicité, cliquez sur **... >[!UICONTROL Duplicate]**.
+1. En regard du nom de la publicité, cliquez sur  **... >[!UICONTROL Duplicate]**.
 1. Spécifiez les nouveaux paramètres d’annonce :
-   1. (Facultatif) Modifiez le nom de publicité par défaut. Par défaut, la nouvelle publicité est appelée &quot;Copie de \&quot;a0/>nom de la publicité d’origine *\>&quot;.*
-   1. (Facultatif) Modifiez les paramètres publicitaires pour les [publicités audio](ad-settings-audio.md), la [télévision connectée](ad-settings-connected-tv.md), les [publicités display](ad-settings-display.md), les [publicités mobiles](ad-settings-mobile.md), les [publicités natives](ad-settings-native.md) ou [publicités preroll](ad-settings-pre-roll.md).
+   1. (Facultatif) Modifiez le nom de publicité par défaut. Par défaut, la nouvelle publicité est appelée &quot;Copie de \&lt;*nom de la publicité d’origine*\>.&quot;
+   1. (Facultatif) Modifiez les paramètres de publicité pour [annonces audio](ad-settings-audio.md), [télévision connectée](ad-settings-connected-tv.md), [publicités display](ad-settings-display.md), [annonces mobiles](ad-settings-mobile.md), [annonces natives](ad-settings-native.md)ou [publicités preroll](ad-settings-pre-roll.md).
 1. Cliquez sur **[!UICONTROL Save & Submit for Review]**.
 
-   La [révision de la publicité](ad-about.md) de la nouvelle publicité prend entre 24 et 48 heures et inclut des vérifications des catégories sensibles, la fonctionnalité de clic sur l’URL et le rendu de l’aperçu. La colonne [!UICONTROL Status] indique si DSP a approuvé la publicité. Les publicités rompues peuvent avoir un état en attente de plus de 24 à 48 heures, vous avez donc le temps de corriger les erreurs avant qu’elles ne soient rejetées.
+   Le [révision publicitaire](ad-about.md) pour la nouvelle publicité prend entre 24 et 48 heures et inclut des vérifications pour les catégories sensibles, la fonctionnalité de clic sur l’URL et le rendu d’aperçu. Le [!UICONTROL Status] indique si DSP a approuvé la publicité. Les publicités rompues peuvent avoir un état en attente de plus de 24 à 48 heures, vous avez donc le temps de corriger les erreurs avant qu’elles ne soient rejetées.
 
    >[!NOTE]
    >
@@ -32,8 +32,8 @@ Vous pouvez dupliquer une publicité dans la même campagne.
 >[!MORELIKETHIS]
 >
 >* [A propos de la gestion des publicités](ad-about.md)
->* [Créer une publicité](ad-create.md)
->* [Créer plusieurs publicités tierces](ad-create-third-party.md)
+>* [Créer une publicité unique](ad-create.md)
+>* [Créer plusieurs publicités tierces](ad-create-multiple.md)
 >* [Modifier une publicité](ad-edit.md)
 >* [Spécifications des publicités](/help/dsp/assets/ad-specs.pdf)
 
