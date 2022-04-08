@@ -3,9 +3,9 @@ title: Conditions préalables et informations clés relatives à la mise en oeuv
 description: Conditions préalables et informations clés relatives à la mise en oeuvre [!DNL Analytics for Advertising Cloud]
 feature: Integration with Adobe Analytics
 exl-id: 08e54e2b-ed9b-4489-8de5-ab1379b7133c
-source-git-commit: b40c6f08b94e546e5fc068c46b279292a4d8a14f
+source-git-commit: 11a13816ccd2ef0c47efa615c54c0f7ce2f83734
 workflow-type: tm+mt
-source-wordcount: '845'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -40,7 +40,7 @@ Fournissez les informations suivantes à l’équipe de mise en oeuvre d’Adver
 * Le [!DNL Analytics] identifiant de suite de rapports qui sera utilisé pour la création de rapports sur l’activité de médias payants et pour alimenter l’activité du site à des fins d’optimisation et de création de rapports dans Advertising Cloud.
 * ID d’organisation Experience Cloud de l’entreprise (ID d’organisation).
 
-Vous trouverez ces deux identifiants sur la page [Écran récapitulatif du débogueur Adobe Experience Cloud](https://experienceleague.adobe.com/docs/debugger/using/run-debugger.html).
+Vous trouverez ces deux identifiants sur la page [Onglet Résumé du débogueur Adobe Experience Cloud](https://experienceleague.adobe.com/docs/debugger/using-v2/summary.html).
 
 ![Écran récapitulatif des Experience Cloud Debugger](/help/integrations/assets/a4adc-debugger-summary.png)
 
@@ -111,7 +111,7 @@ Exemple : `sdid=2F3C18E511F618CC-45F83E994AEE93A0`
 
 Pour une intégration des données précise, tous les appels Advertising Cloud utilisés par une [!DNL Analytics for Advertising Cloud] activité pour diffuser du contenu ou enregistrer la mesure d’objectif doit avoir une [!DNL Analytics] accès qui partage le même ID supplémentaire.
 
-Lorsque vous résolvez les problèmes dans [!DNL Analytics], veillez à confirmer que l’ID supplémentaire est présent pour [!DNL Analytics] accès. Dans le [Débogueur Adobe Experience Cloud](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html), cet identifiant s’affiche dans l’onglet Advertising Cloud sous la forme `sdid` .
+Lorsque vous résolvez les problèmes dans [!DNL Analytics], veillez à confirmer que l’ID supplémentaire est présent pour [!DNL Analytics] accès. Dans le [Débogueur Adobe Experience Cloud](https://experienceleague.adobe.com/docs/debugger/using-v2/summary.html), cet identifiant s’affiche dans l’onglet Advertising Cloud sous la forme `sdid` .
 
 >[!NOTE]
 >
