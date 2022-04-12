@@ -3,7 +3,7 @@ title: Créer plusieurs publicités tierces
 description: Découvrez comment créer plusieurs publicités tierces à la fois.
 feature: DSP Ads
 exl-id: 83d35d27-1ab6-4fcf-877f-650a2dc6975a
-source-git-commit: 68af6b1846a37689dce0ca13a05cc1611b1f35a9
+source-git-commit: bcece4bfec6f8a765cced3ee230fd8cbf3055b7b
 workflow-type: tm+mt
 source-wordcount: '351'
 ht-degree: 0%
@@ -60,7 +60,7 @@ Vous pouvez transférer l’une des options suivantes : [!DNL DoubleClick] et [!
 >[!MORELIKETHIS]
 >
 >* [A propos de la gestion des publicités](ad-about.md)
->* [Spécifications des publicités](/help/dsp/assets/ad-specs.pdf)
+>* [Spécifications des publicités](ad-specs.md)
 >* [Créer une publicité unique](ad-create.md)
 >* [Vidéo : Comment télécharger en bloc des balises publicitaires tierces](https://experienceleague.adobe.com/docs/advertising-cloud-learn/tutorials/dsp/bulk-upload-third-party-ad-tags.html)
 

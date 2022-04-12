@@ -3,7 +3,7 @@ title: Paramètres d’affichage des publicités
 description: Consultez la description des paramètres d’annonce disponibles pour les annonces affichées.
 feature: DSP Ads
 exl-id: ae88dfab-0b0c-42ab-9135-422b20a4b6cd
-source-git-commit: 68af6b1846a37689dce0ca13a05cc1611b1f35a9
+source-git-commit: bcece4bfec6f8a765cced3ee230fd8cbf3055b7b
 workflow-type: tm+mt
 source-wordcount: '446'
 ht-degree: 0%
@@ -40,7 +40,7 @@ Les paramètres suivants concernent les publicités standard.
 
 **[!UICONTROL Final Display Code]:** (Publicités tierces uniquement) URL de la ressource créative tierce, avec les [Macros de suivi Advertising Cloud DSP](/help/dsp/campaign-management/macros.md) insérés, le cas échéant.
 
-**[!UICONTROL Ad Size]:** Largeur et hauteur de la publicité. Il doit s’agir d’une [taille d’affichage standard prise en charge](/help/dsp/assets/ad-specs.pdf). Vous pouvez saisir manuellement la taille de la publicité avant de la télécharger ou saisir une [!UICONTROL Display Code]. Si vous ne saisissez pas la taille de la publicité, les dimensions de la balise publicitaire ou de publicité chargée sont automatiquement saisies en lecture seule. Notez que la publicité affichée ne sera pas enregistrée si les dimensions ne se trouvent pas dans l’affichage standard sous forme de tailles, par exemple 301x250 au lieu de 300x250.
+**[!UICONTROL Ad Size]:** Largeur et hauteur de la publicité. Il doit s’agir d’une [taille d’affichage standard prise en charge](ad-specs.md). Vous pouvez saisir manuellement la taille de la publicité avant de la télécharger ou saisir une [!UICONTROL Display Code]. Si vous ne saisissez pas la taille de la publicité, les dimensions de la balise publicitaire ou de publicité chargée sont automatiquement saisies en lecture seule. Notez que la publicité affichée ne sera pas enregistrée si les dimensions ne se trouvent pas dans l’affichage standard sous forme de tailles, par exemple 301x250 au lieu de 300x250.
 
 >[!IMPORTANT]
 >
@@ -67,6 +67,6 @@ Les paramètres suivants s’appliquent à chaque pixel que vous créez ou modif
 >* [A propos de la gestion des publicités](ad-about.md)
 >* [Créer une publicité unique](ad-create.md)
 >* [Liste des emplacements associés à une publicité](ad-list-placements.md)
->* [Spécifications des publicités](/help/dsp/assets/ad-specs.pdf)
+>* [Spécifications des publicités](ad-specs.md)
 >* [Macros Advertising Cloud DSP](/help/dsp/campaign-management/macros.md)
 

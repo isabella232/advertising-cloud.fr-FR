@@ -8,7 +8,7 @@ user-guide-title: Guide d’Advertising Cloud DSP
 user-guide-description: Découvrez les principales fonctionnalités, tâches, paramètres et autres ressources nécessaires pour gérer, optimiser et établir des rapports sur vos stratégies de publicité display à lʼaide dʼAdvertising Cloud DSP.
 breadcrumb-title: Guide de DSP
 index: true
-source-git-commit: e77f70e414a1c8d2fe4937766ecddca9fdb6893e
+source-git-commit: 4dd819cd5feb47bce8ad56e5210c6d3c224389cb
 workflow-type: tm+mt
 source-wordcount: '859'
 ht-degree: 6%
@@ -38,7 +38,7 @@ ht-degree: 6%
       + [[!DNL DSP] Instructions d’utilisation des données](https://experienceleague.adobe.com/docs/advertising-cloud/policies/data-usage-guidelines.html)
    + [Solutions de mesure avancée](/help/dsp/introduction/advanced-measurement-services.md)
 + Gestion de campagne {#campaign-management}
-   + [Présentation de la structure de gestion de campagne](/help/dsp/campaign-management/campaign-management-overview.md)
+   + [Présentation de la structure Campaign Management](/help/dsp/campaign-management/campaign-management-overview.md)
    + Campagnes {#campaigns}
       + [Gestion de campagne](/help/dsp/campaign-management/campaigns/campaign-about.md)
       + [Création d’une campagne](/help/dsp/campaign-management/campaigns/campaign-create.md)
@@ -84,13 +84,13 @@ ht-degree: 6%
          + [Paramètres de publicité audio](/help/dsp/campaign-management/ads/ad-settings-audio.md)
          + [Paramètres de la télévision connectée](/help/dsp/campaign-management/ads/ad-settings-connected-tv.md)
          + [Paramètres d’affichage des publicités](/help/dsp/campaign-management/ads/ad-settings-display.md)
-         + [Paramètres de publicité Mobile](/help/dsp/campaign-management/ads/ad-settings-mobile.md)
+         + [Paramètres des publicités mobiles](/help/dsp/campaign-management/ads/ad-settings-mobile.md)
          + [Paramètres d’affichage des publicités natives](/help/dsp/campaign-management/ads/ad-settings-native.md)
          + [Paramètres de publicité preroll](/help/dsp/campaign-management/ads/ad-settings-pre-roll.md)
-      + [Spécifications des types de publicité pris en charge](/help/dsp/assets/ad-specs.pdf)
+      + [Spécifications des types de publicité pris en charge](/help/dsp/campaign-management/ads/ad-specs.md)
    + Rapports de campagne {#campaign-reports}
       + [À propos des rapports In-Platform](/help/dsp/campaign-management/reports/campaign-reports-about.md)
-      + [Exportation de données à partir d’une vue Campaign Management](/help/dsp/campaign-management/reports/campaign-export-data.md)
+      + [Exporter des données à partir d’une vue de gestion de campagne](/help/dsp/campaign-management/reports/campaign-export-data.md)
       + [Affichage des sites, publicités et détails de fréquence d’un emplacement](/help/dsp/campaign-management/reports/placement-details-view.md)
       + [Affichage des rapports de diagnostic de placement](/help/dsp/campaign-management/reports/placement-diagnostics.md)
       + Gérer les vues de données {#data-views}

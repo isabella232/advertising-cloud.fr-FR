@@ -1,16 +1,16 @@
 ---
-title: Paramètres de publicité Mobile
+title: Paramètres des publicités mobiles
 description: Consultez la description des paramètres d’annonce disponibles pour les annonces mobiles.
 feature: DSP Ads
 exl-id: f67c4ba0-1011-4ad6-bd36-98c312b81b67
-source-git-commit: 68af6b1846a37689dce0ca13a05cc1611b1f35a9
+source-git-commit: bcece4bfec6f8a765cced3ee230fd8cbf3055b7b
 workflow-type: tm+mt
 source-wordcount: '620'
 ht-degree: 0%
 
 ---
 
-# Paramètres de publicité Mobile
+# Paramètres des publicités mobiles
 
 ## [!UICONTROL Insert Ad Tag]
 
@@ -26,7 +26,7 @@ ht-degree: 0%
 
 ## [!UICONTROL Ad Options]
 
-### [!UICONTROL Basic]: Publicités affichées Mobile
+### [!UICONTROL Basic]: Publicités d’affichage mobiles
 
 **[!UICONTROL Ad Type]:** (Lecture seule) Type de publicité que vous créez, qui correspond au type d’emplacement auquel la publicité peut être jointe.
 
@@ -105,6 +105,6 @@ Obsolète
 >* [A propos de la gestion des publicités](ad-about.md)
 >* [Créer une publicité unique](ad-create.md)
 >* [Liste des emplacements associés à une publicité](/help/dsp/campaign-management/ads/ad-list-placements.md)
->* [Spécifications des publicités](/help/dsp/assets/ad-specs.pdf)
+>* [Spécifications des publicités](ad-specs.md)
 >* [Macros Advertising Cloud DSP](/help/dsp/campaign-management/macros.md)
 

@@ -3,7 +3,7 @@ title: Créer une publicité unique
 description: Découvrez comment créer une publicité tierce unique.
 feature: DSP Ads
 exl-id: d93c6a66-a5cb-4117-97e8-424422200fce
-source-git-commit: 63c8b750c9d5e6816da29fe15416d43d6b3e3726
+source-git-commit: bcece4bfec6f8a765cced3ee230fd8cbf3055b7b
 workflow-type: tm+mt
 source-wordcount: '246'
 ht-degree: 0%
@@ -49,5 +49,5 @@ Pour créer plusieurs publicités tierces à la fois, voir [Créer plusieurs pub
 >* [A propos de la gestion des publicités](ad-about.md)
 >* [Créer plusieurs publicités tierces](ad-create-multiple.md)
 >* [Modifier une publicité](ad-edit.md)
->* [Spécifications des publicités](/help/dsp/assets/ad-specs.pdf)
+>* [Spécifications des publicités](ad-specs.md)
 

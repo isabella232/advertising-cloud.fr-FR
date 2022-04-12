@@ -3,7 +3,7 @@ title: Paramètres d’affichage des publicités natives
 description: Consultez la description des paramètres d’annonce disponibles pour les annonces d’affichage natives.
 feature: DSP Ads
 exl-id: 3ae59e63-ae64-41b2-8734-3df2da020c7c
-source-git-commit: 68af6b1846a37689dce0ca13a05cc1611b1f35a9
+source-git-commit: bcece4bfec6f8a765cced3ee230fd8cbf3055b7b
 workflow-type: tm+mt
 source-wordcount: '321'
 ht-degree: 0%
@@ -61,6 +61,6 @@ Les paramètres suivants s’appliquent à chaque pixel que vous créez ou modif
 >* [A propos de la gestion des publicités](ad-about.md)
 >* [Créer une publicité unique](ad-create.md)
 >* [Liste des emplacements associés à une publicité](/help/dsp/campaign-management/ads/ad-list-placements.md)
->* [Spécifications des publicités](/help/dsp/assets/ad-specs.pdf)
+>* [Spécifications des publicités](ad-specs.md)
 >* [Macros Advertising Cloud DSP](/help/dsp/campaign-management/macros.md)
 

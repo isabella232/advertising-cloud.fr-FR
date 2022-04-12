@@ -3,7 +3,7 @@ title: Modifier une publicité
 description: Découvrez comment modifier une publicité.
 feature: DSP Ads
 exl-id: ef140d61-f04e-4c1c-acdd-9985730dfb07
-source-git-commit: 8d6bb45d90f56331ff52e6514e4732f1ac32d022
+source-git-commit: bcece4bfec6f8a765cced3ee230fd8cbf3055b7b
 workflow-type: tm+mt
 source-wordcount: '167'
 ht-degree: 0%
@@ -37,5 +37,5 @@ ht-degree: 0%
 >* [Créer plusieurs publicités tierces](ad-create-multiple.md)
 >* [Duplication d’une publicité](ad-duplicate.md)
 >* [Liste des emplacements associés à une publicité](ad-list-placements.md)
->* [Spécifications des publicités](/help/dsp/assets/ad-specs.pdf)
+>* [Spécifications des publicités](ad-specs.md)
 
