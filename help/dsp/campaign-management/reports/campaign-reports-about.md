@@ -3,9 +3,9 @@ title: À propos des rapports In-Platform
 description: Découvrez les données du rapport incluses dans les vues de gestion de campagne.
 feature: DSP Campaign Data Views
 exl-id: e9f7dafe-e0db-4fec-bf5b-858cbcfdde45
-source-git-commit: 1ca7639fac40eb8d3fbc3b4f7e0f45b29368f49b
+source-git-commit: 0adbb7876e38a8fc7b8c42e9897492bb6255e2c3
 workflow-type: tm+mt
-source-wordcount: '929'
+source-wordcount: '928'
 ht-degree: 0%
 
 ---
@@ -87,7 +87,7 @@ Vous pouvez exporter les données du [!UICONTROL Sites], [!UICONTROL Ads]ou [!UI
 
 ### Autres types de rapports au niveau des campagnes
 
-Pour d’autres ventilations de données, voir [les pages de création de rapports au niveau de la campagne héritées ;](/help/dsp/campaign-management/campaigns/campaign-view-report.md) de [!UICONTROL Campaigns Classic]. Le rapport hérité comprend des sections sur [!UICONTROL Geography], [!UICONTROL Device], [!UICONTROL Viewability], et [!UICONTROL Audience Performance] data.
+Pour d’autres ventilations de données, voir [les pages de création de rapports au niveau de la campagne héritées ;](/help/dsp/campaign-management/campaigns/campaign-view-report.md). Le rapport hérité comprend des sections sur [!UICONTROL Geography], [!UICONTROL Device], [!UICONTROL Viewability], et [!UICONTROL Audience Performance] data.
 
 >[!MORELIKETHIS]
 >

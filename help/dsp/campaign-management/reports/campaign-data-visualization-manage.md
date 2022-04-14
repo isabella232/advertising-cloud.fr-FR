@@ -3,16 +3,16 @@ title: Gestion des visualisations des données
 description: Découvrez comment modifier les mesures et le mode d’affichage des visualisations de données.
 feature: DSP Campaign Data Views
 exl-id: f557ddfc-9a20-4cbc-8ad3-230ba5df32e3
-source-git-commit: d10e1c24ee7c93eaab3fd4fefe853860226cc8e2
+source-git-commit: ba1217c5097a3a17fba49761185940b252bb7e32
 workflow-type: tm+mt
-source-wordcount: '134'
+source-wordcount: '140'
 ht-degree: 0%
 
 ---
 
 # Gestion des visualisations des données
 
-Vous pouvez modifier les mesures et le mode graphique pour toutes les visualisations de données pour une seule campagne. Les modifications sont appliquées à toutes les visualisations de données pour la campagne, y compris les onglets [!UICONTROL Packages], [!UICONTROL Placements] et [!UICONTROL Ads].
+Vous pouvez modifier les mesures et le mode graphique pour toutes les visualisations de données sur les campagnes ou pour une seule campagne. Les modifications apportées à une seule campagne sont appliquées à toutes les visualisations de données de la campagne, y compris la variable [!UICONTROL Packages], [!UICONTROL Placements], et [!UICONTROL Ads] onglets.
 
 ## Modification des mesures d’une visualisation de données
 
@@ -23,7 +23,7 @@ Vous ne pouvez pas sélectionner deux fois la même mesure.
 
 ## Modification du mode d’affichage d’une visualisation de données
 
-* Dans le coin supérieur droit de la visualisation de données, cliquez sur le commutateur [!UICONTROL Overlay] (![Interrupteur de recouvrement](/help/dsp/assets/overlay.png)) pour passer du mode superposition (tous les graphiques superposés ensemble) au mode graphique en courbes (trois graphiques distincts).
+* Dans le coin supérieur droit de la visualisation des données, cliquez sur le bouton [!UICONTROL Overlay] switch (![Interrupteur de recouvrement](/help/dsp/assets/overlay.png)) pour passer du mode superposition (tous les graphiques superposés ensemble) au mode graphique en courbes (trois graphiques distincts).
 
 >[!MORELIKETHIS]
 >
