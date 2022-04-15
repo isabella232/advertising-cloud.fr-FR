@@ -3,9 +3,9 @@ title: À propos des rapports In-Platform
 description: Découvrez les données du rapport incluses dans les vues de gestion de campagne.
 feature: DSP Campaign Data Views
 exl-id: e9f7dafe-e0db-4fec-bf5b-858cbcfdde45
-source-git-commit: 0adbb7876e38a8fc7b8c42e9897492bb6255e2c3
+source-git-commit: 1292f39cb2d7d690a46d4e943ed09d98c349ce41
 workflow-type: tm+mt
-source-wordcount: '928'
+source-wordcount: '960'
 ht-degree: 0%
 
 ---
@@ -15,9 +15,21 @@ ht-degree: 0%
 <!-- rename "About Performance Reports in Campaign Management Views?" -->
 Les vues de gestion de campagne incluent des données de rapport complètes. Les rapports disponibles vous aident à identifier les packages et emplacements performants et ceux qui nécessitent votre attention. Les boutons d’action rapide vous rendent également plus productif.
 
-## Liste de toutes les campagnes
+## Vue Toutes les campagnes
 
-Le [!UICONTROL Campaigns] s’ouvre sur une liste de toutes les campagnes de votre compte. Le [!UICONTROL Subtotals] affiche soit la somme, soit la valeur moyenne de chaque mesure sur toutes les lignes visibles.
+Le [!UICONTROL Campaigns] s’ouvre sur une liste de toutes les campagnes de votre compte. &lt;!— Le [!UICONTROL Subtotals] affiche soit la somme, soit la valeur moyenne de chaque mesure sur toutes les lignes visibles. — Existe-t-il toujours une ligne Sous-totaux ? Je n&#39;en vois pas une. —>
+
+### Affichage du graphique {#chart-view}
+
+Vous pouvez [personnaliser les graphiques de tendance des séries temporelles ;](campaign-data-visualization-manage.md) pour toutes les campagnes à l’aide de trois mesures. Par défaut, les données pour [!UICONTROL Net Spend], [!UICONTROL Impressions], et [!UICONTROL Net CPM] sont inclus dans des graphiques distincts (graphiques en courbes). Vous pouvez éventuellement modifier les mesures. Pour activer les données horaires dans les graphiques de tendance de série temporelle, définissez votre sélection de date sur un seul jour ([!UICONTROL Today], [!UICONTROL Yesterday]ou un jour spécifique).
+
+![graphiques de tendances distincts pour trois mesures](/help/dsp/assets/trend-chart-separate.png)
+
+Vous pouvez également, si vous le souhaitez, superposer les trois mesures afin de détecter facilement les anomalies et les domaines dans lesquels améliorer l’échelle ou les performances.
+
+![graphique des tendances avec superposition](/help/dsp/assets/trend-chart.png)
+
+### Vue Tableau
 
 ![Liste des campagnes](/help/dsp/assets/campaigns-list.png)
 
@@ -33,17 +45,15 @@ Au sein d’une campagne, vous pouvez filtrer les données en fonction de l’en
 
 ![Onglets des entités de Campaign](/help/dsp/assets/campaign-subtabs.png)
 
+### Affichage du graphique
+
+Pour chaque campagne, vous pouvez : [personnaliser les graphiques de tendance des séries temporelles ;](campaign-data-visualization-manage.md) avec trois mesures, disponibles dans chaque vue d’entité. Les mêmes mesures sont conservées dans tous les graphiques de tendance de la campagne.
+
+Voir [Section &quot;Affichage du graphique&quot; sur les mesures entre campagnes](#chart-view) pour plus d’informations.
+
+### Vue Tableau
+
 Dans chaque onglet d’entité, chaque ligne comprend par défaut des mesures de fréquence et de diffusion, mais vous pouvez [modification du mode Colonnes](column-view-change.md) ou même [création d’un affichage de colonne personnalisé](column-view-create.md) pour appliquer à tous les sous-onglets de la campagne. Vous pouvez également [personnaliser les tableaux de données ;](campaign-data-views-about.md) par d’autres moyens. Chaque tableau de données comprend une [!UICONTROL Subtotals] qui affiche soit la somme, soit la valeur moyenne de chaque mesure sur toutes les lignes visibles.
-
-Pour chaque campagne, vous pouvez également personnaliser les graphiques de tendance de série temporelle avec trois mesures, disponibles dans chaque vue d’entité. Par défaut, les données pour [!UICONTROL Net Spend], [!UICONTROL Impressions], et [!UICONTROL Net CPM] sont inclus dans des graphiques distincts (graphiques en courbes). Vous pouvez éventuellement modifier les mesures. Pour activer les données horaires dans les graphiques de tendance de série temporelle, définissez votre sélection de date sur un seul jour ([!UICONTROL Today], [!UICONTROL Yesterday]ou un jour spécifique).
-
-![graphiques de tendances distincts pour trois mesures](/help/dsp/assets/trend-chart-separate.png)
-
-Vous pouvez également, si vous le souhaitez, superposer les trois mesures afin de détecter facilement les anomalies et les domaines dans lesquels améliorer l’échelle ou les performances.
-
-![graphique des tendances avec superposition](/help/dsp/assets/trend-chart.png)
-
-Vous pouvez [personnaliser les graphiques de tendance ;](campaign-data-visualization-manage.md) par campagne et les mêmes mesures sont conservées dans tous les graphiques de tendance de la campagne.
 
 ### Emplacement [!UICONTROL Inspector] {#placement-inspector}
 
