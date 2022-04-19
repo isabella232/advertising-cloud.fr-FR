@@ -3,9 +3,9 @@ title: À propos des rapports In-Platform
 description: Découvrez les données du rapport incluses dans les vues de gestion de campagne.
 feature: DSP Campaign Data Views
 exl-id: e9f7dafe-e0db-4fec-bf5b-858cbcfdde45
-source-git-commit: 1292f39cb2d7d690a46d4e943ed09d98c349ce41
+source-git-commit: 2f985d9ae8343ea0005f1aa9c33acd603d514f1d
 workflow-type: tm+mt
-source-wordcount: '960'
+source-wordcount: '958'
 ht-degree: 0%
 
 ---
@@ -97,7 +97,7 @@ Vous pouvez exporter les données du [!UICONTROL Sites], [!UICONTROL Ads]ou [!UI
 
 ### Autres types de rapports au niveau des campagnes
 
-Pour d’autres ventilations de données, voir [les pages de création de rapports au niveau de la campagne héritées ;](/help/dsp/campaign-management/campaigns/campaign-view-report.md). Le rapport hérité comprend des sections sur [!UICONTROL Geography], [!UICONTROL Device], [!UICONTROL Viewability], et [!UICONTROL Audience Performance] data.
+Pour d’autres ventilations de données, voir [les pages de création de rapports au niveau de la campagne ;](/help/dsp/campaign-management/campaigns/campaign-view-report.md). Le <!--legacy --> le rapport comprend des sections sur [!UICONTROL Geography], [!UICONTROL Device], [!UICONTROL Viewability], et [!UICONTROL Audience Performance] data.
 
 >[!MORELIKETHIS]
 >
@@ -106,6 +106,6 @@ Pour d’autres ventilations de données, voir [les pages de création de rappor
 >* [Création d’un mode Colonnes personnalisé](column-view-create.md)
 >* [Modification du mode Colonnes](column-view-change.md)
 >* [Gestion des visualisations des données](campaign-data-visualization-manage.md)
->* [Exporter des données à partir d’une vue de gestion de campagne](campaign-export-data.md)
+>* [Exportation de données à partir d’une vue Campaign Management](campaign-export-data.md)
 >* [Affichage d’un rapport détaillé pour une campagne](/help/dsp/campaign-management/campaigns/campaign-view-report.md)
 
