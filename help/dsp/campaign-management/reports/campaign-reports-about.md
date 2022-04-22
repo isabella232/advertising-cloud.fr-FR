@@ -3,9 +3,9 @@ title: À propos des rapports In-Platform
 description: Découvrez les données du rapport incluses dans les vues de gestion de campagne.
 feature: DSP Campaign Data Views
 exl-id: e9f7dafe-e0db-4fec-bf5b-858cbcfdde45
-source-git-commit: 2f985d9ae8343ea0005f1aa9c33acd603d514f1d
+source-git-commit: 7d081583ff10675b515aafdd97ccb3053f19c32d
 workflow-type: tm+mt
-source-wordcount: '958'
+source-wordcount: '938'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ Les vues de gestion de campagne incluent des données de rapport complètes. Les
 
 ## Vue Toutes les campagnes
 
-Le [!UICONTROL Campaigns] s’ouvre sur une liste de toutes les campagnes de votre compte. &lt;!— Le [!UICONTROL Subtotals] affiche soit la somme, soit la valeur moyenne de chaque mesure sur toutes les lignes visibles. — Existe-t-il toujours une ligne Sous-totaux ? Je n&#39;en vois pas une. —>
+Le [!UICONTROL Campaigns] La vue s’ouvre sur un ensemble de graphiques de données de performances et une liste de toutes les campagnes de votre compte.
 
 ### Affichage du graphique {#chart-view}
 
@@ -106,6 +106,6 @@ Pour d’autres ventilations de données, voir [les pages de création de rappor
 >* [Création d’un mode Colonnes personnalisé](column-view-create.md)
 >* [Modification du mode Colonnes](column-view-change.md)
 >* [Gestion des visualisations des données](campaign-data-visualization-manage.md)
->* [Exportation de données à partir d’une vue Campaign Management](campaign-export-data.md)
+>* [Exporter des données à partir d’une vue de gestion de campagne](campaign-export-data.md)
 >* [Affichage d’un rapport détaillé pour une campagne](/help/dsp/campaign-management/campaigns/campaign-view-report.md)
 
