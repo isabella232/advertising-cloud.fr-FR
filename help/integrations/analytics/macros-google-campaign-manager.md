@@ -2,9 +2,9 @@
 title: Ajouter [!DNL Analytics for Advertising Cloud] Macros vers [!DNL Google Campaign Manager 360] Balises publicitaires
 description: Découvrez pourquoi et comment ajouter [!DNL Analytics for Advertising Cloud] des macros à [!DNL Google Campaign Manager 360] balises publicitaires
 feature: Integration with Adobe Analytics
-source-git-commit: 2ba5656704319584e475f8c6c68943f215196ae2
+source-git-commit: 2dfb609e73902fcd929d96c55fbc79588074c65e
 workflow-type: tm+mt
-source-wordcount: '515'
+source-wordcount: '521'
 ht-degree: 0%
 
 ---
@@ -52,12 +52,16 @@ https://www.adobe.com/home?someparam1=somevalue1&%pamo=!;
 1. Cliquez sur le nom de l’annonceur.
 1. Dans le [!UICONTROL Landing page URL suffix] paramètres, inclure `%pamo!;` dans le [!UICONTROL URL suffix] champ .
 
+![paramètres au niveau de l’annonceur](/help/integrations/assets/macro-ggl360-advertiser.png)
+
 ### Configuration du suffixe d’URL de page d’entrée de niveau Campaign
 
 1. Dans le menu principal, cliquez sur le [!UICONTROL Campaigns] .
 1. Cliquez sur le nom de la campagne.
 1. Cliquez sur [!UICONTROL Properties].
 1. Dans le [!UICONTROL Landing page URL suffix] paramètres, inclure `%pamo!;` dans le [!UICONTROL URL suffix] champ .
+
+![paramètres au niveau de la campagne](/help/integrations/assets/macro-ggl360-campaign.png)
 
 ### Configuration du suffixe d’URL de page d’entrée Creative
 
@@ -66,6 +70,8 @@ https://www.adobe.com/home?someparam1=somevalue1&%pamo=!;
 1. Dans le [!UICONTROL Views] menu, sélectionnez [!UICONTROL Creatives].
 1. Cliquez sur le nom de l’élément créatif.
 1. Dans le [!UICONTROL Click tags] paramètre, inclure `%pamo!;` dans le [!UICONTROL Landing page] pour la balise de clic.
+
+![paramètres au niveau de la création](/help/integrations/assets/macro-ggl360-creative.png)
 
 ## Comment [!DNL Analytics for Advertising Cloud] Les macros sont développées en DSP
 
