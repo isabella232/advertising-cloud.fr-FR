@@ -3,9 +3,9 @@ title: Solutions multi-appareils
 description: En savoir plus sur les fonctionnalités multi-appareils.
 feature: DSP Introduction
 exl-id: 29f8ec41-35a6-4a29-a638-82a2929a8fe6
-source-git-commit: b40c6f08b94e546e5fc068c46b279292a4d8a14f
+source-git-commit: ca19836d5918c69161c4d850a65eaff311249225
 workflow-type: tm+mt
-source-wordcount: '1110'
+source-wordcount: '1113'
 ht-degree: 0%
 
 ---
@@ -85,7 +85,7 @@ Avec l’attribution basée sur les personnes, vous pouvez attribuer des convers
 
 ### Activation de la mesure d’attribution basée sur les personnes
 
-Si vous souhaitez activer la mesure d’attribution entre appareils, contactez votre [!DNL Adobe] l&#39;équipe du compte. Pour [!DNL Adobe Device Co-op] , vous devrez fournir vos [!DNL Adobe Device Co-op] contrat et Experience Cloud [!DNL Organization ID] (anciennement appelée [!DNL IMS org ID]).
+Si vous souhaitez activer la mesure d’attribution entre appareils, contactez votre [!DNL Adobe] l&#39;équipe du compte. Pour [!DNL Adobe Device Co-op] , vous devrez fournir vos [!DNL Adobe Device Co-op] le contrat et l’ID d’Experience Cloud de l’organisation (anciennement appelé [!DNL IMS org ID]).
 
 Pour savoir si un compte publicitaire est configuré pour utiliser un graphique d’appareil pour la mesure d’attribution :
 
