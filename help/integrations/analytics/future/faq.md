@@ -1,9 +1,9 @@
 ---
 title: Questions fréquentes
 description: xxx
-source-git-commit: ca19836d5918c69161c4d850a65eaff311249225
+source-git-commit: 2e0395dc1e5aa52adc83c1aaea49793fd5555390
 workflow-type: tm+mt
-source-wordcount: '366'
+source-wordcount: '367'
 ht-degree: 0%
 
 ---
@@ -32,5 +32,5 @@ Notre Auditor nous demande de désactiver cette fonctionnalité. Que se passe-t-
 
 A : Nous avons vérifié avec notre produit et ils ont mentionné que les pixels en question ont pour but d’augmenter les taux de correspondance des cookies entre Ad Cloud, des partenaires d’inventaire/SSP spécifiques (par rapport à DSP) et AAM.  S’ils sont supprimés, le client peut voir un certain niveau de taux de correspondance diminué entre AAC/AAM et les partenaires d’inventaire pour lesquels les pixels respectifs sont destinés, mais il ne s’attend pas à ce qu’il soit substantiel.
 
-Pour Ad Cloud Search, nous constatons que l’ID d’Experience Cloud de l’organisation est configuré pour Mathwork, mais que notre équipe produit ne voit pas la configuration de Mathwork pour activer les audiences dans Ad Cloud. Utilisez-vous Adobe Audience Manager pour envoyer des audiences vers Ad Cloud Search ? Si ce n’est pas le cas, la suppression de ces éléments n’aura aucun impact sur le workflow actuel. AAM l’assistance clientèle peut vous aider à supprimer ces pixels si vous ne souhaitez pas qu’ils soient déclenchés.
+Pour Ad Cloud Search, nous constatons que l’ID d’organisation Experience Cloud de l’annonceur est configuré pour Mathwork, mais que notre équipe produit ne voit pas la configuration de Mathwork pour activer les audiences dans Ad Cloud. Utilisez-vous Adobe Audience Manager pour envoyer des audiences vers Ad Cloud Search ? Si ce n’est pas le cas, la suppression de ces éléments n’aura aucun impact sur le workflow actuel. AAM l’assistance clientèle peut vous aider à supprimer ces pixels si vous ne souhaitez pas qu’ils soient déclenchés.
 

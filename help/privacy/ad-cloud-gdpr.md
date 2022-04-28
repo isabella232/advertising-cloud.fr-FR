@@ -3,9 +3,9 @@ title: Prise en charge de Adobe Advertising Cloud pour le Règlement général s
 description: Découvrez les types de requêtes de données pris en charge, les valeurs de configuration et de champ requises, ainsi que des exemples de requêtes d’accès aux API utilisant des ID de produit hérités et des champs de données renvoyés.
 feature: GDPR
 exl-id: 304d88d0-d63d-4b32-8d4d-c61ba2409adc
-source-git-commit: ca19836d5918c69161c4d850a65eaff311249225
+source-git-commit: 2e0395dc1e5aa52adc83c1aaea49793fd5555390
 workflow-type: tm+mt
-source-wordcount: '1046'
+source-wordcount: '1052'
 ht-degree: 0%
 
 ---
@@ -52,13 +52,13 @@ Pour envoyer des demandes d’accès et de suppression de données pour Advertis
    >
    >La suppression des données personnelles est différente de l’exclusion, qui arrête le ciblage d’un utilisateur final avec des segments d’audience. Cependant, lorsqu’un sujet des données demande de supprimer des données personnelles de [!DNL Creative], [!DNL DSP]ou [!DNL DCO], la bibliothèque envoie également une demande à Advertising Cloud pour exclure le sujet de données du ciblage de segments. Pour les annonceurs qui utilisent [!DNL Search], nous vous recommandons de fournir aux sujets des données un lien vers [https://www.adobe.com/privacy/opt-out.html](https://www.adobe.com/privacy/opt-out.html), qui explique comment exclure le ciblage des segments ciblés.
 
-1. Identifiez votre ID d’Experience Cloud et assurez-vous qu’il est lié à vos comptes Advertising Cloud.
+1. Identifiez l’ID d’organisation de votre Experience Cloud et assurez-vous qu’il est lié à vos comptes Advertising Cloud.
 
-   Un ID d’Experience Cloud est une chaîne alphanumérique de 24 caractères accompagnée de &quot;@AdobeOrg&quot;. Un ID a été attribué à la plupart des clients Experience Cloud. Si votre équipe marketing ou votre administrateur système d’Adobe interne ne connaît pas l’identifiant de votre organisation ou n’est pas certain s’il a été configuré, contactez l’assistance clientèle d’Adobe à l’adresse gdprsupport@adobe.com. Vous aurez besoin de l’identifiant pour envoyer des requêtes à l’API de confidentialité à l’aide de la variable `imsOrgID` espace de noms.
+   Un ID d’organisation Experience Cloud est une chaîne alphanumérique de 24 caractères accompagnée de &quot;@AdobeOrg&quot;. Un ID d’organisation a été attribué à la plupart des clients Experience Cloud. Si votre équipe marketing ou votre administrateur système d’Adobes interne ne connaît pas l’ID d’organisation ou ne sait pas s’il a été configuré, contactez l’assistance clientèle d’Adobe à l’adresse gdprsupport@adobe.com. Vous aurez besoin de l’ID d’organisation pour envoyer des requêtes à l’API de confidentialité à l’aide de la variable `imsOrgID` espace de noms.
 
    >[!IMPORTANT]
    >
-   >Contactez le représentant Advertising Cloud de votre entreprise pour confirmer que tous les comptes Advertising Cloud de votre entreprise — y compris [!DNL DSP] des comptes ou des annonceurs, [!DNL Search] les comptes et [!DNL Creative] ou [!DNL DCO] comptes — sont liés à votre ID d’Experience Cloud.
+   >Contactez le représentant Advertising Cloud de votre entreprise pour confirmer que tous les comptes Advertising Cloud de votre entreprise — y compris [!DNL DSP] des comptes ou des annonceurs, [!DNL Search] les comptes et [!DNL Creative] ou [!DNL DCO] comptes : sont liés à l’ID d’organisation Experience Cloud.
 
 1. Utilisez l’une des méthodes suivantes : [API Adobe Experience Platform Privacy Service](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/privacy-jobs.html) (pour les requêtes automatisées) ou la variable [Interface utilisateur du Privacy Service](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html) (pour les requêtes ad hoc) pour envoyer des requêtes d’accès et de suppression à Advertising Cloud pour le compte des sujets des données, et pour vérifier le statut des requêtes existantes.
 
@@ -69,7 +69,7 @@ Pour envoyer des demandes d’accès et de suppression de données pour Advertis
    Lorsque vous soumettez une demande de suppression d’un sujet de données, l’ID de cookie ou l’ID d’appareil, ainsi que toutes les données sur les coûts, les clics et les recettes associés au cookie, sont supprimés du serveur.
 
    >[!NOTE]
-   Si votre société possède plusieurs ID d’Experience Cloud, vous devez envoyer des requêtes d’API distinctes pour chacun d’eux. Vous pouvez toutefois adresser une requête d’API à plusieurs sous-solutions Advertising Cloud ([!DNL Search], [!DNL Creative], [!DNL DSP], et [!DNL DCO]), avec un compte par sous-solution.
+   Si votre société dispose de plusieurs ID d’organisation Experience Cloud, vous devez envoyer des demandes d’API distinctes pour chacun d’eux. Vous pouvez toutefois adresser une requête d’API à plusieurs sous-solutions Advertising Cloud ([!DNL Search], [!DNL Creative], [!DNL DSP], et [!DNL DCO]), avec un compte par sous-solution.
 
 Toutes ces étapes sont nécessaires pour Advertising Cloud. Pour plus d’informations à ce sujet et sur d’autres tâches connexes que vous devez effectuer à l’aide d’Adobe Experience Platform Privacy Service, et où trouver les éléments dont vous aurez besoin, voir [www.adobe.io/apis/cloudplatform/gdpr.html](https://www.adobe.io/apis/experienceplatform/gdpr.html).
 

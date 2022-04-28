@@ -2,7 +2,8 @@
 title: Ajouter [!DNL Analytics for Advertising Cloud] Macros vers [!DNL Google Campaign Manager 360] Balises publicitaires
 description: Découvrez pourquoi et comment ajouter [!DNL Analytics for Advertising Cloud] des macros à [!DNL Google Campaign Manager 360] balises publicitaires
 feature: Integration with Adobe Analytics
-source-git-commit: 2dfb609e73902fcd929d96c55fbc79588074c65e
+exl-id: 05084a85-5890-4a82-b3eb-4520f44f9d66
+source-git-commit: c7716aa6f953cda7b03bce85dc85842f25d41172
 workflow-type: tm+mt
 source-wordcount: '521'
 ht-degree: 0%

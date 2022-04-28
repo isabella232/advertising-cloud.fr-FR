@@ -1,9 +1,9 @@
 ---
 title: Paramètres du compte Advertiser
 description: Voir la description des paramètres de l’annonceur disponibles.
-source-git-commit: ca19836d5918c69161c4d850a65eaff311249225
+source-git-commit: 2e0395dc1e5aa52adc83c1aaea49793fd5555390
 workflow-type: tm+mt
-source-wordcount: '972'
+source-wordcount: '975'
 ht-degree: 0%
 
 ---
@@ -30,13 +30,13 @@ ht-degree: 0%
 
 Les annonceurs qui disposent de produits Adobe Experience Cloud supplémentaires peuvent partager des données sur certains produits à l’aide de l’identifiant unique de l’entreprise pour l’Experience Cloud. Vous pouvez configurer des intégrations de produits spécifiques dans le [!UICONTROL Integrations] .
 
-**[!UICONTROL Account IMS org and ID]:** (Publicitaires disposant de produits Experience Cloud supplémentaires sous licence via un compte Experience Cloud avec plusieurs annonceurs ; (facultatif) ID d’Experience Cloud de l’organisation.
+**[!UICONTROL Account IMS org and ID]:** (Publicitaires disposant de produits Experience Cloud supplémentaires sous licence via un compte Experience Cloud avec plusieurs annonceurs ; (facultatif) ID d’organisation Experience Cloud de l’annonceur.
 
-**[!UICONTROL Advertiser IMS org and ID]:** (Annonceurs disposant de licences directes pour des produits Experience Cloud supplémentaires ; (facultatif) ID d’Experience Cloud de l’organisation.
+**[!UICONTROL Advertiser IMS org and ID]:** (Annonceurs disposant de licences directes pour des produits Experience Cloud supplémentaires ; (facultatif) ID d’organisation Experience Cloud de l’annonceur.
 
 ### [!UICONTROL Integrations]
 
-(Facultatif) Produits Experience Cloud supplémentaires liés au compte DSP. Les produits doivent être associés au même ID d’Experience Cloud que celui fourni dans la variable [!UICONTROL Adobe IMS IDs] .
+(Facultatif) Produits Experience Cloud supplémentaires liés au compte DSP. Les produits doivent être associés au même ID d’organisation Experience Cloud que celui fourni dans la variable [!UICONTROL Adobe IMS IDs] .
 
 **[!UICONTROL Adobe Media Optimizer]:** (Publicitaires avec Advertising Cloud Search ou qui utilisent des pixels de conversion Advertising Cloud) A [!DNL Search] compte avec lequel DSP échangera des données d’attribution.
 
