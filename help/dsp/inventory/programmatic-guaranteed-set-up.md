@@ -3,9 +3,9 @@ title: Configuration d’un contrat garanti programmatique
 description: Découvrez comment configurer un contrat PG garanti par programmation que vous avez négocié avec un éditeur.
 feature: DSP Private Inventory, DSP Deal IDs, DSP Programmatic Guaranteed Deals
 exl-id: 9e371606-5428-4635-9653-7dc43449e489
-source-git-commit: 81b1074f86685f863f89a07ecd33e892e4933512
+source-git-commit: 3c9822890e96035fc9e44f8832efcc2889a8cb5f
 workflow-type: tm+mt
-source-wordcount: '436'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -38,11 +38,9 @@ Il s’agit de la méthode recommandée pour [!DNL FreeWheel], [!DNL Google Auth
 
    * Si vous acceptez une proposition avec plusieurs ID de transaction PG, identifiez chaque emplacement par défaut PG que vous devez créer. Une fois tous les emplacements requis créés, le bouton Continuer est activé.
 
-1. (Facultatif) Ciblez l’opération PG en emplacements supplémentaires, PG ou autres en cliquant sur ![Menu Options](/help/dsp/assets/options-menu.png) **>[!UICONTROL Attach new placement]**.
+1. (Facultatif) Ciblez l’opération PG dans des emplacements PG ou non PG supplémentaires en cliquant sur ![Menu Options](/help/dsp/assets/options-menu.png) **>[!UICONTROL Attach new placement]**.
 
->[!NOTE]
->
->Il est possible de joindre plusieurs emplacements prenant en charge différents types (CTV, Desktop, Audio, etc.) à la même affaire.
+   Une transaction peut cibler plusieurs emplacements qui prennent en charge n’importe quelle combinaison de types de médias (comme la télévision connectée, le bureau et l’audio).
 
 ## Configuration manuelle d’une transaction sécurisée par programmation
 
@@ -54,12 +52,9 @@ Utilisez cette méthode pour tous les autres SSP.
 
    La création d’un emplacement par défaut PG pour l’opération est obligatoire pour diffuser 100 % de votre achat. Ce type d’emplacement n’a pas de ciblage, DSP peut donc renvoyer une offre à chaque demande d’offre de l’éditeur.
 
-1. (Facultatif) Ciblez l’opération PG en emplacements supplémentaires, PG ou autres en cliquant sur ![Menu Options](/help/dsp/assets/options-menu.png) **>[!UICONTROL Attach new placement]**.
+1. (Facultatif) Ciblez l’opération PG dans des emplacements PG ou non PG supplémentaires en cliquant sur ![Menu Options](/help/dsp/assets/options-menu.png) **>[!UICONTROL Attach new placement]**.
 
->[!NOTE]
->
->Il est possible de joindre plusieurs emplacements prenant en charge différents types (CTV, Desktop, Audio, etc.) à la même affaire.
-
+   Une transaction peut cibler plusieurs emplacements qui prennent en charge n’importe quelle combinaison de types de médias (comme la télévision connectée, le bureau et l’audio).
 
 >[!MORELIKETHIS]
 >
