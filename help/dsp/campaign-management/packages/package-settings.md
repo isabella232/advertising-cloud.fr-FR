@@ -3,7 +3,7 @@ title: Paramètres du module
 description: Voir la description des paramètres de package disponibles.
 feature: DSP Packages
 exl-id: b4d415d1-86a5-40bd-b645-1709b267c174
-source-git-commit: d10e1c24ee7c93eaab3fd4fefe853860226cc8e2
+source-git-commit: 4a699912468cd89efec0c1da9fdb6302ca93a3b4
 workflow-type: tm+mt
 source-wordcount: '706'
 ht-degree: 0%
@@ -14,32 +14,32 @@ ht-degree: 0%
 
 ## [!UICONTROL Basic Details]
 
-**[!UICONTROL Name]:** nom du module. La longueur maximale est de 60 caractères.
+**[!UICONTROL Name]:** Nom du module. La longueur maximale est de 60 caractères.
 
-**[!UICONTROL Description]:**  (facultatif) description du package.
+**[!UICONTROL Description]:** (Facultatif) Description du module.
 
-**[!UICONTROL 3rd Party Billed Fees]:**  (Facultatif) Frais tiers statiques à suivre en tant que coût non facturable :
+**[!UICONTROL 3rd Party Billed Fees]:** (Facultatif) Des frais tiers statiques à suivre en tant que coût non facturable :
 
 >[!NOTE]
 >
->Les frais facturables sont pris en compte dans la mesure [!UICONTROL Net CPM].
-* **[!UICONTROL CPM]:** coût par 1 000 impressions (CPM).
+>Les frais facturables sont reflétés dans la variable [!UICONTROL Net CPM] mesure.
+* **[!UICONTROL CPM]:** Le coût par 1 000 impressions (CPM).
 
-* **[!UICONTROL CPM Description]:** description des frais CPM.
+* **[!UICONTROL CPM Description]:** Description des frais CPM.
 
-Vous pouvez remplacer le paramètre de niveau package au [niveau d’emplacement](/help/dsp/campaign-management/placements/placement-settings.md).
+Vous pouvez remplacer le paramètre au niveau du module à l’adresse [niveau de placement](/help/dsp/campaign-management/placements/placement-settings.md).
 
 ## [!UICONTROL Goals & Budget]
 
-**[!UICONTROL Pacing & Capping]:**  (lecture seule pour les modules existants) À quel niveau placer et limiter les emplacements dans le module :
+**[!UICONTROL Pacing & Capping]:** (Lecture seule pour les modules existants) À quel niveau placer et limiter les emplacements dans le module :
 
-* **[!UICONTROL Package level pacing]:** Cette stratégie de rythme fonctionne en effectuant un suivi et en plafonnant tous les emplacements inclus en tant que  *groupe*. Cette stratégie garantit que tous les emplacements d’un package donné sont optimisés de manière holistique, en répartissant les dépenses en fonction des performances et de l’échelle avec certains indicateurs clés de performance (IPC).
+* **[!UICONTROL Package level pacing]:** Cette stratégie de fréquence fonctionne en plaçant et en plafonnant tous les emplacements inclus sous la forme *group*. Cette stratégie garantit que tous les emplacements d’un package donné sont optimisés de manière holistique, en répartissant les dépenses en fonction des performances et de l’échelle sur certains indicateurs clés de performance (IPC).
 
-* **[!UICONTROL Placement level pacing]:**  Cette stratégie de rythme fonctionne en effectuant un suivi et en plafonnant tous les emplacements inclus  *individuellement*. La bonne pratique consiste à utiliser cette stratégie uniquement pour exécuter des marchés privés garantis.
+* **[!UICONTROL Placement level pacing]:**  Cette stratégie de fréquence fonctionne en effectuant un rythme et un plafonnement de tous les emplacements inclus. *individuellement*. La bonne pratique consiste à utiliser cette stratégie uniquement pour exécuter des marchés privés garantis.
 
-**[!UICONTROL Flight Dates]:** date de début et date de fin du package.
+**[!UICONTROL Flight Dates]:** Date de début et date de fin du package.
 
-Pour créer éventuellement des vols de fréquence variable pour le package, sélectionnez *[!UICONTROL *Activate Custom Flighting]** et configurez les vols personnalisés dans la section [!UICONTROL Flighting] ci-dessous. Une fois que vous avez activé le vol personnalisé et enregistré le package, vous ne pouvez pas désactiver le vol personnalisé.
+Si vous le souhaitez, vous pouvez créer des vols de fréquence variable pour le kit, sélectionnez *[!UICONTROL *Activate Custom Flighting]** et configurez les vols personnalisés dans le [!UICONTROL Flighting] ci-dessous. Une fois que vous avez activé le vol personnalisé et enregistré le package, vous ne pouvez pas désactiver le vol personnalisé.
 
 >[!NOTE]
 >
@@ -47,33 +47,33 @@ Pour créer éventuellement des vols de fréquence variable pour le package, sé
 > * Vous ne pouvez pas modifier la date de début du module lorsque l’éclairage personnalisé est activé.
 
 
-**[!UICONTROL Budget]:**  (Modules avec une fréquence au niveau des packages uniquement) Le plafond budgétaire brut et l’intervalle de budget.
+**[!UICONTROL Budget]:** (Packages avec une fréquence au niveau du package uniquement) Le plafond budgétaire brut et l’intervalle de budget.
 
-Pour les packages avec un vol personnalisé, l’intervalle de budget est toujours *[!UICONTROL All time]*. Pour les packages sans vol personnalisé, spécifiez l’intervalle de budget : *[!UICONTROL All time],* *[!UICONTROL Daily],* *[!UICONTROL Monthly],* ou *[!UICONTROL Weekly]*.
+Pour les modules avec un vol personnalisé, l’intervalle de budget est toujours *[!UICONTROL All time]*. Pour les packages sans vol personnalisé, spécifiez l’intervalle de budget : *[!UICONTROL All time],* *[!UICONTROL Daily],* *[!UICONTROL Monthly],* ou *[!UICONTROL Weekly]*.
 
-**[!UICONTROL Gross Budget]:**  (Modules avec package et gestion dynamique des marges uniquement) Le budget brut maximum pour la durée du package.
+**[!UICONTROL Gross Budget]:** (Modules avec un rythme au niveau des packages et gestion dynamique des marges uniquement) Le plafond brut du budget pour la durée du package.
 
-**[!UICONTROL Optimization Goal]:**  (Modules avec un rythme au niveau du module uniquement) L’objectif d’optimisation du module. Consultez les descriptions de chaque objectif d’optimisation à l’adresse [Objectifs d’optimisation et Comment les utiliser](/help/dsp/optimization/optimization-goals.md).
+**[!UICONTROL Optimization Goal]:** (Modules avec un rythme au niveau du module uniquement) L’objectif d’optimisation du module. Consultez les descriptions de chaque objectif d’optimisation à l’adresse [Objectifs d’optimisation et utilisation](/help/dsp/optimization/optimization-goals.md).
 
-**[!UICONTROL Custom Goals]:**  (Modules avec objectifs d’optimisation personnalisés uniquement)  [Objectif ](/help/dsp/optimization/custom-goal-about.md) personnalisé du module. Pour plus d’informations sur les bonnes pratiques relatives aux objectifs personnalisés et aux campagnes qui les utilisent, voir [Bonnes pratiques relatives à la création d’un objectif personnalisé](/help/dsp/optimization/custom-goal-best-practices.md) et [Bonnes pratiques relatives à la configuration des campagnes de performances](/help/dsp/optimization/campaign-best-practices-performance.md).
+**[!UICONTROL Custom Goals]:** (Modules avec objectifs d’optimisation personnalisés uniquement) La variable [objectif personnalisé](/help/dsp/optimization/custom-goal-about.md) pour le module. Pour plus d’informations sur les bonnes pratiques relatives aux objectifs personnalisés et aux campagnes qui les utilisent, voir  [Bonnes pratiques pour créer un objectif personnalisé](/help/dsp/optimization/custom-goal-best-practices.md) et [Bonnes pratiques pour configurer des campagnes de performances](/help/dsp/optimization/campaign-best-practices-performance.md).
 
-**[!UICONTROL Package Goal Type]:**  (Modules avec objectifs d’optimisation personnalisés uniquement) L’objectif du module. Ce paramètre permet de déterminer comment optimiser le module :
+**[!UICONTROL Package Goal Type]:** (Modules avec objectifs d’optimisation personnalisés uniquement) L’objectif du module. Ce paramètre permet de déterminer comment optimiser le module :
 
-* *[!UICONTROL Prospecting]:* les packages de prospection se concentrent sur l&#39;acquisition de nouveaux clients.
+* *[!UICONTROL Prospecting]:* Les forfaits de prospection se concentrent sur l&#39;acquisition de nouveaux clients.
 
-* *[!UICONTROL Retargeting]:* les modules de reciblage se concentrent sur la réexposition des visiteurs ou clients précédents.
+* *[!UICONTROL Retargeting]:* Les modules de reciblage se concentrent sur la réexposition des visiteurs ou clients précédents.
 
 * *[!UICONTROL Other]:* Tous les autres usages.
 
-**[!UICONTROL Linked Package for Optimization Learnings Carryover]:**  (Modules avec objectifs d’optimisation personnalisés uniquement) Autre module dont les données historiques sont utilisées comme entrée pour optimiser le module.
+**[!UICONTROL Linked Package for Optimization Learnings Carryover]:** (Modules avec objectifs d’optimisation personnalisés uniquement) Autre module dont les données historiques sont utilisées comme entrée pour optimiser le module.
 
-**[!UICONTROL Target]:**  (Modules avec une fréquence au niveau du module uniquement) Objectif cible, utilisé pour effectuer le suivi des performances.
+**[!UICONTROL Target]:** (Modules avec un rythme au niveau du module uniquement) Objectif cible, utilisé pour effectuer le suivi des performances.
 
 >[!NOTE]
 >
 >Ce champ n’est qu’une référence et n’est pas utilisé pour la prise de décision.
 
-**[!UICONTROL Frequency Cap]:**  (Modules avec une fréquence au niveau du module uniquement) Le nombre de fois où un appareil ou une personne unique (selon la valeur spécifiée  [!UICONTROL Cross Device Level]) peut être affiché dans les publicités à partir du module. Les options incluent *[!UICONTROL Unlimited]* ou un montant spécifique par jour, semaine ou mois.
+**[!UICONTROL Frequency Cap]:** (Modules avec une fréquence au niveau du module uniquement) Nombre de fois où un appareil ou une personne unique (selon la variable [!UICONTROL Cross Device Level]) peuvent être diffusées à partir du module . Les options incluent *[!UICONTROL Unlimited]* ou un montant spécifique par jour, semaine ou mois.
 
 >[!NOTE]
 >
@@ -82,25 +82,26 @@ Pour les packages avec un vol personnalisé, l’intervalle de budget est toujou
 > * Des plafonds de fréquence plus élevés se traduisent par des dépenses et des impressions plus élevées, mais une portée moindre. Les limites de fréquence plus basses se traduisent par des dépenses et des impressions plus faibles, mais une portée plus élevée.
 
 
-**[!UICONTROL Pace on]:**  (Modules avec un espacement au niveau du module uniquement) Quel est le rythme basé sur :
+**[!UICONTROL Pace on]:** (Modules avec mise en page au niveau du module uniquement) Sur quoi repose l’application :
 
-* *[!UICONTROL Budget]:*  (Par défaut) Cette option permet d’effectuer autant d’impressions que possible dans le budget alloué du package.
+* *[!UICONTROL Budget]:* (Par défaut) Cette option produit autant d’impressions que possible dans le budget alloué du module.
 
-* *[!UICONTROL Impressions]:* cette option livre des impressions jusqu’à ce qu’une quantité spécifiée soit atteinte au cours d’un intervalle spécifié. Lorsque vous sélectionnez cette option, indiquez le nombre d’impressions et l’intervalle : *Tout le temps,* *[!UICONTROL Daily],* *[!UICONTROL Monthly],* ou *[!UICONTROL Weekly]*.
+* *[!UICONTROL Impressions]:* Cette option permet de délivrer des impressions jusqu’à ce qu’une quantité spécifiée soit atteinte au cours d’un intervalle spécifié. Lorsque vous sélectionnez cette option, indiquez le nombre d’impressions et l’intervalle : *Tout le temps,* *[!UICONTROL Daily],* *[!UICONTROL Monthly],* ou *[!UICONTROL Weekly]*.
 
-**[!UICONTROL Pacing Fill Strategy]:**  (Modules avec une fréquence au niveau du package uniquement) Comment accélérer la diffusion et :
+**[!UICONTROL Pacing Fill Strategy]:** (Modules avec une fréquence au niveau du module uniquement) Comment accélérer la diffusion des publicités :
 
-* *[!UICONTROL Even]* Effectue un espacement uniforme dans chaque vol, avec une cible de 50 % de la diffusion dans la première moitié du vol.
+* *[!UICONTROL Even]:* Effectue un espacement uniforme de la diffusion à chaque vol, avec une cible de 50 % de la diffusion dans la première moitié du vol.
 
-* *[!UICONTROL Slightly Ahead]:*  (valeur par défaut) accélère la diffusion, de sorte qu’elle se termine à 55-65 % à mi-chemin de la durée du vol.
+* *[!UICONTROL Slightly Ahead]:* (La valeur par défaut) Accélère la diffusion, de sorte qu’elle se termine à 55 à 65 % à mi-chemin de la durée du vol.
 
-* *[!UICONTROL Frontload]:* accélère la diffusion pour qu’elle soit de 65 à 75 % à mi-chemin du vol.
+<!-- replaced with ASAP -->
+* *[!UICONTROL Frontload]:* Accélère la diffusion de sorte qu’elle soit de 65 à 75 % complète à mi-chemin du vol.
 
-* *[!UICONTROL Aggressive Frontload]:* accélère la diffusion pour qu’elle soit de 75 à 85 % à mi-chemin du vol.
+* *[!UICONTROL Aggressive Frontload]:* Accélère la diffusion de sorte qu’elle soit complète à 75 à 85 % à mi-chemin du vol.
 
 ## [!UICONTROL Flighting]
 
-(Modules avec une fréquence au niveau du module et avec &quot;[!UICONTROL Activate Custom Flighting]&quot; activé) Périodes de vol personnalisées dans la [!UICONTROL Flight Dates] globale spécifiée dans la section [!UICONTROL Goals & Budget].
+(Modules avec une fréquence au niveau du module et avec &quot;[!UICONTROL Activate Custom Flighting]&quot; activée&quot;) Périodes de vol personnalisées dans l’ensemble [!UICONTROL Flight Dates] spécifié dans la variable [!UICONTROL Goals & Budget] .
 
 Pour chaque vol, indiquez la date de début, la date de fin et le nombre cible d&#39;impressions. Pour ajouter un autre vol, cliquez sur **[!UICONTROL Add Flight]**.
 
