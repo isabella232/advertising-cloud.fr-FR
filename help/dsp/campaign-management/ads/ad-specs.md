@@ -3,9 +3,9 @@ title: Spécifications des publicités
 description: Référencez les spécifications publicitaires générales et spécifiques à l’éditeur.
 feature: DSP Ads
 exl-id: 905dfd9b-e7a3-4eb6-988f-b49d4b282dd2
-source-git-commit: f3d4dcfdaaaa4b9546e92ac6d1087e73e5054a26
+source-git-commit: 3c5a114339c2bf41637027c8580316626656fbba
 workflow-type: tm+mt
-source-wordcount: '855'
+source-wordcount: '901'
 ht-degree: 0%
 
 ---
@@ -55,6 +55,22 @@ Vous pouvez utiliser des feuilles de balises à partir de [!DNL DCM], [!DNL Flas
 #### Exigences supplémentaires de l’éditeur pour les publicités télévisées connectées
 
 * **Hulu :** Voir le livre de Hulu [spécifications publicitaires](https://advertising.hulu.com/ad-products/video-commercial/).
+
+* **Paramètre :** Voir Paramètres [spécifications publicitaires](https://www.paramount.com/digital-ads).
+
+* **Découverte :** Voir Découverte [spécifications publicitaires](/help/dsp/assets/discovery-networks-ad-specs.pdf).
+
+* **HBO Max :** Voir HBO Max [spécifications publicitaires](/help/dsp/assets/hbo-max-ad-specs-2022.xlsx).
+
+* **Réseau A+E :** Voir Réseau A+E [spécifications publicitaires](/help/dsp/assets/a-e-networks-tve-video-ad-specs.pdf)
+
+* **NBCUniversal :**
+
+   * [Vidéo numérique](https://together.nbcuni.com/nbcu-creative-guidelines/digital-video/)
+
+   * [Livestream](https://together.nbcuni.com/nbcu-creative-guidelines/livestream/)
+
+   * [Piège](https://together.nbcuni.com/nbcu-creative-guidelines/peacock/)
 
 * **Disney :**
 
