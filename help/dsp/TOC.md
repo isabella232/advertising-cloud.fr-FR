@@ -8,9 +8,9 @@ user-guide-title: Guide d’Advertising Cloud DSP
 user-guide-description: Découvrez les principales fonctionnalités, tâches, paramètres et autres ressources nécessaires pour gérer, optimiser et établir des rapports sur vos stratégies de publicité display à lʼaide dʼAdvertising Cloud DSP.
 breadcrumb-title: Guide de DSP
 index: true
-source-git-commit: 4dd819cd5feb47bce8ad56e5210c6d3c224389cb
+source-git-commit: b56bda435ef8a34b4dd695a45dea28cef2b51c85
 workflow-type: tm+mt
-source-wordcount: '859'
+source-wordcount: '886'
 ht-degree: 6%
 
 ---
@@ -37,10 +37,10 @@ ht-degree: 6%
       + [Instructions de segments d’intégrité acceptables](https://experienceleague.adobe.com/docs/advertising-cloud/policies/health-segment-guidelines.html)
       + [[!DNL DSP] Instructions d’utilisation des données](https://experienceleague.adobe.com/docs/advertising-cloud/policies/data-usage-guidelines.html)
    + [Solutions de mesure avancée](/help/dsp/introduction/advanced-measurement-services.md)
-+ Gestion de campagne {#campaign-management}
++ Campaign Management {#campaign-management}
    + [Présentation de la structure Campaign Management](/help/dsp/campaign-management/campaign-management-overview.md)
    + Campagnes {#campaigns}
-      + [Gestion de campagne](/help/dsp/campaign-management/campaigns/campaign-about.md)
+      + [À propos de Campaign Management](/help/dsp/campaign-management/campaigns/campaign-about.md)
       + [Création d’une campagne](/help/dsp/campaign-management/campaigns/campaign-create.md)
       + [Modifier une campagne](/help/dsp/campaign-management/campaigns/campaign-edit.md)
       + [Dupliquer une campagne](/help/dsp/campaign-management/campaigns/campaign-duplicate.md)
@@ -90,7 +90,7 @@ ht-degree: 6%
       + [Spécifications des types de publicité pris en charge](/help/dsp/campaign-management/ads/ad-specs.md)
    + Rapports de campagne {#campaign-reports}
       + [À propos des rapports In-Platform](/help/dsp/campaign-management/reports/campaign-reports-about.md)
-      + [Exporter des données à partir d’une vue de gestion de campagne](/help/dsp/campaign-management/reports/campaign-export-data.md)
+      + [Exportation de données à partir d’une vue Campaign Management](/help/dsp/campaign-management/reports/campaign-export-data.md)
       + [Affichage des sites, publicités et détails de fréquence d’un emplacement](/help/dsp/campaign-management/reports/placement-details-view.md)
       + [Affichage des rapports de diagnostic de placement](/help/dsp/campaign-management/reports/placement-diagnostics.md)
       + Gérer les vues de données {#data-views}
@@ -108,7 +108,7 @@ ht-degree: 6%
       + [Colonnes dans les feuilles de calcul téléchargées/téléchargées](/help/dsp/campaign-management/qa/qa-sheet-columns.md)
    + [Macros Advertising Cloud DSP](/help/dsp/campaign-management/macros.md)
    + [Raccourcis clavier](/help/dsp/campaign-management/reports/keyboard-shortcuts.md)
-   + [Questions fréquentes sur la gestion des campagnes](/help/dsp/campaign-management/campaign-management-faq.md)
+   + [Questions fréquentes à propos de Campaign Management](/help/dsp/campaign-management/campaign-management-faq.md)
 + Optimisation {#optimization}
    + [Comment [!DNL DSP] Optimisation des campagnes](/help/dsp/optimization/optimization-how-dsp-optimizes-campaigns.md)
    + [Objectifs d’optimisation et utilisation](/help/dsp/optimization/optimization-goals.md)
@@ -131,6 +131,11 @@ ht-degree: 6%
       + [Création d’une audience réutilisable](/help/dsp/audiences/reusable-audience-create.md)
       + [Paramètres d’audience](/help/dsp/audiences/audience-settings.md)
       + [Syntaxe de la logique de segment d’audience](/help/dsp/audiences/audience-segment-logic-syntax.md)
+   + Gérer les sources {#sources}
+      + [À propos de l’activation de segments authentifiés à partir des sources d’audience](/help/dsp/audiences/sources/source-about.md)
+      + [Activation des segments authentifiés à partir de partenaires d’ID durables](/help/dsp/audiences/sources/source-durable-id.md)
+      + [Création d’une source d’audience pour activer les audiences propriétaires](/help/dsp/audiences/sources/source-create.md)
+      + [Paramètres de la source d’audience](/help/dsp/audiences/sources/source-settings.md)
    + [Fournisseurs de données tiers disponibles](/help/dsp/audiences/third-party-data-providers.md)
 + Inventaire {#inventory}
    + [Présentation des fonctionnalités du stock](/help/dsp/inventory/inventory-overview.md)
