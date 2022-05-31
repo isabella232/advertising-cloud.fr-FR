@@ -2,7 +2,7 @@
 title: 'Activation des segments authentifiés à partir de partenaires d’ID durables '
 description: Découvrez comment activer des audiences authentifiées par le biais d’une solution d’ID durable.
 feature: DSP Audiences
-source-git-commit: 8550b539676588c3a6bc07abe088b38bd4251725
+source-git-commit: 155ab740084bebfba5fd992a23706129668fcc90
 workflow-type: tm+mt
 source-wordcount: '296'
 ht-degree: 0%
@@ -55,7 +55,7 @@ Pour en savoir plus sur l’intégration DSP avec [!DNL LiveRamp], contactez `ad
 
 >[!MORELIKETHIS]
 >
->*[À propos de l’activation de segments authentifiés à partir des sources d’audience](source-about.md)
+>* [À propos de l’activation de segments authentifiés à partir des sources d’audience](source-about.md)
 >* [Création d’une source d’audience pour activer les audiences propriétaires](source-create.md)
 >* [Paramètres de la source d’audience](source-settings.md)
 >* [Connexion Adobe Advertising Cloud DSP](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud-connection.html)
