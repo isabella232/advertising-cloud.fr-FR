@@ -2,7 +2,8 @@
 title: Paramètres de la source d’audience
 description: Découvrez les paramètres des sources d’audience.
 feature: DSP Audiences
-source-git-commit: 285ececc74373be4dee9d0a4bce2c82605082630
+exl-id: 8b17d5cc-488b-4bd2-bada-ef51b35faf92
+source-git-commit: 932b1ff979cb9b617502f9797af29e88ef77adf0
 workflow-type: tm+mt
 source-wordcount: '163'
 ht-degree: 0%
@@ -19,7 +20,7 @@ ht-degree: 0%
 
 **[!UICONTROL Enter IMS Org Id]:** L’ID d’organisation Experience Cloud pour la variable [!DNL Adobe Experience Platform] compte .
 
-**[!UICONTROL AAC Source Key]:** (Lecture seule) ; généré lorsqu’une valeur est saisie dans la variable [!UICONTROL Enter IMS Org Id] (Champ) Clé source que vous pouvez utiliser pour [créer une connexion de destination dans [!DNL Adobe Real-Time Customer Data Profile]](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud-dsp-destination.html) pour envoyer des audiences vers Advertising Cloud DSP. Vous pouvez copier la valeur dans le presse-papiers pour la coller dans le [!DNL Adobe Real-Time CDP] paramètres de connexion à la destination ou dans un fichier .
+**[!UICONTROL AAC Source Key]:** (Lecture seule) ; généré lorsqu’une valeur est saisie dans la variable [!UICONTROL Enter IMS Org Id] (Champ) Clé source que vous pouvez utiliser pour [créer une connexion de destination dans [!DNL Adobe Real-Time Customer Data Profile]](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud-connection.html) pour envoyer des audiences vers Advertising Cloud DSP. Vous pouvez copier la valeur dans le presse-papiers pour la coller dans le [!DNL Adobe Real-Time CDP] paramètres de connexion à la destination ou dans un fichier .
 
 >[!MORELIKETHIS]
 >
