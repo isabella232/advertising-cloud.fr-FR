@@ -3,9 +3,9 @@ title: Partenaires certifiés du service publicitaire
 description: Voir tous les serveurs de publicités et unités publicitaires certifiés.
 feature: DSP Ads
 exl-id: 084b4c04-a876-4770-9efc-57268c333aa6
-source-git-commit: ed8e81a87a03d604a002937c5071873fc530f100
+source-git-commit: 97085be7b8c1e7ab741c76801fb258295eb4714c
 workflow-type: tm+mt
-source-wordcount: '249'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -41,7 +41,7 @@ ht-degree: 0%
 | [!DNL Innovid] | X | X |  | X |  |
 | [!DNL InSkin] |  |  | X |  | Les peaux à fort impact doivent être diffusées à partir d’un identifiant d’offre d’affichage 180x150 sur le réseau d’inventaire Inzone. |
 | [!DNL Jivox] |  | X |  |  |  |
-| [!DNL Kargo] |  | X |  |  | Ancre, OC, pointer, ventilation et sidekick 320x50 ; 300x250 Outstream ; Publicités affichées sur l’ordinateur de bureau standard certifiées (des identifiants de module externe de publicité spécifiques ne sont pas requis).</br></br>Contactez votre [!DNL Adobe] équipe du compte pour obtenir de l’aide sur la configuration des unités d’annonce. |
+| [!DNL Kargo] |  | X |  |  | Ancre, OC, pointer, ventilation et sidekick 320x50 ; 300x250 Outstream ; Affichage de bureau standard (des identifiants de module externe de publicité spécifiques ne sont pas requis).</br></br>Contactez votre [!DNL Adobe] équipe du compte pour obtenir de l’aide sur la configuration des unités d’annonce. |
 | [!DNL Linkstorm] |  |  | X |  |  |
 | [!DNL mCanvas] |  |  | X |  |  |
 | [!DNL Medialets] |  | X |  |  |  |
@@ -50,12 +50,12 @@ ht-degree: 0%
 | [!DNL Pubmatic] |  |  |  | X | VAST uniquement |
 | [!DNL RevJet] |  |  |  | X | VAST uniquement |
 | [!DNL Seedtag] |  | X |  |  |  |
-| [!DNL Sizmek] |  | X |  |  | Certifié pour OLV et CTV.</br></br>Pour que les balises s’affichent dans l’interface utilisateur, enveloppez la balise avec `<a>` balises (au début et à la fin). Voir l’exemple de balise ci-dessous :</br></br>```<a><script src="https://bs.serving-sys.com/Serving/adServer.bs?c=28&cn=display&pli=1074570064&w=900&h=550&ord=[timestamp]&ifrm=-1&z=0"></script> <noscript> <a href="https://bs.serving-sys.com/Serving/adServer.bs?cn=brd&pli=1074570064&Page=&Pos=-602368150" target="_blank"> <img src="https://bs.serving-sys.com/Serving/adServer.bs?c=8&cn=display&pli=1074570064&Page=&Pos=-602368150" border=0 width=900 height=550></a> </noscript><a>``` |
+| [!DNL Sizmek] |  | X |  |  | OLV et CTV</br></br>Pour que les balises s’affichent dans l’interface utilisateur, enveloppez la balise avec `<a>` balises (au début et à la fin). Voir l’exemple de balise ci-dessous :</br></br>```<a><script src="https://bs.serving-sys.com/Serving/adServer.bs?c=28&cn=display&pli=1074570064&w=900&h=550&ord=[timestamp]&ifrm=-1&z=0"></script> <noscript> <a href="https://bs.serving-sys.com/Serving/adServer.bs?cn=brd&pli=1074570064&Page=&Pos=-602368150" target="_blank"> <img src="https://bs.serving-sys.com/Serving/adServer.bs?c=8&cn=display&pli=1074570064&Page=&Pos=-602368150" border=0 width=900 height=550></a> </noscript><a>``` |
 | [!DNL Spaceback] |  | X |  |  |  |
 | [!DNL Spirable] |  | X |  |  |  |
 | [!DNL SUBLIME] |  |  | X |  |  |
 | [!DNL SundaySky] |  |  |  | X |  |
-| [!DNL Teads] |  | X |  |  |  | Advertising Cloud DSP ne prend pas en charge VPAID dans l’inventaire en amont. |
+| [!DNL Teads] |  | X |  |  | Advertising Cloud DSP ne prend pas en charge VPAID dans l’inventaire en amont. |
 | [!DNL Trueffect] |  | X |  |  |  |
 | [!DNL Undertone] |  |  | X |  | Unité d’annonce de saisie de page personnalisée chargée au format 180x150 dans DSP</br></br>Lorsque la bourse d’index transmet une enchère de 180 x 150 et DSP des offres sur l’enchère et diffuse une impression, le créatif se développe en une publicité display pleine page.</br></br>Initialement certifié pour les unités publicitaires Grabber (Grabber) de page, Adhésion extensible et Maj d’écran. Cette opération doit être certifiée, avec les étapes indiquées pour les processus. |
 | [!DNL Vox] |  |  | X |  | [!DNL Athena] unités publicitaires |
