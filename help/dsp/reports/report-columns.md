@@ -3,9 +3,9 @@ title: Colonnes de rapport disponibles
 description: Reportez-vous à la description des colonnes disponibles dans les rapports personnalisés.
 feature: DSP Custom Reports
 exl-id: c96e46ae-2fb2-4364-9c51-f160c00693ba
-source-git-commit: 3daf6a25f883a7eef42dff1c95a98a4f5e65f67e
+source-git-commit: 966b4b4ca42b66880e1b7cf29005eeb256887149
 workflow-type: tm+mt
-source-wordcount: '1658'
+source-wordcount: '1659'
 ht-degree: 0%
 
 ---
@@ -100,7 +100,7 @@ ht-degree: 0%
 | [!UICONTROL Metric] | [!UICONTROL Performance] | [!UICONTROL Total Media CPM] | Coût médiatique net moyen pour 1 000 impressions, calculé par [!UICONTROL Net Spend (Media)] / [!UICONTROL Impressions] x 1000. |
 | [!UICONTROL Metric] | [!UICONTROL Performance] | [!UICONTROL Total Other eCPM] | Coût net moyen par 1 000 impressions pour les autres frais, calculé par [!UICONTROL Net Spend (Other)] / [!UICONTROL Impressions] x 1000. |
 | [!UICONTROL Metric] | [!UICONTROL Performance] | [!UICONTROL % bid at Max CPM] | Pourcentage du nombre total d’offres qui étaient proposées au CPM max. |
-| [!UICONTROL Metric] | [!UICONTROL Performance] | [!UICONTROL Unique Users Bid On] | Nombre d’utilisateurs distincts pour lesquels l’emplacement a été proposé. |
+| [!UICONTROL Metric] | [!UICONTROL Performance] | [!UICONTROL Unique Users Bid On] | Nombre d’utilisateurs distincts pour lesquels DSP enchère pour l’emplacement. |
 | [!UICONTROL Metric] | [!UICONTROL Spend] | [!UICONTROL Billable Data Net Spend] | Coût net total des frais de données des segments ciblés facturés via Advertising Cloud. |
 | [!UICONTROL Metric] | [!UICONTROL Spend] | [!UICONTROL Billable Media Net Spend] | Le coût net total des médias facturables, y compris les frais techniques, facturés via Advertising Cloud. |
 | [!UICONTROL Metric] | [!UICONTROL Spend] | [!UICONTROL Billable Other Net Spend] | Le coût total des autres frais de service (partenaires de vérification tiers, service publicitaire, etc.) facturés via Advertising Cloud |
