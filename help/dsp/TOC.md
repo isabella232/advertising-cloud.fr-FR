@@ -8,7 +8,7 @@ user-guide-title: Guide d’Advertising Cloud DSP
 user-guide-description: Découvrez les principales fonctionnalités, tâches, paramètres et autres ressources nécessaires pour gérer, optimiser et établir des rapports sur vos stratégies de publicité display à lʼaide dʼAdvertising Cloud DSP.
 breadcrumb-title: Guide de DSP
 index: true
-source-git-commit: b56bda435ef8a34b4dd695a45dea28cef2b51c85
+source-git-commit: f4719ee56f340c5969795dfc482e2b409244757b
 workflow-type: tm+mt
 source-wordcount: '886'
 ht-degree: 6%
@@ -165,10 +165,10 @@ ht-degree: 6%
             + [Conseils pour négocier un accord garanti programmatique](/help/dsp/inventory/programmatic-guaranteed-tips.md)
             + [Configuration d’un contrat garanti programmatique](/help/dsp/inventory/programmatic-guaranteed-set-up.md)
             + [!DNL FreeWheel] Offres garanties par la programmation {#freewheel}
-            + [Présentation de la configuration de transactions garanties par la programmation dans [!DNL FreeWheel]](/help/dsp/inventory/freewheel-overview.md)
-            + [Envoyer une publicité pour une transaction garantie par un programme à [!DNL FreeWheel]](/help/dsp/inventory/freewheel-submit.md)
-            + [Vérification de l’état des publicités pour [!DNL FreeWheel] Offres garanties par la programmation](/help/dsp/inventory/freewheel-check-status.md)
-            + [Codes d’erreur pour les envois d’annonce FreeWheel](/help/dsp/inventory/freewheel-error-codes.md)
+               + [Présentation de la configuration de transactions garanties par la programmation dans [!DNL FreeWheel]](/help/dsp/inventory/freewheel-overview.md)
+               + [Envoyer une publicité pour une transaction garantie par un programme à [!DNL FreeWheel]](/help/dsp/inventory/freewheel-submit.md)
+               + [Vérification de l’état des publicités pour [!DNL FreeWheel] Offres garanties par la programmation](/help/dsp/inventory/freewheel-check-status.md)
+               + [Codes d’erreur pour les envois d’annonce FreeWheel](/help/dsp/inventory/freewheel-error-codes.md)
          + [Modifier les paramètres d’ID de transaction](/help/dsp/inventory/deal-id-edit.md)
          + [Définition des emplacements et des publicités pour un identifiant de transaction](/help/dsp/inventory/deal-id-attach-placements.md)
          + [Modification des comptes ayant accès à un ID de transaction](/help/dsp/inventory/deal-id-share.md)
