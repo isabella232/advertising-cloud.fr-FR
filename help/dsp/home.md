@@ -5,9 +5,9 @@ cloud: Experience Cloud
 product: advertising cloud
 index: true
 exl-id: d4b67393-e8c5-4170-92eb-bcf643ba3ec3
-source-git-commit: e29853b728cd3efbb374179ca6af8d095b77df43
+source-git-commit: b15f952d11ff88d66f3e14b243ff3d6dc40224ba
 workflow-type: tm+mt
-source-wordcount: '1611'
+source-wordcount: '1645'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,8 @@ Les fonctionnalités suivantes sont nouvelles ou récemment modifiées.
 
 | Date | Fonctionnalité | Description | Pour plus d’informations |
 | ---- | ------- | ----------- | -------------------- |
-| 29 juin 2022 | Inventaire | La nouvelle [!UICONTROL Inventory] > [!UICONTROL Deals] La vue comprend les mêmes fonctionnalités de personnalisation des données que la vue [!UICONTROL Campaigns] vues, y compris des filtres supplémentaires, la personnalisation des colonnes et l’option permettant d’enregistrer des vues personnalisées, le tri des colonnes et les affichages de graphiques. Vous pouvez ouvrir un menu de commande dans chaque ligne en cliquant sur [!UICONTROL ...] après le nom de l’opération. | Voir &quot;[Présentation des fonctionnalités du stock](/help/dsp/inventory/inventory-overview.md).&quot; |
+| 29 juin 2022 | Inventaire | La nouvelle [!UICONTROL Inventory] > [!UICONTROL Deals] La vue comprend les mêmes fonctionnalités de personnalisation des données que la vue [!UICONTROL Campaigns] vues, y compris des filtres supplémentaires, la personnalisation des colonnes et l’option permettant d’enregistrer des vues personnalisées, le tri des colonnes et une vue de visualisation des données (graphique). Vous pouvez ouvrir un menu de commande dans chaque ligne en cliquant sur [!UICONTROL ...] après le nom de l’opération. | Voir &quot;[Présentation des fonctionnalités du stock](/help/dsp/inventory/inventory-overview.md).&quot; |
+|  | Inventaire [!UICONTROL Inspector] | Le [!UICONTROL Inventory] de l’emplacement [!UICONTROL Inspector] comprend désormais des graphiques de visualisation de données personnalisables et des mesures de performances étendues, telles que [!UICONTROL Viewability Rate], [!UICONTROL Clicks], et [!UICONTROL Yesterday's CPM]. | Voir &quot;[Affichage des détails sur les sites, les publicités, la fréquence et le stock pour un emplacement](/help/dsp/campaign-management/reports/placement-details-view.md).&quot; |
 | 31 mai 2022 | Sources d’audience | (Fonction bêta) Advertising Cloud DSP peut désormais ingérer des segments propriétaires composés de signaux authentifiés créés dans une plateforme de données client (CDP). | Voir &quot;[À propos de l’activation de segments authentifiés à partir des sources d’audience](/help/dsp/audiences/sources/source-about.md).&quot; |
 | 25 mai 2022 | Objectifs d’optimisation | Les emplacements vidéo et natifs peuvent désormais être inclus dans des modules avec les objectifs personnalisés RSDP le plus élevé et CPA le plus faible. | Voir &quot;[Objectifs d’optimisation et utilisation](/help/dsp/optimization/optimization-goals.md).&quot; |
 | 12 avril 2022 | Campaign Management | Les spécifications des publicités ont été mises à jour pour prendre en compte la prise en charge actuelle. | Voir &quot;[Spécifications des types de publicité pris en charge](/help/dsp/campaign-management/ads/ad-specs.md).&quot; |
