@@ -3,9 +3,9 @@ title: Liste des emplacements et des publicités pour une transaction privée
 description: Découvrez comment ouvrir une liste d’emplacements et de publicités associés à une transaction privée.
 feature: DSP Private Inventory, DSP Deal IDs, DSP Programmatic Guaranteed Deals
 exl-id: b7962e2f-933e-4563-b42c-27f5ef3c77e0
-source-git-commit: 3e47fec28a17cb64de42309c0368293e1ef1cdea
+source-git-commit: a29019ee7af0124ad9182f0578811c4d0e666937
 workflow-type: tm+mt
-source-wordcount: '127'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -16,15 +16,23 @@ Vous pouvez ouvrir une liste de tous les emplacements et publicités associés �
 
 1. Dans le menu principal, cliquez sur **[!UICONTROL Inventory]> [!UICONTROL Deals].**
 
-1. Sur la ligne de la transaction, cliquez sur  ![Menu Options](/help/dsp/assets/options-menu.png) **>[!UICONTROL placements and ads]**.
+1. Sur la ligne de la transaction, cliquez sur  **[!UICONTROL ...]>[!UICONTROL Placements and Ads]**.
 
-1. Cliquez sur ![Développer/Compresser](/help/dsp/assets/play.png) en regard d’un nom d’emplacement pour développer ou compresser la liste d’annonces de l’emplacement.
+   Le [!UICONTROL Placements] s’affiche par défaut. Pour afficher les publicités, cliquez sur le bouton [!UICONTROL Ads] .
 
-1. (Facultatif) Pour ouvrir les paramètres d’un emplacement ou d’une publicité, cliquez sur le nom de l’emplacement ou de la publicité.
+1. (Facultatif) Effectuez l’une des opérations suivantes :
+
+   * Pour modifier les paramètres d’un emplacement, placez le curseur sur la ligne d’emplacement et cliquez sur **[!UICONTROL Edit]**. [Modification des paramètres de placement](/help/dsp/campaign-management/placements/placement-settings.md), puis cliquez sur **[!UICONTROL Update placement]**.
+
+   * Pour supprimer l’opération des cibles d’inventaire d’un emplacement, placez le curseur sur la ligne d’emplacement et cliquez sur **[!UICONTROL More]>[!UICONTROL Detach Placement]**. Dans le message de confirmation, cliquez sur **[!UICONTROL Yes]**.
+
+      La désolidarisation de l’emplacement ne supprime pas l’emplacement.
+
+   * Pour modifier les paramètres d’une publicité, placez le curseur sur la ligne de publicité, puis cliquez sur **[!UICONTROL More]>[!UICONTROL Edit]**. [Modification des paramètres de publicité](/help/dsp/campaign-management/ads/ad-edit.md), puis cliquez sur **[!UICONTROL Save & submit for review]**.
 
 >[!MORELIKETHIS]
 >
 >* [À propos du stock privé](private-inventory-about.md)
 >* [Définition des emplacements et des publicités pour un identifiant de transaction](deal-id-attach-placements.md)
->* [Afficher un rapport détaillé pour une transaction privée](private-deal-view-report.md)
+>* [Afficher un rapport détaillé pour une transaction](deal-view-report.md)
 

@@ -1,10 +1,11 @@
 ---
 title: Présentation de la configuration des contrats PG dans [!DNL Freewheel]
-description: 'Découvrez les conditions préalables et les étapes supplémentaires nécessaires à l’exécution de publicités pour des offres garanties par programmation avec les éditeurs sur [!DNL Freewheel]. '
+description: Découvrez les conditions préalables et les étapes supplémentaires nécessaires à l’exécution de publicités pour des offres garanties par programmation avec les éditeurs sur [!DNL Freewheel].
 feature: DSP Private Inventory, DSP Deal IDs
-source-git-commit: 1ae45d0ceee2efc4fc52b86fd6737d4c7467a6ca
+exl-id: acf8351b-88fb-4f18-8fca-9a2d6674cdec
+source-git-commit: 39f491a39bdc9d8dd820eb4c69594dda71d8b3c2
 workflow-type: tm+mt
-source-wordcount: '221'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -28,7 +29,7 @@ Configuration d’offres garanties par la programmation avec les éditeurs sur [
 
    Pour certains éditeurs britanniques, vous devez inclure une [!DNL Clearcast] numéro de l’horloge avec votre publicité.
 
-1. [Acceptation de l’ID de transaction](#programmatic-guaranteed-set-up.md#pg-setup-deal-id-inbox) vous avez déjà négocié avec un éditeur le [!DNL Freewheel] à l’aide de la boîte de réception Deal ID.
+1. [Acceptation de l’ID de transaction](#programmatic-guaranteed-set-up.md#pg-setup-deal-id-inbox) que vous avez déjà négocié avec un éditeur le [!DNL Freewheel] à l’aide de la boîte de réception Deal ID.
 
    Une fois que vous avez accepté l’offre, suivez les invites à 1) sélectionnez la publicité à utiliser pour l’offre et 2) créez un emplacement par défaut garanti par programme pour diffuser l’annonce.
 

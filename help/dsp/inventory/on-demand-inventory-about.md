@@ -3,9 +3,9 @@ title: A propos [!DNL On Demand] Inventaire Premium
 description: Découvrez les offres que DSP a négociées au préalable avec des éditeurs partenaires haut de gamme.
 feature: DSP On Demand Inventory
 exl-id: d23d4e4e-f29f-4dba-afe3-7198ef4ee544
-source-git-commit: b40c6f08b94e546e5fc068c46b279292a4d8a14f
+source-git-commit: 39f491a39bdc9d8dd820eb4c69594dda71d8b3c2
 workflow-type: tm+mt
-source-wordcount: '460'
+source-wordcount: '459'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 *Non disponible pour les utilisateurs disposant de types de compte [!UICONTROL Ad Network], [!UICONTROL Publisher Audience Extension], et [!UICONTROL Other]; annonceurs avec la catégorie [!UICONTROL Other]; et revendeurs*
 
-Le [!DNL On Demand] La galerie est un outil précieux de découverte d’inventaire qui vous permet d’explorer des accords négociés à l’avance par Advertising Cloud DSP avec nos principaux partenaires de publication. Il vous permet d’accéder aux stocks non garantis des éditeurs de premier niveau de la région sans avoir besoin de négociations ou de contrats 1:1. Vous pouvez demander des offres individuelles et vous pouvez vous abonner à un éditeur pour demander toutes les offres de l’éditeur en même temps.
+Le [!DNL On Demand] Galerie est un outil de découverte d’inventaire haut de gamme qui vous permet d’explorer des accords négociés à l’avance par Advertising Cloud DSP avec des éditeurs partenaires de premier plan. Il vous permet d’accéder aux stocks non garantis des éditeurs de premier niveau de la région sans avoir besoin de négociations ou de contrats 1:1. Vous pouvez demander des offres individuelles et vous pouvez vous abonner à un éditeur pour demander toutes les offres de l’éditeur en même temps.
 
 La marketplace Advertising Cloud DSP Premium vous permet d’effectuer les opérations suivantes :
 

@@ -3,9 +3,9 @@ title: Créer manuellement les détails de l’identifiant de transaction
 description: Découvrez comment saisir manuellement les détails d’un ID de transaction.
 feature: DSP Private Inventory, DSP Deal IDs
 exl-id: cd9763a7-99d4-4881-9df9-b4e24c55be0f
-source-git-commit: 593bfc03d2dd182b817be9eac4792dfd690132a2
+source-git-commit: 39f491a39bdc9d8dd820eb4c69594dda71d8b3c2
 workflow-type: tm+mt
-source-wordcount: '387'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -18,15 +18,15 @@ ht-degree: 0%
 
 1. Saisissez le [paramètres de transaction](deal-id-settings.md):
 
-   1. Dans le [!UICONTROL Deal ID basics] , indiquez les détails de l’opération et les annonceurs qui peuvent accéder à l’opération. Pour les offres garanties, vous devez également spécifier les dates de vol prévues et l’estimation des impressions, à des fins de suivi uniquement.
+   1. Dans le [!UICONTROL Deal ID basics] , indiquez les détails de l’opération et les annonceurs qui peuvent accéder à l’opération. Pour les offres garanties, vous devez également spécifier les dates de vol prévues et le nombre estimé d&#39;impressions, à des fins de suivi uniquement.
 
    1. (utilisateurs administrateurs uniquement) ; (facultatif) Dans le [!UICONTROL Technical] modifiez les paramètres par défaut si nécessaire.
 
    1. Cliquez sur **[!UICONTROL Save]**.
 
-1. (Offres garanties uniquement) Sélectionnez les publicités qui seront utilisées pour l’opération et créez un emplacement garanti par programme par défaut.
+1. (Offres garanties uniquement) Sélectionnez les publicités à utiliser pour l’opération et créez un emplacement par défaut garanti par programmation (PG).
 
-   Les emplacements PG par défaut garantissent que votre transaction renverra toujours une offre pour chaque demande d’offre. Si vous ne créez pas d’emplacement PG par défaut, tous les emplacements qui ciblent l’opération ne placeront pas d’offres à moins qu’ils ne soient correctement configurés. Vous devez toujours créer un emplacement PG par défaut. Dans le [!UICONTROL Placements] vue, les emplacements PG par défaut ont une [!UICONTROL Sub-type] valeur de colonne de &quot;[!UICONTROL PG Default].&quot;
+   Les emplacements PG par défaut garantissent que votre transaction renvoie toujours une offre pour chaque demande d’offre. Si vous ne créez pas d’emplacement PG par défaut, tous les emplacements qui ciblent l’opération ne placent pas d’offres à moins qu’ils ne soient correctement configurés. Vous devez toujours créer un emplacement PG par défaut. Dans le [!UICONTROL Placements] vue, les emplacements PG par défaut ont une [!UICONTROL Sub-type] valeur de colonne de &quot;[!UICONTROL PG Default].&quot;
 
    Vous pouvez éventuellement utiliser l’opération comme cible d’inventaire dans d’autres emplacements, mais vous devez les configurer correctement pour placer des offres.
 
@@ -34,7 +34,7 @@ ht-degree: 0%
 
       1. Sélectionnez l’annonceur, la campagne et le type d’annonce. Vous pouvez éventuellement sélectionner l’état d’une publicité pour filtrer les publicités.
 
-      1. Dans la liste des publicités disponibles, cochez la case en regard de chaque publicité qui sera utilisée pour l’opération.
+      1. Dans la liste des publicités disponibles, cochez la case en regard de chaque publicité à utiliser pour l’opération.
 
       1. Cliquez sur **[!UICONTROL Apply]**.
    1. Dans l’écran des paramètres d’emplacement :

@@ -1,20 +1,20 @@
 ---
-title: Modification des comptes ayant accès à un ID de transaction
-description: Découvrez comment partager et arrêter de partager un ID de transaction avec différents comptes.
+title: Modification des comptes ayant accès à une transaction privée
+description: Découvrez comment partager et arrêter de partager une affaire privée avec différents comptes.
 feature: DSP Private Inventory, DSP Deal IDs
 exl-id: 5ddd406d-1ee5-4d13-8e12-be575cbb7551
-source-git-commit: 3e47fec28a17cb64de42309c0368293e1ef1cdea
+source-git-commit: a29019ee7af0124ad9182f0578811c4d0e666937
 workflow-type: tm+mt
-source-wordcount: '195'
+source-wordcount: '183'
 ht-degree: 0%
 
 ---
 
-# Modification des comptes ayant accès à un ID de transaction
+# Modification des comptes ayant accès à une transaction privée
 
 Vous pouvez partager un ID de transaction avec plusieurs comptes. L’opération est partagée avec tous les publicitaires au sein des comptes spécifiés, de sorte que tous les utilisateurs de ces comptes puissent la modifier ou l’utiliser comme cible pour leurs emplacements.
 
-Vous pouvez arrêter de partager une transaction avec des comptes afin de supprimer les fonctionnalités de modification et de ciblage, mais le flux restera visible pour ces comptes dans les vues de rapports.
+Vous pouvez arrêter de partager une transaction avec des comptes afin de supprimer les fonctionnalités de modification et de ciblage, mais le flux reste visible pour ces comptes dans les vues de rapports.
 
 >[!NOTE]
 >
@@ -24,21 +24,19 @@ Vous pouvez arrêter de partager une transaction avec des comptes afin de suppri
 
 1. Dans le menu principal, cliquez sur **[!UICONTROL Inventory]>[!UICONTROL Deals]**.
 
-1. Sur la ligne de la transaction, cliquez sur ![Menu Options](/help/dsp/assets/options-menu.png) **>[!UICONTROL share]**.
+1. Sur la ligne de la transaction, cliquez sur **[!UICONTROL ...]>[!UICONTROL Share]**.
 
 1. Pour chaque compte à partager :
 
-1. Saisissez le **[!UICONTROL Email Address]** pour le compte qui aura accès à l’opération.
+1. Saisissez le **[!UICONTROL Email Address]** pour le compte ayant accès à l’opération.
 
 1. Cliquez sur **[!UICONTROL Share]**.
-
-1. Cliquez sur **[!UICONTROL Cancel]** pour fermer la fenêtre.
 
 ## Arrêter de partager un ID de transaction avec des comptes
 
 1. Dans le menu principal, cliquez sur **[!UICONTROL Inventory]>[!UICONTROL Deals]**.
 
-1. Sur la ligne de la transaction, cliquez sur ![Menu Options](/help/dsp/assets/options-menu.png) **>[!UICONTROL share]**.
+1. Sur la ligne de la transaction, cliquez sur **[!UICONTROL ...]>[!UICONTROL Share]**.
 
 1. En regard de [!UICONTROL Account Email] value, click **[!UICONTROL Unshare].**
 

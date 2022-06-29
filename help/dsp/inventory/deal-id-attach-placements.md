@@ -1,20 +1,20 @@
 ---
-title: Définition des emplacements et des publicités pour un identifiant de transaction
+title: Définition des emplacements et publicités pour une transaction privée
 description: Découvrez comment utiliser une offre privée avec des emplacements et publicités supplémentaires.
 feature: DSP Private Inventory, DSP Deal IDs, DSP Programmatic Guaranteed Deals
 exl-id: 669cadcf-021b-4129-95d5-3d24af4a4b88
-source-git-commit: 3e47fec28a17cb64de42309c0368293e1ef1cdea
+source-git-commit: a29019ee7af0124ad9182f0578811c4d0e666937
 workflow-type: tm+mt
-source-wordcount: '288'
+source-wordcount: '283'
 ht-degree: 1%
 
 ---
 
-# Définition des emplacements et des publicités pour un identifiant de transaction
+# Définition des emplacements et publicités pour une transaction privée
 
 Pour les offres non garanties, vous pouvez spécifier l’opération en tant que cible d’inventaire pour les nouveaux emplacements du [!UICONTROL Placements] vue.
 
-Pour les offres PG garanties par programmation, vous pouvez créer de nouveaux emplacements avec des publicités spécifiées à partir de la [!UICONTROL Deals] vue.
+Pour les offres PG garanties par programmation, vous pouvez créer des emplacements avec des publicités spécifiées à partir de la variable [!UICONTROL Deals] vue.
 
 Vous pouvez également [Ajout de nouvelles publicités à des emplacements existants](/help/dsp/campaign-management/ads/ad-attach-to-placement.md) à tout moment associé aux offres PG et non garanties.
 
@@ -26,9 +26,9 @@ Vous pouvez également [Ajout de nouvelles publicités à des emplacements exist
 
 1. Dans le menu principal, cliquez sur **[!UICONTROL Inventory]> [!UICONTROL Deals].**
 
-1. Sur la ligne de la transaction, cliquez sur  ![Menu Options](/help/dsp/assets/options-menu.png) **>[!UICONTROL attach a placement]**.
+1. Sur la ligne de la transaction, cliquez sur  **[!UICONTROL ...]>[!UICONTROL Attach New Placement]**.
 
-1. Dans le [!UICONTROL Ad & Campaign Selection] sélectionnez les publicités qui seront utilisées pour l’emplacement :
+1. Dans le [!UICONTROL Ad & Campaign Selection] sélectionnez les publicités à utiliser pour l’emplacement :
 
        1. Sélectionnez l’annonceur, la campagne et le type d’annonce. Vous pouvez éventuellement sélectionner l’état d’une publicité pour filtrer les publicités.
        

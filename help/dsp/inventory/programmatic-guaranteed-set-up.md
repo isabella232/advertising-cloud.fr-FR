@@ -3,7 +3,7 @@ title: Configuration d’un contrat garanti programmatique
 description: Découvrez comment configurer un contrat PG garanti par programmation que vous avez négocié avec un éditeur.
 feature: DSP Private Inventory, DSP Deal IDs, DSP Programmatic Guaranteed Deals
 exl-id: 9e371606-5428-4635-9653-7dc43449e489
-source-git-commit: 3c9822890e96035fc9e44f8832efcc2889a8cb5f
+source-git-commit: 39f491a39bdc9d8dd820eb4c69594dda71d8b3c2
 workflow-type: tm+mt
 source-wordcount: '0'
 ht-degree: 0%
@@ -24,7 +24,7 @@ Après avoir négocié une transaction (PG) garantie par un programme avec un é
 
 ## Configuration d’une transaction sécurisée par programmation à l’aide de la variable [!DNL Deal ID Inbox] {#pg-setup-deal-id-inbox}
 
-Il s’agit de la méthode recommandée pour [!DNL FreeWheel], [!DNL Google Authorized Buyers], et [!DNL Magnite DV+].
+La méthode suivante est la procédure recommandée pour [!DNL FreeWheel], [!DNL Google Authorized Buyers], et [!DNL Magnite DV+].
 
 1. [Accepter l&#39;accord](deal-id-inbox-accept.md).
 

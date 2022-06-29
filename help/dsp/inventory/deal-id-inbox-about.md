@@ -3,9 +3,9 @@ title: À propos de [!UICONTROL Deal ID Inbox]
 description: En savoir plus sur les [!UICONTROL Deal ID inbox] qui vous permet d’accepter les offres privées que vous avez déjà négociées avec les éditeurs sur [!DNL FreeWheel], [!DNL Google Authorized Buyers] (anciennement connu sous le nom de [!DNL AdX]), and [!DNL Magnite DV+] (anciennement [!DNL Rubicon]).
 feature: DSP Private Inventory, DSP Deal IDs
 exl-id: 959ad1d4-4671-4967-9f73-ec5b0464d0cd
-source-git-commit: b40c6f08b94e546e5fc068c46b279292a4d8a14f
+source-git-commit: 39f491a39bdc9d8dd820eb4c69594dda71d8b3c2
 workflow-type: tm+mt
-source-wordcount: '490'
+source-wordcount: '491'
 ht-degree: 0%
 
 ---
@@ -45,7 +45,7 @@ Pendant les négociations de l’opération, demandez à l’éditeur d’envoye
 
 ## Actions possibles sur vos transactions
 
-* **Transactions de révision** pour vérifier que le SSP a envoyé l’éditeur, les dates de vol, le CPM et d’autres détails de transaction corrects. Si l’éditeur a commis une erreur, contactez-les en dehors de DSP afin qu’il puisse corriger et envoyer à nouveau l’opération.
+* **Transactions de révision** pour vérifier que le SSP a envoyé l’éditeur, les dates de vol, le CPM et d’autres détails de transaction corrects. Si l’éditeur a commis une erreur, contactez-les en dehors de DSP afin qu’il puisse corriger et renvoyer l’opération.
 
 * **Accepter des accords** après révision, et ils n’apparaîtront plus dans la variable [!UICONTROL Deal ID inbox]. Les offres acceptées sont répertoriées dans la section [!UICONTROL Inventory] > [!UICONTROL Deals] et sont prêts à cibler dans les emplacements des annonceurs.
 

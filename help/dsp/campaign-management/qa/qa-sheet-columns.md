@@ -3,9 +3,9 @@ title: Colonnes dans les feuilles de calcul téléchargées/téléchargées
 description: Référencez les colonnes dans les feuilles de calcul AQ Excel téléchargées.
 feature: DSP Placements
 exl-id: 8a8dceed-f77d-4b6b-a842-f57528125c92
-source-git-commit: 15f1e22dbc742d372dcabf2c029f2f7d72ff1d2f
+source-git-commit: 39f491a39bdc9d8dd820eb4c69594dda71d8b3c2
 workflow-type: tm+mt
-source-wordcount: '734'
+source-wordcount: '733'
 ht-degree: 0%
 
 ---
@@ -81,7 +81,7 @@ ht-degree: 0%
 | [!UICONTROL Brand Safety] | [!UICONTROL Site Safety Block] | Si le bloc de sécurité du site est activé ou non : *[!UICONTROL ON]* ou *[!UICONTROL OFF]*.<!-- Whether or not the advertiser-level setting Enable Site Safety Block is enabled: *ON* or *OFF*.I don’t see this option at the placement level. Should there be one? --> | — |
 | [!UICONTROL Tracking] | [!UICONTROL Tracking Pixels #] | le nombre de pixels de suivi d’événements tiers associés à l’emplacement, ou *[!UICONTROL None]*. | — |
 | [!UICONTROL Tracking] | [!UICONTROL Conversion Pixels #] | le nombre de pixels de suivi de conversion associés à l’emplacement, ou *[!UICONTROL None]*. | — |
-| [!UICONTROL Tracking] | [!UICONTROL 3rd-party fees] | Taux de frais tiers statique à suivre en tant que coût non facturable pour mille impressions, le cas échéant. | — |
+| [!UICONTROL Tracking] | [!UICONTROL 3rd-party fees] | Taux de frais tiers statique à suivre en tant que coût non facturable pour 1 000 impressions, le cas échéant. | — |
 | [!UICONTROL Ads] | [!UICONTROL # of Ads Attached] | le nombre de publicités associées à l’emplacement, le cas échéant ; ou *[!UICONTROL None]*. | — |
 | [!UICONTROL Ads] | [!UICONTROL Ad Names] | les noms des publicités associées à l’emplacement, le cas échéant, *[!UICONTROL None]*. | — |
 

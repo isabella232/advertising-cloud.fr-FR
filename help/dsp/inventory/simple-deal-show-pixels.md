@@ -2,9 +2,10 @@
 title: Afficher les pixels d’événement pour un événement [!UICONTROL Simple Ad Serving] Deal
 description: Découvrez comment obtenir une copie des pixels de suivi d’événement pour un événement [!UICONTROL Simple Ad Serving] accord.
 feature: DSP Simple Ad Serving
-source-git-commit: 22f5d8279fadfcf79e2cd41566321f423d63eb16
+exl-id: 88d18ddd-98ba-4e36-890c-d6ddfb7d59e5
+source-git-commit: a29019ee7af0124ad9182f0578811c4d0e666937
 workflow-type: tm+mt
-source-wordcount: '104'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -25,5 +26,7 @@ Les pixels de l’événement incluent une balise [!UICONTROL Clickthrough] pixe
 >
 >* [A propos [!UICONTROL Simple Ad Serving]](simple-deal-about.md)
 >* [Créez un [!UICONTROL Simple Ad Serving] Deal](simple-deal-create.md)
+>* [Modifier [!UICONTROL Simple Ad Serving] Paramètres de transaction](simple-deal-edit.md)
 >* [[!UICONTROL Simple Ad Serving] Paramètres](simple-deal-settings.md)
+>* [Afficher un rapport détaillé pour une transaction](/help/dsp/inventory/deal-view-report.md)
 

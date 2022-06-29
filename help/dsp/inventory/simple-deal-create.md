@@ -3,9 +3,9 @@ title: '"Créez un [!UICONTROL Simple Ad Serving] Deal"'
 description: '"Découvrez comment créer un pixel de suivi pour un [!UICONTROL Simple Ad Serving] deal."'
 feature: DSP Simple Ad Serving
 exl-id: d8de85ec-616c-44ed-9a1a-cc25713ad4a4
-source-git-commit: 3eb63e9d7161c354736ce53ee21518882c541884
+source-git-commit: 089d91f7d1b06e29d27ac95a46834127d19c141d
 workflow-type: tm+mt
-source-wordcount: '390'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ ht-degree: 0%
 
          * Pour les nouvelles publicités, créez un proxy. [publicité tierce](/help/dsp/campaign-management/ads/ad-create-multiple.md).
       >[!NOTE]
-      > DSP ne diffusera pas réellement les publicités que vous spécifiez. L’éditeur diffusera la publicité.
+      > DSP ne diffuse pas les publicités que vous spécifiez. L’éditeur diffuse la publicité.
 
       1. Cliquez sur **[!UICONTROL Next]**.
    1. Dans les détails du flux, modifiez les détails du flux, puis cliquez sur **[!UICONTROL Next]**.
@@ -63,5 +63,9 @@ ht-degree: 0%
 >
 >* [A propos [!UICONTROL Simple Ad Serving]](simple-deal-about.md)
 >* [[!UICONTROL Simple Ad Serving] Paramètres](simple-deal-settings.md)
->* [Affichage des pixels de suivi d’événement pour un événement [!UICONTROL Simple Ad Serving] Deal](simple-deal-show-pixels.md)
+>* [Afficher un rapport détaillé pour une transaction](/help/dsp/inventory/deal-view-report.md)
 
+
+<!-- add back when reimplemented:
+>* [View Event-Tracking Pixels for a [!UICONTROL Simple Ad Serving] Deal](simple-deal-show-pixels.md)
+-->

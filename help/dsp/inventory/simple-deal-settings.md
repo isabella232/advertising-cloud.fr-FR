@@ -3,9 +3,9 @@ title: '''[!UICONTROL Simple Ad Serving] Paramètres de transaction'
 description: En savoir plus sur les paramètres disponibles pour [!UICONTROL Simple Ad Serving] les offres.
 feature: DSP Simple Ad Serving
 exl-id: 1a8f215c-c52b-4099-a55f-99c4232b7a22
-source-git-commit: 3eb63e9d7161c354736ce53ee21518882c541884
+source-git-commit: 17a73b5177b3dd79a32cd0b03bfa28d8ac8bf996
 workflow-type: tm+mt
-source-wordcount: '471'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 0%
 | **[!UICONTROL Media Quality Assessment?]** | (Certains utilisateurs) Permet à la publicité de s’exécuter sur un autre DSP pour la vérification tierce. <!-- Who can select this? It's disabled for me. Need to see if there are additional fields when this is enabled. --> |
 | **[!UICONTROL Ad Source]** | La seule option est *[!UICONTROL Site Serve (Event Pixels)]*. |
 | **[!UICONTROL Ad Creation]** | (Nouvelles offres uniquement) Indique si :<ul><li>*[!UICONTROL Create New]:* Pour créer une publicité pour cette opération.</li><li>*[!UICONTROL Select Ads]:* Pour utiliser une publicité existante pour cette opération.</li></ul> |
-| **[!UICONTROL Ad Type]** | Type d’annonce pour cette opération. Si vous allez créer de nouvelles publicités pour l’opération, incluez la taille ou la durée de la publicité, selon vos besoins. Les options disponibles varient en fonction du type de média. |
+| **[!UICONTROL Ad Type]** | Type d’annonce pour cette opération. Si vous allez créer des publicités pour l’opération, incluez la taille ou la durée de l’annonce, comme demandé. Les options disponibles varient en fonction du type de média. |
 
 {style=&quot;table-layout:auto&quot;}
 
@@ -40,7 +40,7 @@ ht-degree: 0%
 
 | Paramètre | Description |
 |-----------|-------------|
-| **[!UICONTROL Media CPM]** | Le coût par millier d’impressions (CPM), tel qu’il est reflété dans la carte de taux de votre contrat. Contactez votre [!DNL Adobe] équipe du compte pour cette valeur. <br><br>Indiquez également la devise de l’opération. Tous les utilisateurs peuvent sélectionner USD ou, si le SSP prend en charge d’autres devises, la devise du compte DSP. |
+| **[!UICONTROL Media CPM]** | Le coût par 1 000 impressions (CPM), tel qu’il est reflété dans la carte de taux de votre contrat. Contactez votre [!DNL Adobe] équipe du compte pour cette valeur. <br><br>Indiquez également la devise de l’opération. Tous les utilisateurs peuvent sélectionner USD ou, si le SSP prend en charge d’autres devises, la devise du compte DSP. |
 | **[!UICONTROL Third Party Billed Fees]** | (Facultatif) Des frais tiers statiques à suivre en tant que coût non facturable et la devise de l’opération.<br><br>Tous les utilisateurs peuvent sélectionner USD ou, si le SSP prend en charge d’autres devises, la devise du compte DSP. **REMARQUE :** Les frais facturables sont reflétés dans la variable [!UICONTROL Net CPM] mesure. |
 | **[!UICONTROL Third Party Fee Description]** | (Facultatif) Description des frais tiers. |
 | **[!UICONTROL Flight Dates]** | Les dates de début et de fin du trafic utilisant cette transaction. Les dates de vol doivent être incluses dans les dates de vol de l&#39;opération. Les balises de publicité renvoient une réponse uniquement pendant le vol spécifié.<br><br> La bonne pratique consiste à créer une campagne de diffusion d’annonces simple distincte d’une durée d’un an et à y créer des pixels de suivi. |
@@ -82,5 +82,10 @@ But I see:
 >
 >* [A propos [!UICONTROL Simple Ad Serving]](simple-deal-about.md)
 >* [Créez un [!UICONTROL Simple Ad Serving] Deal](simple-deal-create.md)
->* [Affichage des pixels de suivi d’événement pour un événement [!UICONTROL Simple Ad Serving] Deal](simple-deal-show-pixels.md)
+>* [Modifier [!UICONTROL Simple Ad Serving] Paramètres de transaction](simple-deal-edit.md)
+>* [Afficher un rapport détaillé pour une transaction](/help/dsp/inventory/deal-view-report.md)
 
+
+<!-- add back when reimplemented:
+>* [View Event-Tracking Pixels for a [!UICONTROL Simple Ad Serving] Deal](simple-deal-show-pixels.md)
+-->

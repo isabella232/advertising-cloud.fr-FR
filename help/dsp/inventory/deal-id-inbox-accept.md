@@ -1,24 +1,24 @@
 ---
-title: Accepter un accord dans la section [!UICONTROL Deal ID Inbox]
-description: Découvrez comment accepter une transaction privée que vous avez déjà négociée avec un éditeur sur  [!DNL FreeWheel], [!DNL Google Authorized Buyers] (formerly known as [!DNL AdX]), and [!DNL Magnite DV+] (anciennement [!DNL Rubicon]) à l’aide de la boîte de réception Deal ID.
+title: Accepter un accord dans la [!UICONTROL Deal ID Inbox]
+description: Découvrez comment accepter une transaction privée que vous avez déjà négociée avec un éditeur sur [!DNL FreeWheel], [!DNL Google Authorized Buyers] (anciennement connu sous le nom de [!DNL AdX]), and [!DNL Magnite DV+] (anciennement [!DNL Rubicon]) à l’aide de la boîte de réception Deal ID.
 feature: DSP Private Inventory, DSP Deal IDs
 exl-id: 55e8ca50-05f5-4f38-9fd5-afaed71315dc
-source-git-commit: 8046ec79ec24f47fe33e49c6097e44dbba450f1f
+source-git-commit: 39f491a39bdc9d8dd820eb4c69594dda71d8b3c2
 workflow-type: tm+mt
-source-wordcount: '301'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
 
-# Accepter un accord dans la section [!UICONTROL Deal ID Inbox]
+# Accepter un accord dans la [!UICONTROL Deal ID Inbox]
 
 *Utilisateurs dans DSP comptes mappés sur des comptes SSP uniquement*
 
-Utilisez [!UICONTROL Deal ID inbox] pour accepter rapidement une transaction privée que vous avez déjà négociée avec un éditeur sur [!DNL FreeWheel], [!DNL Google Authorized Buyers] (anciennement [!DNL AdX]) et [!DNL Magnite DV+] (anciennement [!DNL Rubicon]).
+Utilisez la variable [!UICONTROL Deal ID inbox] pour accepter rapidement une transaction privée que vous avez déjà négociée avec un éditeur le [!DNL FreeWheel], [!DNL Google Authorized Buyers] (anciennement connu sous le nom de [!DNL AdX]), et [!DNL Magnite DV+] (anciennement [!DNL Rubicon]).
 
 >[!NOTE]
 >
->La configuration d’offres garanties par la programmation avec les éditeurs sur [!DNL FreeWheel] nécessite des autorisations et des étapes supplémentaires. Pour plus d’informations, voir &quot;[Présentation de la configuration de transactions garanties par programmation dans FreeWheel](freewheel-overview.md)&quot;.
+>Configuration d’offres garanties par la programmation avec les éditeurs sur [!DNL FreeWheel] nécessite des autorisations et des étapes supplémentaires. Voir &quot;[Présentation de la configuration de contrats sécurisés par programmation dans FreeWheel](freewheel-overview.md)&quot; pour plus d’informations.
 
 1. Dans le menu principal, cliquez sur **[!UICONTROL Inventory]> [!UICONTROL Deals].**
 
@@ -26,9 +26,9 @@ Utilisez [!UICONTROL Deal ID inbox] pour accepter rapidement une transaction pri
 
 1. (Facultatif) Pour actualiser les détails de l’opération, cliquez sur **[!UICONTROL Refresh]**.
 
-   DSP actualise automatiquement tous les détails de la transaction tous les jours à 4 h 30 HNE. Il actualise également toutes les [!DNL FreeWheel] offres et met à jour les offres existantes toutes les heures de [!DNL Google] et [!DNL Magnite DV+].
+   DSP actualise automatiquement tous les détails de la transaction tous les jours à 4 h 30 HNE. Il actualise également tous les [!DNL FreeWheel] offres et mises à jour des offres existantes à partir de [!DNL Google] et [!DNL Magnite DV+] par heure.
 
-1. (Si vous avez précédemment ignoré l’opération) Cliquez sur l’onglet **[!UICONTROL Ignored Deals]** .
+1. (Si vous avez précédemment ignoré l’opération) Cliquez sur le bouton **[!UICONTROL Ignored Deals]** .
 
 1. Pour vérifier et confirmer les détails de l’opération, tels que l’éditeur et les dates, placez le curseur sur la ligne de l’opération, puis cliquez sur ![Réviser](/help/dsp/assets/review.png).
 
@@ -36,17 +36,17 @@ Utilisez [!UICONTROL Deal ID inbox] pour accepter rapidement une transaction pri
 
    * Dans les détails de l’opération, cliquez sur **[!UICONTROL Accept]**.
 
-   * Dans la balise [!UICONTROL Deal ID inbox], placez le curseur au-dessus de la ligne d’opération et cliquez sur ![Accepter](/help/dsp/assets/accept.png).
+   * Dans le [!UICONTROL Deal ID inbox], placez le curseur sur la ligne d’opération et cliquez sur ![Accepter](/help/dsp/assets/accept.png).
 
 1. Dans les détails de l&#39;opération :
-   1. Renseignez les informations requises : **[!UICONTROL Publisher]**, **[!UICONTROL Media Type]** et **[!UICONTROL Deal Access]** (les annonceurs qui auront accès à l’opération).
+   1. Renseignez les informations requises : **[!UICONTROL Publisher]**, **[!UICONTROL Media Type]**, et **[!UICONTROL Deal Access]** (les annonceurs ayant accès à l’opération).
    1. (Facultatif) Indiquez d’autres comptes avec lesquels partager l’opération ou joindre des étiquettes à l’enregistrement de l’opération.
 
    1. Cliquez sur **[!UICONTROL Save]**.
 
 1. (Offres garanties par programmation uniquement) Suivez les invites pour sélectionner une publicité pour l’opération et créer un emplacement par défaut garanti par programmation qui cible l’opération.
 
-Une fois que vous avez accepté une transaction, elle est déplacée de la vue [!UICONTROL Deal ID inbox] vers la vue [!UICONTROL Inventory] > [!UICONTROL Deals], et l’opération est disponible en tant que source d’inventaire privée dans la section [!UICONTROL Inventory Targeting] de chaque emplacement.
+Une fois que vous avez accepté un accord, il est déplacé de la [!UICONTROL Deal ID inbox] au [!UICONTROL Inventory] > [!UICONTROL Deals] et l’opération est disponible en tant que source d’inventaire privée dans chaque emplacement [!UICONTROL Inventory Targeting] .
 
 >[!MORELIKETHIS]
 >

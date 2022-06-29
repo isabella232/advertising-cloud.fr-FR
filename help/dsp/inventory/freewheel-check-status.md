@@ -3,9 +3,9 @@ title: Vérification de l’état des publicités pour un [!DNL [!DNL FreeWheel]
 description: Découvrez comment trouver l’état des publicités pour [!DNL Freewheel] offres garanties par programmation.
 feature: DSP Private Inventory, DSP Deal IDs
 exl-id: 57c365f6-41cf-4ab6-b71d-fe9984eaf115
-source-git-commit: b40c6f08b94e546e5fc068c46b279292a4d8a14f
+source-git-commit: 39f491a39bdc9d8dd820eb4c69594dda71d8b3c2
 workflow-type: tm+mt
-source-wordcount: '229'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---

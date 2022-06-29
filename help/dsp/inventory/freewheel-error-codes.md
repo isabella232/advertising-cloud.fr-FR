@@ -3,10 +3,10 @@ title: Codes d’erreur pour [!DNL FreeWheel] Envois de publicités
 description: Référencez les codes d’erreur renvoyés pour les envois d’annonces à [!DNL FreeWheel].
 feature: DSP Private Inventory, DSP Deal IDs
 exl-id: 2eb93971-ba82-4de8-96c5-48524d628b70
-source-git-commit: b40c6f08b94e546e5fc068c46b279292a4d8a14f
+source-git-commit: 39f491a39bdc9d8dd820eb4c69594dda71d8b3c2
 workflow-type: tm+mt
-source-wordcount: '679'
-ht-degree: 2%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
