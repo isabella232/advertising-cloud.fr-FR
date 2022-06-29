@@ -3,9 +3,9 @@ title: Présentation des fonctionnalités du stock dans Advertising Cloud DSP
 description: Découvrez les fonctionnalités d’inventaire disponibles.
 feature: DSP On Demand Inventory, DSP Private Inventory, DSP Deal IDs
 exl-id: b3d0b96e-e638-4bd2-ba14-d348a8fc030b
-source-git-commit: 39f491a39bdc9d8dd820eb4c69594dda71d8b3c2
+source-git-commit: e80eccbf2f87c1ad86a2cb689b44ca67e08248be
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '251'
 ht-degree: 0%
 
 ---
@@ -23,6 +23,12 @@ Les types d’inventaire disponibles sont les suivants :
 * **Inventaire privé [!DNL Deal IDs]:** Configurez et gérez des transactions de marché privées (PMP) que vous avez négociées directement avec l’éditeur au format 1:1.
 
 * **[!DNL Simple Ad Serving]:** Utilisez une technologie rationalisée pour la diffusion et la création de rapports d’annonces garanties et non prises de décision lorsque votre éditeur ne peut pas exécuter votre opération via des ID de transaction.
+
+## Vue des affaires
+
+Vous pouvez afficher toutes vos offres existantes dans la [!UICONTROL Inventory] > [!UICONTROL Deals] vue. Vous pouvez personnaliser davantage la présentation des données d’opération existantes en appliquant des filtres, en personnalisant les colonnes visibles et en enregistrant éventuellement des vues personnalisées, en triant les colonnes et en affichant les données sous forme de graphiques.
+
+Vous pouvez également créer et gérer des paramètres d’opération privés. [!DNL Simple Ad Serving] des offres de la [!UICONTROL Deals] vue. Pour afficher et gérer [!DNL On Demand] inventaire, accédez à [!UICONTROL Inventory] > [!UICONTROL On Demand].
 
 >[!MORELIKETHIS]
 >
