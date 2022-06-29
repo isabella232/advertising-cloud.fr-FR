@@ -3,9 +3,9 @@ title: Paramètres d’emplacement
 description: Voir la description des paramètres d’emplacement disponibles.
 feature: DSP Placements
 exl-id: 36097132-e589-4d49-bf86-54f61eae5b67
-source-git-commit: c2fbaf3381ca4380c18d55931e9f4f662da892af
+source-git-commit: 8b1ae7385d7747f7073448aae5ad0a617f323562
 workflow-type: tm+mt
-source-wordcount: '3278'
+source-wordcount: '3277'
 ht-degree: 0%
 
 ---
@@ -397,7 +397,7 @@ Quel niveau de [Ads.txt](https://iabtechlab.com/ads-txt-about/) le filtrage pré
 
 **[!UICONTROL DoubleVerify Authentic Brand Safety]:** (Les annonceurs configurés avec la variable [!UICONTROL DoubleVerify Authentic Brand Safety] Option) Active [!DNL DoubleVerify Authentic Brand Safety], qui bloque les impressions après l’offre à l’aide des règles de sécurité de marque personnalisées configurées pour l’identifiant de segment spécifié. DSP facture votre compte pour l’utilisation de l’identifiant de segment spécifié dans les paramètres de l’annonceur.
 
-## [!UICONTROL Tracking]
+## [!UICONTROL Tracking] {#placement-tracking}
 
 >[!NOTE]
 >
@@ -440,7 +440,7 @@ Quel niveau de [Ads.txt](https://iabtechlab.com/ads-txt-about/) le filtrage pré
             Le service informatique de l’annonceur ou un autre groupe peut avoir besoin de planifier le déploiement de la balise ou d’être informé de ce déploiement.
    1. Cliquez sur **[!UICONTROL Save]**.
 
-**[!UICONTROL 3rd-party Fees]:** (Facultatif) Taux de frais tiers statique qui doit être suivi comme un coût non facturable par millier d’impressions. Le cas échéant, la valeur par défaut au niveau du package est automatiquement appliquée pour les nouveaux emplacements, sauf si vous saisissez une autre valeur.
+**[!UICONTROL 3rd-party Fees]:** (Facultatif) Taux de frais tiers statique qui doit être suivi comme un coût non facturable pour 1 000 impressions. Le cas échéant, la valeur par défaut au niveau du package est automatiquement appliquée pour les nouveaux emplacements, sauf si vous saisissez une autre valeur.
 
 >[!NOTE]
 >
@@ -452,5 +452,5 @@ Quel niveau de [Ads.txt](https://iabtechlab.com/ads-txt-about/) le filtrage pré
 >* [Création d’un emplacement](placement-create.md)
 >* [Modifier un emplacement](placement-edit.md)
 >* [Raccourcis clavier](/help/dsp/campaign-management/reports/keyboard-shortcuts.md)
->* [Questions fréquentes sur la gestion des campagnes](/help/dsp/campaign-management/campaign-management-faq.md)
+>* [Questions fréquentes à propos de Campaign Management](/help/dsp/campaign-management/campaign-management-faq.md)
 
