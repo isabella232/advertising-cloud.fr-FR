@@ -5,9 +5,9 @@ cloud: Experience Cloud
 product: advertising cloud
 index: true
 exl-id: d4b67393-e8c5-4170-92eb-bcf643ba3ec3
-source-git-commit: 602d2dd36a83f5f438c444e8ccaaec92054f0186
+source-git-commit: 6d9c4db1b16a68217c6bc110cf3e0b9a93c2caa6
 workflow-type: tm+mt
-source-wordcount: '1560'
+source-wordcount: '1604'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,7 @@ Les fonctionnalités suivantes sont nouvelles ou récemment modifiées.
 
 | Date | Fonctionnalité | Description | Pour plus d’informations |
 | ---- | ------- | ----------- | -------------------- |
+| 29 juin 2022 | Inventaire | La nouvelle [!UICONTROL Inventory] > [!UICONTROL Deals] La vue comprend les mêmes fonctionnalités que la vue [!UICONTROL Campaigns] vues, y compris le filtrage, la possibilité d’utiliser des vues standard et personnalisées, le tri des colonnes et les vues tabulaires et graphiques. Vous pouvez ouvrir un menu de commande dans chaque ligne en cliquant sur [!UICONTROL ...] après le nom de l’opération. | — |
 | 31 mai 2022 | Sources d’audience | (Fonction bêta) Advertising Cloud DSP peut désormais ingérer des segments propriétaires composés de signaux authentifiés créés dans une plateforme de données client (CDP). | Voir &quot;[À propos de l’activation de segments authentifiés à partir des sources d’audience](/help/dsp/audiences/sources/source-about.md).&quot; |
 | 25 mai 2022 | Objectifs d’optimisation | Les emplacements vidéo et natifs peuvent désormais être inclus dans des modules avec les objectifs personnalisés RSDP le plus élevé et CPA le plus faible. | Voir &quot;[Objectifs d’optimisation et utilisation](/help/dsp/optimization/optimization-goals.md).&quot; |
 | 12 avril 2022 | Campaign Management | Les spécifications des publicités ont été mises à jour pour prendre en compte la prise en charge actuelle. | Voir &quot;[Spécifications des types de publicité pris en charge](/help/dsp/campaign-management/ads/ad-specs.md).&quot; |
