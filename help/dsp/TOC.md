@@ -8,15 +8,23 @@ user-guide-title: Guide d’Advertising Cloud DSP
 user-guide-description: Découvrez les principales fonctionnalités, tâches, paramètres et autres ressources nécessaires pour gérer, optimiser et établir des rapports sur vos stratégies de publicité display à lʼaide dʼAdvertising Cloud DSP.
 breadcrumb-title: Guide de DSP
 index: true
-source-git-commit: f4719ee56f340c5969795dfc482e2b409244757b
+source-git-commit: d72707f9628e8e39eae36115b057d1cd332012f5
 workflow-type: tm+mt
-source-wordcount: '886'
-ht-degree: 6%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 
 # Guide d’Advertising Cloud DSP {#dsp}
+
+<!-- add back to about below "Edit the Advertisers with Access to a Deal ID" when reintroduced:
+      + [Edit the Attribute Tags for a Deal ID](/help/dsp/inventory/deal-id-edit-attribute-tags.md)
+-->
+
+<!-- add back to Inventory > SAS section when reimplemented:
+      +  [View Event-Tracking Pixels for a [!UICONTROL Simple Ad Serving] Deal](/help/dsp/inventory/simple-deal-show-pixels.md)
+-->
 
 + [Nouveautés](/help/dsp/home.md)
 + Introduction {#introduction}
@@ -169,19 +177,18 @@ ht-degree: 6%
                + [Envoyer une publicité pour une transaction garantie par un programme à [!DNL FreeWheel]](/help/dsp/inventory/freewheel-submit.md)
                + [Vérification de l’état des publicités pour [!DNL FreeWheel] Offres garanties par la programmation](/help/dsp/inventory/freewheel-check-status.md)
                + [Codes d’erreur pour les envois d’annonce FreeWheel](/help/dsp/inventory/freewheel-error-codes.md)
-         + [Modifier les paramètres d’ID de transaction](/help/dsp/inventory/deal-id-edit.md)
-         + [Définition des emplacements et des publicités pour un identifiant de transaction](/help/dsp/inventory/deal-id-attach-placements.md)
-         + [Modification des comptes ayant accès à un ID de transaction](/help/dsp/inventory/deal-id-share.md)
-         + [Modification des annonceurs ayant accès à un ID de transaction](/help/dsp/inventory/deal-id-edit-advertisers.md)
-         + [Modification des balises d’attribut pour un ID de transaction](/help/dsp/inventory/deal-id-edit-attribute-tags.md)
-      + [!UICONTROL Simple Ad Serving] Offres {#sas}
-         + [A propos [!UICONTROL Simple Ad Serving]](/help/dsp/inventory/simple-deal-about.md)
-         + [Créez un [!UICONTROL Simple Ad Serving] Deal](/help/dsp/inventory/simple-deal-create.md)
-         + [[!UICONTROL Simple Ad Serving] Paramètres de transaction](/help/dsp/inventory/simple-deal-settings.md)
-         + [Affichage des pixels de suivi d’événement pour un événement [!UICONTROL Simple Ad Serving] Deal](/help/dsp/inventory/simple-deal-show-pixels.md)
+      + [Modifier les paramètres d’opération privée](/help/dsp/inventory/deal-id-edit.md)
+      + [Définition des emplacements et publicités pour une transaction privée](/help/dsp/inventory/deal-id-attach-placements.md)
+      + [Modification des comptes ayant accès à une transaction privée](/help/dsp/inventory/deal-id-share.md)
+      + [Modification des annonceurs ayant accès à une transaction privée](/help/dsp/inventory/deal-id-edit-advertisers.md)
       + [Liste des emplacements et des publicités pour une transaction privée](/help/dsp/inventory/private-deal-view-placements.md)
-      + [Afficher un rapport détaillé pour une transaction privée](/help/dsp/inventory/private-deal-view-report.md)
       + [Archivage ou désarchivage d’une transaction privée](/help/dsp/inventory/private-deal-archive-unarchive.md)
+   + [!UICONTROL Simple Ad Serving] Offres {#sas}
+      + [A propos [!UICONTROL Simple Ad Serving]](/help/dsp/inventory/simple-deal-about.md)
+      + [Créez un [!UICONTROL Simple Ad Serving] Deal](/help/dsp/inventory/simple-deal-create.md)
+      + [Modifier [!UICONTROL Simple Ad Serving] Paramètres de transaction](/help/dsp/inventory/simple-deal-edit.md)
+      + [[!UICONTROL Simple Ad Serving] Paramètres de transaction](/help/dsp/inventory/simple-deal-settings.md)
+   + [Afficher un rapport détaillé pour une transaction](/help/dsp/inventory/deal-view-report.md)
 + Rapports personnalisés {#custom-reports}
    + [À propos des rapports personnalisés](/help/dsp/reports/report-about.md)
    + [Créer un rapport personnalisé](/help/dsp/reports/report-create.md)
