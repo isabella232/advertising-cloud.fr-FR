@@ -3,9 +3,9 @@ title: Création et implémentation d’un segment personnalisé
 description: Découvrez comment créer et mettre en oeuvre un segment personnalisé pour effectuer le suivi des utilisateurs exposés aux publicités ou des utilisateurs qui visitent vos pages web.
 feature: DSP Segments
 exl-id: 691903e2-773e-4205-837e-822f435f57a7
-source-git-commit: b6e77b91ad5626bb9ece45ec3f01126715dbe37b
+source-git-commit: bc8e476e1218681140a1748998c19f1f6c5c0866
 workflow-type: tm+mt
-source-wordcount: '329'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -51,7 +51,7 @@ Vous pouvez collecter vos propres données d’audience propriétaires en créan
 
          1. Copiez la balise de suivi d’impression, étiquetée &quot;[!UICONTROL Desktop or mobile ads].&quot;
 
-         1. Ajoutez la balise au [!UICONTROL Pixel] pour chaque publicité appropriée ou au [!UICONTROL Event Pixels] de la section [[!UICONTROL Tracking] paramètres pour chaque emplacement approprié](/help/dsp/campaign-management/placements/placement-settings.html#placement-tracking).
+         1. Ajoutez la balise au [!UICONTROL Pixel] pour chaque publicité appropriée ou au [!UICONTROL Event Pixels] de la section [[!UICONTROL Tracking] paramètres pour chaque emplacement approprié](/help/dsp/campaign-management/placements/placement-settings.md#placement-tracking).
 
 
 Une fois qu’une balise de suivi est implémentée, vous pouvez utiliser le segment dans les cibles ou exclusions d’audience pour n’importe quel emplacement.
