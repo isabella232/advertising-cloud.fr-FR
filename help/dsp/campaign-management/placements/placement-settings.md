@@ -3,9 +3,9 @@ title: Paramètres d’emplacement
 description: Voir la description des paramètres d’emplacement disponibles.
 feature: DSP Placements
 exl-id: 36097132-e589-4d49-bf86-54f61eae5b67
-source-git-commit: 8b1ae7385d7747f7073448aae5ad0a617f323562
+source-git-commit: ef8e13dc5f94ead81191862dbb37c17ae762682d
 workflow-type: tm+mt
-source-wordcount: '3277'
+source-wordcount: '3301'
 ht-degree: 0%
 
 ---
@@ -253,7 +253,7 @@ Les publicités sortantes apparaissent généralement au-dessus du contenu sous 
 
 Vous pouvez éventuellement exporter la liste des sites ciblés et bloqués sous la forme d’un fichier CSV (valeurs séparées par des virgules). Pour exporter la liste, cliquez sur **[!UICONTROL Export full site list]**, puis ouvrez ou enregistrez le fichier selon la procédure normale de votre navigateur.
 
-<!-- **[!UICONTROL Allow unscreened sites]:** (XXX placements only) Allows you to XXXX.   Optional available for https://advertising.adobe.com/configurator/placement/edit/2432022 -->
+**[!UICONTROL Allow unscreened sites]:** (Emplacements d’affichage standard uniquement) Active la diffusion publicitaire sur des sites non contrôlés. Lorsque l’emplacement cible l’inventaire privé, cette option peut diffuser des publicités sur les sites bloqués.
 
 **[!UICONTROL Paste list of targeted sites]:** Permet de cibler des sites spécifiques uniquement. Lorsque vous activez cette option, les autres options de ciblage de site sont désactivées.
 

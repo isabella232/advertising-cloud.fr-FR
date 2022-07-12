@@ -3,9 +3,9 @@ title: Sécurité des marques et qualité des médias
 description: En savoir plus sur la sécurité de la marque et les fonctionnalités de qualité multimédia.
 feature: DSP Introduction
 exl-id: df5be5d4-490e-479f-b76d-4fda4acd4201
-source-git-commit: b40c6f08b94e546e5fc068c46b279292a4d8a14f
+source-git-commit: b436936e3a0edcb78497fadb6f3c4086412baaa5
 workflow-type: tm+mt
-source-wordcount: '1315'
+source-wordcount: '1365'
 ht-degree: 0%
 
 ---
@@ -79,6 +79,10 @@ Advertising Cloud DSP tient à jour une liste des sites bloqués globalement con
 Dans le cadre de notre initiative de sécurité des marques (Brand Safety) visant à éradiquer les activités qui fraudent les publicitaires, tous les sites sont analysés à l’aide des mesures figurant dans la liste des sites bloqués du graphique. Tous les sites qui ne réussissent pas les contrôles de sécurité de la marque sont ajoutés à la liste des sites bloqués globalement. Étant donné qu’Advertising Cloud DSP gère cette liste de manière dynamique, les sites peuvent l’activer ou la désactiver à tout moment, en fonction des dernières analyses de sécurité de la marque.
 
 Lorsque vous incluez un site sur la liste des sites bloqués globalement comme cible d’emplacement, le site est marqué d’un point d’exclamation rouge (!). Cela indique que les publicités ne s’exécuteront pas sur le site marqué.
+
+>[!NOTE]
+>
+>Vous pouvez éventuellement contourner la liste des sites bloqués globaux pour les annonces d’affichage standard jointes à une transaction privée de confiance en activant le paramètre &quot;[!UICONTROL Allow unscreened sites]&quot; dans la variable [paramètres de placement](/help/dsp/campaign-management/placements/placement-settings.md). Si nécessaire, la variable [!DNL Adobe] l’équipe de compte peut également désactiver, de manière facultative, le blocage de site pour un accord public (au niveau de l’enchère) dans les paramètres de l’éditeur pour l’accord.
 
 #### Listes de sites bloqués au niveau du compte et des annonceurs
 

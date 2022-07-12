@@ -3,9 +3,9 @@ title: Colonnes dans les feuilles de calcul téléchargées/téléchargées
 description: Référencez les colonnes dans les feuilles de calcul AQ Excel téléchargées.
 feature: DSP Placements
 exl-id: 8a8dceed-f77d-4b6b-a842-f57528125c92
-source-git-commit: 39f491a39bdc9d8dd820eb4c69594dda71d8b3c2
+source-git-commit: 0c3984d755131ad98b7ddecfd9567ff4be54b64e
 workflow-type: tm+mt
-source-wordcount: '733'
+source-wordcount: '751'
 ht-degree: 0%
 
 ---
@@ -63,7 +63,7 @@ ht-degree: 0%
 | [!UICONTROL Sites] | [!UICONTROL Categories - Excluded #] | le nombre de catégories de sites exclues, le cas échéant ; ou *[!UICONTROL All]*. | — |
 | [!UICONTROL Sites] | [!UICONTROL Excluded Sites] | les sites exclus, le cas échéant, sont spécifiés, ou *[!UICONTROL None]*. | — |
 | [!UICONTROL Sites] | [!UICONTROL Language] | Les langues du site ciblées. | — |
-| [!UICONTROL Sites] | [!UICONTROL Allow unscreened sites] | Permet d’autoriser ou non la diffusion des publicités sur des sites non contrôlés : *[!UICONTROL ON]* ou *[!UICONTROL OFF]*. | — |
+| [!UICONTROL Sites] | [!UICONTROL Allow unscreened sites] | (Emplacements d’affichage standard uniquement) Autoriser ou non la diffusion des publicités sur des sites non contrôlés : *[!UICONTROL ON]* ou *[!UICONTROL OFF]*. Lorsque l’emplacement cible l’inventaire privé, cette option peut diffuser des publicités sur les sites bloqués. | — |
 | [!UICONTROL Sites] | [!UICONTROL Targeted Sites] | le nombre de sites ciblés, le cas échéant, *[!UICONTROL None]*. | — |
 | [!UICONTROL Audience Targeting] | [!UICONTROL Audience - Included] | les audiences ciblées, le cas échéant, ou *[!UICONTROL None]*. | — |
 | [!UICONTROL Audience Targeting] | [!UICONTROL Audience - Excluded] | les audiences exclues, le cas échéant, ou *[!UICONTROL None]*. | — |
