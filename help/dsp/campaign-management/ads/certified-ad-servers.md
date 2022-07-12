@@ -3,9 +3,9 @@ title: Partenaires certifiés du service publicitaire
 description: Voir tous les serveurs de publicités et unités publicitaires certifiés.
 feature: DSP Ads
 exl-id: 084b4c04-a876-4770-9efc-57268c333aa6
-source-git-commit: 84a3cbce1993fbb7b1a3d526f3bf8a1266635ce9
+source-git-commit: d3b2941af8d27447301fd6a4080ebab6352d503d
 workflow-type: tm+mt
-source-wordcount: '272'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 0%
 | [!DNL ADventori] |  | X |  |  |  |
 | [!DNL Artsai] |  | X |  | X |  |
 | [!DNL Atlas] |  |  |  | X |  |
-| [!DNL Big Ads] |  |  | X |  |  | Cube (Bureau), Cube (Mobile), Cartes (Bureau), Big Reveal (Bureau). Notez que les 4 publicités sont configurées dans l’interface utilisateur d’Adobe au format 300x250. certifié uniquement via Magnite DV+ |
+| [!DNL Big Ads] |  |  | X |  | Cube (Bureau), Cube (Mobile), Cartes (Bureau), Big Reveal (Bureau). Configurez tous ces types d’annonces dans DSP sur 300 x 250. Certifié uniquement via [!DNL Magnite DV+]. |
 | [!DNL Bonzai] |  |  | X |  |  |
 | [!DNL Contobox] |  |  | X |  |  |
 | [!DNL Conversant] |  | X |  |  |  |
