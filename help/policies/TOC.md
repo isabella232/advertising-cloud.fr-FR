@@ -4,14 +4,14 @@ role: User, Admin
 cloud: Experience Cloud
 solution: Advertising Cloud
 product: advertising cloud
-user-guide-title: Stratégies et directives Adobe Advertising Cloud
-user-guide-description: Découvrez les stratégies et les directives relatives à Advertising Cloud DSP et Advertising Cloud Search.
+user-guide-title: Stratégies et directives d’Adobe Advertising Cloud
+user-guide-description: Découvrez les stratégies et directives d’Advertising Cloud DSP et d’Advertising Cloud Search.
 breadcrumb-title: Stratégies et directives
 index: true
 source-git-commit: acc5b7bb719b655d8b019eee3b5783fec49af0b9
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '38'
+ht-degree: 60%
 
 ---
 
