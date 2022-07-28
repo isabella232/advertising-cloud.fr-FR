@@ -3,9 +3,9 @@ title: À propos des rapports In-Platform
 description: Découvrez les données du rapport incluses dans les vues de gestion de campagne.
 feature: DSP Campaign Data Views
 exl-id: e9f7dafe-e0db-4fec-bf5b-858cbcfdde45
-source-git-commit: 7d081583ff10675b515aafdd97ccb3053f19c32d
+source-git-commit: 82c906c87fd3aad0d7a04d0b0e58e54c5485499a
 workflow-type: tm+mt
-source-wordcount: '938'
+source-wordcount: '940'
 ht-degree: 0%
 
 ---
@@ -75,7 +75,7 @@ Pour chaque emplacement, vous pouvez : [ouvrir une (vue détaillée) [!UICONTROL
 
 * **[!UICONTROL Inventory]:** Informations sur toutes les offres ciblées par l’emplacement.
 
-   Le [!UICONTROL Inventory] comprend les fonctions de recherche et de filtrage, les mêmes options d’affichage en colonnes standard et personnalisées que celles disponibles sur la page principale, ainsi que des boutons d’action rapide dans chaque ligne, tels que [!UICONTROL Edit] et [!UICONTROL View Report]. Le [!UICONTROL Inventory] permet de résoudre rapidement les problèmes en affichant les statistiques de performances, telles que [!UICONTROL Auctions], [!UICONTROL Bids], et [!UICONTROL Win Rate].
+   Le [!UICONTROL Inventory] permet de résoudre rapidement les problèmes en affichant les statistiques de performances, telles que [!UICONTROL Auctions], [!UICONTROL Bids], et [!UICONTROL Win Rate]. L’onglet comprend des fonctions de recherche et de filtrage, les mêmes options d’affichage en colonnes standard et personnalisées que celles disponibles sur la page principale, ainsi que des boutons d’action rapide dans chaque ligne, y compris [!UICONTROL Edit], [!UICONTROL View Report], et [[!UICONTROL Auction Insights] pour résoudre d’autres problèmes](/help/dsp/inventory/private-deal-auction-insights.md).
 
 #### Dépannage de l’inventaire
 
@@ -106,6 +106,6 @@ Pour d’autres ventilations de données, voir [les pages de création de rappor
 >* [Création d’un mode Colonnes personnalisé](column-view-create.md)
 >* [Modification du mode Colonnes](column-view-change.md)
 >* [Gestion des visualisations des données](campaign-data-visualization-manage.md)
->* [Exporter des données à partir d’une vue de gestion de campagne](campaign-export-data.md)
+>* [Exportation de données à partir d’une vue Campaign Management](campaign-export-data.md)
 >* [Affichage d’un rapport détaillé pour une campagne](/help/dsp/campaign-management/campaigns/campaign-view-report.md)
 

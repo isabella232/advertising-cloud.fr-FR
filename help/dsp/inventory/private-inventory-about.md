@@ -3,9 +3,9 @@ title: À propos du stock privé
 description: À propos du stock privé
 feature: DSP Private Inventory
 exl-id: 6b3923ca-ccd1-450e-bff0-139e3838c999
-source-git-commit: 0fb8417ed6ed261077affd4db071e207731058f9
+source-git-commit: 82c906c87fd3aad0d7a04d0b0e58e54c5485499a
 workflow-type: tm+mt
-source-wordcount: '382'
+source-wordcount: '391'
 ht-degree: 0%
 
 ---
@@ -34,7 +34,7 @@ Vous pouvez utiliser chaque opération privée comme cible d’emplacement pour 
 
 ## Vue des affaires
 
-Dans le [!UICONTROL Inventory] > [!UICONTROL Deals] vous pouvez créer des paramètres d’opération privés. Vous pouvez également modifier certains paramètres de transaction ; répertorier les emplacements et les publicités, et joindre des emplacements et des publicités supplémentaires à une transaction ; modifier les annonceurs et les comptes qui peuvent accéder à une transaction ; afficher un rapport pour une opération privée ; ou archiver ou ne plus archiver un accord.<!-- ; or edit the attribute tags for a deal -->
+Dans le [!UICONTROL Inventory] > [!UICONTROL Deals] vous pouvez créer des paramètres d’opération privés. Vous pouvez également modifier certains paramètres de transaction ; répertorier les emplacements et les publicités, et joindre des emplacements et des publicités supplémentaires à une opération privée ; modifier les annonceurs et les comptes qui peuvent accéder à une offre privée ; afficher un rapport de performance pour une transaction ; afficher les informations sur les enchères pour un accord privé, ou archiver ou ne plus archiver un accord.<!-- ; or edit the attribute tags for a deal -->
 
 Vous pouvez personnaliser davantage la présentation des données d’opération existantes en appliquant des filtres, en personnalisant les colonnes visibles et en enregistrant éventuellement des vues personnalisées, en triant les colonnes et en affichant les données sous forme de graphiques.
 
