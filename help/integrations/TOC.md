@@ -3,7 +3,7 @@ user-guide-title: Intégrations à Adobe Experience Cloud
 user-guide-description: Découvrez les intégrations d’Advertising Cloud DSP et d’Advertising Cloud Search à d’autres produits et services Adobe Experience Cloud.
 breadcrumb-title: Intégrations à Experience Cloud
 index: true
-source-git-commit: c047238f0d92b5218df6245c004607ac1e48e345
+source-git-commit: 93ecc9f881ce8947235211903d242bd39ed6e5d2
 workflow-type: tm+mt
 source-wordcount: '189'
 ht-degree: 14%
@@ -35,7 +35,7 @@ ht-degree: 14%
       + [Utilisation des Advertising Cloud ID à créer [!DNL Marketing Channels] Règles de traitement](/help/integrations/analytics/marketing-channels/mc-ids.md)
       + [Utilisation [!DNL Marketing Channels] avec les données Advertising Cloud](/help/integrations/analytics/marketing-channels/mc-ac-data.md)
       + [Pourquoi les données du canal peuvent-elles varier entre Advertising Cloud et [!DNL Marketing Channels]](/help/integrations/analytics/marketing-channels/mc-data-variances.md)
-+ [Intégration à Adobe Audience Manager] {#audience-manager}
++ Intégration à Adobe Audience Manager {#audience-manager}
    + [Intégrations Advertising Cloud à Adobe Audience Manager](/help/integrations/audience-manager/overview.md)
    + [Importation de segments d’Audience Manager dans Advertising Cloud](/help/integrations/audience-manager/import-audiences.md)
    + Intégration des données DSP Media à Adobe Audience Manager {#media-data-ingestion}

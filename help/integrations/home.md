@@ -5,9 +5,9 @@ cloud: Experience Cloud
 product: advertising cloud
 index: true
 exl-id: 0808d101-3c6b-4671-b9e3-6f588427f8b5
-source-git-commit: b73abe16578069a0037cfb0a8520485a5d27790f
+source-git-commit: 5180665a7342d7222aa350298298d5bcc9b2e449
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '236'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,7 @@ Les fonctionnalités suivantes sont nouvelles ou récemment modifiées.
 
 | Date | Fonctionnalité | Description | Pour plus d’informations |
 | ---- | ------- | ----------- | -------------------- |
+| 17 août 2022 | Aide | Un nouveau chapitre explique toutes les façons dont Advertising Cloud est intégré à Adobe Audience Manager. | Consultez le chapitre &quot;Intégration avec Adobe Audience Manager&quot;, qui comprend une présentation de &quot;[Intégrations Advertising Cloud à Adobe Audience Manager](/help/integrations/audience-manager/overview.md).&quot; |
 | 27 avril 2021 | [!DNL Analytics for Advertising Cloud] | Découvrez pourquoi et comment ajouter [!DNL Analytics for Advertising Cloud] des macros à [!DNL Google Campaign Manager 360] balises publicitaires pour envoyer des données de clic à Adobe Analytics. | Voir &quot;[Ajouter [!DNL Analytics for Advertising Cloud] Macros vers [!DNL Google Campaign Manager 360] Balises publicitaires](/help/integrations/analytics/macros-google-campaign-manager.md).&quot; |
 | 19 avril 2021 | [!DNL Analytics for Advertising Cloud] | Découvrez pourquoi et comment ajouter des macros à vos [!DNL Flashtalking] balises publicitaires pour envoyer des données de clic à Adobe Analytics. | Voir &quot;[Ajouter [!DNL Analytics for Advertising Cloud] Macros vers [!DNL Flashtalking] Balises publicitaires](/help/integrations/analytics/macros-flashtalking.md).&quot; |
 | 27 octobre 2021 | [!DNL Analytics for Advertising Cloud] | Si votre entreprise souhaite ne plus utiliser l’Adobe Analytics hérité `visitorAPI.js` vers la bibliothèque [Adobe Experience Platform [!DNL Web SDK]](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html) Bibliothèque (`alloy.js`) pour la collecte de données, vous devrez apporter quelques modifications pour activer le regroupement des identifiants. | Voir &quot;[En utilisant la variable [!DNL Last Event Service] Bibliothèque JavaScript avec Adobe Experience Platform [!DNL Web SDK]](/help/integrations/analytics/web-sdk.md).&quot; |
