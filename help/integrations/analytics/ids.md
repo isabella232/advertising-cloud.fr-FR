@@ -3,9 +3,9 @@ title: Advertising Cloud ID utilisés par [!DNL Analytics]
 description: Advertising Cloud ID utilisés par [!DNL Analytics]
 feature: Integration with Adobe Analytics
 exl-id: ed1aab7b-9bd0-4d42-9bfb-9c6fa6db76bc
-source-git-commit: b40c6f08b94e546e5fc068c46b279292a4d8a14f
+source-git-commit: 8f0765251234b09eddaee721018285aee6b44b6a
 workflow-type: tm+mt
-source-wordcount: '1157'
+source-wordcount: '1194'
 ht-degree: 0%
 
 ---
@@ -43,6 +43,30 @@ L’identifiant EF est un jeton unique utilisé par Advertising Cloud pour assoc
 
 ### Format d’identifiant EF
 
+>[!NOTE]
+>
+>Les identifiants EF sont sensibles à la casse. Si [!DNL Analytics] l’implémentation force le suivi des URL en minuscules, puis Advertising Cloud ne reconnaît pas l’identifiant EF. Cela aura un impact sur les offres Advertising Cloud et la création de rapports, mais n’aura aucun impact sur la création de rapports Advertising Cloud dans [!DNL Analytics].
+
+#### [!DNL Google Ads] annonces de recherche
+
+```{gclid}:G:s```
+
+où :
+
+* `gclid` est la valeur [!DNL Google Click ID] (GCLID).
+* `s` est le type de réseau (&quot;s&quot; pour la recherche).
+
+#### Publicités de recherche Microsoft Advertising
+
+```{msclkid}:G:s```
+
+où :
+
+* `msclkid` est la valeur [!DNL Microsoft Click ID] (MSCLKID).
+* `s` est le type de réseau (&quot;s&quot; pour la recherche).
+
+#### Afficher des publicités et des annonces de recherche sur d’autres moteurs de recherche
+
 ```<Advertising Cloud visitor ID>:<timestamp>:<channel type>```
 
 <!-- <*Advertising Cloud visitor ID*>:<*timestamp*>:<*channel type*> -->
@@ -60,10 +84,6 @@ où :
    * `s` pour un clic sur une publicité de recherche (clic publicitaire de recherche).
 
 Exemple `EF `ID : WcmibgAAAHJK1RyY:1551968087687:d
-
->[!NOTE]
->
->Les identifiants EF sont sensibles à la casse. Si [!DNL Analytics] l’implémentation force le suivi des URL en minuscules, puis Advertising Cloud ne reconnaît pas l’identifiant EF. Cela aura un impact sur les offres Advertising Cloud et la création de rapports, mais n’aura aucun impact sur la création de rapports Advertising Cloud dans [!DNL Analytics].
 
 ### La Dimension d’identifiant EF dans [!DNL Analytics]
 
