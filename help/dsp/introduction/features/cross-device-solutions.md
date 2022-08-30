@@ -3,16 +3,16 @@ title: Solutions multi-appareils
 description: En savoir plus sur les fonctionnalités multi-appareils.
 feature: DSP Introduction
 exl-id: 29f8ec41-35a6-4a29-a638-82a2929a8fe6
-source-git-commit: 2e0395dc1e5aa52adc83c1aaea49793fd5555390
+source-git-commit: d7afcc2200adc41e583d21712226cb25f35aab66
 workflow-type: tm+mt
-source-wordcount: '1113'
+source-wordcount: '1006'
 ht-degree: 0%
 
 ---
 
 # Solutions multi-appareils
 
-Intégrations Advertising Cloud DSP avec [!DNL LiveRamp] et [!DNL Adobe Device Co-op] vous permettent d’étendre votre audience à tous les appareils connus d’une personne, et pas seulement aux appareils suivis par votre marque. Les intégrations permettent également de limiter les fréquences et de mesurer l’attribution sur tous les appareils.
+Intégration d’Advertising Cloud DSP avec [!DNL LiveRamp] vous permet d’étendre votre audience à tous les appareils connus d’une personne, et pas seulement aux appareils suivis par votre marque. L’intégration fournit également une mesure de limitation et d’attribution des fréquences sur tous les appareils.
 
 Lorsque vous utilisez un graphique d’appareil basé sur les personnes pris en charge, vous pouvez :
 
@@ -20,22 +20,19 @@ Lorsque vous utilisez un graphique d’appareil basé sur les personnes pris en 
 * Équilibrer l’exposition en comprenant et en plafonnant la fréquence entre les individus.
 * Stratégies de test qui exposent ou convertissent des audiences sur plusieurs canaux ou appareils.
 
-## Avantages de chaque représentation graphique des appareils
+## Avantages de la variable [!DNL LiveRamp] Device Graph
 
-* [!DNL Adobe Device Co-op]:
-   * Fournit un pool d’inclusion des données déterministes et probabilistes des annonceurs Adobes participants
-   * Fournit des connexions d’ID de cookie fiables optimisées par les visiteurs web de bureau et mobiles
-   * Inclut principalement des données provenant des États-Unis et du Canada
-   * Sans frais d’utilisation
+* Fournit un pool de données déterministes, y compris les données client hors ligne.
 
-* [!DNL LiveRamp] Device Graph :
-   * Fournit un pool de données déterministes, y compris les données client hors ligne.
-   * Offre une couverture égale entre les ID de cookie et les ID d’appareils mobiles
-   * Inclut principalement des données provenant des États-Unis
-   * Est gratuit pour le plafonnement des fréquences et la mesure d’attribution
-   * Le prix de l’impression étendue (impressions diffusées uniquement en utilisant la variable [!DNL LiveRamp] Graphique d’appareil plutôt que sur les appareils trouvés dans les segments d’audience ciblés)
+* Offre une couverture égale entre les ID de cookie et les ID d’appareils mobiles
 
-      Le taux est répercuté sur votre carte de taux de compte.
+* Inclut principalement des données provenant des États-Unis
+
+* Est gratuit pour le plafonnement des fréquences et la mesure d’attribution
+
+* Le prix de l’impression étendue (impressions diffusées uniquement en utilisant la variable [!DNL LiveRamp] Graphique d’appareil plutôt que sur les appareils trouvés dans les segments d’audience ciblés)
+
+   Le taux est répercuté sur votre carte de taux de compte.
 
 ## Gestion des fréquences basée sur les personnes
 
@@ -85,15 +82,7 @@ Avec l’attribution basée sur les personnes, vous pouvez attribuer des convers
 
 ### Activation de la mesure d’attribution basée sur les personnes
 
-Si vous souhaitez activer la mesure d’attribution entre appareils, contactez votre [!DNL Adobe] l&#39;équipe du compte. Pour [!DNL Adobe Device Co-op] , vous devrez fournir vos [!DNL Adobe Device Co-op] le contrat et l’ID d’organisation de votre Experience Cloud (anciennement appelé [!DNL IMS org ID]).
-
-Pour savoir si un compte publicitaire est configuré pour utiliser un graphique d’appareil pour la mesure d’attribution :
-
-1. Dans le menu principal, cliquez sur **[!UICONTROL Settings]>[!UICONTROL Advertiser]**.
-1. Placez le curseur sur la ligne de l’annonceur et cliquez sur **[!UICONTROL Edit]**.
-1. Dans le [!UICONTROL Integrations] dans les paramètres de l’annonceur, voir si la variable [!UICONTROL Cross-Device Attribution] est principal.
-
-   Pour les intégrations principales, la représentation graphique des appareils est indiquée.
+Si vous souhaitez activer la mesure d’attribution entre appareils, contactez votre [!DNL Adobe] l&#39;équipe du compte.
 
 ### Configuration des rapports de conversion pour l’attribution des conversions entre appareils
 

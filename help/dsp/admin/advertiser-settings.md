@@ -1,9 +1,9 @@
 ---
 title: Paramètres du compte Advertiser
 description: Voir la description des paramètres de l’annonceur disponibles.
-source-git-commit: 2e0395dc1e5aa52adc83c1aaea49793fd5555390
+source-git-commit: d7afcc2200adc41e583d21712226cb25f35aab66
 workflow-type: tm+mt
-source-wordcount: '975'
+source-wordcount: '874'
 ht-degree: 0%
 
 ---
@@ -38,25 +38,19 @@ Les annonceurs qui disposent de produits Adobe Experience Cloud supplémentaires
 
 (Facultatif) Produits Experience Cloud supplémentaires liés au compte DSP. Les produits doivent être associés au même ID d’organisation Experience Cloud que celui fourni dans la variable [!UICONTROL Adobe IMS IDs] .
 
-**[!UICONTROL Adobe Media Optimizer]:** (Publicitaires avec Advertising Cloud Search ou qui utilisent des pixels de conversion Advertising Cloud) A [!DNL Search] compte avec lequel DSP échangera des données d’attribution.
+**[!UICONTROL Attribution services]> [!UICONTROL Adobe Media Optimizer]:** (Publicitaires avec Advertising Cloud Search ou qui utilisent des pixels de conversion Advertising Cloud) A [!DNL Search] compte avec lequel DSP échangera des données d’attribution.
 
-**[!UICONTROL Adobe Device Co-op or 3rd Party Graph]:** (Publicitaires qui utilisent des pixels de conversion Advertising Cloud ; (facultatif) Vous pouvez utiliser un graphique d’appareil pour la mesure d’attribution basée sur la personne à partir des paramètres du compte de l’annonceur dans Advertising Cloud Search.
+**[!UICONTROL Report suites]> [!UICONTROL Adobe Analytics]:** (Publicitaires avec Adobe Analytics ; facultatif ; s’applique uniquement aux données collectées à l’aide des balises de suivi de conversion Advertising Cloud qui incluent une variable [!DNL EF Redirect] et jeton uniquement) Un ou plusieurs [!DNL Analytics] suites de rapports auxquelles DSP enverra les données collectées auprès des éditeurs et des partenaires côté offre. Analytics enverra également les données qu’il collecte du site du client à DSP.
 
->[!NOTE]
->
-> * L’attribution du périphérique n’est disponible que pour les conversions suivies à l’aide du service de suivi de conversion Advertising Cloud, et non pour les conversions suivies par Adobe Analytics.
-> * Vous pouvez également sélectionner une représentation graphique des appareils basée sur la personne pour le ciblage entre appareils et la gestion des fréquences au niveau de la [niveau de campagne](/help/dsp/campaign-management/campaigns/campaign-settings.md). Vous pouvez ensuite configurer un ciblage sur plusieurs appareils à l’adresse [niveau de placement](/help/dsp/campaign-management/placements/placement-settings.md) et d’autres limites de fréquence au niveau de la [niveau du package](/help/dsp/campaign-management/packages/package-settings.md) et [niveau de placement](/help/dsp/campaign-management/placements/placement-settings.md). Le ciblage entre appareils et la gestion des fréquences ne nécessitent pas de mesure d’attribution au niveau de l’annonceur ; ils fonctionnent plutôt avec le Device Graph spécifié dans les paramètres de campagne.
-
-
-**[!UICONTROL Adobe Analytics]:** (Publicitaires avec Adobe Analytics ; facultatif ; s’applique uniquement aux données collectées à l’aide des balises de suivi de conversion Advertising Cloud qui incluent une variable [!DNL EF Redirect] et jeton uniquement) Un ou plusieurs [!DNL Analytics] suites de rapports auxquelles DSP enverra les données collectées auprès des éditeurs et des partenaires côté offre. Analytics enverra également les données qu’il collecte du site du client à DSP.
-
-Pour que les données s’affichent dans les suites de rapports, la variable [!DNL Search] paramètre au niveau de l’annonceur sur &quot;[!UICONTROL Enable tracking for SAINT feeds]&quot; doit être activé. En outre, le [!DNL Analytics] doit être configuré pour recevoir des données d’Advertising Cloud. <!-- from Advertising Cloud or DSP in particular? Add cross-reference to file in Integrations section. -->
+Pour que les données s’affichent dans les suites de rapports, la variable [!DNL Search] paramètre au niveau de l’annonceur sur &quot;[!UICONTROL Enable tracking for SAINT feeds]&quot; doit être activé. En outre, le [!DNL Analytics] doit être configuré pour recevoir des données d’Advertising Cloud.
 
 >[!WARNING]
 >
->Si vous supprimez une suite de rapports précédemment liée, DSP n’échangera plus de données avec cette suite. Vous pouvez vous attendre à voir les fluctuations des données. <!-- Fluctuations where? Clarify -->
+>Si vous supprimez une suite de rapports précédemment liée, DSP n’échangera plus de données avec cette suite. Vous pouvez vous attendre à voir les fluctuations des données.
 
-**[!UICONTROL Adobe Analytics Cloud]:** (Publicitaires avec Adobe Audience Manager ou Adobe Analytics ; (facultatif) une Audience Manager ou [!DNL Analytics] compte à partir duquel DSP extrait les métadonnées de segment, les données de hiérarchie et les données d’audience uniques pour toutes les audiences d’Adobe de l’annonceur. Cela inclut les données pour :
+Pour plus d’informations sur l’intégration à [!DNL Analytics], voir &quot;[Présentation de [!DNL Analytics for Advertising Cloud]](/help/integrations/analytics/overview.md).&quot;
+
+**[!UICONTROL Audiences]> [!UICONTROL Adobe Analytics Cloud]:** (Publicitaires avec Adobe Audience Manager ou Adobe Analytics ; (facultatif) une Audience Manager ou [!DNL Analytics] compte à partir duquel DSP extrait les métadonnées de segment, les données de hiérarchie et les données d’audience uniques pour toutes les audiences d’Adobe de l’annonceur. Cela inclut les données pour :
 
 * Segments d’Audience Manager
 * [!DNL Analytics] segments publiés sur Adobe Experience Cloud

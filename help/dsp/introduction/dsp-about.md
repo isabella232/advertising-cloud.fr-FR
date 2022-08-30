@@ -3,7 +3,7 @@ title: À propos d’Adobe Advertising Cloud DSP
 description: À propos d’Adobe Advertising Cloud DSP
 feature: DSP Introduction
 exl-id: def006b2-eb51-4942-b277-a2e673bccc7f
-source-git-commit: 19d6a2edf07eecf874537dd9d356737ed9156bd9
+source-git-commit: d7afcc2200adc41e583d21712226cb25f35aab66
 workflow-type: tm+mt
 source-wordcount: '348'
 ht-degree: 0%
@@ -18,7 +18,7 @@ Adobe Advertising Cloud DSP élève les stratégies multimédia des annonceurs g
 
 * [**Optimisation**](features/optimization.md): Notre nouvelle destination pour la gestion de campagnes, [!DNL Campaign Home], vous donne les outils avancés, le tri et les informations pour optimiser vos campagnes plus rapidement que jamais. En outre, les recommandations de prévisions et de dépenses prédisent les stratégies qui devraient être performantes, pas nécessairement celles qui sont les plus performantes en ce moment, afin que vous puissiez optimiser avec les données.
 
-* [**Solutions multi-appareils**](features/cross-device-solutions.md): Intégrations Advertising Cloud DSP avec [!DNL LiveRamp] et [!DNL Adobe Device Co-Op] vous permettent d’étendre votre audience à tous les appareils connus d’un consommateur, d’appliquer des limites de fréquence et de mesurer l’attribution sur ces appareils.
+* [**Solutions multi-appareils**](features/cross-device-solutions.md): Intégration d’Advertising Cloud DSP avec [!DNL LiveRamp] vous permet d’étendre votre audience à tous les appareils connus d’un consommateur, d’appliquer des limites de fréquence et de mesurer l’attribution sur ces appareils.
 
 * [**Suite de qualité du média**](features/brand-safety-media-quality.md): Advertising Cloud DSP aborde de manière proactive les problèmes qui peuvent avoir un impact sur vos investissements en matière de marque et de publicité. La suite DSP qualité des médias est transparente à 100 % et adopte une approche multifacettée pour garantir la protection des investissements des annonceurs. Cela inclut la sécurité de la marque, la visibilité, la protection contre les fraudes et [!DNL Ads.Txt].
 
