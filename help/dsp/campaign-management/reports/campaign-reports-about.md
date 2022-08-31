@@ -3,7 +3,7 @@ title: À propos des rapports In-Platform
 description: Découvrez les données du rapport incluses dans les vues de gestion de campagne.
 feature: DSP Campaign Data Views
 exl-id: e9f7dafe-e0db-4fec-bf5b-858cbcfdde45
-source-git-commit: 82c906c87fd3aad0d7a04d0b0e58e54c5485499a
+source-git-commit: 093902d577cc4af3bb18bbeddc640fe284d3a179
 workflow-type: tm+mt
 source-wordcount: '940'
 ht-degree: 0%
@@ -69,7 +69,7 @@ Pour chaque emplacement, vous pouvez : [ouvrir une (vue détaillée) [!UICONTROL
 
 * **[!UICONTROL Frequency]:** Données pour chaque niveau de fréquence publicitaire de l’emplacement, notamment :
    * le niveau de fréquence des publicités (par exemple &quot;1&quot; pour toutes les instances où les utilisateurs ont vu une publicité une fois) ;
-   * le nombre estimé unique d’appareils/navigateurs ou de personnes (en fonction des [!UICONTROL Cross Device Level] pour l’emplacement) qui a reçu des impressions au niveau de fréquence spécifié
+   * le nombre estimé unique d’appareils/navigateurs ou de personnes (en fonction des [!UICONTROL Cross Device Level] pour la campagne) qui a reçu des impressions au niveau de fréquence spécifié
    * nombre estimé d’impressions au niveau de fréquence spécifié
    * la fréquence moyenne estimée pour le niveau de fréquence spécifié. Cette valeur est égale à (Impressions estimées)/(Uniques estimées).
 

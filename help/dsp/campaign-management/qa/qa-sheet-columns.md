@@ -3,9 +3,9 @@ title: Colonnes dans les feuilles de calcul téléchargées/téléchargées
 description: Référencez les colonnes dans les feuilles de calcul AQ Excel téléchargées.
 feature: DSP Placements
 exl-id: 8a8dceed-f77d-4b6b-a842-f57528125c92
-source-git-commit: 0c3984d755131ad98b7ddecfd9567ff4be54b64e
+source-git-commit: a3ddbe1aed444636e7bf45e7d52c8d5ee8ec1382
 workflow-type: tm+mt
-source-wordcount: '751'
+source-wordcount: '772'
 ht-degree: 0%
 
 ---
@@ -68,7 +68,7 @@ ht-degree: 0%
 | [!UICONTROL Audience Targeting] | [!UICONTROL Audience - Included] | les audiences ciblées, le cas échéant, ou *[!UICONTROL None]*. | — |
 | [!UICONTROL Audience Targeting] | [!UICONTROL Audience - Excluded] | les audiences exclues, le cas échéant, ou *[!UICONTROL None]*. | — |
 | [!UICONTROL Audience Targeting] | [!UICONTROL Demographic booster] | Que [!DNL Comscore] les segments démographiques sont activés pour l’emplacement (et d’autres emplacements dans la campagne) : *[!UICONTROL ON]* ou *[!UICONTROL OFF]*. Cette fonctionnalité peut être activée uniquement pour les campagnes pour lesquelles la fonction [!DNL Audience Verification] La fonction est activée pour [!DNL Nielsen] et/ou [!DNL Comscore].  Il entraîne des frais supplémentaires. | — |
-| [!UICONTROL Audience Targeting] | [!UICONTROL Extend across screens] | Permet d’étendre ou non le ciblage des publicités sur plusieurs appareils : *[!UICONTROL ON]* ou *[!UICONTROL OFF]*.<!-- Whether or not the Cross Device Targeting setting is enabled for the placement : *ON* or *OFF*. Cross-device targeting extends your targeting across all of a person's known device, per the device graph specified in the campaign settings.--> | — |
+| [!UICONTROL Audience Targeting] | [!UICONTROL Extend across screens] | Permet d’étendre ou non le ciblage des publicités sur plusieurs appareils : *[!UICONTROL ON]* ou *[!UICONTROL OFF]*. Le ciblage sur plusieurs appareils étend le ciblage sur l’ensemble de l’appareil connu d’une personne, selon la représentation graphique des appareils spécifiée dans les paramètres de campagne. | — |
 | [!UICONTROL Audience Targeting] | [!UICONTROL Topic Targeting] - Inclus # | le nombre de codes de rubrique ciblés, le cas échéant, *[!UICONTROL All]*. | — |
 | [!UICONTROL Audience Targeting] | [!UICONTROL Topic Targeting - Excluded #] | le nombre de codes de rubrique exclus, le cas échéant, *[!UICONTROL None]*. | — |
 | [!UICONTROL Audience Targeting] | [!UICONTROL Device Targeting - Included #] | le nombre de cibles d’appareil ciblées, le cas échéant, ou *[!UICONTROL All]*. | — |

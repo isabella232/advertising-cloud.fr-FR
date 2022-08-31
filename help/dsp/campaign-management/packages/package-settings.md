@@ -3,9 +3,9 @@ title: Paramètres du module
 description: Voir la description des paramètres de package disponibles.
 feature: DSP Packages
 exl-id: b4d415d1-86a5-40bd-b645-1709b267c174
-source-git-commit: 4a699912468cd89efec0c1da9fdb6302ca93a3b4
+source-git-commit: 7fe6eb31d3330c5470077ca2766c41ae07c6c67f
 workflow-type: tm+mt
-source-wordcount: '706'
+source-wordcount: '709'
 ht-degree: 0%
 
 ---
@@ -73,7 +73,7 @@ Pour les modules avec un vol personnalisé, l’intervalle de budget est toujour
 >
 >Ce champ n’est qu’une référence et n’est pas utilisé pour la prise de décision.
 
-**[!UICONTROL Frequency Cap]:** (Modules avec une fréquence au niveau du module uniquement) Nombre de fois où un appareil ou une personne unique (selon la variable [!UICONTROL Cross Device Level]) peuvent être diffusées à partir du module . Les options incluent *[!UICONTROL Unlimited]* ou un montant spécifique par jour, semaine ou mois.
+**[!UICONTROL Frequency Cap]:** (Modules avec une fréquence au niveau du module uniquement) Nombre de fois où un appareil ou une personne unique (selon la variable [!UICONTROL Cross Device Level] pour la campagne) peuvent être diffusées des publicités à partir du package. Les options incluent *[!UICONTROL Unlimited]* ou un montant spécifique par jour, semaine ou mois.
 
 >[!NOTE]
 >
@@ -111,5 +111,5 @@ Pour chaque vol, indiquez la date de début, la date de fin et le nombre cible d
 >* [Création d’un module](package-create.md)
 >* [Modification d’un module](package-edit.md)
 >* [Joindre un emplacement à un package](package-attach-placement.md)
->* [Questions fréquentes sur la gestion des campagnes](/help/dsp/campaign-management/campaign-management-faq.md)
+>* [Questions fréquentes à propos de Campaign Management](/help/dsp/campaign-management/campaign-management-faq.md)
 

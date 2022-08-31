@@ -3,9 +3,9 @@ title: Paramètres d’emplacement
 description: Voir la description des paramètres d’emplacement disponibles.
 feature: DSP Placements
 exl-id: 36097132-e589-4d49-bf86-54f61eae5b67
-source-git-commit: ef8e13dc5f94ead81191862dbb37c17ae762682d
+source-git-commit: 04586c87f134deaa9a28f57d6f7587f023fd217a
 workflow-type: tm+mt
-source-wordcount: '3301'
+source-wordcount: '3304'
 ht-degree: 0%
 
 ---
@@ -288,7 +288,7 @@ Vous pouvez éventuellement exporter la liste des sites ciblés et bloqués sous
 
 **[!UICONTROL Cross Device Targeting]:** (Disponible lorsque vous sélectionnez au moins un segment ou une audience et que la variable [campaign est configuré pour le ciblage multi-appareils basé sur les personnes](/help/dsp/campaign-management/campaigns/campaign-settings.md). Permet d’étendre le ciblage sur tous les appareils connus d’une personne (selon la représentation graphique des appareils spécifiée dans les paramètres de la campagne), même sur les appareils qui ne figurent pas dans les segments spécifiés. Les frais peuvent s&#39;appliquer en fonction du graphique spécifié pour l&#39;opération. Actuellement, les données de Device Graph ne sont disponibles qu’en Amérique du Nord.
 
-**[!UICONTROL Placement Cap]:** (Facultatif) Le nombre de fois où un appareil ou une personne unique (en fonction de la variable [!UICONTROL Cross Device Level]) seront diffusées à partir de l’emplacement. Les options incluent *[!UICONTROL Unlimited]* ou un montant spécifique par jour, semaine ou mois.
+**[!UICONTROL Placement Cap]:** (Facultatif) Le nombre de fois où un appareil ou une personne unique (en fonction de la variable [!UICONTROL Cross Device Level] pour la campagne) seront diffusées des publicités à partir de l’emplacement. Les options incluent *[!UICONTROL Unlimited]* ou un montant spécifique par jour, semaine ou mois.
 
 >[!NOTE]
 >
