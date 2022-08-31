@@ -3,9 +3,9 @@ title: Paramètres des rapports personnalisés
 description: Reportez-vous à la description des paramètres de rapport personnalisés.
 feature: DSP Custom Reports
 exl-id: 1d37fc96-0f9b-4eb2-ba8d-9534f627adaf
-source-git-commit: b40c6f08b94e546e5fc068c46b279292a4d8a14f
+source-git-commit: 4e389d687f8974028181a03534aff1abf6b43831
 workflow-type: tm+mt
-source-wordcount: '1129'
+source-wordcount: '972'
 ht-degree: 0%
 
 ---
@@ -88,18 +88,6 @@ Pour appliquer un ou plusieurs filtres, procédez comme suit :
 * *[!UICONTROL With Clicks (CT)]:* Inclut uniquement les conversions attribuées aux clics.
 
 * *[!UICONTROL Impressions Only (VT)]:* Inclut uniquement les conversions qui ont été attribuées aux impressions car aucun clic n’a été suivi dans le chemin de conversion.
-
-**[!UICONTROL Cross Device Level]:**  (Tous) [!UICONTROL Custom], [!UICONTROL Conversion], [!UICONTROL Device], [!UICONTROL Geo], [!UICONTROL Segment], et [!UICONTROL Site] rapports avec [!UICONTROL Conversion Metrics] ou [!UICONTROL Custom Goals] colonnes; applicable uniquement aux annonceurs avec attribution multi-appareils) Le niveau auquel effectuer le suivi des conversions : *[!UICONTROL People]* ou *[!UICONTROL Household]*.
-
-En savoir plus sur [solutions multi-appareils](/help/dsp/introduction/features/cross-device-solutions.md).
-
-**[!UICONTROL Cross-Device Breakout]:** (Tous) [!UICONTROL Custom], [!UICONTROL Conversion], [!UICONTROL Device], [!UICONTROL Geo], [!UICONTROL Segment], et [!UICONTROL Site] rapports avec [!UICONTROL Conversion Metrics] ou [!UICONTROL Custom Goals] colonnes; applicable uniquement aux annonceurs avec attribution inter-appareils) Le niveau de détail des conversions inter-appareils à inclure dans le rapport. Vous pouvez choisir jusqu’à trois niveaux, chacun d’eux étant inclus dans une colonne distincte, si vous souhaitez une ventilation détaillée.
-
-* *[!UICONTROL Total People (TP)]:* Inclut le total des conversions, qui inclut les conversions sur le même appareil et les conversions sur plusieurs appareils (le cas échéant). Dans le rapport, &quot;[!UICONTROL (tp)]&quot; est ajouté au nom de la mesure de conversion et au type de règle.
-
-* *[!UICONTROL Same Device (SD)]:* Inclut uniquement les conversions pour lesquelles un seul appareil a été suivi dans le chemin de conversion. Dans le rapport, &quot;[!UICONTROL (sd)]&quot; est ajouté au nom de la mesure de conversion et au type de règle.
-
-* *[!UICONTROL Cross Device (XD)]:* Inclut uniquement les conversions pour lesquelles plusieurs appareils ont été suivis dans le chemin de conversion. Dans le rapport, &quot;[!UICONTROL (xd)]&quot; est ajouté au nom de la mesure de conversion et au type de règle.
 
 **[!UICONTROL Conversion Reporting Based On]:**  Comment signaler les données de conversion :
 
