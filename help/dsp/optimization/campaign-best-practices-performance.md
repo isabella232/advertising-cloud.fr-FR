@@ -3,9 +3,9 @@ title: Bonnes pratiques pour configurer des campagnes de performances
 description: Découvrez les bonnes pratiques pour configurer vos campagnes axées sur les performances, qui incluent des emplacements optimisés pour le CPA le plus bas ou le ROAS le plus élevé.
 feature: DSP Optimization, DSP Best Practices
 exl-id: fc64680d-9d1c-4f74-a8b9-2e9b670c00eb
-source-git-commit: b40c6f08b94e546e5fc068c46b279292a4d8a14f
+source-git-commit: 1fd95b3193fba50ce7cd85b2ad6256a0ba346011
 workflow-type: tm+mt
-source-wordcount: '1232'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -83,9 +83,11 @@ Utilisez également les paramètres suivants.
    * Si un nouveau module a le même objectif qu’un module existant, vous pouvez éventuellement lier le module existant afin que l’algorithme puisse utiliser les données d’apprentissage automatique existantes.
    * Saisissez les [!UICONTROL Target CPA] ou [!UICONTROL Target ROAS].
 
-* **Stratégie de remplissage du traitement :** Sélectionner *[!UICONTROL Even]* pour maximiser vos objectifs de performances en effectuant un rythme uniforme tout au long de la date de vol.
+* **Navigation de vol et fréquence intermédiaire :** Pour les deux types de fréquence, sélectionnez *[!UICONTROL Even]* pour maximiser vos objectifs de performances en effectuant un rythme uniforme tout au long de la journée et tout au long du vol.
 
-   Utilisation *[!UICONTROL FrontLoad]* et *[!UICONTROL Aggressive Front Load]* effectuez une mise en page uniquement lorsque vous priorisez complètement la diffusion et que vous dépensez plus que l’optimisation des performances, car ces stratégies peuvent avoir une incidence négative sur les indicateurs de performance clés souhaités.
+   >[!CAUTION]
+   >
+   >Utilisation *[!UICONTROL FrontLoad]* et *[!UICONTROL Aggressive Front Load]* pour le rythme de vol et *[!UICONTROL ASAP]* la fréquence d’inactivité uniquement lorsque vous priorisez complètement la diffusion et que vous dépensez plus que l’optimisation des performances, car ces stratégies peuvent avoir une incidence négative sur les indicateurs de performance clés souhaités.
 
 ## Étape 4 - Création de la structure de placement
 

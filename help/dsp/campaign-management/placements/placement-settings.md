@@ -3,9 +3,9 @@ title: Paramètres d’emplacement
 description: Voir la description des paramètres d’emplacement disponibles.
 feature: DSP Placements
 exl-id: 36097132-e589-4d49-bf86-54f61eae5b67
-source-git-commit: 04586c87f134deaa9a28f57d6f7587f023fd217a
+source-git-commit: 7bbeb3013ad7cd84bf3a25f5ebf8b16a82a6f591
 workflow-type: tm+mt
-source-wordcount: '3304'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -96,13 +96,25 @@ Consultez les descriptions de chaque filtre de pré-offre à l’adresse &quot;[
 
 **[!UICONTROL Max Bid]:** Le maximum pour payer 1 000 impressions.
 
-**[!UICONTROL Pacing Fill Strategy]:** (Modules avec une fréquence au niveau du module uniquement) Comment accélérer la diffusion des publicités :
+**[!UICONTROL Flight pacing]:** (Emplacements avec fréquence de placement uniquement) Comment espacer la diffusion publicitaire :
 
 * *[!UICONTROL Even]:* (Par défaut) Effectue un espacement uniforme de la diffusion à chaque vol, avec une cible de 50 % de la diffusion dans la première moitié du vol.
+
+* *[!UICONTROL Slightly Ahead]:* (La valeur par défaut) Accélère la diffusion, de sorte qu’elle se termine à 55 à 65 % à mi-chemin de la durée du vol.
 
 * *[!UICONTROL Frontload]:* Accélère la diffusion de sorte qu’elle soit de 65 à 75 % complète à mi-chemin du vol.
 
 * *[!UICONTROL Aggressive Frontload]:* Accélère la diffusion de sorte qu’elle soit complète à 75 à 85 % à mi-chemin du vol.
+
+**[!UICONTROL Intraday pacing]:** (Emplacements avec fréquence de placement uniquement) Comment espacer et diffuser chaque jour pendant le vol :
+
+* *[!UICONTROL Even]:* (Par défaut) Lance la diffusion en fonction de la disponibilité du stock. En règle générale, plus de publicités sont diffusées par heure dans la journée, lorsque le volume des enchères est plus élevé et moins de publicités sont diffusées le matin et le soir.
+
+* *[!UICONTROL ASAP]:* (Par défaut) Cette option accélère la diffusion à deux fois la vitesse de *Même*.
+
+   >[!CAUTION]
+   >
+   >Cette option peut avoir une incidence négative sur les performances. Utilisez-le uniquement lorsque vous priorisez entièrement la diffusion et que vous dépensez plus que l’optimisation des performances.
 
 **[!UICONTROL Placement Pre-bid Filters]:** (Facultatif) Jusqu’à cinq filtres doivent être remplis pour que l’offre puisse avoir lieu. Vous pouvez utiliser des filtres avant offre comme tactiques d’optimisation, mais gardez à l’esprit que chaque règle peut limiter les opportunités sur lesquelles cet emplacement peut enchérir. Pour ajouter ou modifier des filtres :
 

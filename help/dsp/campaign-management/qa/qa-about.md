@@ -3,9 +3,9 @@ title: À propos de la correction des paramètres de positionnement d’une camp
 description: Découvrez comment vérifier et modifier les paramètres de placement clés d’une campagne à l’aide de feuilles de calcul AQ Excel.
 feature: DSP Placements
 exl-id: 9e90488f-157d-4569-8011-da51c5b05c1d
-source-git-commit: d10e1c24ee7c93eaab3fd4fefe853860226cc8e2
+source-git-commit: 051b8b6437a75177e3a4d0425e2b0091d0d22a30
 workflow-type: tm+mt
-source-wordcount: '148'
+source-wordcount: '147'
 ht-degree: 0%
 
 ---
@@ -18,11 +18,11 @@ La feuille de calcul AQ vous permet de télécharger les paramètres d’emplace
 * Lorsque les emplacements commencent à être distribués et lorsqu’ils s’arrêteront.
 * Les publicités associées aux emplacements.
 
-Vous pouvez ensuite apporter des modifications à des champs de sélection et les republier sur DSP tous en même temps. Les champs modifiables incluent les noms des emplacements, les états, les offres, les budgets, les stratégies de remplissage de plages et les limites de fréquence.
+Vous pouvez ensuite apporter des modifications à des champs de sélection et les republier sur DSP tous en même temps. Les champs modifiables incluent les noms des emplacements, les états, les offres, les budgets, les stratégies de fréquence et les limites de fréquence.
 
 >[!TIP]
 >
->Pour apporter des modifications plus étendues aux paramètres de placement, utilisez la fonction de modification en masse.<!-- add link once we have help on it -->
+>Pour apporter des modifications plus complètes aux paramètres d’emplacement, utilisez la fonction de modification en masse.<!-- add link once we have help on it -->
 
 >[!MORELIKETHIS]
 >

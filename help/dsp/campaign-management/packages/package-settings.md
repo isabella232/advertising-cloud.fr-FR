@@ -3,9 +3,9 @@ title: Paramètres du module
 description: Voir la description des paramètres de package disponibles.
 feature: DSP Packages
 exl-id: b4d415d1-86a5-40bd-b645-1709b267c174
-source-git-commit: 7fe6eb31d3330c5470077ca2766c41ae07c6c67f
+source-git-commit: 6331166f563e1404c077eb848eed049b4eb0706d
 workflow-type: tm+mt
-source-wordcount: '709'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -88,16 +88,25 @@ Pour les modules avec un vol personnalisé, l’intervalle de budget est toujour
 
 * *[!UICONTROL Impressions]:* Cette option permet de délivrer des impressions jusqu’à ce qu’une quantité spécifiée soit atteinte au cours d’un intervalle spécifié. Lorsque vous sélectionnez cette option, indiquez le nombre d’impressions et l’intervalle : *Tout le temps,* *[!UICONTROL Daily],* *[!UICONTROL Monthly],* ou *[!UICONTROL Weekly]*.
 
-**[!UICONTROL Pacing Fill Strategy]:** (Modules avec une fréquence au niveau du module uniquement) Comment accélérer la diffusion des publicités :
+**[!UICONTROL Flight pacing]:** (Modules avec fréquence au niveau du module uniquement) Comment espacer et diffuser sur l’ensemble du vol :
 
 * *[!UICONTROL Even]:* Effectue un espacement uniforme de la diffusion à chaque vol, avec une cible de 50 % de la diffusion dans la première moitié du vol.
 
 * *[!UICONTROL Slightly Ahead]:* (La valeur par défaut) Accélère la diffusion, de sorte qu’elle se termine à 55 à 65 % à mi-chemin de la durée du vol.
 
-<!-- replaced with ASAP -->
 * *[!UICONTROL Frontload]:* Accélère la diffusion de sorte qu’elle soit de 65 à 75 % complète à mi-chemin du vol.
 
 * *[!UICONTROL Aggressive Frontload]:* Accélère la diffusion de sorte qu’elle soit complète à 75 à 85 % à mi-chemin du vol.
+
+**[!UICONTROL Intraday pacing]:** (Modules avec une fréquence au niveau du module uniquement) Comment espacer et diffuser chaque jour pendant le vol :
+
+* *[!UICONTROL Even]:* (Par défaut) Lance la diffusion en fonction de la disponibilité du stock. En règle générale, plus de publicités sont diffusées par heure dans la journée, lorsque le volume des enchères est plus élevé et moins de publicités sont diffusées le matin et le soir.
+
+* *[!UICONTROL ASAP]:* Accélère la diffusion à deux fois la vitesse de *Même*.
+
+   >[!CAUTION]
+   >
+   >Cette option peut avoir une incidence négative sur les performances. Utilisez-le uniquement lorsque vous priorisez entièrement la diffusion et que vous dépensez plus que l’optimisation des performances.
 
 ## [!UICONTROL Flighting]
 
