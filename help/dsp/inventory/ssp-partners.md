@@ -3,9 +3,9 @@ title: Partenaires SSP
 description: Consultez la liste des plateformes côté offre et des partenaires d’échange ouverts disponibles.
 feature: DSP Private Inventory
 exl-id: 8487f4ce-0232-4145-ad8b-b0631fd0ab7f
-source-git-commit: 8cb92a842018eeb273b002b657af06698db40cd8
+source-git-commit: 7674ed62cf0e3f44dabbf153bbb3fadd38495b2e
 workflow-type: tm+mt
-source-wordcount: '463'
+source-wordcount: '465'
 ht-degree: 0%
 
 ---
@@ -43,7 +43,7 @@ Une plateforme côté offre (SSP) est une plateforme technologique publicitaire 
 | [!DNL SmartClip] |  | Adobe Advertising Cloud | Non | EMEA | Toutes les devises | x | x | x | x | x |  |  |
 | [!DNL SmartStream] |  | Adobe Advertising Cloud | Non | EMEA | EUR, USD | x | x |  |  |  |  |  |
 | [!DNL Sortable] |  | Adobe Advertising Cloud | Non | CA | USD |  |  |  | x | x |  |  |
-| [!DNL Soundcast] |  | Adobe | Oui | Global | EUR, USD |  |  |  |  |  |  | x |
+| [!DNL Soundcast] |  | Adobe Advertising Cloud | Oui | Global | EUR, USD |  |  |  |  |  |  | x |
 | [!DNL SpotX] | [!DNL Magnite] (anciennement [!DNL Telaria] et [!DNL Tremor]) | [!DNL TubeMogul] ou Adobe Advertising Cloud | Oui | Global | USD | x | x | x |  |  |  |  |
 | [!DNL Stroer] |  | Adobe Advertising Cloud | Non | EMEA | USD | x | x |  | x | x |  |  |
 | [!DNL Taboola] |  | Adobe Advertising Cloud | Non | US/CA | USD | x | x |  |  |  |  |  |
