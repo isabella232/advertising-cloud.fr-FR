@@ -3,25 +3,26 @@ title: Syntaxe de la logique de segment d’audience
 description: Référencez la syntaxe que vous pouvez utiliser pour définir la logique pour les segments d’audience.
 feature: DSP Audiences
 exl-id: 3a51b1b5-1eef-453b-9be5-0694e27491a8
-source-git-commit: d10e1c24ee7c93eaab3fd4fefe853860226cc8e2
+source-git-commit: efd04189de975f8f075dec7851a3a06d2d647ded
 workflow-type: tm+mt
-source-wordcount: '123'
+source-wordcount: '145'
 ht-degree: 0%
 
 ---
 
 # Syntaxe de la logique de segment d’audience
 
-Lorsque vous créez des audiences réutilisables, vous pouvez définir manuellement la logique de segment à l’aide d’identifiants de segment alphanumériques et de la syntaxe suivante :
+Lorsque vous créez des audiences réutilisables, vous pouvez définir manuellement la logique de segment à l’aide d’identifiants de segment alphanumériques (clés) et de la syntaxe suivante :
 
 * () pour indiquer un groupe
-* `||` pour  [!DNL OR] <!-- || escaped with backticks so Jenkins doesn't think it's a Markdown table -->
-* &amp;&amp; pour [!DNL AND]
+* `||` pour [!DNL OR] <!-- || escaped with backticks so Jenkins doesn't think it's a Markdown table -->
+* &amp; &amp; [!DNL AND]
 * ! pour [!DNL NOT] (exclude)
 
 >[!NOTE]
 >
 >* Tous les groupes de segments spécifiés sont inclus, sauf s’ils sont précédés de ! (qui les exclut).
+>* Vous pouvez [recherche de l’identifiant de segment pour une audience](reusable-audience-clipboard.md) de [!UICONTROL Audiences] > [!UICONTROL All audiences].
 
 
 Par exemple, la logique suivante :
@@ -42,6 +43,7 @@ signifie (en anglais brut)
 
 >[!MORELIKETHIS]
 >
+>* [Copie de la clé de segment d’une audience réutilisable dans le Presse-papiers](reusable-audience-clipboard.md)
 >* [À propos de la gestion de l’audience](audience-about.md)
 >* [Création d’une audience réutilisable](reusable-audience-create.md)
 >* [Paramètres d’audience](audience-settings.md)

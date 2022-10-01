@@ -1,11 +1,11 @@
 ---
 title: Création et implémentation d’un segment personnalisé
-description: Découvrez comment créer et mettre en oeuvre un segment personnalisé pour effectuer le suivi des utilisateurs exposés aux publicités ou des utilisateurs qui visitent vos pages web.
+description: Découvrez comment créer et implémenter un segment personnalisé pour effectuer le suivi des utilisateurs exposés aux publicités ou des utilisateurs qui visitent vos pages web.
 feature: DSP Segments
 exl-id: 691903e2-773e-4205-837e-822f435f57a7
-source-git-commit: bc8e476e1218681140a1748998c19f1f6c5c0866
+source-git-commit: ea9c5ba9263be2c1607d682ac035caae70621020
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '343'
 ht-degree: 0%
 
 ---
@@ -26,9 +26,9 @@ Vous pouvez collecter vos propres données d’audience propriétaires en créan
 
    1. Saisissez un **[!UICONTROL Segment Name]**.
 
-   1. Pour le [!UICONTROL Segment Type], sélectionnez **[!UICONTROL Custom]**.
+   1. Pour le **[!UICONTROL Segment Type]**, sélectionnez *[!UICONTROL Custom]*.
 
-   1. Entrez la fenêtre Segment, qui correspond au nombre de jours pendant lesquels le cookie d’un utilisateur reste dans le segment.
+   1. Saisissez le **[!UICONTROL Segment Window]**: nombre de jours pendant lesquels le cookie d’un utilisateur reste dans le segment.
 
       La fenêtre par défaut est de 45 jours. Saisissez une valeur comprise entre 1 (1) et 365.
 
@@ -38,7 +38,7 @@ Vous pouvez collecter vos propres données d’audience propriétaires en créan
 
    1. Revenir à **[!UICONTROL Audiences]>[!UICONTROL Segments]**.
 
-   2. Placez le curseur sur la ligne de segment et cliquez sur **[!UICONTROL Get pixel]**.
+   2. Placez le curseur sur la ligne de segment et cliquez sur **[!UICONTROL Get Pixel]**.
 
       * Pour effectuer le suivi des visiteurs de bureau et mobiles sur une page web :
 
@@ -51,8 +51,8 @@ Vous pouvez collecter vos propres données d’audience propriétaires en créan
 
          1. Copiez la balise de suivi d’impression, étiquetée &quot;[!UICONTROL Desktop or mobile ads].&quot;
 
-         1. Ajoutez la balise au [!UICONTROL Pixel] pour chaque publicité appropriée ou au [!UICONTROL Event Pixels] de la section [[!UICONTROL Tracking] paramètres pour chaque emplacement approprié](/help/dsp/campaign-management/placements/placement-settings.md#placement-tracking).
 
+1. Ajoutez la balise au [!UICONTROL Pixel] pour chaque publicité appropriée ou au [!UICONTROL Event Pixels] de la section [[!UICONTROL Tracking] paramètres pour chaque emplacement approprié](/help/dsp/campaign-management/placements/placement-settings.md#placement-tracking).
 
 Une fois qu’une balise de suivi est implémentée, vous pouvez utiliser le segment dans les cibles ou exclusions d’audience pour n’importe quel emplacement.
 
@@ -63,10 +63,12 @@ Une fois qu’une balise de suivi est implémentée, vous pouvez utiliser le seg
 >[!MORELIKETHIS]
 >
 >* [À propos de la gestion de l’audience](audience-about.md)
+>* [Modifier les informations sur le segment](segment-edit.md)
+>* [Suppression d’un segment](segment-delete.md)
+>* [Affichage des pixels de suivi pour un segment](segment-view-pixels.md)
+>* [Partage ou arrêt du partage d’un segment](segment-share.md)
 >* [Créez et implémentez une [!UICONTROL CCPA Opt-Out-of-Sale] Segment](ccpa-opt-out-segment-create.md)
 >* [Création d’une audience réutilisable](reusable-audience-create.md)
->* [Paramètres d’audience](audience-settings.md)
 >* [Fournisseurs de données tiers disponibles](third-party-data-providers.md)
 >* [Paramètres d’emplacement](/help/dsp/campaign-management/placements/placement-settings.md)
 
-<!-- I'll add x-ref to ad settings later.-->

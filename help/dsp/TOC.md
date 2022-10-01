@@ -8,9 +8,9 @@ user-guide-title: Guide d’Advertising Cloud DSP
 user-guide-description: Découvrez les principales fonctionnalités, tâches, paramètres et autres ressources nécessaires pour gérer, optimiser et établir des rapports sur vos stratégies de publicité display à lʼaide dʼAdvertising Cloud DSP.
 breadcrumb-title: Guide de DSP
 index: true
-source-git-commit: 82c906c87fd3aad0d7a04d0b0e58e54c5485499a
+source-git-commit: ea9c5ba9263be2c1607d682ac035caae70621020
 workflow-type: tm+mt
-source-wordcount: '881'
+source-wordcount: '936'
 ht-degree: 6%
 
 ---
@@ -135,8 +135,19 @@ ht-degree: 6%
          + [A propos [!UICONTROL CCPA Opt-out-of-Sale] Segments](/help/dsp/audiences/ccpa-opt-out-about.md)
          + [Créez et implémentez une [!UICONTROL CCPA Opt-out-of-Sale] Segment](/help/dsp/audiences/ccpa-opt-out-segment-create.md)
          + [Récupération [!UICONTROL Consumer Opt-Out-of-Sale] Rapports](/help/dsp/audiences/ccpa-opt-out-segment-report-retrieve.md)
+      + [Modifier les informations sur le segment](/help/dsp/audiences/segment-edit.md)
+      + [Partage ou arrêt du partage d’un segment](/help/dsp/audiences/segment-share.md)
+      + [Affichage des pixels de suivi pour un segment](/help/dsp/audiences/segment-view-pixels.md)
+      + [Suppression d’un segment](/help/dsp/audiences/segment-delete.md)
    + Gérer des audiences {#reusable-audiences}
       + [Création d’une audience réutilisable](/help/dsp/audiences/reusable-audience-create.md)
+      + [Duplication d’une audience réutilisable](/help/dsp/audiences/reusable-audience-duplicate.md)
+      + [Modification d’une audience réutilisable](/help/dsp/audiences/reusable-audience-edit.md)
+      + [Affichage des détails sur une audience réutilisable](/help/dsp/audiences/reusable-audience-view-details.md)
+      + [Partage d’une audience réutilisable](/help/dsp/audiences/reusable-audience-share.md)
+      + [Exportation d’une audience réutilisable](/help/dsp/audiences/reusable-audience-export.md)
+      + [Copie de la clé de segment d’une audience réutilisable dans le Presse-papiers](/help/dsp/audiences/reusable-audience-clipboard.md)
+      + [Suppression d’une audience réutilisable](/help/dsp/audiences/reusable-audience-delete.md)
       + [Paramètres d’audience](/help/dsp/audiences/audience-settings.md)
       + [Syntaxe de la logique de segment d’audience](/help/dsp/audiences/audience-segment-logic-syntax.md)
    + Gérer les sources {#sources}
