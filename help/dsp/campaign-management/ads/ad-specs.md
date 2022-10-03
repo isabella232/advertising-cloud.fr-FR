@@ -3,7 +3,7 @@ title: Spécifications des publicités
 description: Référencez les spécifications publicitaires générales et spécifiques à l’éditeur.
 feature: DSP Ads
 exl-id: 905dfd9b-e7a3-4eb6-988f-b49d4b282dd2
-source-git-commit: 40228a7de376cd4884d4cf7141c75516bc1a97ec
+source-git-commit: 8bc43253f15859c3b7dd7441fcbb4f34ecc98566
 workflow-type: tm+mt
 source-wordcount: '841'
 ht-degree: 0%
@@ -116,36 +116,36 @@ Vous pouvez utiliser des feuilles de balises à partir de [!DNL DCM], [!DNL Flas
 
 #### Exigences supplémentaires pour les éditeurs
 
-* **[!DNL Spotify]**
-   * Longueur : Jusqu’à 30 secondes
-   * Type de fichier : OGG
-   * Taille maximale du fichier : 500 Mo
-   * Volume : RMS normalisé à -14; dBFS pic normalisé à -0,2 dBFS
-
-* **[!DNL SoundCloud]**
-   * Longueur : 6, 15 ou 30 secondes
-   * Type de fichier : MP3
-   * Taille maximale du fichier : 5 Mo
-
-* **[!DNL Pandora]**
-   * Longueur : 15 ou 30 secondes
-   * Type de fichier : MP4 (in-app), MP3 (bureau)
-   * Taille maximale du fichier : 2,2 Mo
-
-* **[!DNL TuneIn]**
-   * Longueur : 10, 15 ou 30 secondes
-   * Type de fichier : MP3, OGG
-   * Volume : 44,1 kGHz
-
 * **[!DNL iHeartRadio]**
    * Longueur : 5, 15, 30 ou 60 secondes
    * Type de fichier : MP3
    * Taille maximale du fichier : 320 Kbit/s
    * Volume : 44,1 kGHz
 
+* **[!DNL Pandora]**
+   * Longueur : 15 ou 30 secondes
+   * Type de fichier : MP4 (in-app), MP3 (bureau)
+   * Taille maximale du fichier : 2,2 Mo
+
+* **[!DNL SoundCloud]**
+   * Longueur : 6, 15 ou 30 secondes
+   * Type de fichier : MP3
+   * Taille maximale du fichier : 5 Mo
+
+* **[!DNL Spotify]**
+   * Longueur : Jusqu’à 30 secondes
+   * Type de fichier : OGG
+   * Taille maximale du fichier : 500 Mo
+   * Volume : RMS normalisé à -14; dBFS pic normalisé à -0,2 dBFS
+
 * **[!DNL TargetSpot]**
    * Longueur : 15, 30 ou 60 secondes
    * Type de fichier : MP3
+
+* **[!DNL TuneIn]**
+   * Longueur : 10, 15 ou 30 secondes
+   * Type de fichier : MP3, OGG
+   * Volume : 44,1 kGHz
 
 ### Conditions requises pour les bannières publicitaires d’accompagnement (facultatif)
 
@@ -153,29 +153,29 @@ Vous pouvez utiliser des feuilles de balises à partir de [!DNL DCM], [!DNL Flas
 
 #### Exigences supplémentaires pour les éditeurs
 
-* **[!DNL Spotify]:**
-   * Type de fichier : JPG statique, PNG
-   * Taille maximale du fichier : 200 Ko
+* **[!DNL iHeartRadio]:**
+   * Type de fichier : JPEG, JPG, PNG, GIF, SWF, HTML
+   * Taille maximale du fichier : 2,2 Mo
    * Dimensions : 300x250
-
-* **[!DNL SoundCloud]:**
-   * Type de fichier : JPG statique, PNG
-   * Taille maximale du fichier : Moins de 400 Ko
-   * Dimensions : 1 024 x 1 024
 
 * **[!DNL Pandora]:**
    * Type de fichier : JPEG, GIF
    * Taille maximale du fichier : Taille : 100 Ko
    * Dimensions : 300x250 (mobile ou bureau) ou 500x500 (bureau)
 
+* **[!DNL SoundCloud]:**
+   * Type de fichier : JPG statique, PNG
+   * Taille maximale du fichier : Moins de 400 Ko
+   * Dimensions : 1 024 x 1 024
+
+* **[!DNL Spotify]:**
+   * Type de fichier : JPG statique, PNG
+   * Taille maximale du fichier : 200 Ko
+   * Dimensions : 300x250
+
 * **[!DNL TuneIn]:**
    * Type de fichier : JPEG, JPG, PNG, GIF, HTML
    * Taille maximale du fichier : 2 Mo
-   * Dimensions : 300x250
-
-* **[!DNL iHeartRadio]:**
-   * Type de fichier : JPEG, JPG, PNG, GIF, SWF, HTML
-   * Taille maximale du fichier : 2,2 Mo
    * Dimensions : 300x250
  
 
