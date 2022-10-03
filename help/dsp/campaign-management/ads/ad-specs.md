@@ -3,9 +3,9 @@ title: Spécifications des publicités
 description: Référencez les spécifications publicitaires générales et spécifiques à l’éditeur.
 feature: DSP Ads
 exl-id: 905dfd9b-e7a3-4eb6-988f-b49d4b282dd2
-source-git-commit: 3c5a114339c2bf41637027c8580316626656fbba
+source-git-commit: 40228a7de376cd4884d4cf7141c75516bc1a97ec
 workflow-type: tm+mt
-source-wordcount: '901'
+source-wordcount: '841'
 ht-degree: 0%
 
 ---
@@ -54,15 +54,13 @@ Vous pouvez utiliser des feuilles de balises à partir de [!DNL DCM], [!DNL Flas
 
 #### Exigences supplémentaires de l’éditeur pour les publicités télévisées connectées
 
-* **Hulu :** Voir le livre de Hulu [spécifications publicitaires](https://advertising.hulu.com/ad-products/video-commercial/).
-
-* **Paramètre :** Voir Paramètres [spécifications publicitaires](https://www.paramount.com/digital-ads).
+* **Réseau A+E :** Voir Réseau A+E [spécifications publicitaires](/help/dsp/assets/a-e-networks-tve-video-ad-specs.pdf)
 
 * **Découverte :** Voir Découverte [spécifications publicitaires](/help/dsp/assets/discovery-networks-ad-specs.pdf).
 
-* **HBO Max :** Voir HBO Max [spécifications publicitaires](/help/dsp/assets/hbo-max-ad-specs-2022.xlsx).
+* **Disney (y compris Hulu) :** Voir Disney&#39;s [spécifications publicitaires](https://hulu.disneyadsales.com/ad-products/video-commercial/).
 
-* **Réseau A+E :** Voir Réseau A+E [spécifications publicitaires](/help/dsp/assets/a-e-networks-tve-video-ad-specs.pdf)
+* **HBO Max :** Voir HBO Max [spécifications publicitaires](/help/dsp/assets/hbo-max-ad-specs-2022.xlsx).
 
 * **NBCUniversal :**
 
@@ -72,32 +70,7 @@ Vous pouvez utiliser des feuilles de balises à partir de [!DNL DCM], [!DNL Flas
 
    * [Piège](https://together.nbcuni.com/nbcu-creative-guidelines/peacock/)
 
-* **Disney :**
-
-   * ESPN Livestreaming :
-
-      **Taux de bit :** > 14 000 Kbit/s
-      **Format :** .mp4
-      **Type de balise :** VAST 2.0
-      **Taille de la création :** 1 280 x 720 ou 1 920 x 1 080
-
-   * Programmation avec épisode complet (FEP) : ESPN, ABC, Structure libre, Nat Geo et FX
-
-      * **Taux de bit :** > 14 000 Kbit/s :
-
-         **Format :** .mp4
-
-         **Type de balise :** VAST 2.0
-
-         **Taille de la création :** 1 280 x 720 ou 1 920 x 1 080
-
-      * **Taux de bit :** > 1 000 Kbit/s (basse résolution) ou 15 000 Kbit/s (haute résolution) :
-
-         **Format :** .mp4
-
-         **Type de balise :** VAST 2.0 (VPAID 1.0 sur ordinateur uniquement)
-
-         **Taille de la création :** 1 280 x 720 ou 1 920 x 1 080
+* **Paramètre :** Voir Paramètres [spécifications publicitaires](https://www.paramount.com/digital-ads).
 
 ## Publicités affichées
 
