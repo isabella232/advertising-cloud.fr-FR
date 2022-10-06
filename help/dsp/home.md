@@ -5,9 +5,9 @@ cloud: Experience Cloud
 product: advertising cloud
 index: true
 exl-id: d4b67393-e8c5-4170-92eb-bcf643ba3ec3
-source-git-commit: a3f676bd085571392a4add32f69fe0da4d4ae912
+source-git-commit: 3c951d738d5ef571b8f762df1f89ebd0360cd0f6
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '842'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,7 @@ Les fonctionnalités suivantes sont nouvelles ou récemment modifiées.
 
 | Date | Fonctionnalité | Description | Pour plus d’informations |
 | ---- | ------- | ----------- | -------------------- |
+| 6 octobre 2022 | Campagnes | De nouvelles colonnes de mesures liées au rythme sont disponibles pour les vues Campagnes : &quot;OTS d&#39;hier&quot; (sur dépenses cibles), &quot;Diffusion d&#39;hier&quot;, &quot;Objectif d&#39;hier&quot;, &quot;OTS d&#39;aujourd&#39;hui&quot; (sur dépenses cibles), &quot;Diffusion d&#39;aujourd&#39;hui&quot; et &quot;Objectif d&#39;aujourd&#39;hui&quot;. | Voir &quot;[Création d’un mode Colonnes personnalisé](/help/dsp/campaign-management/reports/column-view-create.md)&quot; et &quot;[Modifier un mode Colonnes personnalisé](/help/dsp/campaign-management/reports/column-view-edit.md).&quot; |
 | 12 septembre 2022 | Module et placement | Des commandes d’espacement distinctes sont désormais disponibles pour le rythme de vol et le rythme intrajournalier. Auparavant, une seule stratégie contrôlait les deux. Les paramètres de vos packages et emplacements existants ont été mappés comme suit :<ul><li>Hérité **[!UICONTROL Pacing fill strategy]**=*[!UICONTROL Even]* — Maintenant configuré comme **[!UICONTROL Flight pacing]**=*[!UICONTROL Even]* et **[!UICONTROL Intraday pacing]**=*[!UICONTROL Even]*</li><li>Hérité **[!UICONTROL Pacing fill strategy]**=*[!UICONTROL Slightly Ahead]* — Maintenant configuré comme **[!UICONTROL Flight pacing]**=*[!UICONTROL Slightly Ahead]* et **[!UICONTROL Intraday pacing]**=*[!UICONTROL Even]*</li><li>Hérité **[!UICONTROL Pacing fill strategy]**=*[!UICONTROL Frontload]* — Maintenant configuré comme **[!UICONTROL Flight pacing]**=*[!UICONTROL Frontload]* et **[!UICONTROL Intraday pacing]**=*[!UICONTROL ASAP]*</li><li>Hérité **[!UICONTROL Pacing fill strategy]**=*[!UICONTROL Aggressive Frontload]* — Maintenant configuré comme **[!UICONTROL Flight pacing]**=*[!UICONTROL Aggressive Frontload]* et **[!UICONTROL Intraday pacing]**=*[!UICONTROL ASAP]*</li></ul> | Voir &quot;[Paramètres du module](/help/dsp/campaign-management/packages/package-settings.md)&quot; et &quot;[Paramètres d’emplacement](/help/dsp/campaign-management/placements/placement-settings.md).&quot; |
 | 27 juillet 2022 | Inventaire | Auction Insights est un nouvel outil de dépannage qui vous permet d’analyser la composition des offres d’affaires privées garanties et non garanties. Grâce aux visualisations de données, cet outil affiche la tendance et les proportions relatives des valeurs reçues pour les attributs d’enchères clés au cours d’une période donnée.<br><br>Grâce à la transparence des données de demande d’offre des éditeurs, vous pouvez éviter des étapes de dépannage qui prennent du temps. | Voir &quot;[Afficher les informations sur les enchères pour une transaction privée](/help/dsp/inventory/private-deal-auction-insights.md).&quot; |
 | 29 juin 2022 | Inventaire | La nouvelle [!UICONTROL Inventory] > [!UICONTROL Deals] La vue comprend les mêmes fonctionnalités de personnalisation des données que la vue [!UICONTROL Campaigns] vues, y compris des filtres supplémentaires, la personnalisation des colonnes et l’option permettant d’enregistrer des vues personnalisées, le tri des colonnes et une vue de visualisation des données (graphique). Vous pouvez ouvrir un menu de commande dans chaque ligne en cliquant sur [!UICONTROL ...] après le nom de l’opération. | Voir &quot;[Présentation des fonctionnalités du stock](/help/dsp/inventory/inventory-overview.md).&quot; |
