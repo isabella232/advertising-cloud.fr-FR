@@ -3,9 +3,9 @@ title: Partenaires SSP
 description: Consultez la liste des plateformes côté offre et des partenaires d’échange ouverts disponibles.
 feature: DSP Private Inventory
 exl-id: 8487f4ce-0232-4145-ad8b-b0631fd0ab7f
-source-git-commit: f6319fdee2e8509e0d0a960b6855a2c28d05d50a
+source-git-commit: 2c539b39962e1c8c54d6b2e8f48c010c814ce531
 workflow-type: tm+mt
-source-wordcount: '465'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -28,6 +28,7 @@ Une plateforme côté offre (SSP) est une plateforme technologique publicitaire 
 | [!DNL DailyMotion] | n/a | [!DNL TubeMogul] ou Adobe Advertising Cloud | Non | États-Unis + EMEA | USD, EUR | x | x | x |  |  |  |  |
 | [!DNL DistrictM] |  | Adobe | Non | US/CA | USD |  |  |  | x | x |  |  |
 | [!DNL EMX Digital] |  | Adobe Advertising Cloud | Non | US/CA | USD | x | x | x |  |  |  |  |
+| [!DNL Equativ] (anciennement [!DNL SmartAdServer]) |  | [!DNL TubeMogul] ou Adobe Advertising Cloud | Non | Global | USD, EUR | x | x |  | x | x |  |  |
 | [!DNL FreeWheel] (anciennement [!DNL StickyAds]) | [!DNL Comcast] | [!DNL TubeMogul] ou Adobe Advertising Cloud | Oui | Global | USD, EUR, AUD, GBP | x | x | x |  |  |  |  |
 | [!DNL Fyber]/[!DNL Inneractive] |  | [!DNL TubeMogul] | Non | Global | USD | x | x |  |  |  |  |  |
 | [!DNL Google AdX] (now [!DNL Google Authorized Buyers]) | [!DNL Google] | Adobe NA - 44912714<br>Adobe UE - 94893418<br>Adobe APAC - 89185975 | Oui | Global | USD, BRL | x | x | x | x | x |  | x |
@@ -39,7 +40,6 @@ Une plateforme côté offre (SSP) est une plateforme technologique publicitaire 
 | [!DNL OpenX] | [!DNL OpenX] | [!DNL TubeMogul] ou Adobe Advertising Cloud | Oui | Global | USD | x |  |  | x | x |  |  |
 | [!DNL PubMatic New ortb2.2] | [!DNL Pubmatic] | [!DNL TubeMogul] ou Adobe Advertising Cloud | Non | Global | USD | x | x | x | x | x |  |  |
 | [!DNL ShareThrough] |  | [!DNL TubeMogul] ou Adobe Advertising Cloud | Non | Global | USD | x | x |  | x | x | x |  |
-| [!DNL Smart Ad Server] |  | [!DNL TubeMogul] ou Adobe Advertising Cloud | Non | Global | USD, EUR | x | x |  | x | x |  |  |
 | [!DNL SmartClip] |  | Adobe Advertising Cloud | Non | EMEA | Toutes les devises | x | x | x | x | x |  |  |
 | [!DNL SmartStream] |  | Adobe Advertising Cloud | Non | EMEA | EUR, USD | x | x |  |  |  |  |  |
 | [!DNL Sortable] |  | Adobe Advertising Cloud | Non | CA | USD |  |  |  | x | x |  |  |

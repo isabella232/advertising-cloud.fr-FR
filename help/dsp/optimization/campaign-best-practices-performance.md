@@ -3,7 +3,7 @@ title: Bonnes pratiques pour configurer des campagnes de performances
 description: Découvrez les bonnes pratiques pour configurer vos campagnes axées sur les performances, qui incluent des emplacements optimisés pour le CPA le plus bas ou le ROAS le plus élevé.
 feature: DSP Optimization, DSP Best Practices
 exl-id: fc64680d-9d1c-4f74-a8b9-2e9b670c00eb
-source-git-commit: 1fd95b3193fba50ce7cd85b2ad6256a0ba346011
+source-git-commit: 22821c0fe8c2864ab36d7aa1141a7527cc08a35b
 workflow-type: tm+mt
 source-wordcount: '0'
 ht-degree: 0%
@@ -123,6 +123,8 @@ Pour optimiser l’échelle, utilisez [!UICONTROL Public] (Open Exchange) et [!U
 * **[!UICONTROL Site Tier]**: [!UICONTROL All sites]
 
 ### Ciblage d’audience
+
+<!-- Say something about limiting unnecessary constraints/limitations, including dayparting, which limit your chances for ad exposure. Use only when it's required for your audience. -->
 
 * **[!UICONTROL Included Audiences]:**
    * Pour la prospection d’emplacements, regroupez en un seul emplacement des catégories d’audience similaires et des tailles d’audience similaires. Ensuite, en fonction des performances, effectuez l’une des opérations suivantes :
