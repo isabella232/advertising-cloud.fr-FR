@@ -3,7 +3,7 @@ title: Advertising Cloud ID utilisés par [!DNL Analytics]
 description: Advertising Cloud ID utilisés par [!DNL Analytics]
 feature: Integration with Adobe Analytics
 exl-id: ed1aab7b-9bd0-4d42-9bfb-9c6fa6db76bc
-source-git-commit: 8f0765251234b09eddaee721018285aee6b44b6a
+source-git-commit: 7cb39998041d151ece7809adc8a2e872b922e5fc
 workflow-type: tm+mt
 source-wordcount: '1194'
 ht-degree: 0%
@@ -171,7 +171,7 @@ Pour tout rapport ou audit dans [!DNL Analytics], la bonne pratique consiste à 
 
 ## À propos des classifications Analytics
 
-Dans [!DNL Analytics], un [classification](https://experienceleague.adobe.com/docs/analytics/components/classifications/c-classifications.html) est un élément de métadonnées d’un code de suivi donné, tel qu’un compte, une campagne ou une publicité. Advertising Cloud classe les données Advertising Cloud brutes à l’aide de classifications afin que vous puissiez afficher les données de différentes manières (par exemple, par type d’annonce ou campagne) lors de la génération des rapports. Les classifications constituent la base des rapports Advertising Cloud dans [!DNL Analytics] et peut être utilisé avec les mesures AMO, telles que [!UICONTROL AMO Cost], [!UICONTROL AMO Impressions], et [!UICONTROL AMO Clicks], ainsi qu’avec les événements personnalisés et standard sur site tels que [!UICONTROL Visits], [!UICONTROL Leads], [!UICONTROL Orders], et [!UICONTROL Revenue].
+Dans [!DNL Analytics], un [classification](https://experienceleague.adobe.com/docs/analytics/components/classifications/c-classifications.html) est un élément de métadonnées d’un code de suivi donné, tel qu’un compte, une campagne ou une publicité. Advertising Cloud classe les données Advertising Cloud brutes à l’aide de classifications afin que vous puissiez afficher les données de différentes manières (par exemple, par type d’annonce ou campagne) lors de la génération des rapports. Les classifications constituent la base des rapports Advertising Cloud dans [!DNL Analytics] et peut être utilisé avec les mesures AMO, telles que [!UICONTROL AMO Cost], [!UICONTROL AMO Impressions], et [!UICONTROL AMO Clicks], ainsi que des événements personnalisés et standard sur site tels que [!UICONTROL Visits], [!UICONTROL Leads], [!UICONTROL Orders], et [!UICONTROL Revenue].
 
 >[!MORELIKETHIS]
 >

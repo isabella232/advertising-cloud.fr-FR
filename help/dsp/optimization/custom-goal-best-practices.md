@@ -3,7 +3,7 @@ title: Bonnes pratiques pour créer un objectif personnalisé
 description: Découvrez les bonnes pratiques pour créer des objectifs personnalisés afin de définir vos événements de succès.
 feature: DSP Optimization, DSP Best Practices
 exl-id: 54b16325-4b72-48a3-a2e0-4e342229211c
-source-git-commit: d10e1c24ee7c93eaab3fd4fefe853860226cc8e2
+source-git-commit: 7cb39998041d151ece7809adc8a2e872b922e5fc
 workflow-type: tm+mt
 source-wordcount: '573'
 ht-degree: 0%
@@ -16,19 +16,19 @@ ht-degree: 0%
 
 Les exemples suivants montrent comment configurer des objectifs qui ciblent une seule propriété (mesure).
 
-### Exemple pour une campagne avec l’objectif d’optimisation &quot;[!UICONTROL Highest ROAS - Custom Goal]&quot;
+### Exemple pour une campagne avec le[!UICONTROL Highest ROAS - Custom Goal]&quot;Objectif d’optimisation
 
-Si l’objectif de votre campagne est le chiffre d’affaires ([!UICONTROL Highest ROAS - Custom Goal]), votre objectif personnalisé (l’objectif) inclura la propriété &quot;[!UICONTROL Revenue]&quot; dont le poids est de 1 (1).
+Si l’objectif de votre campagne est les recettes ([!UICONTROL Highest ROAS - Custom Goal]), votre objectif personnalisé (objectif) comprend le paramètre &quot;[!UICONTROL Revenue]&quot; avec un poids d’un (1).
 
 ![exemple d’un objectif personnalisé ROAS avec une seule propriété](/help/dsp/assets/custom-goal-roas.png)
 
 >[!NOTE]
 >
-> Une valeur [!UICONTROL Property Weight] égale à une valeur pour chaque $1 de recettes suivi.
+> A [!UICONTROL Property Weight] de un équivaut à une valeur de un pour chaque $1 de recettes suivi.
 >
-> Par exemple, une conversion de 250 $ avec un poids de 1 est signalée comme étant de 250 $. Si la mesure de conversion se voit attribuer un poids de 0,5, la conversion de 250 $ est signalée comme étant de 125 $ dans Advertising Cloud (Conversion de 250 $ * 0,5 [!UICONTROL Property Weight] = 125 $).
+> Par exemple, une conversion de 250 $ avec un poids de 1 est signalée comme étant de 250 $. Si la mesure de conversion se voit attribuer un poids de 0,5, la conversion de 250 $ est signalée comme étant de 125 $ dans Advertising Cloud (Conversion de 250 $ * 0,5). [!UICONTROL Property Weight] = 125 $).
 
-### Exemple pour une campagne avec l’objectif d’optimisation &quot;[!UICONTROL Lowest CPA - Custom Goal]&quot;
+### Exemple pour une campagne avec le[!UICONTROL Lowest CPA - Custom Goal]&quot;Objectif d’optimisation
 
 Si l’objectif de votre campagne est le coût par acquisition le plus faible et qu’il ne nécessite qu’un seul événement de succès, vous allez inclure cette mesure (dans l’exemple suivant, &quot;Envoi de demande&quot;). La bonne pratique consiste à définir le poids sur un (1).
 
@@ -36,15 +36,15 @@ Si l’objectif de votre campagne est le coût par acquisition le plus faible et
 
 >[!NOTE]
 >
-> Une valeur [!UICONTROL Property Weight] égale à une valeur de une pour chaque conversion suivie.
+> A [!UICONTROL Property Weight] de un équivaut à une valeur de un pour chaque conversion suivie.
 >
-> Par exemple, si 10 conversions d’envoi de demande sont suivies, 10 conversions d’envoi de demande sont signalées.  Si la mesure de conversion se voit attribuer un poids de 0,5, les 10 conversions sont signalées comme étant de cinq (5) dans Advertising Cloud (10 conversions * 0,5 [!UICONTROL Property Weight] = 5).
+> Par exemple, si 10 conversions d’envoi de demande sont suivies, 10 conversions d’envoi de demande sont signalées.  Si la mesure de conversion se voit attribuer un poids de 0,5, les 10 conversions sont signalées comme étant de cinq (5) dans Advertising Cloud (10 conversions * 0,5). [!UICONTROL Property Weight] = 5).
 
 ## Objectifs personnalisés avec plusieurs propriétés
 
 Il existe deux scénarios dans lesquels vous utiliseriez plusieurs propriétés dans un objectif personnalisé :
 
-* L’objectif de votre campagne comporte plusieurs événements de succès. Par exemple, vous êtes peut-être publicitaire pour plusieurs actions sur site et toutes sont attribuées à votre objectif de CPA. L’exemple d’objectif suivant comprend trois propriétés distinctes (téléchargement PDF, contact avec nous et inscription par e-mail), chacune ayant un poids d’un (1), ce qui indique à l’algorithme [!DNL Adobe Sensei] que chacune des propriétés a une importance égale. Si vous incluez des propriétés dont les coûts ou l’importance sont variables, vous pouvez ajuster leur poids relatif en conséquence.
+* L’objectif de votre campagne comporte plusieurs événements de succès. Par exemple, vous êtes peut-être publicitaire pour plusieurs actions sur site et toutes sont attribuées à votre objectif de CPA. L’exemple d’objectif suivant comprend trois propriétés distinctes (téléchargement de PDF, contact avec nous et inscription par e-mail), chacune d’elles ayant un poids d’une (1), qui indique à la variable [!DNL Adobe Sensei] que chacune des propriétés a une importance égale. Si vous incluez des propriétés dont les coûts ou l’importance sont variables, vous pouvez ajuster leur poids relatif en conséquence.
 
    ![exemple d’un objectif personnalisé avec plusieurs propriétés](/help/dsp/assets/custom-goal-multiple-properties.png)
 
@@ -56,7 +56,7 @@ Il existe deux scénarios dans lesquels vous utiliseriez plusieurs propriétés 
 
    ![exemple d’un objectif personnalisé avec plusieurs propriétés](/help/dsp/assets/custom-goal-multiple-properties2.png)
 
-   Si, au lieu de cela, vous aviez pondéré les visites de page d’entrée de manière égale aux envois d’application, le nombre naturellement plus élevé de visites de page d’entrée pourrait dépasser votre objectif et augmenter le nombre de visites de page d’entrée.<!--reword-->
+   Si, à la place, vous aviez pondéré les visites de page d’entrée de manière égale par rapport aux envois d’application, le nombre naturellement plus élevé de visites de page d’entrée pourrait dépasser votre objectif et augmenter le nombre de visites de page d’entrée.<!--reword-->
 
 >[!MORELIKETHIS]
 >
