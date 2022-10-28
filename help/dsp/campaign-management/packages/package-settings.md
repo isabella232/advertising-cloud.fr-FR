@@ -3,9 +3,9 @@ title: Paramètres du module
 description: Voir la description des paramètres de package disponibles.
 feature: DSP Packages
 exl-id: b4d415d1-86a5-40bd-b645-1709b267c174
-source-git-commit: 6331166f563e1404c077eb848eed049b4eb0706d
+source-git-commit: 5ed402a7c83072a7af6a06757050486c6d7d7080
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '797'
 ht-degree: 0%
 
 ---
@@ -120,5 +120,6 @@ Pour chaque vol, indiquez la date de début, la date de fin et le nombre cible d
 >* [Création d’un module](package-create.md)
 >* [Modification d’un module](package-edit.md)
 >* [Joindre un emplacement à un package](package-attach-placement.md)
+>* [Affichage du journal des modifications d’un module](package-change-log.md)
 >* [Questions fréquentes à propos de Campaign Management](/help/dsp/campaign-management/campaign-management-faq.md)
 

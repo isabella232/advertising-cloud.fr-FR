@@ -3,9 +3,9 @@ title: À propos de la gestion de modules dans Advertising Cloud DSP
 description: Découvrez la gestion des packages.
 feature: DSP Packages
 exl-id: 06d77698-62ae-466b-8cf7-c9148907ba6d
-source-git-commit: d10e1c24ee7c93eaab3fd4fefe853860226cc8e2
+source-git-commit: 5ed402a7c83072a7af6a06757050486c6d7d7080
 workflow-type: tm+mt
-source-wordcount: '217'
+source-wordcount: '224'
 ht-degree: 0%
 
 ---
@@ -16,9 +16,9 @@ Utilisez les packages pour regrouper des emplacements à diffuser selon un budge
 
 Vous pouvez créer des packages manuellement ou en dupliquant des packages existants. Vous pouvez également modifier et joindre des emplacements à n’importe quel module.
 
-## Tableau de bord [!UICONTROL Packages]
+## Le [!UICONTROL Packages] Tableau de bord
 
-Le tableau de bord [!UICONTROL Packages] centralise les performances et les rapports économiques sur l’ensemble de vos stratégies de modules, fournissant des instantanés rapides des performances de vos modules au cours d’une période spécifiée.
+Le [!UICONTROL Packages] Le tableau de bord centralise les performances et les rapports économiques sur l’ensemble de vos stratégies de modules, fournissant des instantanés rapides des performances de vos modules au cours d’une période spécifiée.
 
 ![Tableau de bord des packages](/help/dsp/assets/package-dashboard.png)
 
@@ -28,7 +28,7 @@ Il affiche également les mesures de fréquence et de diffusion par package, par
 
 >[!NOTE]
 >
->Vous pouvez personnaliser davantage le contenu et l’envoi de rapports de package à l’aide de [rapports personnalisés](/help/dsp/reports/report-about.md).
+>Vous pouvez personnaliser davantage le contenu et la diffusion du reporting de package via [rapports personnalisés](/help/dsp/reports/report-about.md).
 
 Pour afficher tous les emplacements d’un module, cliquez sur son nom.
 
@@ -37,5 +37,6 @@ Pour afficher tous les emplacements d’un module, cliquez sur son nom.
 >* [Création d’un module](package-create.md)
 >* [Modification d’un module](package-edit.md)
 >* [Joindre un emplacement à un package](package-attach-placement.md)
+>* [Affichage du journal des modifications d’un module](package-change-log.md)
 >* [Paramètres du module](package-settings.md)
 

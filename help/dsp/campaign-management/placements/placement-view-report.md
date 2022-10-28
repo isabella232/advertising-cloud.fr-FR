@@ -3,9 +3,9 @@ title: Affichage d’un rapport détaillé pour un emplacement
 description: Découvrez comment ouvrir un rapport au niveau de l’emplacement avec des sections sur [!UICONTROL Geography], [!UICONTROL Device], [!UICONTROL Viewability], [!UICONTROL Audience Performance], [!UICONTROL Notifications], et [!UICONTROL Ads] data.
 feature: DSP Placements, DSP Campaign Data Views
 exl-id: 90cd8030-73a6-4224-9a04-dcee91ce7d78
-source-git-commit: 99db7ed5a7455907204d1387f6ddfe0a644db753
+source-git-commit: 5ed402a7c83072a7af6a06757050486c6d7d7080
 workflow-type: tm+mt
-source-wordcount: '88'
+source-wordcount: '95'
 ht-degree: 0%
 
 ---
@@ -26,4 +26,5 @@ Le <!--legacy --> le rapport au niveau de l’emplacement comprend une présenta
 >* [Affichage d’un rapport détaillé pour une campagne](/help/dsp/campaign-management/campaigns/campaign-view-report.md)
 >* [À propos des rapports In-Platform](/help/dsp/campaign-management/reports/campaign-reports-about.md)
 >* [À propos des rapports personnalisés](/help/dsp/reports/report-about.md)
+>* [Affichage du journal des modifications d’un emplacement](placement-change-log.md)
 

@@ -3,10 +3,10 @@ title: Création d’un module
 description: Découvrez comment créer un package.
 feature: DSP Packages
 exl-id: 009b65b4-0686-46ca-9f47-01ad4c6a4683
-source-git-commit: 19d6a2edf07eecf874537dd9d356737ed9156bd9
+source-git-commit: 5ed402a7c83072a7af6a06757050486c6d7d7080
 workflow-type: tm+mt
-source-wordcount: '96'
-ht-degree: 1%
+source-wordcount: '103'
+ht-degree: 0%
 
 ---
 
@@ -29,6 +29,7 @@ Une fois que vous avez créé un module, vous pouvez lui attribuer des emplaceme
 >* [À propos de la gestion de modules](package-about.md)
 >* [Modification d’un module](package-edit.md)
 >* [Joindre un emplacement à un package](package-attach-placement.md)
+>* [Affichage du journal des modifications d’un module](package-change-log.md)
 >* [Paramètres du module](package-settings.md)
 >* [Vidéo : Création d’un module](https://experienceleague.adobe.com/docs/advertising-cloud-learn/tutorials/dsp/package-create.html)
 

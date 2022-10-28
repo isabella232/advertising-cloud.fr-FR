@@ -3,9 +3,9 @@ title: À propos de la gestion des emplacements dans Advertising Cloud DSP
 description: Découvrez la gestion des emplacements.
 feature: DSP Placements
 exl-id: 1d1382d9-b6c8-44bf-a708-8458769a39c6
-source-git-commit: 0d6d5e807053f042e0da1da65fed5e33a34dd4a9
+source-git-commit: 5ed402a7c83072a7af6a06757050486c6d7d7080
 workflow-type: tm+mt
-source-wordcount: '364'
+source-wordcount: '371'
 ht-degree: 0%
 
 ---
@@ -45,8 +45,9 @@ Pour chaque emplacement, vous pouvez ouvrir une vue détaillée ([la valeur [!UI
 
 >[!MORELIKETHIS]
 >
->* [Création d’un emplacement](/help/dsp/campaign-management/placements/placement-create.md)
->* [Paramètres d’emplacement](/help/dsp/campaign-management/placements/placement-settings.md)
+>* [Création d’un emplacement](placement-create.md)
+>* [Affichage du journal des modifications d’un emplacement](placement-change-log.md)
+>* [Paramètres d’emplacement](placement-settings.md)
 
    >*[Résolution des problèmes de performances](/help/dsp/optimization/troubleshooting-performance.md)
 
