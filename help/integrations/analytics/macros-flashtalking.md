@@ -3,9 +3,9 @@ title: Ajouter [!DNL Analytics for Advertising Cloud] Macros vers [!DNL Flashtal
 description: Découvrez pourquoi et comment ajouter [!DNL Analytics for Advertising Cloud] des macros à [!DNL Flashtalking] balises publicitaires
 feature: Integration with Adobe Analytics
 exl-id: 4b060668-723c-4cd2-b70e-409501ec67de
-source-git-commit: 7cb39998041d151ece7809adc8a2e872b922e5fc
+source-git-commit: ae516c1947d2b163ebd97dd05fb4e2870a1450d2
 workflow-type: tm+mt
-source-wordcount: '286'
+source-wordcount: '291'
 ht-degree: 0%
 
 ---
@@ -56,6 +56,5 @@ Exemple :  `https://www.adobe.com/products/photoshop?[%EL:param['AdobeAMO']%]&s_
 >
 >* [Présentation de [!DNL Analytics for Advertising Cloud]](overview.md)
 >* [Advertising Cloud ID utilisés par [!DNL Analytics]](/help/integrations/analytics/ids.md)
+>* [Ajouter [!DNL Analytics for Advertising Cloud] Macros vers [!DNL Google Campaign Manager 360] Balises publicitaires](/help/integrations/analytics/macros-google-campaign-manager.md)
 
-
-<!-- >* [Append [!DNL Analytics for Advertising Cloud] Macros to [!DNL Google Campaign Manager 360] Ad Tags](macros-google-campaign-manager.md) -->

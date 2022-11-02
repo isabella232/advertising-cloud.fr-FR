@@ -2,9 +2,10 @@
 title: Utilisation des Advertising Cloud ID à créer [!DNL Marketing Channels] Règles
 description: Découvrez comment utiliser les Advertising Cloud ID pour créer des règles de traitement pour [!DNL Analytics Marketing Channels].
 feature: Integration with Adobe Analytics
-source-git-commit: 1ae45d0ceee2efc4fc52b86fd6737d4c7467a6ca
+exl-id: 4fcdd586-e9c5-4405-a6dc-7799d2bac93e
+source-git-commit: d136b1fe6f6fd3861d0850e07efe7c320da4a7cc
 workflow-type: tm+mt
-source-wordcount: '766'
+source-wordcount: '767'
 ht-degree: 0%
 
 ---
@@ -83,7 +84,7 @@ Il arrive que les clics publicitaires fassent l’objet d’un suivi via l’URL
 
 #### Règle d’affichage publicitaire
 
-Pour créer un canal d’affichage publicitaire, créez une règle dans laquelle l’identifiant EF se termine par &quot;:i&quot;. Comme le visiteur n’a pas cliqué sur la publicité, le suivi des affichages publicitaires n’inclut pas la variable `ef_id` ou `s_kwcid` dans l’URL. Par conséquent, une seule condition est nécessaire.
+Pour créer un canal d’affichage publicitaire, créez une règle dans laquelle l’identifiant EF se termine par &quot;:i&quot;. Comme le visiteur n’a pas cliqué sur la publicité, le suivi des affichages publicitaires n’inclut pas la variable `ef_id` ou `s_kwcid` dans l’URL. Par conséquent, la règle ne nécessite qu’une seule condition.
 
 ![Exemple de règle d&#39;affichage publicitaire](/help/integrations/assets/a4adc-mc-rule-display-vt.png)
 

@@ -1,20 +1,20 @@
 ---
-source-git-commit: d3e36cef27fce533e9435717d428d54b982fd427
+source-git-commit: 0654347afd1caf5e9bd8ccabf41a8a591e604df5
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '375'
 ht-degree: 0%
 
 ---
 # Documentation collaborative pour Advertising Cloud
 
-Il s’agit du référentiel de documentation de Adobe Advertising Cloud, y compris les documents multiproduits, DSP et télévisés. (Par la suite, il contiendra des documents pour Creative and Search.)
+Il s’agit du référentiel de documentation de Adobe Advertising Cloud, y compris les documents inter-produits et DSP. (Par la suite, il contiendra des documents pour la recherche et éventuellement (?) pour Creative.)
 
 **Remarque : Cette page n’est pas publiée dans la documentation destinée aux clients.**
 
 ## Table des matières
 
 + `TOC.md` à la racine de n’importe quel guide d’utilisation fournit l’organisation des rubriques contenues dans le guide.
-+ Chaque guide de l’utilisateur comporte un `TOC.md` unique, dans lequel vous pouvez classer toutes les pages/rubriques selon vos besoins.
++ Chaque guide de l’utilisateur possède une `TOC.md`, dans laquelle vous pouvez classer toutes les pages/rubriques selon vos besoins.
 
 
 ## Guide de l’utilisateur
@@ -23,12 +23,12 @@ Il s’agit du référentiel de documentation de Adobe Advertising Cloud, y comp
 + Chaque rubrique du guide de l’utilisateur possède son propre répertoire.
    + S’il existe une rubrique dans le guide appelée *Implémentation*, le répertoire correspondant est `/implementation`
 + Toutes les ressources d’image sont stockées dans `/assets` à la racine du guide de l’utilisateur.
-   + Toutes les images du répertoire `/assets` seront localisées.
-   + Les images du répertoire `/no-localize` ne seront pas localisées (surprise !). Cela peut être utilisé pour garantir dans les versions loc que des ressources spécifiques ne sont pas reproduites inutilement.
+   + Toutes les images de la `/assets` sera localisé.
+   + Toutes les images dans la variable `/no-localize` ne sera pas localisé (il y a une surprise !). Cela peut être utilisé pour garantir dans les versions loc que des ressources spécifiques ne sont pas reproduites inutilement.
 
 ## Métadonnées au niveau du guide de l’utilisateur
 
-+ Les métadonnées qui décrivent le guide de l’utilisateur sont stockées dans la balise `TOC.md`. Cela inclut :
++ Les métadonnées décrivant le guide de l’utilisateur sont stockées dans la variable `TOC.md`. Cela inclut :
    + product - nom du produit/de la fonctionnalité.
    + cloud : cloud auquel ce produit appartient.
    + audience : audience ou archétype à qui le guide est ciblé.
@@ -52,7 +52,7 @@ Il s’agit du référentiel de documentation de Adobe Advertising Cloud, y comp
 
 Pour plus d’instructions de publication, de guides de style, d’exemples et d’autres ressources, voir :
 
-+ [Instructions relatives à la contribution des auteurs  **spécifiquement pour Advertising Cloud**](https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=EfficientFrontier&amp;title=Contributing+Author+Guidelines+for+Advertising+Cloud+Help)
++ [Directives relatives à la contribution à l’auteur **spécifiquement pour Advertising Cloud**](https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=EfficientFrontier&amp;title=Contributing+Author+Guidelines+for+Advertising+Cloud+Help)
 + [Création collaborative pour tous les auteurs d’Adobe](https://experienceleague.adobe.com/docs/authoring-guide-exl/using/home.html)
 
 Voir aussi :
