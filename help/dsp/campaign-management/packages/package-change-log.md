@@ -2,9 +2,10 @@
 title: Affichage d’un journal des modifications de module
 description: Découvrez comment afficher les modifications apportées au module.
 feature: DSP Packages
-source-git-commit: 2f892f1f9521c4768c1cac4bd0cb0c35261ab147
+exl-id: 1d611c20-7857-41db-adf4-743dab44341e
+source-git-commit: 1098fa5fc9207300b5b9c75cf07f24ecfe1dfc69
 workflow-type: tm+mt
-source-wordcount: '110'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -17,7 +18,7 @@ Vous pouvez trier les données selon n’importe quelle colonne, à l’exceptio
 
 1. Dans le menu principal, cliquez sur **[!UICONTROL Campaigns]**.
 1. Cliquez sur le nom de la campagne.
-1. Sur le **[!UICONTROL Placements]** , en regard du nom du module, cliquez sur  **[!UICONTROL ...]>[!UICONTROL Change logs]**.
+1. Sur le **[!UICONTROL Packages]** , en regard du nom du module, cliquez sur  **[!UICONTROL ...]>[!UICONTROL Change logs]**.
 
 >[!MORELIKETHIS]
 >
