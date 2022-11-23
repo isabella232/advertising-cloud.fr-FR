@@ -5,9 +5,9 @@ cloud: Experience Cloud
 product: advertising cloud
 index: true
 exl-id: d4b67393-e8c5-4170-92eb-bcf643ba3ec3
-source-git-commit: b96bb5be747e59beb7bb626152dbab7aa49cb88e
+source-git-commit: f353912c0e5969a119b2b6018a2dfe2d7a0e9510
 workflow-type: tm+mt
-source-wordcount: '998'
+source-wordcount: '989'
 ht-degree: 0%
 
 ---
@@ -18,8 +18,8 @@ Les fonctionnalités suivantes sont nouvelles ou récemment modifiées.
 
 | Date | Fonctionnalité | Description | Pour plus d’informations |
 | ---- | ------- | ----------- | -------------------- |
-| 23 novembre 2022 | Offres | La vue Inventaire > Transactions comprend désormais une colonne &quot;État des transactions&quot;, qui indique l’état d’intégrité de chaque transaction privée : &quot;Succès&quot;, &quot;Avertissement&quot;, &quot;Critique&quot; ou &quot;Non disponible&quot;. Vous pouvez cliquer sur l’état pour afficher plus de détails, notamment les raisons pour lesquelles une transaction ne fonctionne pas ou ne dépense pas comme prévu, ainsi que les étapes de résolution des problèmes potentiels. | — |
-| 27 octobre 2022 | Campagnes | Un journal des modifications, qui affiche les modifications effectuées au cours de la période sélectionnée, est désormais disponible pour chaque package et emplacement. | Voir &quot;[Affichage du journal des modifications d’un module](/help/dsp/campaign-management/packages/package-change-log.md)&quot; et &quot;[Affichage du journal des modifications d’un emplacement](/help/dsp/campaign-management/placements/placement-change-log.md).&quot; |
+| 23 novembre 2022 | Offres | Le [!UICONTROL Inventory] > [!UICONTROL Deals] inclut désormais &quot;[!UICONTROL Deal Health]&quot;, qui indique l’état d’intégrité de chaque transaction privée : &quot;[!UICONTROL Success],&quot;[!UICONTROL Warning],&quot;[!UICONTROL Critical],&quot; ou &quot;[!UICONTROL Unavailable].&quot; Vous pouvez cliquer sur l’état pour afficher plus de détails, notamment les raisons pour lesquelles une transaction ne fonctionne pas ou ne dépense pas comme prévu, ainsi que les étapes de résolution des problèmes potentiels. | — |
+| 27 octobre 2022 | [!UICONTROL Campaigns] | Un journal des modifications, qui affiche les modifications effectuées au cours de la période sélectionnée, est désormais disponible pour chaque package et emplacement. | Voir &quot;[Affichage du journal des modifications d’un module](/help/dsp/campaign-management/packages/package-change-log.md)&quot; et &quot;[Affichage du journal des modifications d’un emplacement](/help/dsp/campaign-management/placements/placement-change-log.md).&quot; |
 |  |  | Vous pouvez désormais modifier la variable [!UICONTROL Intraday Pacing] pour plusieurs emplacements simultanément. | Voir &quot;[Modifier un emplacement](/help/dsp/campaign-management/placements/placement-edit.md#edit-multiple-placements)&quot; et &quot;[Paramètres d’emplacement](/help/dsp/campaign-management/placements/placement-settings.md).&quot; |
 |  |  | Un &quot;[!UICONTROL Intraday Pacing]&quot; est disponible dans les feuilles de calcul AQ Excel. | Voir &quot;[Colonnes dans les feuilles de calcul téléchargées/téléchargées](/help/dsp/campaign-management/qa/qa-sheet-columns.md).&quot; |
 |  |  | Un &quot;[!UICONTROL Intraday Pacing]&quot; est disponible dans les vues Campagnes. | Voir &quot;[Création d’un mode Colonnes personnalisé](/help/dsp/campaign-management/reports/column-view-create.md)&quot; et &quot;[Modifier un mode Colonnes personnalisé](/help/dsp/campaign-management/reports/column-view-edit.md).&quot; |
