@@ -3,7 +3,7 @@ title: Advertising Cloud ID utilisés par [!DNL Analytics]
 description: Advertising Cloud ID utilisés par [!DNL Analytics]
 feature: Integration with Adobe Analytics
 exl-id: ed1aab7b-9bd0-4d42-9bfb-9c6fa6db76bc
-source-git-commit: 7cb39998041d151ece7809adc8a2e872b922e5fc
+source-git-commit: 525bc48104f928ccf9a3bb792b7e33c7e590cf4a
 workflow-type: tm+mt
 source-wordcount: '1194'
 ht-degree: 0%
@@ -132,19 +132,19 @@ Exemple d’AMO ID : AC!iIMvXqlOa6Nia2lDvtgw!GrVv6o2oV2qQLjQiXLC7
 
 AMO ID pour [!DNL Search] suivent un format distinct pour chaque moteur de recherche. Le format de tous les moteurs de recherche commence par ce qui suit :
 
-```AL!{ef_userid}!{ef_sid}```
+```AL!{userid}!{sid}```
 
 où :
 
 * `AL` est l’identifiant de canal pour le canal de recherche.
-* `{ef_userid}` est l’identifiant utilisateur numérique unique attribué par Advertising Cloud à l’annonceur.
-* `{ef_sid}` est l’identifiant numérique utilisé par Advertising Cloud pour le moteur de recherche spécifié, tel que `3` pour [!DNL Google Ads] ou `10` pour [!DNL Microsoft Advertising].
+* `{userid}` est l’identifiant utilisateur numérique unique attribué par Advertising Cloud à l’annonceur.
+* `{sid}` est l’identifiant numérique utilisé par Advertising Cloud pour le moteur de recherche spécifié, tel que `3` pour [!DNL Google Ads] ou `10` pour [!DNL Microsoft Advertising].
 
 Vous trouverez ci-dessous les formats AMO ID complets pour quelques moteurs de recherche. Pour connaître les formats AMO ID des autres moteurs de recherche, contactez votre [!DNL Adobe] l&#39;équipe du compte.
 
 Format AMO ID pour [!DNL Google Ads]:
 
-```AL!{ef_userid}!{ef_sid}!{creative}!{matchtype}!{placement}!{network}!{product_partition_id}!{keyword}!{campaignid}!{adgroupid}```
+```AL!{userid}!{sid}!{creative}!{matchtype}!{placement}!{network}!{product_partition_id}!{keyword}!{campaignid}!{adgroupid}```
 
 où :
 
@@ -156,7 +156,7 @@ où :
 
 Format AMO ID pour [!DNL Microsoft Advertising]:
 
-```AL!{ef_userid}!{ef_sid}!{AdId}!{OrderItemId}```
+```AL!{userid}!{sid}!{AdId}!{OrderItemId}```
 
 où :
 
