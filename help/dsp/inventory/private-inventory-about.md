@@ -3,9 +3,9 @@ title: À propos du stock privé
 description: À propos du stock privé
 feature: DSP Private Inventory
 exl-id: 6b3923ca-ccd1-450e-bff0-139e3838c999
-source-git-commit: 82c906c87fd3aad0d7a04d0b0e58e54c5485499a
+source-git-commit: 7feb0e398c416805b376062d9f3dfec819fac2ee
 workflow-type: tm+mt
-source-wordcount: '391'
+source-wordcount: '430'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ Toutes vos affaires privées avec un ID de transaction sont financées et factur
 
 Vous pouvez utiliser les ID de transaction de l’une des façons suivantes :
 
-* (Fonctionnalité facultative qui nécessite l’activation) Depuis le [!UICONTROL Deal ID Inbox], vous pouvez passer en revue et accepter rapidement vos offres d’inventaire privé, garanties et non garanties de la part des éditeurs sur les plateformes côté offre (SSP) suivantes : [!DNL FreeWheel], [!DNL Google Authorized Buyers] (anciennement connu sous le nom de [!DNL AdX]), et [!DNL Magnite DV+] (anciennement [!DNL Rubicon]) de la variable [!UICONTROL Deal ID inbox].
+* (Fonctionnalité facultative qui nécessite l’activation) Depuis le [!UICONTROL Deal ID Inbox], vous pouvez examiner et accepter rapidement vos offres d’inventaire privé garanties et non garanties par les éditeurs sur les plateformes côté offre (SSP) suivantes : [!DNL FreeWheel], [!DNL Google Authorized Buyers] (anciennement connu sous le nom de [!DNL AdX]), et [!DNL Magnite DV+] (anciennement [!DNL Rubicon]) de la variable [!UICONTROL Deal ID inbox].
 
    Pour plus d’informations, voir[À propos de [!UICONTROL Deal ID Inbox]](deal-id-inbox-about.md).&quot;
 
@@ -36,7 +36,9 @@ Vous pouvez utiliser chaque opération privée comme cible d’emplacement pour 
 
 Dans le [!UICONTROL Inventory] > [!UICONTROL Deals] vous pouvez créer des paramètres d’opération privés. Vous pouvez également modifier certains paramètres de transaction ; répertorier les emplacements et les publicités, et joindre des emplacements et des publicités supplémentaires à une opération privée ; modifier les annonceurs et les comptes qui peuvent accéder à une offre privée ; afficher un rapport de performance pour une transaction ; afficher les informations sur les enchères pour un accord privé, ou archiver ou ne plus archiver un accord.<!-- ; or edit the attribute tags for a deal -->
 
-Vous pouvez personnaliser davantage la présentation des données d’opération existantes en appliquant des filtres, en personnalisant les colonnes visibles et en enregistrant éventuellement des vues personnalisées, en triant les colonnes et en affichant les données sous forme de graphiques.
+La colonne &quot;Deal Health&quot; indique l’état d’intégrité de chaque transaction privée : &quot;Succès&quot;, &quot;Avertissement&quot;, &quot;Critique&quot; ou &quot;Non disponible&quot;. Vous pouvez cliquer sur l’état pour afficher plus de détails, notamment les raisons pour lesquelles une transaction ne fonctionne pas ou ne dépense pas comme prévu, ainsi que les étapes de résolution des problèmes potentiels.
+
+Vous pouvez personnaliser la présentation des données d’opération existantes en appliquant des filtres, en personnalisant les colonnes visibles et en enregistrant éventuellement des vues personnalisées, en triant les colonnes et en affichant les données sous forme de graphiques.
 
 >[!MORELIKETHIS]
 >
