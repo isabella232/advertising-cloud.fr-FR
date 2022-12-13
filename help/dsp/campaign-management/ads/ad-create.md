@@ -3,9 +3,9 @@ title: Créer une publicité unique
 description: Découvrez comment créer une publicité tierce unique.
 feature: DSP Ads
 exl-id: d93c6a66-a5cb-4117-97e8-424422200fce
-source-git-commit: bcece4bfec6f8a765cced3ee230fd8cbf3055b7b
+source-git-commit: bf5cb724c51e4a91add7911157bd74c90314d07c
 workflow-type: tm+mt
-source-wordcount: '246'
+source-wordcount: '249'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ Pour créer plusieurs publicités tierces à la fois, voir [Créer plusieurs pub
 
 1. Au-dessus du tableau de données, cliquez sur **[!UICONTROL Create]**. Dans le [!UICONTROL Ad Types] dans le menu, cliquez sur le bouton [type d&#39;annonce](ad-about.md#ad-types).
 
-1. Spécifiez les paramètres de publicité pour [annonces audio](ad-settings-audio.md), [télévision connectée](ad-settings-connected-tv.md), [publicités display](ad-settings-display.md), [annonces mobiles](ad-settings-mobile.md), [annonces natives](ad-settings-native.md)ou [publicités preroll](ad-settings-pre-roll.md):
+1. Spécifiez les paramètres de publicité pour [annonces audio](ad-settings-audio.md), [télévision connectée](ad-settings-connected-tv.md), [publicités display](ad-settings-display.md), [annonces mobiles](ad-settings-mobile.md), [annonces natives](ad-settings-native.md), [publicités preroll](ad-settings-pre-roll.md) ou [publicités vidéo universelles](ad-settings-universal-video.md):
 
    1. Sur le [!UICONTROL Insert Ad Tag] , saisissez des informations sur la publicité d’un partenaire tiers certifié, puis cliquez sur **[!UICONTROL Go]**.
 
