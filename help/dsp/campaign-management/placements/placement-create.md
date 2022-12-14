@@ -3,9 +3,9 @@ title: Création d’un emplacement
 description: Découvrez comment créer un emplacement.
 feature: DSP Placements
 exl-id: 4e37b571-9af4-4897-bff2-035a5f2600a5
-source-git-commit: 5ed402a7c83072a7af6a06757050486c6d7d7080
+source-git-commit: cb77fd450db1798f190f3b6eb51054553440bac9
 workflow-type: tm+mt
-source-wordcount: '649'
+source-wordcount: '652'
 ht-degree: 1%
 
 ---
@@ -77,7 +77,7 @@ ht-degree: 1%
 
       1. Cliquez sur **[!UICONTROL Create a New Ad].**
 
-      1. Spécifiez les paramètres de publicité pour [annonces audio](/help/dsp/campaign-management/ads/ad-settings-audio.md), [télévision connectée](/help/dsp/campaign-management/ads/ad-settings-connected-tv.md), [publicités display](/help/dsp/campaign-management/ads/ad-settings-display.md), [annonces mobiles](/help/dsp/campaign-management/ads/ad-settings-mobile.md), [annonces natives](/help/dsp/campaign-management/ads/ad-settings-native.md)ou [publicités preroll](/help/dsp/campaign-management/ads/ad-settings-pre-roll.md).
+      1. Spécifiez les paramètres de publicité pour [annonces audio](/help/dsp/campaign-management/ads/ad-settings-audio.md), [télévision connectée](/help/dsp/campaign-management/ads/ad-settings-connected-tv.md), [publicités display](/help/dsp/campaign-management/ads/ad-settings-display.md), [annonces mobiles](/help/dsp/campaign-management/ads/ad-settings-mobile.md), [annonces natives](/help/dsp/campaign-management/ads/ad-settings-native.md), [publicités preroll](/help/dsp/campaign-management/ads/ad-settings-pre-roll.md)ou [publicités vidéo universelles](ad-settings-universal-video.md).
 
       1. Cliquez sur **[!UICONTROL Save & Submit for Review]**.
 
@@ -87,16 +87,25 @@ ht-degree: 1%
    * Pour joindre des publicités existantes dans la campagne :
 
       1. Cliquez sur **[!UICONTROL Select an Ad]**.
+
       1. Effectuez l’une des opérations suivantes :
+
          * Pour ajouter une publicité à la fois :
+
             1. En regard du nom de la publicité, cliquez sur **[!UICONTROL Select].**
+
             1. (Facultatif) Pour chaque publicité supplémentaire à joindre, cliquez sur **[!UICONTROL Attach Another Ad]**, puis répétez le processus.
          * Pour ajouter jusqu’à 20 publicités à la fois :
+
             1. Cochez la case située au-dessus de la liste des publicités.
+
             1. Cochez la case en regard de chaque publicité à ajouter.
+
             1. Cliquez sur **[!UICONTROL Attach]**.
+
             1. En regard du nom de la publicité, cliquez sur **[!UICONTROL Select]**.
       1. (Facultatif) Pour remplacer la période de vol par défaut et la rotation des publicités pour des publicités spécifiques dans l’emplacement :
+
          1. Cliquez sur **[!UICONTROL Custom Schedule Ads]**.
 
          1. Effectuez l’une des opérations suivantes :
@@ -113,6 +122,8 @@ ht-degree: 1%
          1. Dans le coin supérieur droit, cliquez sur **[!UICONTROL Continue]**.
 
          1. Vérifiez les détails du vol, puis cliquez sur **[!UICONTROL Save & Finish]**.
+
+
 
 
 

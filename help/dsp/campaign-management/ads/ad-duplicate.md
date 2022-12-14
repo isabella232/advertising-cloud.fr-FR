@@ -3,9 +3,9 @@ title: Duplication d’une publicité
 description: Découvrez comment dupliquer une publicité.
 feature: DSP Ads
 exl-id: 65c29be7-ca88-4608-bde2-5f1267d095ef
-source-git-commit: bcece4bfec6f8a765cced3ee230fd8cbf3055b7b
+source-git-commit: 2bce8d51a31293fef1197a230050940719b9ff57
 workflow-type: tm+mt
-source-wordcount: '177'
+source-wordcount: '180'
 ht-degree: 0%
 
 ---
@@ -15,12 +15,19 @@ ht-degree: 0%
 Vous pouvez dupliquer une publicité dans la même campagne.
 
 1. Dans le menu principal, cliquez sur **[!UICONTROL Campaigns]**.
+
 1. Cliquez sur le nom de la campagne.
+
 1. Dans le sous-menu, cliquez sur **[!UICONTROL Ads]**.
+
 1. En regard du nom de la publicité, cliquez sur  **... >[!UICONTROL Duplicate]**.
+
 1. Spécifiez les nouveaux paramètres d’annonce :
+
    1. (Facultatif) Modifiez le nom de publicité par défaut. Par défaut, la nouvelle publicité est appelée &quot;Copie de \&lt;*nom de la publicité d’origine*\>.&quot;
-   1. (Facultatif) Modifiez les paramètres de publicité pour [annonces audio](ad-settings-audio.md), [télévision connectée](ad-settings-connected-tv.md), [publicités display](ad-settings-display.md), [annonces mobiles](ad-settings-mobile.md), [annonces natives](ad-settings-native.md)ou [publicités preroll](ad-settings-pre-roll.md).
+
+   1. (Facultatif) Modifiez les paramètres de publicité pour [annonces audio](ad-settings-audio.md), [télévision connectée](ad-settings-connected-tv.md), [publicités display](ad-settings-display.md), [annonces mobiles](ad-settings-mobile.md), [annonces natives](ad-settings-native.md), [publicités preroll](ad-settings-pre-roll.md)ou [publicités vidéo universelles](ad-settings-universal-video.md).
+
 1. Cliquez sur **[!UICONTROL Save & Submit for Review]**.
 
    Le [révision publicitaire](ad-about.md) pour la nouvelle publicité prend entre 24 et 48 heures et inclut des vérifications pour les catégories sensibles, la fonctionnalité de clic sur l’URL et le rendu d’aperçu. Le [!UICONTROL Status] indique si DSP a approuvé la publicité. Les publicités rompues peuvent avoir un état en attente de plus de 24 à 48 heures, vous avez donc le temps de corriger les erreurs avant qu’elles ne soient rejetées.
