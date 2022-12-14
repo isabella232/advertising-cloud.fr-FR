@@ -3,16 +3,16 @@ title: Spécifications des publicités
 description: Référencez les spécifications publicitaires générales et spécifiques à l’éditeur.
 feature: DSP Ads
 exl-id: 905dfd9b-e7a3-4eb6-988f-b49d4b282dd2
-source-git-commit: b867ace878a0c1e6391476e267c9161e5ecea921
+source-git-commit: b25521d35134ca453c889fc1a71e4c81f982a77b
 workflow-type: tm+mt
-source-wordcount: '841'
+source-wordcount: '843'
 ht-degree: 0%
 
 ---
 
 # Spécifications des types de publicité pris en charge
 
-## Publicités vidéo (preroll et CTV)
+## Publicités vidéo (pré-défilement, CTV et vidéo universelle)
 
 ### Screens pris en charge
 

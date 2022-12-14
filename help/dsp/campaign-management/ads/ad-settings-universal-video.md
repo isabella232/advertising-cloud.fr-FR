@@ -2,14 +2,16 @@
 title: Paramètres de publicité vidéo universelle
 description: Reportez-vous à la description des paramètres d’annonce disponibles pour les publicités vidéo universelles.
 feature: DSP Ads
-source-git-commit: fa91f2c30841bde2b943dee31d373fec343bdc75
+source-git-commit: 2d344d2ae0438433eb679a5f31f471c2eac4fe26
 workflow-type: tm+mt
-source-wordcount: '449'
+source-wordcount: '452'
 ht-degree: 0%
 
 ---
 
 # Paramètres de publicité vidéo universelle
+
+*Fonctionnalité bêta ouverte*
 
 ## [!UICONTROL Insert Ad Tag]
 
