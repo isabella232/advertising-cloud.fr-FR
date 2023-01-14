@@ -1,20 +1,20 @@
 ---
-title: À propos de la gestion des publicités dans Advertising Cloud DSP
+title: À propos de la gestion des publicités dans les DSP publicitaires
 description: En savoir plus sur la gestion des publicités.
 feature: DSP Ads
 exl-id: 72c8bbef-d09c-4cf4-994d-99578d043d39
-source-git-commit: 1499d9d86d8c2bafb03b41687c50dbf708c715da
+source-git-commit: ad978a021c063377e4c91ed41e902d98a03749e4
 workflow-type: tm+mt
-source-wordcount: '732'
+source-wordcount: '722'
 ht-degree: 0%
 
 ---
 
-# À propos de la gestion des publicités dans Advertising Cloud DSP
+# À propos de la gestion des publicités dans les DSP publicitaires
 
 <!-- add "The Ads View (Dashboard?)" section -->
 
-Advertising Cloud DSP prend en charge la diffusion de publicités par le biais de balises de service de publicités tierces (telles que Google, Flashtalking ou Sizmek) pour divers types d’annonces et le chargement direct de ressources pour les annonces d’affichage natives. Vous pouvez charger des balises tierces individuellement ou par lot. Les téléchargements en masse utilisent des feuilles de balises partenaires ou un modèle de balise en bloc.
+DSP prend en charge la diffusion de publicités par le biais de balises de service de publicités tierces (telles que Google, Flashtalking ou Sizmek) pour divers types d’annonces et le chargement direct de ressources pour les annonces d’affichage natives. Vous pouvez charger des balises tierces individuellement ou par lot. Les téléchargements en masse utilisent des feuilles de balises partenaires ou un modèle de balise en bloc.
 
 <!-- The bulk upload feature requires you to either a) upload DoubleClick and Flashtalking tag sheets or b) download a template, input your tags into the template, and then re-upload the template. -->
 <!-- need a list of all supported third-party ad servers; see file in future-tbd folder -->
@@ -23,7 +23,7 @@ Une fois vos publicités configurées, vous devrez joindre chaque publicité à 
 
 ## Types de publicité disponibles {#ad-types}
 
-Tous les types d’annonces suivants sont disponibles dans Advertising Cloud DSP. Pour obtenir des spécifications complètes de chaque type d’annonce, reportez-vous à la section [Spécifications des publicités](ad-specs.md).
+Tous les types d’annonces suivants sont disponibles dans DSP. Pour obtenir des spécifications complètes de chaque type d’annonce, reportez-vous à la section [Spécifications des publicités](ad-specs.md).
 
 * **Publicités audio (tierces uniquement)**: Les publicités audio sont lues entre le contenu des sites d’éditeurs numériques et peuvent être exécutées de manière autonome sous la forme de fichiers audio ou avec des bannières d’accompagnement. L’audio est le meilleur moyen d’accroître la notoriété de la marque et d’interagir avec les publics en ligne. Indicateurs de performance clés pour l’inclusion audio [!UICONTROL Completion Rate] et [!UICONTROL Cost per Completion].
 
@@ -39,9 +39,9 @@ Tous les types d’annonces suivants sont disponibles dans Advertising Cloud DSP
 
 * **Publicités vidéo universelles (tierces uniquement)**: Les publicités vidéo universelles combinent toutes les fonctionnalités de la télévision connectée, des publicités preroll et mobiles preroll (VAST et VPAID) en une seule, et sont affichées avant et pendant le contenu vidéo. La publicité vidéo universelle peut être utilisée lors du ciblage de l’inventaire vidéo à partir des environnements de bureau, mobiles et de télévision connectée, ce qui évite d’avoir à créer plusieurs publicités vidéo. Les indicateurs de performances clés de la vidéo universelle incluent [!UICONTROL Completion Rate] et [!UICONTROL Viewability Rate].
 
-## Approbations publicitaires Advertising Cloud DSP
+## DSP Approbations publicitaires
 
-Lorsque vous créez une publicité, Advertising Cloud DSP la examine pour les catégories sensibles, cliquez sur la fonctionnalité URL et prévisualisez le rendu.
+Lorsque vous créez une publicité, DSP la révise pour les catégories sensibles, cliquez sur la fonctionnalité d’URL et prévisualisez le rendu.
 
 Au départ, un point rouge apparaît dans la variable [!UICONTROL Status] colonne . Le processus de révision prend normalement 24 à 48 heures. Cependant, une publicité interrompue peut avoir un état en attente pendant plus de 48 heures, vous avez donc le temps de corriger les erreurs avant le rejet de la publicité. Les publicités refusées incluent une raison de rejet.
 

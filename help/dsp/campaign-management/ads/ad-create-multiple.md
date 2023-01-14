@@ -3,7 +3,7 @@ title: Créer plusieurs publicités tierces
 description: Découvrez comment créer plusieurs publicités tierces à la fois.
 feature: DSP Ads
 exl-id: 83d35d27-1ab6-4fcf-877f-650a2dc6975a
-source-git-commit: bcece4bfec6f8a765cced3ee230fd8cbf3055b7b
+source-git-commit: ad978a021c063377e4c91ed41e902d98a03749e4
 workflow-type: tm+mt
 source-wordcount: '351'
 ht-degree: 0%
@@ -41,9 +41,13 @@ Vous pouvez transférer l’une des options suivantes : [!DNL DoubleClick] et [!
 1. Vérifiez les détails et l’état de chaque publicité :
 
    1. Vérifiez l’état de chaque publicité, en fonction des contrôles de validation sur la balise chargée.
+
    1. (Facultatif) Effectuez l’une des opérations suivantes pour chaque publicité :
+
       * Pour prévisualiser une publicité, cliquez sur ![play](/help/dsp/assets/play.png) dans la ligne publicitaire.
+
       * Pour modifier les détails de la publicité, cliquez sur ![edit](/help/dsp/assets/edit.png), modifiez les détails, puis cliquez sur **Enregistrer**.
+
       * Pour supprimer une publicité, cliquez sur **[!UICONTROL X]** dans la ligne publicitaire.
 
 1. Cliquez sur **[!UICONTROL Create *N *Publicités]**.
@@ -53,8 +57,11 @@ Vous pouvez transférer l’une des options suivantes : [!DNL DoubleClick] et [!
    * Cliquez sur **[!UICONTROL Done]**.
 
    * (Si une publicité est refusée ; (facultatif) Pour modifier l’enregistrement de la publicité et la soumettre de nouveau pour révision :
+
       1. Cliquez sur le nom de la publicité.
+
       1. Modifiez les paramètres de la publicité.
+
       1. Cliquez sur **[!UICONTROL Save & submit for review]**.
 
 >[!MORELIKETHIS]

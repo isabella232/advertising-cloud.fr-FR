@@ -3,9 +3,9 @@ title: Colonnes de rapport disponibles
 description: Reportez-vous à la description des colonnes disponibles dans les rapports personnalisés.
 feature: DSP Custom Reports
 exl-id: c96e46ae-2fb2-4364-9c51-f160c00693ba
-source-git-commit: 01668542af9ad3dda8c8284845bb3ab4242c75f8
+source-git-commit: ad978a021c063377e4c91ed41e902d98a03749e4
 workflow-type: tm+mt
-source-wordcount: '1677'
+source-wordcount: '1660'
 ht-degree: 0%
 
 ---
@@ -15,14 +15,14 @@ ht-degree: 0%
 | Type de mesure | Subtype | Nom de la colonne | Description |
 |-----------|-------|-----------|-----------|
 | [!UICONTROL Dimension] | [!UICONTROL Ad] | [!UICONTROL Ad External ID] | Identifiant de publicité attribué par le serveur de publicités externe. |
-| [!UICONTROL Dimension] | [!UICONTROL Ad] | [!UICONTROL Ad ID] | Identifiant unique de la publicité dans Advertising Cloud. |
+| [!UICONTROL Dimension] | [!UICONTROL Ad] | [!UICONTROL Ad ID] | Identifiant unique de la publicité dans DSP. |
 | [!UICONTROL Dimension] | [!UICONTROL Ad] | [!UICONTROL Ad Name] | Nom de la publicité tel qu’il est attribué par l’utilisateur. |
 | [!UICONTROL Dimension] | [!UICONTROL Ad] | [!UICONTROL Ad Type] | Format de la publicité. |
 | [!UICONTROL Dimension] | [!UICONTROL Ad] | [!UICONTROL Status] | La classification de la publicité telle qu’elle a été modifiée par l’utilisateur ou indiquée par les entrées de date : *[!UICONTROL live]*, *[!UICONTROL scheduled]*, *[!UICONTROL completed]* ou *[!UICONTROL archived]*. |
 | [!UICONTROL Dimension] | [!UICONTROL Advertiser] | [!UICONTROL Advertiser Name] | Nom de l’annonceur. |
 | [!UICONTROL Dimension] | [!UICONTROL Campaign] | [!UICONTROL Budget] | Budget total attribué par l’utilisateur pour l’opération. |
 | [!UICONTROL Dimension] | [!UICONTROL Campaign] | [!UICONTROL Campaign End Date] | Date de fin de la campagne. |
-| [!UICONTROL Dimension] | [!UICONTROL Campaign] | [!UICONTROL Campaign ID] | Identifiant unique de la campagne dans Advertising Cloud. |
+| [!UICONTROL Dimension] | [!UICONTROL Campaign] | [!UICONTROL Campaign ID] | Identifiant unique de la campagne dans DSP. |
 | [!UICONTROL Dimension] | [!UICONTROL Campaign] | [!UICONTROL Campaign Name] | Nom de la campagne tel qu’il a été attribué par l’utilisateur. |
 | [!UICONTROL Dimension] | [!UICONTROL Campaign] | [!UICONTROL Campaign Start Date] | Date de la première campagne. |
 | [!UICONTROL Dimension] | [!UICONTROL Date/Time] | [!UICONTROL Day (YYYY-MM-DD)] | L’année, le mois et le jour. |
@@ -42,7 +42,7 @@ ht-degree: 0%
 | [!UICONTROL Dimension] | [!UICONTROL Device] | [!UICONTROL Operating System Version] | Version du système d’exploitation sur lequel la publicité a été affichée (telle que [!UICONTROL Windows 10] ou [!UICONTROL iOS Mojave]) |
 | [!UICONTROL Dimension] | [!UICONTROL Device] | [!UICONTROL Operating System] | Système d’exploitation sur lequel la publicité a été affichée (tel que [!UICONTROL Apple iOS] ou [!UICONTROL Android]). |
 | [!UICONTROL Dimension] | [!UICONTROL Feed] | [!UICONTROL Deal ID] | Identifiant unique attribué à une transaction par l’intermédiaire du partenaire d’approvisionnement externe. |
-| [!UICONTROL Dimension] | [!UICONTROL Feed] | [!UICONTROL Feed Name] | Nom attribué par l’utilisateur à l’opération, tel qu’il a été saisi dans Advertising Cloud. |
+| [!UICONTROL Dimension] | [!UICONTROL Feed] | [!UICONTROL Feed Name] | Nom attribué par l’utilisateur à l’opération, tel que saisi dans DSP. |
 | [!UICONTROL Dimension] | [!UICONTROL Feed] | [!UICONTROL Feed Source] | Partenaire du côté de l’offre qui fournit l’inventaire. Il s’agit généralement d’un éditeur, mais il peut également s’agir d’un SSP. |
 | [!UICONTROL Dimension] | [!UICONTROL Feed] | [!UICONTROL Inventory Type] | La classification de l’inventaire : *[!UICONTROL Private],* *[!UICONTROL On Demand],* ou *[!UICONTROL Public]*. |
 | [!UICONTROL Dimension] | [!UICONTROL Feed] | [!UICONTROL SSP] | Partenaire côté offre (SSP) auquel le média est attribué. |
@@ -53,13 +53,13 @@ ht-degree: 0%
 | [!UICONTROL Dimension] | [!UICONTROL Geos] | [!UICONTROL State] | État auquel les données signalées sont attribuées. |
 | [!UICONTROL Dimension] | [!UICONTROL Packages] | [!UICONTROL Package End Date] | Date de fin du module. |
 | [!UICONTROL Dimension] | [!UICONTROL Packages] | [!UICONTROL Package Goal Type] | Montant de l’objectif de la fréquence d’attente du module. Ce montant correspond aux dépenses ou aux impressions. |
-| [!UICONTROL Dimension] | [!UICONTROL Packages] | [!UICONTROL Package ID] | Identifiant unique du package dans Advertising Cloud. |
+| [!UICONTROL Dimension] | [!UICONTROL Packages] | [!UICONTROL Package ID] | Identifiant unique du package dans DSP. |
 | [!UICONTROL Dimension] | [!UICONTROL Packages] | [!UICONTROL Package Name] | Nom du module |
 | [!UICONTROL Dimension] | [!UICONTROL Packages] | [!UICONTROL Package Start Date] | Date de début du package. |
 | [!UICONTROL Dimension] | [!UICONTROL Packages] | [!UICONTROL Placement End Date] | Date de fin de l’emplacement. |
 | [!UICONTROL Dimension] | [!UICONTROL Pixel] | [!UICONTROL Conversion ID] | (Obsolète) Identifiant de conversion attribué par DSP à l’ancien [!DNL TubeMogul] événements de conversion. |
 | [!UICONTROL Dimension] | [!UICONTROL Pixel] | [!UICONTROL Conversion Name] | (Obsolète) Nom de conversion attribué à l’ancien [!DNL TubeMogul] événements de conversion. |
-| [!UICONTROL Dimension] | [!UICONTROL Placement] | [!UICONTROL Placement ID] | Identifiant unique de l’emplacement dans Advertising Cloud. |
+| [!UICONTROL Dimension] | [!UICONTROL Placement] | [!UICONTROL Placement ID] | Identifiant unique de l’emplacement dans DSP. |
 | [!UICONTROL Dimension] | [!UICONTROL Placement] | [!UICONTROL Placement Name] | Nom de l’emplacement attribué par l’utilisateur. |
 | [!UICONTROL Dimension] | [!UICONTROL Placement] | [!UICONTROL Budget] | Le budget de placement. |
 | [!UICONTROL Dimension] | [!UICONTROL Placement] | [!UICONTROL Max Bid] | Offre maximale pour l’emplacement. |
@@ -74,10 +74,10 @@ ht-degree: 0%
 | [!UICONTROL Dimension] | [!UICONTROL Segment] | [!UICONTROL Segment Membership Key] | Clé unique associée à un segment. |
 | [!UICONTROL Dimension] | [!UICONTROL Segment] | [!UICONTROL Segment Membership Name] | Nom d’un segment. |
 | [!UICONTROL Dimension] | [!UICONTROL Segment] | [!UICONTROL Segment Membership Provider Name] | Nom du fournisseur de données associé à un segment. |
-| [!UICONTROL Dimension] | [!UICONTROL Site] | [!UICONTROL Site ID] | Identifiant unique du site ou de l’application dans Advertising Cloud. |
+| [!UICONTROL Dimension] | [!UICONTROL Site] | [!UICONTROL Site ID] | Identifiant unique du site ou de l’application dans DSP. |
 | [!UICONTROL Dimension] | [!UICONTROL Site] | [!UICONTROL Site Name] | Nom du site. |
 | [!UICONTROL Dimension] | [!UICONTROL Video] | [!UICONTROL Video Duration] | Durée de la vidéo, qui est traitée après le téléchargement. |
-| [!UICONTROL Dimension] | [!UICONTROL Video] | [!UICONTROL Video ID] | Identifiant unique de la vidéo créative dans Advertising Cloud. |
+| [!UICONTROL Dimension] | [!UICONTROL Video] | [!UICONTROL Video ID] | Identifiant unique de la vidéo créative dans DSP. |
 | [!UICONTROL Dimension] | [!UICONTROL Video] | [!UICONTROL Video Name] | Nom de l’élément créatif attribué par l’utilisateur. |
 | [!UICONTROL Metric] | [!UICONTROL Frequency] | [!UICONTROL % Distinct Uniques] | Le [!UICONTROL App/Site Distinct Uniques] divisé par [!UICONTROL App/Site Uniques]. |
 | [!UICONTROL Metric] | [!UICONTROL Frequency] | [!UICONTROL App/Site Distinct Uniques] | Nombre total d’appareils qui ont été atteints sur cette application uniquement. Une visionneuse exposée à une publicité dans plusieurs éditeurs n’est pas incluse dans cette valeur. |
@@ -85,8 +85,8 @@ ht-degree: 0%
 | [!UICONTROL Metric] | [!UICONTROL Frequency] | [!UICONTROL Cost per Unique] | Le [!UICONTROL Total Spend] divisé par [!UICONTROL App/Site Uniques]. |
 | [!UICONTROL Metric] | [!UICONTROL Frequency] | [!UICONTROL Estimated % Reached] | Pourcentage estimé de l’univers domestique ciblé ayant reçu une exposition. |
 | [!UICONTROL Metric] | [!UICONTROL Frequency] | [!UICONTROL Estimated Average Frequency] | Nombre moyen d’impressions affichées pour les uniques. Pour certains inventaires, les éditeurs ne transmettent pas d’identifiant d’appareil et ces impressions ne sont pas incluses dans cette valeur. Il existe une mesure similaire dans la variable [!UICONTROL Frequency (by App/Site)] , mais cette mesure n’est pas estimée. |
-| [!UICONTROL Metric] | [!UICONTROL Frequency] | [!UICONTROL Estimated Impressions (Device/Browser)] | (Inclus dans la variable [!UICONTROL Frequency (by Impression)] (rapport) Impressions estimées pour une ventilation de fréquence donnée. Les estimations d’Advertising Cloud reposent sur un échantillon d’impressions. Pour certains inventaires, les éditeurs ne transmettent pas d’identifiant d’appareil et ces impressions ne sont pas incluses dans cette valeur. Il existe une mesure similaire dans la variable [!UICONTROL Frequency (by App/Site)] , mais cette mesure n’est pas estimée. |
-| [!UICONTROL Metric] | [!UICONTROL Frequency] | [!UICONTROL Estimated Uniques (Device/Browser)] | (Inclus dans la variable [!UICONTROL Frequency (by Impression)] (rapport) Nombre de navigateurs ou de périphériques uniques enregistrés à une fréquence donnée. Les estimations d’Advertising Cloud reposent sur un échantillon d’impressions. Pour un certain inventaire, ne transmettez pas d’identifiant d’appareil et ces impressions ne sont pas incluses dans cette valeur. Il existe une mesure similaire dans la variable [!UICONTROL Frequency (by App/Site)] , mais cette mesure n’est pas estimée. |
+| [!UICONTROL Metric] | [!UICONTROL Frequency] | [!UICONTROL Estimated Impressions (Device/Browser)] | (Inclus dans la variable [!UICONTROL Frequency (by Impression)] (rapport) Impressions estimées pour une ventilation de fréquence donnée. DSP estimations sont basées sur un échantillon d’impressions. Pour certains inventaires, les éditeurs ne transmettent pas d’identifiant d’appareil et ces impressions ne sont pas incluses dans cette valeur. Il existe une mesure similaire dans la variable [!UICONTROL Frequency (by App/Site)] , mais cette mesure n’est pas estimée. |
+| [!UICONTROL Metric] | [!UICONTROL Frequency] | [!UICONTROL Estimated Uniques (Device/Browser)] | (Inclus dans la variable [!UICONTROL Frequency (by Impression)] (rapport) Nombre de navigateurs ou de périphériques uniques enregistrés à une fréquence donnée. DSP estimations sont basées sur un échantillon d’impressions. Pour un certain inventaire, ne transmettez pas d’identifiant d’appareil et ces impressions ne sont pas incluses dans cette valeur. Il existe une mesure similaire dans la variable [!UICONTROL Frequency (by App/Site)] , mais cette mesure n’est pas estimée. |
 | [!UICONTROL Metric] | [!UICONTROL Frequency] | [!UICONTROL Estimated Universe] | La somme des ménages uniques DSP (enchères) a été constatée au cours de la période. |
 | [!UICONTROL Metric] | [!UICONTROL Frequency] | [!UICONTROL Extended Impressions] | Nombre total d’impressions provenant de l’utilisation d’une représentation graphique des appareils pour le ciblage interpériphérique basé sur les personnes. |
 | [!UICONTROL Metric] | [!UICONTROL Performance] | [!UICONTROL Gross CPA] | Coût brut moyen par acquisition, calculé par [!UICONTROL Gross Spend] / [!UICONTROL Custom Goal]. |
@@ -104,18 +104,18 @@ ht-degree: 0%
 | [!UICONTROL Metric] | [!UICONTROL Performance] | [!UICONTROL Total Other eCPM] | Coût net moyen par 1 000 impressions pour les autres frais, calculé par [!UICONTROL Net Spend (Other)] / [!UICONTROL Impressions] x 1000. |
 | [!UICONTROL Metric] | [!UICONTROL Performance] | [!UICONTROL % bid at Max CPM] | Pourcentage du nombre total d’offres qui étaient proposées au CPM max. |
 | [!UICONTROL Metric] | [!UICONTROL Performance] | [!UICONTROL Unique Users Bid On] | Nombre d’utilisateurs distincts pour lesquels DSP enchère pour l’emplacement. |
-| [!UICONTROL Metric] | [!UICONTROL Spend] | [!UICONTROL Billable Data Net Spend] | Coût net total des frais de données des segments ciblés facturés via Advertising Cloud. |
-| [!UICONTROL Metric] | [!UICONTROL Spend] | [!UICONTROL Billable Media Net Spend] | Le coût net total des médias facturables, y compris les frais techniques, facturés via Advertising Cloud. |
-| [!UICONTROL Metric] | [!UICONTROL Spend] | [!UICONTROL Billable Other Net Spend] | Le coût total des autres frais de service (partenaires de vérification tiers, service publicitaire, etc.) facturés via Advertising Cloud |
+| [!UICONTROL Metric] | [!UICONTROL Spend] | [!UICONTROL Billable Data Net Spend] | Coût net total des frais de données des segments ciblés facturés via DSP. |
+| [!UICONTROL Metric] | [!UICONTROL Spend] | [!UICONTROL Billable Media Net Spend] | Le coût net total des médias facturables, y compris les frais de technologie, facturés via DSP. |
+| [!UICONTROL Metric] | [!UICONTROL Spend] | [!UICONTROL Billable Other Net Spend] | Le coût total des autres frais de service (partenaires de vérification tiers, service publicitaire, etc.) facturés par DSP. |
 | [!UICONTROL Metric] | [!UICONTROL Spend] | [!UICONTROL Estimated Tax on Data] | Taxe estimée sur les segments d’audience tiers et les services de données. |
-| [!UICONTROL Metric] | [!UICONTROL Spend] | [!UICONTROL Estimated Tax on Media] | La taxe estimée sur les médias, y compris la taxe appliquée à la facturation des coûts des médias et aux services de redevance sur les technologies dans Advertising Cloud. |
-| [!UICONTROL Metric] | [!UICONTROL Spend] | [!UICONTROL Estimated Tax on Other] | Taxe estimée sur les autres frais de service (y compris les partenaires de vérification tiers, le ciblage de rubrique, etc.) facturés via Advertising Cloud. |
+| [!UICONTROL Metric] | [!UICONTROL Spend] | [!UICONTROL Estimated Tax on Media] | L&#39;impôt estimé sur les médias, y compris l&#39;impôt appliqué à la revalorisation des coûts des médias et aux services de retraites dans DSP. |
+| [!UICONTROL Metric] | [!UICONTROL Spend] | [!UICONTROL Estimated Tax on Other] | Taxe estimée sur les autres frais de service (y compris les partenaires de vérification tiers, le ciblage de rubrique, etc.) facturés via DSP. |
 | [!UICONTROL Metric] | [!UICONTROL Spend] | [!UICONTROL Margin %] | (Lorsque la gestion des marges est activée) Pourcentage de marge calculé par ([!UICONTROL Gross Spend] - [!UICONTROL Net Spend]) / [!UICONTROL Gross Spend]. |
 | [!UICONTROL Metric] | [!UICONTROL Spend] | [!UICONTROL Media Cost] | La somme des coûts des médias non facturables et facturables sans frais de technologie. |
 | [!UICONTROL Metric] | [!UICONTROL Spend] | [!UICONTROL Net vCPM] | Le coût net moyen par 1 000 impressions affichables, calculé par [!UICONTROL Net Spend] / [!UICONTROL Viewable Impressions] x 1000. |
-| [!UICONTROL Metric] | [!UICONTROL Spend] | [!UICONTROL Non-Billable Data Net Spend] | Coût net total des frais de données des segments ciblés non facturés via Advertising Cloud. |
-| [!UICONTROL Metric] | [!UICONTROL Spend] | [!UICONTROL Non-Billable Media Fees] | Le coût net total des médias non facturables, y compris les frais techniques, non facturés via Advertising Cloud |
-| [!UICONTROL Metric] | [!UICONTROL Spend] | [!UICONTROL Non-Billable Other Net Spend] | Le coût total des autres frais de service (partenaires de vérification tiers, service publicitaire, etc.) qui ne sont pas facturés via Advertising Cloud. |
+| [!UICONTROL Metric] | [!UICONTROL Spend] | [!UICONTROL Non-Billable Data Net Spend] | Coût net total des frais de données des segments ciblés non facturés via DSP. |
+| [!UICONTROL Metric] | [!UICONTROL Spend] | [!UICONTROL Non-Billable Media Fees] | Le coût net total des médias non facturables, y compris les frais techniques, non facturés par DSP. |
+| [!UICONTROL Metric] | [!UICONTROL Spend] | [!UICONTROL Non-Billable Other Net Spend] | Le coût total d’autres frais de service (partenaires de vérification tiers, service publicitaire, etc.) non facturés par DSP. |
 | [!UICONTROL Metric] | [!UICONTROL Spend] | [!UICONTROL Profit] | [!UICONTROL Gross Spend] - [!UICONTROL Net Spend] |
 | [!UICONTROL Metric] | [!UICONTROL Spend] | [!UICONTROL Total Data Net Spend] | Coût total net des frais de données des segments ciblés. |
 | [!UICONTROL Metric] | [!UICONTROL Spend] | [!UICONTROL Total Media Net Spend] | Le coût net total des médias, y compris les frais techniques. |

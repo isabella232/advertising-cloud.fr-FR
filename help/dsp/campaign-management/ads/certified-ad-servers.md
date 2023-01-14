@@ -3,7 +3,7 @@ title: Partenaires certifiés du service publicitaire
 description: Voir tous les serveurs de publicités et unités publicitaires certifiés.
 feature: DSP Ads
 exl-id: 084b4c04-a876-4770-9efc-57268c333aa6
-source-git-commit: ffd88b7f3274740db2d91697b0e208f61b2260d5
+source-git-commit: ad978a021c063377e4c91ed41e902d98a03749e4
 workflow-type: tm+mt
 source-wordcount: '291'
 ht-degree: 0%
@@ -58,7 +58,7 @@ ht-degree: 0%
 | [!DNL Spirable] |  | X |  |  |  |
 | [!DNL SUBLIME] |  |  | X |  |  |
 | [!DNL SundaySky] |  |  |  | X |  |
-| [!DNL Teads] |  | X |  |  | Advertising Cloud DSP ne prend pas en charge VPAID dans l’inventaire en amont. |
+| [!DNL Teads] |  | X |  |  | Aucune prise en charge n’est disponible pour VPAID dans l’inventaire en amont. |
 | [!DNL Trueffect] |  | X |  |  |  |
 | [!DNL Undertone] |  |  | X |  | Unité d’annonce de saisie de page personnalisée chargée au format 180x150 dans DSP</br></br>Lorsque la bourse d’index transmet une enchère de 180 x 150 et DSP des offres sur l’enchère et diffuse une impression, le créatif se développe en une publicité display pleine page.</br></br>Initialement certifié pour les unités publicitaires Grabber (Grabber) de page, Adhésion extensible et Maj d’écran. Cette opération doit être certifiée, avec les étapes indiquées pour les processus. |
 | [!DNL Vox] |  |  | X |  | [!DNL Athena] unités publicitaires |

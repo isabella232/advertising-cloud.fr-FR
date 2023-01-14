@@ -3,9 +3,9 @@ title: Présentation de la configuration des contrats PG dans [!DNL Freewheel]
 description: Découvrez les conditions préalables et les étapes supplémentaires nécessaires à l’exécution de publicités pour des offres garanties par programmation avec les éditeurs sur [!DNL Freewheel].
 feature: DSP Private Inventory, DSP Deal IDs
 exl-id: acf8351b-88fb-4f18-8fca-9a2d6674cdec
-source-git-commit: 39f491a39bdc9d8dd820eb4c69594dda71d8b3c2
+source-git-commit: ad978a021c063377e4c91ed41e902d98a03749e4
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '222'
 ht-degree: 0%
 
 ---
@@ -16,11 +16,11 @@ Configuration d’offres garanties par la programmation avec les éditeurs sur [
 
 >[!PREREQUISITES]
 >
->Travaillez avec votre [!DNL Adobe] de l’équipe de compte pour vous assurer que [!DNL DSP] compte dispose des autorisations suivantes.
+>Travaillez avec votre [!DNL Adobe] de l’équipe de compte pour vous assurer que [!DNL DSP] compte dispose des autorisations suivantes :
 >
->1. Autorisation d’utiliser la variable [!DNL FreeWheel] workflow garanti par la programmation, qui est requis pour envoyer une publicité pour une offre garantie par la programmation à [!DNL FreeWheel].
+>* Autorisation d’utiliser la variable [!DNL FreeWheel] workflow garanti par la programmation, qui est requis pour envoyer une publicité pour une offre garantie par la programmation à [!DNL FreeWheel].
 >
->1. (Si vous travaillez avec des éditeurs britanniques qui ont besoin d’une [!DNL Clearcast] numéro de l’horloge avec chaque publicité) Autorisation d’inclure les numéros de l’horloge dans vos publicités.
+>* (Si vous travaillez avec des éditeurs britanniques qui ont besoin d’une [!DNL Clearcast] numéro de l’horloge avec chaque publicité) Autorisation d’inclure les numéros de l’horloge dans vos publicités.
 
 
 ## Workflow

@@ -1,21 +1,22 @@
 ---
 title: Cas d’utilisation
-description: En savoir plus sur les cas d’utilisation pour le partage de vos données multimédia Advertising Cloud DSP avec Audience Manager
+description: En savoir plus sur les cas d’utilisation pour le partage de vos données multimédia Advertising DSP avec Audience Manager
 feature: Integration with Adobe Audience Manager
-source-git-commit: 3980af19efa785c437cacbf479ca3eabbed73b1b
+exl-id: 21d80cf6-f817-495a-bae4-fc9e44f1eda4
+source-git-commit: ad4ab8b9b0a4b5b1cc4aab540900363d2fe671c2
 workflow-type: tm+mt
-source-wordcount: '796'
+source-wordcount: '791'
 ht-degree: 0%
 
 ---
 
 # Cas d’utilisation de la capture de données d’exposition aux médias dans Adobe Audience Manager
 
-*Annonceurs avec Advertising Cloud DSP uniquement*
+*Publicitaires avec DSP Advertising uniquement*
 
-*Annonceurs avec intégration Advertising Cloud-Adobe Audience Manager uniquement*
+*Annonceurs avec une intégration Advertising-Adobe Audience Manager par Adobe uniquement*
 
-Vous trouverez ci-dessous quelques façons de tirer parti de la capture de vos données d’exposition aux médias Advertising Cloud DSP <!-- ad impression data? --> en Audience Manager.
+Vous trouverez ci-dessous quelques façons de tirer parti de la capture de vos données d’exposition aux médias Advertising DSP <!-- ad impression data? --> en Audience Manager.
 
 ## Gestion de la récence et des fréquences
 
@@ -51,7 +52,7 @@ Pour exécuter cet exemple en Audience Manager, procédez comme suit :<!-- The A
 
 Une fois que les données d’impression et de clic de campagne sont disponibles dans Audience Manager, vous pouvez créer des caractéristiques et des segments d’utilisateurs qui ont été exposés à une campagne ou à une tactique spécifique ou ont interagi avec celle-ci. Avec [[!DNL Audience Analytics] integration](https://experienceleague.adobe.com/docs/analytics/integration/audience-analytics/mc-audiences-aam.html), les segments d’Audience Manager peuvent être synchronisés avec [!DNL Analytics] pour une analyse plus approfondie. Les cas d’utilisation potentiels sont les suivants :
 
-* **Analyse des interactions entre les annonces DSP et Advertising Cloud Search :** Le standard [[!DNL Analytics for Advertising Cloud] integration](/help/integrations/analytics/overview.md) ne fournit pas d’informations sur l’interaction entre DSP et [!DNL Search] car les deux canaux utilisent des AMO ID qui suivent les règles d’attribution AMO ID, pour lesquels un clic de recherche remplace un affichage publicitaire. En créant un segment d’exposition DSP dans Audience Manager, vous pouvez utiliser [!DNL Audience Analytics] pour analyser l’interaction entre DSP et [!DNL Search] publicités dans [!DNL Analytics].
+* **Analyse des interactions entre DSP et [!DNL Adobe Advertising Search] publicités :** Le standard [[!DNL Analytics for Advertising] integration](/help/integrations/analytics/overview.md) ne fournit pas d’informations sur l’interaction entre DSP et [!DNL [!DNL Search]], car les deux canaux utilisent des AMO ID qui suivent les règles d’attribution AMO ID, pour lesquels un clic de recherche remplace un affichage publicitaire. En créant un segment d’exposition DSP dans Audience Manager, vous pouvez utiliser [!DNL Audience Analytics] pour analyser l’interaction entre DSP et [!DNL [!DNL Search]] publicités dans [!DNL Analytics].
 
 * **Analyse des fréquences :** Vous pouvez créer des segments dans l’Audience Manager en fonction du nombre de fois où un utilisateur a été exposé à une publicité ou une campagne spécifique. Vous pouvez ensuite analyser les différents segments d’exposition dans Analytics afin de voir comment le comportement des utilisateurs change en fonction du nombre d’expositions DSP.
 
@@ -81,5 +82,5 @@ Vous pouvez tirer parti de [Audience Manager [!DNL Audience Optimization Reports
 >[!MORELIKETHIS]
 >
 >* [Présentation de l’envoi DSP données d’exposition aux médias à Adobe Audience Manager](overview.md)
->* [Collecte de données de clics et d’impressions à partir des campagnes Advertising Cloud DSP](collect.md)
+>* [Collecte de données de clics et d’impressions à partir de campagnes Advertising DSP](collect.md)
 

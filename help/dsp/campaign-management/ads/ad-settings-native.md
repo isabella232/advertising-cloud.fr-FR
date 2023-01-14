@@ -3,9 +3,9 @@ title: Paramètres d’affichage des publicités natives
 description: Consultez la description des paramètres d’annonce disponibles pour les annonces d’affichage natives.
 feature: DSP Ads
 exl-id: 3ae59e63-ae64-41b2-8734-3df2da020c7c
-source-git-commit: bcece4bfec6f8a765cced3ee230fd8cbf3055b7b
+source-git-commit: ad978a021c063377e4c91ed41e902d98a03749e4
 workflow-type: tm+mt
-source-wordcount: '321'
+source-wordcount: '318'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ ht-degree: 0%
 
 **[!UICONTROL Landing Page]:** URL à laquelle accède la visionneuse lorsqu’elle clique sur la publicité.
 
-**[!UICONTROL Final Landing Page]:** Le [!UICONTROL Landing Page] URL avec les [Macros de suivi Advertising Cloud DSP](/help/dsp/campaign-management/macros.md) insérés, le cas échéant.
+**[!UICONTROL Final Landing Page]:** Le [!UICONTROL Landing Page] URL avec les [Macros de suivi des DSP publicitaires](/help/dsp/campaign-management/macros.md) insérés, le cas échéant.
 
 **[!UICONTROL Sponsored By (Advertiser Name)]:** L’annonceur de la publicité.
 
@@ -62,5 +62,5 @@ Les paramètres suivants s’appliquent à chaque pixel que vous créez ou modif
 >* [Créer une publicité unique](ad-create.md)
 >* [Liste des emplacements associés à une publicité](/help/dsp/campaign-management/ads/ad-list-placements.md)
 >* [Spécifications des publicités](ad-specs.md)
->* [Macros Advertising Cloud DSP](/help/dsp/campaign-management/macros.md)
+>* [Macros DSP](/help/dsp/campaign-management/macros.md)
 

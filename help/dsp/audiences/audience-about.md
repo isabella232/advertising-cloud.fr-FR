@@ -1,18 +1,18 @@
 ---
-title: Gestion de l’audience dans Advertising Cloud DSP
+title: À propos de la gestion de l’audience dans Advertising DSP
 description: Découvrez les fonctionnalités de gestion de l’audience.
 feature: DSP Audiences, DSP Segments
 exl-id: 624d2211-59a2-4791-b8f1-a9a5cecd0b8e
-source-git-commit: 3b44e8e019bfc4bab2ee65ac028313752cb4a0e0
+source-git-commit: ad978a021c063377e4c91ed41e902d98a03749e4
 workflow-type: tm+mt
-source-wordcount: '1047'
+source-wordcount: '1036'
 ht-degree: 0%
 
 ---
 
-# Gestion de l’audience dans Advertising Cloud DSP
+# À propos de la gestion de l’audience dans Advertising DSP
 
-Dans Advertising Cloud DSP, vous pouvez créer et gérer des segments d’audience et des ensembles d’audiences, que vous pouvez utiliser comme cibles pour vos emplacements :
+Dans DSP, vous pouvez créer et gérer des segments d’audience et des ensembles d’audiences, que vous pouvez utiliser comme cibles pour vos emplacements :
 
 * Vous pouvez collecter vos propres données d’audience propriétaires en créant et en implémentant des segments. Vous pouvez ensuite recibler les utilisateurs du segment avec des publicités ou empêcher les utilisateurs du segment de recevoir des publicités. Vous pouvez créer les types de segments suivants :
 
@@ -20,7 +20,7 @@ Dans Advertising Cloud DSP, vous pouvez créer et gérer des segments d’audien
 
    * [Segments d’exclusion de la vente du CCPA](/help/dsp/audiences/ccpa-opt-out-segment-create.md) pour effectuer le suivi des ID d’utilisateurs à partir des demandes d’opposition à la vente des consommateurs sur votre site web, en vertu de la California Consumer Privacy Act (CCPA). Vous pouvez récupérer les rapports mensuels des identifiants d’utilisateur à partir des demandes d’opposition à la vente.
 
-      Pour plus d’informations sur la prise en charge d’Advertising Cloud pour les demandes d’opposition à la vente des informations personnelles (CCPA), voir [Prise en charge de Adobe Advertising Cloud pour le California Consumer Privacy Act : Prise en charge de l’exclusion des clients](https://experienceleague.adobe.com/docs/advertising-cloud/privacy/ad-cloud-ccpa-opt-out-of-sale.html).
+      Pour plus d’informations sur la prise en charge de la publicité Adobe pour les demandes d’opposition à la vente des informations personnelles (CCPA), voir [Adobe Advertising Support pour le California Consumer Privacy Act : Prise en charge de l’exclusion des clients](/help/privacy/ad-cloud-ccpa-opt-out-of-sale.md).
 
 * Vous pouvez créer une bibliothèque d’audiences de [audiences réutilisables](/help/dsp/audiences/reusable-audience-create.md). Les audiences enregistrées sont composées de l’un de vos segments d’audience disponibles et de l’une de vos autres audiences enregistrées. Toute modification apportée à une audience enregistrée est automatiquement appliquée à tous les emplacements qui ciblent ou excluent l’audience et à toutes les autres audiences qui incluent l’audience enregistrée.
 
@@ -60,7 +60,7 @@ Vous pouvez cibler vos emplacements sur tous les types d’audiences suivants.
 
    Les segments tiers engendrent des frais supplémentaires, indiqués en regard de chaque nom de segment.
 
-* (Annonceurs avec Adobe Experience Platform et [!DNL Real-Time CDP], Adobe Audience Manager ou Adobe Analytics qui utilisent uniquement des balises de conversion JavaScript Advertising Cloud) Tous les segments d’audience propriétaires, secondaires ou tiers disponibles créés dans [!DNL Real-Time CDP], créés dans Audience Manager ou publiés dans Adobe Experience Cloud à partir d’une Audience Manager ou [!DNL Analytics].
+* (Annonceurs avec Adobe Experience Platform et [!DNL Real-Time CDP], Adobe Audience Manager ou Adobe Analytics qui utilisent uniquement des balises de conversion JavaScript Adobe Advertising) Tous les segments d’audience propriétaires, secondaires ou tiers disponibles créés dans [!DNL Real-Time CDP], créés dans Audience Manager ou publiés dans Adobe Experience Cloud à partir d’une Audience Manager ou [!DNL Analytics].
 
    Les tarifs d’utilisation des segments sont pré-négociés et ne sont pas visibles dans DSP.
 

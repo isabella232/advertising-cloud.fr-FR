@@ -1,16 +1,16 @@
 ---
-title: À propos de la gestion des emplacements dans Advertising Cloud DSP
+title: À propos de la gestion des emplacements dans les DSP publicitaires
 description: Découvrez la gestion des emplacements.
 feature: DSP Placements
 exl-id: 1d1382d9-b6c8-44bf-a708-8458769a39c6
-source-git-commit: c6a3d9703d06a44e38aae3bc6ec3f5f77e93082d
+source-git-commit: ad978a021c063377e4c91ed41e902d98a03749e4
 workflow-type: tm+mt
-source-wordcount: '373'
+source-wordcount: '371'
 ht-degree: 0%
 
 ---
 
-# À propos de la gestion des emplacements dans Advertising Cloud DSP
+# À propos de la gestion des emplacements dans les DSP publicitaires
 
 Un emplacement comprend des paramètres de ciblage pour une ou plusieurs publicités du même type. Vous pouvez créer un emplacement pour une campagne ou un package unique, puis lui affecter des publicités. Chaque campagne ou emplacement peut inclure plusieurs emplacements, avec une rotation de publicité spécifiée. Par défaut, les publicités sont pivotées uniformément.
 

@@ -3,9 +3,9 @@ title: Paramètres de campagne
 description: Reportez-vous à la description des paramètres de campagne disponibles.
 feature: DSP Campaigns
 exl-id: ff2e22ff-8073-4532-884b-36e0c1f22641
-source-git-commit: d7afcc2200adc41e583d21712226cb25f35aab66
+source-git-commit: ad978a021c063377e4c91ed41e902d98a03749e4
 workflow-type: tm+mt
-source-wordcount: '929'
+source-wordcount: '921'
 ht-degree: 0%
 
 ---
@@ -34,9 +34,9 @@ Lorsque vous choisissez *[!UICONTROL Yes],* indiquez le type de marge et le mont
 
 * **[!UICONTROL Margin Type]:** Type de marge. Vous ne pouvez pas modifier le type de marge une fois que vous avez activé la gestion des marges et enregistré l&#39;opération.
 
-   * *[!UICONTROL Fixed]:* (valeur par défaut) Permet à Advertising Cloud DSP de calculer et de plafonner automatiquement les dépenses en fonction d’un pourcentage de marge fixe de la variable [!UICONTROL Gross Budget].
+   * *[!UICONTROL Fixed]:* (valeur par défaut) Permet DSP calculer et plafonner automatiquement les dépenses en fonction d’un pourcentage de marge fixe de la variable [!UICONTROL Gross Budget].
 
-   * *[!UICONTROL Dynamic]:* Permet de gérer les marges jusqu’au niveau de l’emplacement en spécifiant un [!UICONTROL Budget Reserve %] et [!UICONTROL Gross Budget] pour chaque kit et emplacement de l&#39;opération. Advertising Cloud DSP optimise en fonction de l’efficacité financière de chaque placement, sans garantir de marge spécifique. Utilisez cette option pour les commandes d’insertion composées de plusieurs éléments de ligne pour lesquels vous avez accepté de fournir un nombre fixe d’unités ou de types d’unités à un rythme fixe.
+   * *[!UICONTROL Dynamic]:* Permet de gérer les marges jusqu’au niveau de l’emplacement en spécifiant un [!UICONTROL Budget Reserve %] et [!UICONTROL Gross Budget] pour chaque kit et emplacement de l&#39;opération. DSP optimise en fonction de l&#39;efficacité financière de chaque placement, sans garantir une marge spécifique. Utilisez cette option pour les commandes d’insertion composées de plusieurs éléments de ligne pour lesquels vous avez accepté de fournir un nombre fixe d’unités ou de types d’unités à un rythme fixe.
 
 * **[!UICONTROL Fixed Margin %]:** (Campagnes avec des marges fixes uniquement) Balises par défaut pour chaque ordre d’insertion. <!-- impression? -->, en pourcentage. Ce montant est déduit du montant [!UICONTROL Gross Budget] pour définir le budget net de l&#39;opération.
 
@@ -64,11 +64,11 @@ Pour estimer les impôts à retenir :
 
 1. Cochez la case en regard de chaque type de taxe pour lequel vous souhaitez retenir des impôts. Les types de frais incluent :
 
-   * *[!UICONTROL Include estimated tax - ads fee]:* S’applique à toutes les dépenses médias Advertising Cloud DSP, y compris les taxes sur les frais de gestion de campagne.
+   * *[!UICONTROL Include estimated tax - ads fee]:* S’applique à toutes les dépenses publicitaires DSP médias, y compris les taxes sur les frais de gestion de campagne.
 
-   * *[!UICONTROL Include estimated tax - ad serving fee]:* S’applique à toutes les dépenses relatives à Advertising Cloud DSP, à l’exception des médias et des données. Elle exclut les taxes pour les frais de gestion de campagne
+   * *[!UICONTROL Include estimated tax - ad serving fee]:* S’applique à toutes les dépenses dans les DSP publicitaires, à l’exception des médias et des données. Elle exclut les taxes pour les frais de gestion de campagne
 
-   * *[!UICONTROL Include estimated tax - data fee]:* S’applique à toutes les données dépensées dans Advertising Cloud DSP.
+   * *[!UICONTROL Include estimated tax - data fee]:* S’applique à toutes les données dépensées dans les DSP Advertising.
 
 1. Cliquez sur **[!UICONTROL Submit]**.
 
@@ -79,7 +79,7 @@ Pour estimer les impôts à retenir :
 >* Vous pouvez également configurer ces valeurs dans les paramètres de frais du compte.<!--[fee settings](/help/dsp/admin/tax-withholdings.md). -->
 
 
-**[!UICONTROL Cross Device Level]:** (Lecture seule pour les campagnes existantes créées depuis le 22 juin 2020 ; non disponible pour les campagnes créées avant le 22 juin 2020) Niveau auquel Advertising Cloud ciblera les publicités et appliquera des limites de fréquence : *Même appareil* pour cibler un appareil ou *Personnes* pour cibler une personne sur tous ses appareils connus.
+**[!UICONTROL Cross Device Level]:** (Lecture seule pour les campagnes existantes créées depuis le 22 juin 2020 ; non disponible pour les campagnes créées avant le 22 juin 2020) Niveau auquel DSP ciblera les publicités et appliquera des limites de fréquence : *Même appareil* pour cibler un appareil ou *Personnes* pour cibler une personne sur tous ses appareils connus.
 
 **[!UICONTROL Device Graph]:** (Lecture seule pour les campagnes existantes) ; campagnes avec ciblage interpériphérique basé sur les personnes uniquement) Graphique d’appareil à utiliser pour le ciblage interpériphérique et la gestion des fréquences :
 

@@ -1,20 +1,20 @@
 ---
-title: Fournisseurs de données tiers disponibles dans Advertising Cloud DSP
+title: Fournisseurs de données tiers disponibles dans les DSP de publicité
 description: Consultez la liste de tous les fournisseurs de données tiers disponibles.
 feature: DSP Audiences
 exl-id: f67d81a0-bd31-48d8-9bcf-1888afd43894
-source-git-commit: b40c6f08b94e546e5fc068c46b279292a4d8a14f
+source-git-commit: ad978a021c063377e4c91ed41e902d98a03749e4
 workflow-type: tm+mt
-source-wordcount: '93'
+source-wordcount: '92'
 ht-degree: 0%
 
 ---
 
 <!-- feature: audiences -->
 
-# Fournisseurs de données tiers disponibles dans Advertising Cloud DSP
+# Fournisseurs de données tiers disponibles dans les DSP de publicité
 
-Les catégories de données et les segments pour les fournisseurs de données tiers suivants sont disponibles en tant que cibles d’emplacement dans [!DNL DSP]. Ces segments sont disponibles pour les audiences principalement américaines.
+Les catégories de données et les segments pour les fournisseurs de données tiers suivants sont disponibles en tant que cibles d’emplacement dans DSP. Ces segments sont disponibles pour les audiences principalement américaines.
 
 Les frais d’utilisation de chaque segment sont affichés en regard du nom du segment dans les paramètres d’emplacement et les paramètres d’audience enregistrés.
 

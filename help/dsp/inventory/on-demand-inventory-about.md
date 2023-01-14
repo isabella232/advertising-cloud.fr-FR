@@ -3,9 +3,9 @@ title: A propos [!DNL On Demand] Inventaire Premium
 description: Découvrez les offres que DSP a négociées au préalable avec des éditeurs partenaires haut de gamme.
 feature: DSP On Demand Inventory
 exl-id: d23d4e4e-f29f-4dba-afe3-7198ef4ee544
-source-git-commit: 39f491a39bdc9d8dd820eb4c69594dda71d8b3c2
+source-git-commit: ad978a021c063377e4c91ed41e902d98a03749e4
 workflow-type: tm+mt
-source-wordcount: '459'
+source-wordcount: '455'
 ht-degree: 0%
 
 ---
@@ -14,19 +14,24 @@ ht-degree: 0%
 
 *Non disponible pour les utilisateurs disposant de types de compte [!UICONTROL Ad Network], [!UICONTROL Publisher Audience Extension], et [!UICONTROL Other]; annonceurs avec la catégorie [!UICONTROL Other]; et revendeurs*
 
-Le [!DNL On Demand] Galerie est un outil de découverte d’inventaire haut de gamme qui vous permet d’explorer des accords négociés à l’avance par Advertising Cloud DSP avec des éditeurs partenaires de premier plan. Il vous permet d’accéder aux stocks non garantis des éditeurs de premier niveau de la région sans avoir besoin de négociations ou de contrats 1:1. Vous pouvez demander des offres individuelles et vous pouvez vous abonner à un éditeur pour demander toutes les offres de l’éditeur en même temps.
+Le [!DNL On Demand] Galerie est un outil de découverte d’inventaire haut de gamme qui vous permet d’explorer des accords négociés à l’avance que DSP a conclus avec des éditeurs partenaires de grande qualité. Il vous permet d’accéder aux stocks non garantis des éditeurs de premier niveau de la région sans avoir besoin de négociations ou de contrats 1:1. Vous pouvez demander des offres individuelles et vous pouvez vous abonner à un éditeur pour demander toutes les offres de l’éditeur en même temps.
 
-La marketplace Advertising Cloud DSP Premium vous permet d’effectuer les opérations suivantes :
+La place de marché DSP Premium vous permet d’effectuer les opérations suivantes :
 
 * Activation rapide et facile du nouvel inventaire pour une meilleure échelle et une plus grande efficacité
 
    Des études ont montré que l&#39;activation des marchés privés dans [!DNL DSP] Les plateformes permettent de gagner du temps et sont plus efficaces.
 
 * Exploration des nouveaux éditeurs et des nouveaux formats
+
 * Découvrir de nouvelles audiences et stratégies
+
 * Étendre la portée unique
+
 * Accès automatique aux éditeurs non disponibles sur le marché libre
+
 * Accéder automatiquement aux événements en direct (tels que les événements NBA, NFL et NHL)
+
 * Suivi des performances avec la création de rapports consolidée
 
 Une fois une transaction approuvée, elle est disponible en tant que cible pour les emplacements existants et automatiquement incluse comme cible pour les nouveaux emplacements qui ciblent tous les emplacements [!DNL On Demand] inventaire. Si une demande d’accord est refusée, vous pouvez travailler avec votre [!DNL Adobe] l’équipe du compte pour résoudre le problème, puis demander à nouveau l’accord.

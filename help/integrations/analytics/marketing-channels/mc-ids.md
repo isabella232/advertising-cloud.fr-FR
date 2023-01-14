@@ -1,26 +1,26 @@
 ---
-title: Utilisation des Advertising Cloud ID à créer [!DNL Marketing Channels] Règles
-description: Découvrez comment utiliser les Advertising Cloud ID pour créer des règles de traitement pour [!DNL Analytics Marketing Channels].
+title: Utilisation d’identifiants Adobe Advertising pour créer [!DNL Marketing Channels] Règles
+description: Découvrez comment utiliser des identifiants Adobe Advertising pour créer des règles de traitement pour [!DNL Analytics Marketing Channels].
 feature: Integration with Adobe Analytics
 exl-id: 4fcdd586-e9c5-4405-a6dc-7799d2bac93e
-source-git-commit: d136b1fe6f6fd3861d0850e07efe7c320da4a7cc
+source-git-commit: ad978a021c063377e4c91ed41e902d98a03749e4
 workflow-type: tm+mt
-source-wordcount: '767'
+source-wordcount: '768'
 ht-degree: 0%
 
 ---
 
-# Utilisation des Advertising Cloud ID à créer [!DNL Marketing Channels] Règles de traitement
+# Utilisation d’identifiants Adobe Advertising pour créer [!DNL Marketing Channels] Règles de traitement
 
-*Annonceurs avec intégration Advertising Cloud-Adobe Analytics uniquement*
+*Annonceurs avec une intégration Advertising-Adobe Analytics Adobe uniquement*
 
-Vous pouvez utiliser des Advertising Cloud ID ([AMO ID et EF ID](../ids.md)) pour configurer [!DNL Marketing Channels] règles de traitement dans Adobe Analytics. Utilisez des Advertising Cloud ID pour les règles spécifiques à vos campagnes Advertising Cloud.
+Vous pouvez utiliser des identifiants Adobe Advertising ([AMO ID et EF ID](../ids.md)) pour configurer [!DNL Marketing Channels] règles de traitement dans Adobe Analytics. Utilisez des identifiants Adobe Advertising pour les règles spécifiques à vos campagnes Adobe Advertising.
 
 ## AMO ID dans les règles de traitement
 
-L’AMO ID est le code de suivi Principal utilisé pour signaler les données Advertising Cloud dans [!DNL Analytics]. L’AMO ID est une concaténation de valeurs dynamiques gérées par Adobe pour fournir des rapports granulaires dans [!DNL Analytics]. Il est stocké dans une [!DNL Analytics] [eVar](https://experienceleague.adobe.com/docs/analytics/components/dimensions/evar.html) ou de la dimension rVar (AMO ID). L’AMO ID peut être défini dans [!DNL Analytics] de deux manières :
+L’AMO ID est le code de suivi Principal utilisé pour signaler les données Advertising d’Adobe dans [!DNL Analytics]. L’AMO ID est une concaténation de valeurs dynamiques gérées par Adobe pour fournir des rapports granulaires dans [!DNL Analytics]. Il est stocké dans une [!DNL Analytics] [eVar](https://experienceleague.adobe.com/docs/analytics/components/dimensions/evar.html) ou de la dimension rVar (AMO ID). L’AMO ID peut être défini dans [!DNL Analytics] de deux manières :
 
-* Suivi des clics publicitaires : Advertising Cloud définit la variable `s_kwcid` paramètre de chaîne de requête dans un lien, et [!DNL Analytics] récupère le paramètre de l’URL de la page d’entrée lorsqu’un clic publicitaire se produit.
+* Suivi des clics publicitaires : Adobe Advertising définit la variable `s_kwcid` paramètre de chaîne de requête dans un lien, et [!DNL Analytics] récupère le paramètre de l’URL de la page d’entrée lorsqu’un clic publicitaire se produit.
 * Suivi des affichages publicitaires ([!DNL DSP] Uniquement) : Le service Last Event détecte un affichage publicitaire côté serveur et envoie l’AMO ID à [!DNL Analytics]. Dans ce cas, l’URL ne contient pas de `s_kwcid` .
 
 Les valeurs dynamiques des AMO ID indiquent le canal marketing qui a fait l’objet d’un suivi :
@@ -62,7 +62,7 @@ Le [!DNL Marketing Channels] règle de traitement pour la [!UICONTROL YouTube Vi
 
 ## Identifiant EF dans les règles de traitement
 
-L’AMO EF ID (EF ID) est le deuxième code de suivi utilisé dans la variable [!DNL Analytics for Advertising Cloud] intégration. Son Principal objectif est de suivre et de transmettre des [!DNL Analytics] données d’événement dans Advertising Cloud. Chaque fois qu’un clic publicitaire ou un affichage publicitaire se produit, un identifiant EF unique est généré, même s’il s’agit exactement de la même publicité pour le même visiteur. L’identifiant EF n’est pas utilisé dans la variable [!DNL Analytics] l’interface utilisateur de création de rapports, car elle dépasse généralement la limite de 500 000 valeurs uniques par variable dans [!DNL Analytics], ce qui le rend inutilisable pour la création de rapports. Les mesures et métadonnées Advertising Cloud ne sont pas appliquées à l’identifiant EF ; elles sont appliquées uniquement à l’AMO ID. La granularité supplémentaire du suivi est requise pour l’optimisation des campagnes dans Advertising Cloud. Les deux identifiants sont donc requis.
+L’AMO EF ID (EF ID) est le deuxième code de suivi utilisé dans la variable [!DNL Analytics for Advertising] intégration. Son Principal objectif est de suivre et de transmettre des [!DNL Analytics] données d’événement dans Adobe Advertising. Chaque fois qu’un clic publicitaire ou un affichage publicitaire se produit, un identifiant EF unique est généré, même s’il s’agit exactement de la même publicité pour le même visiteur. L’identifiant EF n’est pas utilisé dans la variable [!DNL Analytics] l’interface utilisateur de création de rapports, car elle dépasse généralement la limite de 500 000 valeurs uniques par variable dans [!DNL Analytics], ce qui le rend inutilisable pour la création de rapports. Les mesures et métadonnées Adobe Advertising ne sont pas appliquées à l’identifiant EF ; elles sont appliquées uniquement à l’AMO ID. La granularité supplémentaire du suivi est requise pour l’optimisation des campagnes dans Adobe Advertising. Les deux identifiants sont donc requis.
 
 Bien que la dimension Identifiant EF ne soit pas utilisée directement dans [!DNL Analytics] , l’identifiant EF peut s’avérer utile pour créer des canaux marketing. Le suffixe d’identifiant EF indique le canal (affichage ou recherche) et si la visite a été pilotée par un clic publicitaire ou un affichage publicitaire. Le délimiteur dans l’identifiant EF est un deux-points, plutôt que le point d’exclamation dans l’AMO ID.
 
@@ -91,8 +91,8 @@ Pour créer un canal d’affichage publicitaire, créez une règle dans laquelle
 >[!MORELIKETHIS]
 >
 >* [Principes fondamentaux de [!DNL Analytics Marketing Channels]](mc-overview.md)
->* [Pourquoi les données du canal peuvent-elles varier entre Advertising Cloud et [!DNL Marketing Channels]](mc-data-variances.md)
->* [Utilisation [!DNL Analytics Marketing Channels] avec les données Advertising Cloud](mc-ac-data.md)
->* [Vidéo : Reporting avec Advertising Cloud [!DNL Marketing Channels]](https://experienceleague.adobe.com/docs/advertising-cloud-learn/tutorials/analytics/analytics-reporting-a4adc.html)
->* [Advertising Cloud ID utilisés par [!DNL Analytics]](/help/integrations/analytics/ids.md)
+>* [Pourquoi les données de canal peuvent-elles varier entre la publicité Adobe et [!DNL Marketing Channels]](mc-data-variances.md)
+>* [Utilisation [!DNL Analytics Marketing Channels] avec Adobe des données Advertising](mc-ac-data.md)
+>* [Vidéo : Utilisation [!DNL Marketing Channels] pour la création de rapports Adobe Advertising](https://experienceleague.adobe.com/docs/advertising-cloud-learn/tutorials/analytics/analytics-reporting-a4adc.html)
+>* [Adobe des identifiants publicitaires utilisés par [!DNL Analytics]](/help/integrations/analytics/ids.md)
 

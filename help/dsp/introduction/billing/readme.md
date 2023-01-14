@@ -1,11 +1,11 @@
 ---
-source-git-commit: 07b68c01c29115bb50ab23c957a256e9ac212506
+source-git-commit: ad978a021c063377e4c91ed41e902d98a03749e4
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '20'
 ht-degree: 0%
 
 ---
-# Documentation Advertising Cloud DSP
+# Documentation sur Advertising DSP
 
 Il s’agit du dossier pour DSP documentation d’aide.
 

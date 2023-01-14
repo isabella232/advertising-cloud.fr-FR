@@ -2,9 +2,10 @@
 title: Paramètres de publicité vidéo universelle
 description: Reportez-vous à la description des paramètres d’annonce disponibles pour les publicités vidéo universelles.
 feature: DSP Ads
-source-git-commit: 2d344d2ae0438433eb679a5f31f471c2eac4fe26
+exl-id: 0be86b84-78f9-4429-a8b7-8195891875ca
+source-git-commit: ad978a021c063377e4c91ed41e902d98a03749e4
 workflow-type: tm+mt
-source-wordcount: '452'
+source-wordcount: '449'
 ht-degree: 0%
 
 ---
@@ -43,7 +44,7 @@ ht-degree: 0%
 
 **[!UICONTROL VAST Tag]:** (Publicités utilisant uniquement des balises VAST ; lecture seule) La balise VAST tierce que vous avez saisie en tant que source de la publicité.
 
-**[!UICONTROL Final VAST Tag]:** (Publicités utilisant uniquement des balises VAST ; lecture seule) La balise VAST tierce que vous avez saisie en tant que source de la publicité avec les éléments nécessaires [Macros de suivi Advertising Cloud DSP](/help/dsp/campaign-management/macros.md) insérés, le cas échéant.
+**[!UICONTROL Final VAST Tag]:** (Publicités utilisant uniquement des balises VAST ; lecture seule) La balise VAST tierce que vous avez saisie en tant que source de la publicité avec les éléments nécessaires [Macros de suivi des DSP publicitaires](/help/dsp/campaign-management/macros.md) insérés, le cas échéant.
 
 **[!UICONTROL Wmode]:** Mode fenêtre : *[!UICONTROL window]*, *[!UICONTROL transparent]* ou *[!UICONTROL opaque]*. Si ce paramètre n’est pas applicable, laissez-le vide.
 
@@ -75,5 +76,5 @@ Les paramètres suivants s’appliquent à chaque pixel que vous créez ou modif
 >* [Créer une publicité unique](ad-create.md)
 >* [Liste des emplacements associés à une publicité](/help/dsp/campaign-management/ads/ad-list-placements.md)
 >* [Spécifications des publicités](ad-specs.md)
->* [Macros Advertising Cloud DSP](/help/dsp/campaign-management/macros.md)
+>* [Macros DSP](/help/dsp/campaign-management/macros.md)
 

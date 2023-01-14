@@ -3,7 +3,7 @@ title: Modifier une publicité
 description: Découvrez comment modifier une publicité.
 feature: DSP Ads
 exl-id: ef140d61-f04e-4c1c-acdd-9985730dfb07
-source-git-commit: 348b3ae49fdd2e408c4585c6dc6a7e3ba03b2d84
+source-git-commit: ad978a021c063377e4c91ed41e902d98a03749e4
 workflow-type: tm+mt
 source-wordcount: '170'
 ht-degree: 0%
@@ -13,9 +13,13 @@ ht-degree: 0%
 # Modifier une publicité
 
 1. Dans le menu principal, cliquez sur **[!UICONTROL Campaigns]**.
+
 1. Cliquez sur le nom de la campagne.
+
 1. Dans le sous-menu, cliquez sur **[!UICONTROL Ads]**.
+
 1. En regard du nom de la publicité, cliquez sur  **... >[!UICONTROL Edit]**.
+
 1. Modification des paramètres de publicité pour [annonces audio](ad-settings-audio.md), [télévision connectée](ad-settings-connected-tv.md), [publicités display](ad-settings-display.md), [annonces mobiles](ad-settings-mobile.md), [annonces natives](ad-settings-native.md), [publicités preroll](ad-settings-pre-roll.md)ou [publicités vidéo universelles](ad-settings-universal-video.md).
 
    >[!NOTE]

@@ -3,9 +3,9 @@ title: Paramètres d’affichage des publicités
 description: Consultez la description des paramètres d’annonce disponibles pour les annonces affichées.
 feature: DSP Ads
 exl-id: ae88dfab-0b0c-42ab-9135-422b20a4b6cd
-source-git-commit: bcece4bfec6f8a765cced3ee230fd8cbf3055b7b
+source-git-commit: ad978a021c063377e4c91ed41e902d98a03749e4
 workflow-type: tm+mt
-source-wordcount: '446'
+source-wordcount: '443'
 ht-degree: 0%
 
 ---
@@ -38,7 +38,7 @@ Les paramètres suivants concernent les publicités standard.
 
 **[!UICONTROL Display Code]:** (Publicités tierces uniquement) URL de la ressource créative tierce. Quelconque [timestamp] et [[timestamp]] seront remplacés par des valeurs réelles.
 
-**[!UICONTROL Final Display Code]:** (Publicités tierces uniquement) URL de la ressource créative tierce, avec les [Macros de suivi Advertising Cloud DSP](/help/dsp/campaign-management/macros.md) insérés, le cas échéant.
+**[!UICONTROL Final Display Code]:** (Publicités tierces uniquement) URL de la ressource créative tierce, avec les [Macros de suivi des DSP publicitaires](/help/dsp/campaign-management/macros.md) insérés, le cas échéant.
 
 **[!UICONTROL Ad Size]:** Largeur et hauteur de la publicité. Il doit s’agir d’une [taille d’affichage standard prise en charge](ad-specs.md). Vous pouvez saisir manuellement la taille de la publicité avant de la télécharger ou saisir une [!UICONTROL Display Code]. Si vous ne saisissez pas la taille de la publicité, les dimensions de la balise publicitaire ou de publicité chargée sont automatiquement saisies en lecture seule. Notez que la publicité affichée ne sera pas enregistrée si les dimensions ne se trouvent pas dans l’affichage standard sous forme de tailles, par exemple 301x250 au lieu de 300x250.
 
@@ -68,5 +68,5 @@ Les paramètres suivants s’appliquent à chaque pixel que vous créez ou modif
 >* [Créer une publicité unique](ad-create.md)
 >* [Liste des emplacements associés à une publicité](ad-list-placements.md)
 >* [Spécifications des publicités](ad-specs.md)
->* [Macros Advertising Cloud DSP](/help/dsp/campaign-management/macros.md)
+>* [Macros DSP](/help/dsp/campaign-management/macros.md)
 

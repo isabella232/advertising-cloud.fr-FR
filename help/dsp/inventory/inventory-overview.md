@@ -1,18 +1,18 @@
 ---
-title: Présentation des fonctionnalités du stock dans Advertising Cloud DSP
+title: Présentation des fonctionnalités d’inventaire dans les DSP publicitaires
 description: Découvrez les fonctionnalités d’inventaire disponibles.
 feature: DSP On Demand Inventory, DSP Private Inventory, DSP Deal IDs
 exl-id: b3d0b96e-e638-4bd2-ba14-d348a8fc030b
-source-git-commit: e80eccbf2f87c1ad86a2cb689b44ca67e08248be
+source-git-commit: ad978a021c063377e4c91ed41e902d98a03749e4
 workflow-type: tm+mt
-source-wordcount: '251'
+source-wordcount: '247'
 ht-degree: 0%
 
 ---
 
-# Présentation des fonctionnalités du stock dans Advertising Cloud DSP
+# Présentation des fonctionnalités d’inventaire dans les DSP publicitaires
 
-Advertising Cloud DSP peut prendre en charge vos besoins en matière d’inventaire, que vous souhaitiez trouver de l’échelle avec l’inventaire public, trouver de l’échelle parmi les éditeurs Premium avec [!DNL On Demand], ou configurez une plateforme PMP (Private Marketplace) 1:1 avec un éditeur afin de l’activer par rapport à des audiences ou à des sites spécifiques. Les objectifs de votre campagne permettent de déterminer le type d’inventaire le mieux adapté aux besoins de performances de votre campagne. Les intégrations avec les plateformes côté offre (SSP) principales permettent une configuration et une activation homogènes de vos PMP.
+DSP pouvez prendre en charge vos besoins en inventaire, que vous souhaitiez trouver de l’échelle avec l’inventaire public, trouver de l’échelle parmi les éditeurs Premium avec [!DNL On Demand], ou configurez une plateforme PMP (Private Marketplace) 1:1 avec un éditeur afin de l’activer par rapport à des audiences ou à des sites spécifiques. Les objectifs de votre campagne permettent de déterminer le type d’inventaire le mieux adapté aux besoins de performances de votre campagne. Les intégrations avec les plateformes côté offre (SSP) principales permettent une configuration et une activation homogènes de vos PMP.
 
 Une fois que vous avez accès à vos offres d’inventaire ou que vous les avez identifiées dans DSP, vous pouvez les utiliser comme cibles d’emplacement pour vos campagnes.
 

@@ -3,9 +3,9 @@ title: Récupération des rapports d’exclusion de la vente pour les consommate
 description: Découvrez comment récupérer les rapports d’ID envoyés pour les demandes d’opposition à la vente.
 feature: CCPA, DSP Segments
 exl-id: 8ada787a-6dcf-455b-88f4-701743e68292
-source-git-commit: b40c6f08b94e546e5fc068c46b279292a4d8a14f
+source-git-commit: ad978a021c063377e4c91ed41e902d98a03749e4
 workflow-type: tm+mt
-source-wordcount: '163'
+source-wordcount: '161'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ Vous pouvez récupérer les rapports mensuels des identifiants que les clients o
 
 >[!NOTE]
 >
->Vous pouvez éventuellement récupérer les rapports d’opposition à la vente des consommateurs à l’aide d’Advertising Cloud [!DNL Trafficking API]. Pour obtenir des instructions, reportez-vous à la documentation du [!DNL Trafficking API]. Si votre entreprise n’utilise pas la variable [!DNL Trafficking API] mais est intéressé par plus d’informations, contactez votre [!DNL Adobe] l&#39;équipe du compte.
+>Vous pouvez éventuellement récupérer les rapports d’opposition à la vente des consommateurs à l’aide du DSP [!DNL Trafficking API]. Pour obtenir des instructions, reportez-vous à la documentation du [!DNL Trafficking API]. Si votre entreprise n’utilise pas la variable [!DNL Trafficking API] mais est intéressé par plus d’informations, contactez votre [!DNL Adobe] l&#39;équipe du compte.
 
 1. Dans le menu principal, cliquez sur **[!UICONTROL Audiences]>[!UICONTROL Segments]**.
 1. Au-dessus de la liste des segments, cliquez sur **[!UICONTROL Access CCPA Reports]**.
@@ -24,7 +24,7 @@ Vous pouvez récupérer les rapports mensuels des identifiants que les clients o
 
 >[!MORELIKETHIS]
 >
->* [Prise en charge de Adobe Advertising Cloud pour le California Consumer Privacy Act : Prise en charge de l’exclusion des clients](https://experienceleague.adobe.com/docs/advertising-cloud/privacy/ad-cloud-ccpa-opt-out-of-sale.html)
+>* [Adobe Advertising Support pour le California Consumer Privacy Act : Prise en charge de l’exclusion des clients](https://experienceleague.adobe.com/docs/advertising-cloud/privacy/ad-cloud-ccpa-opt-out-of-sale.html)
 >* [A propos [!UICONTROL CCPA Opt-out-of-Sale] Segments et rapports](ccpa-opt-out-about.md)
 >* [Créez et implémentez une [!UICONTROL CCPA Opt-Out-of-Sale] Segment](ccpa-opt-out-segment-create.md)
 >* [À propos de la gestion de l’audience](audience-about.md)

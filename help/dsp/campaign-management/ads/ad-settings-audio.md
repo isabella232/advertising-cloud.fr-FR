@@ -3,9 +3,9 @@ title: Paramètres de publicité audio
 description: Reportez-vous à la description des paramètres de publicité disponibles pour les publicités audio.
 feature: DSP Ads
 exl-id: 746b6f40-ff59-4bbe-bfc0-3579d4461e4a
-source-git-commit: bcece4bfec6f8a765cced3ee230fd8cbf3055b7b
+source-git-commit: ad978a021c063377e4c91ed41e902d98a03749e4
 workflow-type: tm+mt
-source-wordcount: '385'
+source-wordcount: '382'
 ht-degree: 0%
 
 ---
@@ -42,7 +42,7 @@ Ce champ peut être affiché ou non, selon les permissions du compte.
 
 **[!UICONTROL VAST Tag]:** (Publicités utilisant uniquement des balises VAST) Une URL pour une source publicitaire tierce. Assurez-vous que la balise VAST comprend uniquement des fichiers de médias audio.
 
-**[!UICONTROL Final VAST Tag]:** (Publicités utilisant uniquement des balises VAST) URL de la source publicitaire tierce avec les [Macros de suivi Advertising Cloud DSP](/help/dsp/campaign-management/macros.md) insérés, le cas échéant.
+**[!UICONTROL Final VAST Tag]:** (Publicités utilisant uniquement des balises VAST) URL de la source publicitaire tierce avec les [Macros de suivi des DSP publicitaires](/help/dsp/campaign-management/macros.md) insérés, le cas échéant.
 
 **[!UICONTROL Select Rate]:** (Utilisateurs avec autorisation uniquement) Taux négocié à l’avance et facturés par l’intermédiaire de l’Adobe, ou l’un des taux que vous avez négociés et dont la facturation sera effectuée par l’intermédiaire du fournisseur. Pour ajouter un taux, contactez votre [!DNL Adobe] l&#39;équipe du compte.
 
@@ -68,5 +68,5 @@ Les paramètres suivants s’appliquent à chaque pixel que vous créez ou modif
 >* [Créer une publicité unique](ad-create.md)
 >* [Liste des emplacements associés à une publicité](/help/dsp/campaign-management/ads/ad-list-placements.md)
 >* [Spécifications des publicités](ad-specs.md)
->* [Macros Advertising Cloud DSP](/help/dsp/campaign-management/macros.md)
+>* [Macros DSP](/help/dsp/campaign-management/macros.md)
 

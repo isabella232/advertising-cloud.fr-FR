@@ -1,70 +1,70 @@
 ---
-title: Écarts de données attendus entre [!DNL Analytics] et Advertising Cloud
-description: Écarts de données attendus entre [!DNL Analytics] et Advertising Cloud
+title: Écarts de données attendus entre [!DNL Analytics] et Adobe Advertising
+description: Écarts de données attendus entre [!DNL Analytics] et Adobe Advertising
 feature: Integration with Adobe Analytics
 exl-id: 34685e04-d4f9-4e27-b83e-b56164244b2b
-source-git-commit: 76d6e94d69f4bd47d982c36e6c24a0e7031a823c
+source-git-commit: ad4ab8b9b0a4b5b1cc4aab540900363d2fe671c2
 workflow-type: tm+mt
-source-wordcount: '3285'
+source-wordcount: '3278'
 ht-degree: 0%
 
 ---
 
-# Écarts de données attendus entre [!DNL Analytics] et Advertising Cloud
+# Écarts de données attendus entre [!DNL Analytics] et Adobe Advertising
 
-*Annonceurs avec intégration Advertising Cloud-Adobe Analytics uniquement*
+*Annonceurs avec une intégration Advertising-Adobe Analytics Adobe uniquement*
 
-Les annonceurs qui utilisent la variable [!DNL Analytics for Advertising Cloud] <!-- (A4AdC) --> l’intégration effectue le suivi de la publicité payante via Advertising Cloud et Adobe Analytics. Lorsque vous effectuez le suivi de médias, de campagnes et de canaux via plusieurs systèmes, les mêmes jeux de données de différents systèmes correspondent rarement entièrement. Ce document explique comment vous devriez vous attendre à ce que les données des médias qui font l’objet d’un trafic via Advertising Cloud soient comparées aux données des différents systèmes dans lesquels les médias sont suivis dans . [!DNL Analytics].
+Les annonceurs qui utilisent la variable [!DNL Analytics for Advertising] <!-- (A4AdC) --> l’intégration effectue le suivi de la publicité payante via Adobe Advertising et Adobe Analytics. Lorsque vous effectuez le suivi de médias, de campagnes et de canaux via plusieurs systèmes, les mêmes jeux de données de différents systèmes correspondent rarement entièrement. Ce document explique comment vous devriez vous attendre à ce que les données du trafic sur les médias qui transitent par Adobe Advertising soient comparées aux données des différents systèmes dans lesquels les médias sont suivis dans . [!DNL Analytics].
 
 >[!NOTE]
 >
->Ce document est axé sur Advertising Cloud et Analytics, mais de nombreux points clés peuvent également être transférés à d’autres solutions de suivi.
+>Ce document est axé sur Adobe Advertising et Analytics, mais de nombreux points clés peuvent également être transférés à d’autres solutions de suivi.
 
 ## Différences d’attribution dans des rapports similaires
 
 ### Fenêtres de recherche en amont et modèles d’attribution potentiellement différents
 
-Le [!DNL Analytics for Advertising Cloud] l’intégration utilise deux variables (eVars ou rVars \[eVars réservées]\) pour capturer la variable [EF ID et AMO ID](ids.md). Ces variables sont configurées avec un seul intervalle de recherche en amont (l’heure à laquelle les clics publicitaires et les affichages publicitaires sont attribués) et un modèle d’attribution. Sauf indication contraire, les variables sont configurées pour correspondre à l’intervalle de recherche en amont des clics par défaut au niveau de l’annonceur et au modèle d’attribution dans Advertising Cloud.
+Le [!DNL Analytics for Advertising] l’intégration utilise deux variables (eVars ou rVars \[eVars réservées]\) pour capturer la variable [EF ID et AMO ID](ids.md). Ces variables sont configurées avec un seul intervalle de recherche en amont (l’heure à laquelle les clics publicitaires et les affichages publicitaires sont attribués) et un modèle d’attribution. Sauf indication contraire, les variables sont configurées pour correspondre à l’intervalle de recherche en amont des clics par défaut au niveau de l’annonceur et au modèle d’attribution dans Adobe Advertising.
 
-Cependant, les intervalles de recherche en amont et les modèles d’attribution peuvent être configurés dans Analytics (via les eVars) et dans Advertising Cloud. De plus, dans Advertising Cloud, le modèle d’attribution peut être configuré non seulement au niveau de l’annonceur (pour l’optimisation des offres), mais également dans les vues de données et les rapports individuels (à des fins de création de rapports uniquement). Par exemple, une organisation peut préférer utiliser le modèle d’attribution de distribution uniforme pour l’optimisation, mais utiliser l’attribution Dernière touche pour les rapports dans Advertising Cloud DSP ou [!DNL Search]. La modification des modèles d’attribution modifie le nombre de conversions attribuées.
+Cependant, les intervalles de recherche en amont et les modèles d’attribution peuvent être configurés dans Analytics (via les eVars) et dans Adobe Advertising. En outre, dans Adobe Advertising, le modèle d’attribution peut être configuré non seulement au niveau de l’annonceur (pour l’optimisation des offres), mais également dans les vues de données et les rapports individuels (à des fins de création de rapports uniquement). Par exemple, une organisation peut préférer utiliser le modèle d’attribution distribution paire pour l’optimisation, mais utiliser l’attribution Dernière touche pour les rapports dans les DSP de publicité ou [!DNL Advertising Search]. La modification des modèles d’attribution modifie le nombre de conversions attribuées.
 
 Si un intervalle de recherche en amont des rapports ou un modèle d’attribution est modifié dans un produit et non dans l’autre, les mêmes rapports de chaque système affichent des données distinctes :
 
 * **Exemple d’incohérences dues à des intervalles de recherche en amont différents :**
 
-   Supposons qu’Advertising Cloud dispose d’une période de recherche en amont des clics de 60 jours et que [!DNL Analytics] a une période de recherche arrière de 30 jours. Supposons également qu’un utilisateur se rende sur le site par le biais d’une publicité qui fait l’objet d’un suivi Advertising Cloud, quitte le site, puis revient le 45e jour et effectue une conversion. Advertising Cloud attribuera la conversion à la visite initiale, car la conversion s’est produite dans l’intervalle de recherche en amont de 60 jours. [!DNL Analytics], toutefois, ne peut pas attribuer la conversion à la visite initiale, car la conversion s’est produite après l’expiration de l’intervalle de recherche en amont de 30 jours. Dans cet exemple, Advertising Cloud signale un nombre de conversions plus élevé que [!DNL Analytics] le cas échéant.
+   Supposons que Adobe Advertising dispose d’un intervalle de recherche en amont des clics de 60 jours et que [!DNL Analytics] a une période de recherche arrière de 30 jours. Supposons également qu’un utilisateur se rende sur le site par le biais d’une publicité faisant l’objet d’un suivi publicitaire Adobe, qu’il quitte le site, puis qu’il revienne le 45e jour et effectue une conversion. Adobe Advertising attribuera la conversion à la visite initiale, car la conversion s’est produite dans l’intervalle de recherche en amont de 60 jours. [!DNL Analytics], toutefois, ne peut pas attribuer la conversion à la visite initiale, car la conversion s’est produite après l’expiration de l’intervalle de recherche en amont de 30 jours. Dans cet exemple, Adobe Advertising signalerait un nombre plus élevé de conversions que [!DNL Analytics] le cas échéant.
 
-   ![Exemple de conversion attribuée dans Advertising Cloud mais pas [!DNL Analytics]](/help/integrations/assets/a4adc-lookback-example.png)
+   ![Exemple de conversion attribuée dans Adobe Advertising mais pas [!DNL Analytics]](/help/integrations/assets/a4adc-lookback-example.png)
 
 * **Exemple d’incohérences causées par différents modèles d’attribution :**
 
-   Supposons qu’un utilisateur interagisse avec trois annonces Advertising Cloud différentes avant la conversion, avec les recettes comme type de conversion. Si un rapport Advertising Cloud utilise un modèle de distribution uniforme pour l’attribution, il attribuera les recettes de manière uniforme sur toutes les publicités. If [!DNL Analytics] utilise toutefois le modèle d’attribution Dernière touche , puis il attribuera les recettes à la dernière publicité. Dans l’exemple suivant, Advertising Cloud attribue 10 USD sur les 30 USD des recettes capturées à chacune des trois publicités, alors que [!DNL Analytics] attribue tous les 30 USD de recettes à la dernière publicité affichée par l’utilisateur. Lorsque vous comparez des rapports d’Advertising Cloud et [!DNL Analytics], vous pouvez vous attendre à voir l’impact de la différence dans l’attribution.
+   Supposons qu’un utilisateur interagisse avec trois publicités publicitaires d’Adobe différentes avant la conversion, avec les recettes comme type de conversion. Si un rapport Publicité Adobe utilise un modèle de distribution uniforme pour l’attribution, il attribuera les recettes de manière uniforme sur toutes les publicités. If [!DNL Analytics] utilise toutefois le modèle d’attribution Dernière touche , puis il attribuera les recettes à la dernière publicité. Dans l’exemple suivant, Adobe Advertising attribue 10 USD sur les 30 USD de recettes capturées à chacune des trois publicités, alors que [!DNL Analytics] attribue tous les 30 USD de recettes à la dernière publicité affichée par l’utilisateur. Lorsque vous comparez des rapports provenant d’Adobe Advertising et [!DNL Analytics], vous pouvez vous attendre à voir l’impact de la différence dans l’attribution.
 
-   ![Différentes recettes attribuées à Advertising Cloud et [!DNL Analytics] en fonction de différents modèles d’attribution](/help/integrations/assets/a4adc-attribution-example.png)
+   ![Différentes recettes attribuées à Adobe Advertising et [!DNL Analytics] en fonction de différents modèles d’attribution](/help/integrations/assets/a4adc-attribution-example.png)
 
 >[!IMPORTANT]
 >
->La bonne pratique consiste à utiliser les mêmes intervalles de recherche en amont et modèle d’attribution dans Advertising Cloud et [!DNL Analytics]. Travaillez avec votre [!DNL Adobe] l’équipe du compte si nécessaire afin d’identifier les paramètres actuels et de conserver la synchronisation des configurations.
+>La bonne pratique consiste à utiliser les mêmes intervalles de recherche en amont et modèle d’attribution dans Adobe Advertising et [!DNL Analytics]. Travaillez avec votre [!DNL Adobe] l’équipe du compte si nécessaire afin d’identifier les paramètres actuels et de conserver la synchronisation des configurations.
 
 Ces mêmes concepts s’appliquent à tout autre canal, tel que les canaux qui utilisent des intervalles de recherche en amont différents ou des modèles d’attribution.
 
 #### Différentes fenêtres de recherche en amont pour le suivi des affichages publicitaires {#impression-lookback}
 
-Dans Advertising Cloud, l’attribution est basée sur les clics et les impressions, et vous pouvez configurer différents intervalles de recherche en amont pour les clics et les impressions. Dans [!DNL Analytics], toutefois, l’attribution est basée sur les clics publicitaires et les affichages publicitaires et vous n’avez pas la possibilité de définir différentes fenêtres d’attribution pour les clics publicitaires et les affichages publicitaires ; le suivi de chaque commence à la visite initiale du site. Une impression peut se produire le même jour ou plusieurs jours avant qu’un affichage publicitaire ne se produise, ce qui peut avoir un impact sur l’endroit où la fenêtre d’attribution commence dans chaque système.
+Dans Adobe Advertising, l’attribution est basée sur les clics et les impressions, et vous pouvez configurer différents intervalles de recherche en amont pour les clics et les impressions. Dans [!DNL Analytics], toutefois, l’attribution est basée sur les clics publicitaires et les affichages publicitaires et vous n’avez pas la possibilité de définir différentes fenêtres d’attribution pour les clics publicitaires et les affichages publicitaires ; le suivi de chaque commence à la visite initiale du site. Une impression peut se produire le même jour ou plusieurs jours avant qu’un affichage publicitaire ne se produise, ce qui peut avoir un impact sur l’endroit où la fenêtre d’attribution commence dans chaque système.
 
-En règle générale, la majorité des conversions d’affichages publicitaires se produisent assez rapidement pour que les deux systèmes attribuent du crédit. Cependant, certaines conversions peuvent se produire en dehors de l’intervalle de recherche en amont des impressions Advertising Cloud, mais dans la variable [!DNL Analytics] intervalle de recherche en amont; de telles conversions sont attribuées à l’affichage publicitaire dans [!DNL Analytics] mais pas à l’impression dans Advertising Cloud.
+En règle générale, la majorité des conversions d’affichages publicitaires se produisent assez rapidement pour que les deux systèmes attribuent du crédit. Cependant, certaines conversions peuvent se produire en dehors de l’intervalle de recherche en amont des impressions Advertising Adobe, mais dans la variable [!DNL Analytics] intervalle de recherche en amont; de telles conversions sont attribuées à l’affichage publicitaire dans [!DNL Analytics] mais pas à l&#39;impression dans Adobe Advertising.
 
-Dans l’exemple suivant, supposons qu’un visiteur ait reçu une publicité le jour 1, qu’il ait effectué une visite d’affichage publicitaire (c’est-à-dire qu’il a visité la page d’entrée de la publicité sans avoir cliqué auparavant sur la publicité) le jour 2 et qu’il ait été converti le jour 45. Dans ce cas, Advertising Cloud effectuerait le suivi de l’utilisateur des jours 1 à 14 (à l’aide d’une recherche en amont de 14 jours), [!DNL Analytics] effectuent le suivi de l’utilisateur à partir des jours 2 à 61 (à l’aide d’une recherche en amont de 60 jours), et la conversion le jour 45 est attribuée à la publicité dans [!DNL Analytics] mais pas dans Advertising Cloud.
+Dans l’exemple suivant, supposons qu’un visiteur ait reçu une publicité le jour 1, qu’il ait effectué une visite d’affichage publicitaire (c’est-à-dire qu’il a visité la page d’entrée de la publicité sans avoir cliqué auparavant sur la publicité) le jour 2 et qu’il ait été converti le jour 45. Dans ce cas, Adobe Advertising effectuerait le suivi de l’utilisateur des jours 1 à 14 (à l’aide d’une recherche en amont de 14 jours), [!DNL Analytics] effectuent le suivi de l’utilisateur à partir des jours 2 à 61 (à l’aide d’une recherche en amont de 60 jours), et la conversion le jour 45 est attribuée à la publicité dans [!DNL Analytics] mais pas dans Adobe Advertising.
 
-![Exemple de conversion d’affichage publicitaire attribuée dans [!DNL Analytics] mais pas Advertising Cloud](/help/integrations/assets/a4adc-viewthrough-example.png)
+![Exemple de conversion d’affichage publicitaire attribuée dans [!DNL Analytics] mais pas Adobe Advertising](/help/integrations/assets/a4adc-viewthrough-example.png)
 
-Une autre cause d’incohérences est que, dans Advertising Cloud, vous pouvez affecter des conversions d’affichage publicitaire à une *poids d’affichage publicitaire* qui est relatif au poids attribué à une conversion basée sur les clics. La pondération d’affichage publicitaire par défaut est de 40 %, ce qui signifie qu’une conversion d’affichage publicitaire est comptabilisée comme 40 % de la valeur d’une conversion basée sur les clics. [!DNL Analytics] ne fournit aucune pondération des conversions d’affichage publicitaire de ce type. Ainsi, par exemple, une commande de recettes de 100 USD capturée dans [!DNL Analytics] sera réduite à 40 USD dans Advertising Cloud si vous utilisez le poids d’affichage publicitaire par défaut, soit une différence de 60 USD.
+Une autre cause d’incohérences est que, dans Adobe Advertising, vous pouvez affecter des conversions d’affichage publicitaire à une *poids d’affichage publicitaire* qui est relatif au poids attribué à une conversion basée sur les clics. La pondération d’affichage publicitaire par défaut est de 40 %, ce qui signifie qu’une conversion d’affichage publicitaire est comptabilisée comme 40 % de la valeur d’une conversion basée sur les clics. [!DNL Analytics] ne fournit aucune pondération des conversions d’affichage publicitaire de ce type. Ainsi, par exemple, une commande de recettes de 100 USD capturée dans [!DNL Analytics] sera réduite à 40 USD dans Adobe Advertising si vous utilisez le poids d’affichage publicitaire par défaut, soit une différence de 60 USD.
 
-Tenez compte de ces différences lors de la comparaison des conversions d’affichage publicitaire entre Advertising Cloud et [!DNL Analytics] rapports.
+Tenez compte de ces différences lors de la comparaison des conversions d’affichage publicitaire entre Adobe Advertising et [!DNL Analytics] rapports.
 
 #### Modèles d’attribution disponibles
 
-| Attribution Advertising Cloud | [!DNL Analytics] Attribution | Affectation eVar/rVar |
+| Attribution Adobe Advertising | [!DNL Analytics] Attribution | Affectation eVar/rVar |
 |--- |--- |--- |
 | [!UICONTROL Last Event] | [!UICONTROL Last Touch] | [!UICONTROL Most Recent] |
 | [!UICONTROL First Event] | [!UICONTROL First Touch] | [!UICONTROL Original Value] |
@@ -88,42 +88,42 @@ Tenez compte de ces différences lors de la comparaison des conversions d’affi
 
 Consultez la liste des [!DNL Analytics] les modèles d’attribution et leurs définitions à l’adresse [https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/attribution/models.html](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/attribution/models.html).
 
-Si vous êtes connecté à Advertising Cloud, vous trouverez une liste de modèles d’attribution à l’adresse
+Si vous êtes connecté [!DNL Search], vous trouverez une liste de modèles d’attribution à l’adresse
 [https://enterprise-na.efrontier.com/CMDashboard/help/external/tracking/r_appendix_-_how_attribution_rules_are_calculated.htm](https://enterprise-na.efrontier.com/CMDashboard/help/external/tracking/r_appendix_-_how_attribution_rules_are_calculated.htm).
 
-#### Attribution de date d’événement dans Advertising Cloud
+#### Attribution de date d’événement dans Adobe Advertising
 
-Dans Advertising Cloud, vous pouvez signaler les données de conversion soit par date de clic/événement associé (date de l’événement de clic ou d’impression), soit par date de transaction (date de conversion). Le concept de rapport de date de clic/d’événement n’existe pas dans [!DNL Analytics]; toutes les conversions suivies dans [!DNL Analytics] sont signalés par date de transaction. Par conséquent, une même conversion peut être signalée avec des dates différentes dans Advertising Cloud et [!DNL Analytics]. Prenons l’exemple d’un utilisateur qui clique sur une publicité le 1er janvier et effectue une conversion le 5 janvier. Si vous affichez les données de conversion par date d’événement dans Advertising Cloud, la conversion sera signalée le 1er janvier, lorsque le clic a eu lieu. Dans [!DNL Analytics], la même conversion sera signalée le 5 janvier.
+Dans Adobe Advertising, vous pouvez générer des rapports sur les données de conversion en fonction de la date de clic/événement associée (la date de l’événement de clic ou d’impression) ou de la date de transaction (la date de conversion). Le concept de rapport de date de clic/d’événement n’existe pas dans [!DNL Analytics]; toutes les conversions suivies dans [!DNL Analytics] sont signalés par date de transaction. Par conséquent, une même conversion peut être signalée avec des dates différentes dans Adobe Advertising et [!DNL Analytics]. Prenons l’exemple d’un utilisateur qui clique sur une publicité le 1er janvier et effectue une conversion le 5 janvier. Si vous affichez les données de conversion par date d’événement dans Adobe Advertising, la conversion sera signalée le 1er janvier, lorsque le clic a eu lieu. Dans [!DNL Analytics], la même conversion sera signalée le 5 janvier.
 
 ![Exemple de conversion attribuée à des dates différentes](/help/integrations/assets/a4adc-conversions-based-on.png)
 
 ## Attribution dans [!DNL Analytics Marketing Channels]
 
-[[!DNL Analytics Marketing Channels] reporting](https://experienceleague.adobe.com/docs/analytics/components/marketing-channels/analyze-mc.html) vous permet de configurer des règles pour identifier différents canaux marketing en fonction des différents aspects des informations sur les accès. Vous pouvez effectuer le suivi des canaux trackés par Advertising Cloud ([!UICONTROL Display Click Through], [!UICONTROL Display View Through], et [!UICONTROL Paid Search]) as [!DNL Marketing Channels] en utilisant la variable `ef_id` paramètre de chaîne de requête pour identifier le canal. <!-- Move most of the above text to "Marketing Channels" chapter once it's created, and add link here. --> Cependant, même si la variable [!DNL Marketing Channels] Les rapports peuvent effectuer le suivi des canaux Advertising Cloud, les données peuvent ne pas correspondre aux rapports Advertising Cloud pour plusieurs raisons. Pour plus d’informations, reportez-vous aux sections suivantes.
+[[!DNL Analytics Marketing Channels] reporting](https://experienceleague.adobe.com/docs/analytics/components/marketing-channels/analyze-mc.html) vous permet de configurer des règles pour identifier différents canaux marketing en fonction des différents aspects des informations sur les accès. Vous pouvez effectuer le suivi des canaux suivis par les publicités Adobes ([!UICONTROL Display Click Through], [!UICONTROL Display View Through], et [!UICONTROL Paid Search]) as [!DNL Marketing Channels] en utilisant la variable `ef_id` paramètre de chaîne de requête pour identifier le canal. <!-- Move most of the above text to "Marketing Channels" chapter once it's created, and add link here. --> Cependant, même si la variable [!DNL Marketing Channels] Les rapports peuvent effectuer le suivi des canaux Advertising d’Adobe, les données peuvent ne pas correspondre aux rapports Advertising d’Adobe pour plusieurs raisons. Pour plus d’informations, reportez-vous aux sections suivantes.
 
 >[!NOTE]
 >
-> Les concepts de base suivants s’appliquent également à tout suivi multicanal qui implique des campagnes non suivies dans Advertising Cloud, comme le [`campaign`](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/campaign.html) (également appelée Dimension &quot;Code de suivi&quot; ou &quot;eVar 0&quot;) et suivi personnalisé en eVar.
+> Les concepts de base suivants s’appliquent également à tout suivi multicanal qui implique des campagnes non suivies dans Adobe Advertising, comme le [`campaign`](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/campaign.html) (également appelée Dimension &quot;Code de suivi&quot; ou &quot;eVar 0&quot;) et suivi personnalisé en eVar.
 
 ### Modèles d’attribution potentiellement différents dans [!DNL Marketing Channels]
 
-Le plus [!DNL Marketing Channels] les rapports sont configurés avec [!UICONTROL Last Touch] l’attribution, pour laquelle le dernier canal marketing détecté se voit attribuer 100 % de la valeur de conversion. Utilisation de différents modèles d’attribution pour la variable [!DNL Marketing Channels] les rapports et les rapports Advertising Cloud entraîneront des incohérences dans les conversions attribuées.
+Le plus [!DNL Marketing Channels] les rapports sont configurés avec [!UICONTROL Last Touch] l’attribution, pour laquelle le dernier canal marketing détecté se voit attribuer 100 % de la valeur de conversion. Utilisation de différents modèles d’attribution pour la variable [!DNL Marketing Channels] les rapports et les rapports Adobe Advertising entraîneront des incohérences dans les conversions attribuées.
 
 ### Une fenêtre de recherche en amont potentiellement différente dans [!DNL Marketing Channels]
 
-L’intervalle de recherche en amont pour [!DNL Marketing Channels] peuvent être personnalisés. Dans Advertising Cloud, l’intervalle de recherche en amont des clics est configurable, bien qu’une période de 60 jours fixe soit courante. Si les deux produits utilisent des intervalles de recherche en amont différents, vous pouvez vous attendre à des incohérences de données.
+L’intervalle de recherche en amont pour [!DNL Marketing Channels] peuvent être personnalisés. Dans Adobe Advertising, l’intervalle de recherche en amont des clics est configurable, bien qu’une fenêtre fixe de 60 jours soit courante. Si les deux produits utilisent des intervalles de recherche en amont différents, vous pouvez vous attendre à des incohérences de données.
 
 ### Différente attribution de canaux dans [!DNL Marketing Channels]
 
-Les rapports Advertising Cloud capturent uniquement les médias payants qui transitent par Advertising Cloud (recherche payante de publicités Advertising Cloud Search et affichage pour les publicités Advertising Cloud DSP), alors que [!DNL Marketing Channels] Les rapports peuvent effectuer le suivi de tous les canaux numériques. Cela peut entraîner une incohérence dans le canal pour lequel une conversion est attribuée.
+Les rapports de publicité d’Adobe capturent uniquement les médias payants qui transitent par Adobe Advertising (recherche payante pour [!DNL Advertising Search] publicités et affichage pour les publicités (publicités DSP), alors que [!DNL Marketing Channels] Les rapports peuvent effectuer le suivi de tous les canaux numériques. Cela peut entraîner une incohérence dans le canal pour lequel une conversion est attribuée.
 
-Par exemple, les canaux de recherche payante et de recherche naturelle ont souvent une relation symbiotique, dans laquelle chaque canal s’aide l’autre. Le [!DNL Marketing Channels] Le rapport attribuera certaines conversions à la recherche naturelle, ce qui n’est pas le cas d’Advertising Cloud, car il ne suit pas la recherche naturelle.
+Par exemple, les canaux de recherche payante et de recherche naturelle ont souvent une relation symbiotique, dans laquelle chaque canal s’aide l’autre. Le [!DNL Marketing Channels] Le rapport attribuera certaines conversions à la recherche naturelle, ce qui n’est pas le cas d’Adobe Advertising, car il ne suit pas la recherche naturelle.
 
-Prenons également le cas d’un client qui consulte une publicité display, clique sur une publicité de recherche payante, clique dans un message électronique, puis passe une commande de 30 USD. Même si Advertising Cloud et [!DNL Marketing Channels] toutes deux utilisent le modèle d’attribution Dernière touche, la conversion sera toujours attribuée différemment à chacune d’elles. Advertising Cloud n’a pas accès au [!UICONTROL Email] , de sorte qu’il créditerait la recherche payante pour la conversion. [!DNL Marketing Channels], cependant, a accès aux trois canaux, de sorte qu’il créditerait [!UICONTROL Email] pour la conversion.
+Prenons également le cas d’un client qui consulte une publicité display, clique sur une publicité de recherche payante, clique dans un message électronique, puis passe une commande de 30 USD. Même en cas de publicité Adobe et [!DNL Marketing Channels] toutes deux utilisent le modèle d’attribution Dernière touche, la conversion sera toujours attribuée différemment à chacune d’elles. Adobe Advertising n’a pas accès au [!UICONTROL Email] , de sorte qu’il créditerait la recherche payante pour la conversion. [!DNL Marketing Channels], cependant, a accès aux trois canaux, de sorte qu’il créditerait [!UICONTROL Email] pour la conversion.
 
-![Exemple d’attribution de conversion différente dans Advertising Cloud ou [!DNL Analytics Marketing Channels]](/help/integrations/assets/a4adc-channel-example.png)
+![Exemple d’attribution de conversion différente dans Adobe Advertising ou [!DNL Analytics Marketing Channels]](/help/integrations/assets/a4adc-channel-example.png)
 
-Pour plus d’informations sur les raisons pour lesquelles les mesures peuvent varier, voir &quot;[Pourquoi les données du canal peuvent-elles varier entre Advertising Cloud et [!DNL Marketing Channels]](marketing-channels/mc-data-variances.md).&quot;
+Pour plus d’informations sur les raisons pour lesquelles les mesures peuvent varier, voir &quot;[Pourquoi les données de canal peuvent-elles varier entre la publicité Adobe et [!DNL Marketing Channels]](marketing-channels/mc-data-variances.md).&quot;
 
 ## Différences de données dans Adobe Analytics [!DNL Paid Search Detection]
 
@@ -137,41 +137,41 @@ Le résultat [!DNL Paid Search Detection] Les rapports incluent [!UICONTROL Paid
 
 Notez les deux restrictions suivantes avec les données dans [!DNL Paid Search Detection] rapports :
 
-* Le [!UICONTROL Paid Search Keywords] et [!UICONTROL Natural Search Keywords] Les rapports affichent les requêtes de recherche identifiées par les URL de référence, et non les mots-clés sur lesquels les utilisateurs enchèrent. Advertising Cloud et [!DNL Analytics] Les rapports affichent les mots-clés réels. ne vous attendez donc pas à ce qu’ils s’alignent sur la variable [!DNL Paid Search Detection] rapports sur les mots-clés.
+* Le [!UICONTROL Paid Search Keywords] et [!UICONTROL Natural Search Keywords] Les rapports affichent les requêtes de recherche identifiées par les URL de référence, et non les mots-clés sur lesquels les utilisateurs enchèrent. Publicité Adobe et [!DNL Analytics] Les rapports affichent les mots-clés réels. ne vous attendez donc pas à ce qu’ils s’alignent sur la variable [!DNL Paid Search Detection] rapports sur les mots-clés.
 
 * Lorsque la variable [!DNL Paid Search Detection] a été créée à l’origine, la requête de recherche d’origine (la chaîne de caractères saisie par l’utilisateur dans la barre de recherche du moteur de recherche) était plus facilement accessible aux annonceurs via l’URL de référence. Aujourd’hui, les moteurs de recherche obscurcissent en grande partie la requête et la variable [!DNL Paid Search Detection] les rapports sur les mots-clés ont une valeur limitée, car la plupart des données de requête sont sous &quot;non spécifié&quot;.
 
-   Avec [!DNL Analytics for Advertising Cloud], les publicitaires peuvent toujours effectuer le suivi des mots-clés payants dans [!DNL Analytics]. Le domaine référent informe le moteur de recherche du moteur de recherche qui a généré le trafic. Puisque les informations de compte spécifiques à l’annonceur ne sont pas liées au domaine référent, tout le trafic est répertorié sous le moteur de recherche. Les annonceurs disposant de plusieurs comptes dans le même moteur de recherche doivent se référer à Advertising Cloud ou [!DNL Analytics] création de rapports pour la création de rapports spécifiques au compte.
+   Avec [!DNL Analytics for Advertising], les publicitaires peuvent toujours effectuer le suivi des mots-clés payants dans [!DNL Analytics]. Le domaine référent informe le moteur de recherche du moteur de recherche qui a généré le trafic. Puisque les informations de compte spécifiques à l’annonceur ne sont pas liées au domaine référent, tout le trafic est répertorié sous le moteur de recherche. Les annonceurs disposant de plusieurs comptes dans le même moteur de recherche doivent se référer à Adobe Advertising ou [!DNL Analytics] création de rapports pour la création de rapports spécifiques au compte.
 
 ### Pourquoi configurer [!DNL Paid Search Detection]?
 
 Le [!DNL Paid Search Detection] Les rapports vous permettent d’identifier le trafic de recherche naturelle dans la variable [[!DNL Analytics Marketing Channels] rapports](https://experienceleague.adobe.com/docs/analytics/components/marketing-channels/analyze-mc.html). La séparation du trafic de recherche payante et du trafic de recherche naturelle est un excellent moyen de comprendre la valeur que la recherche naturelle apporte à l’écosystème marketing complet.
 
-## Validation des données de clic publicitaire pour [!DNL Analytics for Advertising Cloud] {#data-validation}
+## Validation des données de clic publicitaire pour [!DNL Analytics for Advertising] {#data-validation}
 
 Pour votre intégration, vous devez valider vos données de clics publicitaires afin de vous assurer que toutes les pages de votre site effectuent correctement le suivi des clics publicitaires.
 
-Dans [!DNL Analytics], l’une des méthodes les plus simples de validation [!DNL Analytics for Advertising Cloud] le suivi permet de comparer les clics aux instances à l’aide de la mesure calculée &quot;Clics jusqu’aux instances AMO ID&quot;, calculée comme suit :
+Dans [!DNL Analytics], l’une des méthodes les plus simples de validation [!DNL Analytics for Advertising] le suivi permet de comparer les clics aux instances à l’aide de la mesure calculée &quot;Clics jusqu’aux instances AMO ID&quot;, calculée comme suit :
 
 ```Clicks to AMO ID Instances = (AMO ID Instances / AMO Clicks)```
 
 [!UICONTROL AMO ID Instances] représente le nombre de fois où les AMO ID (`s_kwcid` ) sont suivis sur le site. Chaque fois qu’un utilisateur clique sur une publicité, une `s_kwcid` est ajouté à l’URL de la landing page. Le nombre de [!UICONTROL AMO ID Instances]est donc analogue au nombre de clics et peut être validé par rapport aux clics publicitaires réels. Nous constatons généralement un taux de correspondance de 80 % pour [!DNL Search] et un taux de correspondance de 30 % pour [!DNL DSP] trafic (lorsqu’il est filtré pour inclure uniquement les clics publicitaires) [!UICONTROL AMO ID Instances]). La différence d’attentes entre la recherche et l’affichage peut s’expliquer par le comportement de trafic attendu. La recherche capture l’intention et, en tant que telle, les utilisateurs ont généralement l’intention de cliquer sur les résultats de la recherche à partir de leur requête. Toutefois, les utilisateurs qui voient un affichage ou une publicité vidéo en ligne sont plus susceptibles de cliquer dessus involontairement, puis de rebondir à partir du site ou de quitter la nouvelle fenêtre qui se charge avant le suivi de l’activité de page.
 
-Dans les rapports Advertising Cloud, vous pouvez comparer de la même manière les clics aux instances à l’aide de la variable[!UICONTROL ef_id_instances]&quot; au lieu de [!UICONTROL AMO ID Instances]:
+Dans les rapports Adobe Advertising, vous pouvez de même comparer des clics à des instances à l’aide du[!UICONTROL ef_id_instances]&quot; au lieu de [!UICONTROL AMO ID Instances]:
 
 ```Clicks to [!UICONTROL EF ID Instances] = (ef_id_instances / Clicks)```
 
-Bien que vous vous attendiez à un taux de correspondance élevé entre l’AMO ID et l’EF ID, ne vous attendez pas à une parité de 100 %, car l’AMO ID et l’EF ID suivent fondamentalement différentes données, et cette différence peut entraîner de légères différences dans le total [!UICONTROL AMO ID Instances] et [!UICONTROL EF ID Instances]. Si le total [!UICONTROL AMO ID Instances] in [!DNL Analytics] différer de [!UICONTROL EF ID Instances] Dans Advertising Cloud, en revanche, de plus de 1 %, contactez votre [!DNL Adobe] l’équipe du compte pour obtenir de l’aide.
+Bien que vous vous attendiez à un taux de correspondance élevé entre l’AMO ID et l’EF ID, ne vous attendez pas à une parité de 100 %, car l’AMO ID et l’EF ID suivent fondamentalement différentes données, et cette différence peut entraîner de légères différences dans le total [!UICONTROL AMO ID Instances] et [!UICONTROL EF ID Instances]. Si le total [!UICONTROL AMO ID Instances] in [!DNL Analytics] différer de [!UICONTROL EF ID Instances] Toutefois, dans Adobe Advertising, de plus de 1 %, contactez votre [!DNL Adobe] l’équipe du compte pour obtenir de l’aide.
 
-Pour plus d’informations sur l’AMO ID et l’EF ID, voir [Advertising Cloud ID utilisés par Analytics](ids.md).
+Pour plus d’informations sur l’AMO ID et l’EF ID, voir [Adobe des identifiants publicitaires utilisés par Analytics](ids.md).
 
 Voici un exemple d’espace de travail permettant d’effectuer le suivi des clics vers des instances.
 
 ![Exemple d’espace de travail pour le suivi des clics vers des instances](/help/integrations/assets/a4adc-clicks-to-instances-example.png)
 
-## Comparaison de jeux de données dans [!DNL Analytics for Advertising Cloud] Contre dans Advertising Cloud
+## Comparaison de jeux de données dans [!DNL Analytics for Advertising] Contre dans Adobe Advertising
 
-Le [AMO ID](ids.md) (paramètre de chaîne de requête s_kwcid) est utilisé pour la création de rapports dans [!DNL Analytics], et la variable [EF ID](ids.md) est utilisé pour la création de rapports dans Advertising Cloud. Comme il s’agit de valeurs distinctes, il est possible qu’une valeur soit corrompue ou non ajoutée à la page d’entrée.
+Le [AMO ID](ids.md) (paramètre de chaîne de requête s_kwcid) est utilisé pour la création de rapports dans [!DNL Analytics], et la variable [EF ID](ids.md) est utilisé pour la création de rapports dans Adobe Advertising. Comme il s’agit de valeurs distinctes, il est possible qu’une valeur soit corrompue ou non ajoutée à la page d’entrée.
 
 Par exemple, supposons que nous ayons la page d’entrée suivante :
 
@@ -187,7 +187,7 @@ où l’identifiant EF est &quot;`test_ef_id`&quot; et l’AMO ID est &quot;`tes
 
 Dans cet exemple, l’ajout de la balise d’ancrage ajoute des caractères inattendus à l’AMO ID, ce qui entraîne la présence d’une valeur qu’Analytics ne reconnaît pas. Cet AMO ID ne serait pas classé et les conversions qui y sont associées tomberaient sous &quot;[!UICONTROL unspecified]&quot; ou &quot;[!UICONTROL none]&quot; dans [!DNL Analytics] rapports.
 
-Heureusement, même si des problèmes comme celui-ci sont communs, ils ne génèrent généralement pas un fort pourcentage d&#39;incohérences. Cependant, si vous constatez une différence importante entre les AMO ID dans [!DNL Analytics] et les identifiants EF dans Advertising Cloud, contactez votre [!DNL Adobe] l’équipe du compte pour obtenir de l’aide.
+Heureusement, même si des problèmes comme celui-ci sont communs, ils ne génèrent généralement pas un fort pourcentage d&#39;incohérences. Cependant, si vous constatez une différence importante entre les AMO ID dans [!DNL Analytics] et les identifiants EF dans Adobe Advertising, contactez votre [!DNL Adobe] l’équipe du compte pour obtenir de l’aide.
 
 ## Autres considérations relatives aux mesures
 
@@ -201,7 +201,7 @@ Elles semblent similaires, mais les clics et les visites représentent des donn�
 
 Par définition, un clic peut conduire à plusieurs visites.
 
-Examinez l’exemple suivant : Les utilisateurs 1 et 2 accèdent tous deux à un site en cliquant sur une publicité Advertising Cloud. L’utilisateur 1 affiche quatre pages, puis quitte le site pour la journée. Le clic initial se traduit donc par une visite. L’utilisateur 2 consulte deux pages, part pour un déjeuner de 45 minutes, revient, affiche deux autres pages, puis quitte le site ; dans ce cas, le clic initial génère deux visites.
+Examinez l’exemple suivant : Les utilisateurs 1 et 2 accèdent tous deux à un site en cliquant sur une publicité publicitaire Adobe. L’utilisateur 1 affiche quatre pages, puis quitte le site pour la journée. Le clic initial se traduit donc par une visite. L’utilisateur 2 consulte deux pages, part pour un déjeuner de 45 minutes, revient, affiche deux autres pages, puis quitte le site ; dans ce cas, le clic initial génère deux visites.
 
 ![Exemple de différence entre clics et visites](/help/integrations/assets/a4adc-visits-example.png)
 
@@ -221,29 +221,29 @@ Les sites chargés sur des périphériques mobiles sont également moins suscept
 
 Les données de clic peuvent également être enregistrées dans des environnements qui ne peuvent pas enregistrer les clics publicitaires avec les mécanismes de suivi actuels (tels que les clics vers ou depuis une application mobile) ou pour lesquels l’annonceur a déployé une seule approche de suivi (par exemple, avec l’approche JavaScript d’affichage publicitaire, les navigateurs qui bloquent les cookies tiers effectuent le suivi des clics, mais pas des clics publicitaires). Adobe recommande vivement de déployer les méthodes de suivi des URL de clics et des affichages publicitaires JavaScript pour optimiser la couverture des clics publicitaires pouvant faire l’objet d’un suivi.
 
-### Utilisation des mesures de trafic Advertising Cloud pour les Dimensions non Advertising Cloud
+### Utilisation de mesures de trafic Adobe Advertising pour les Dimensions publicitaires non Adobes
 
-Advertising Cloud fournit à Analytics [mesures de trafic spécifiques aux publicités et dimensions associées provenant de DSP et de la recherche](advertising-cloud-metrics-in-analytics.md). Les mesures fournies par Advertising Cloud s’appliquent uniquement aux dimensions Advertising Cloud spécifiées et les données ne sont pas disponibles pour les autres dimensions dans [!DNL Analytics].
+Adobe Advertising fournit à Analytics [mesures de trafic spécifiques à la publicité et dimensions associées provenant de DSP et [!DNL [!DNL Search]]](advertising-cloud-metrics-in-analytics.md). Les mesures fournies par Adobe Advertising s’appliquent uniquement aux dimensions Adobe Advertising spécifiées et les données ne sont pas disponibles pour les autres dimensions dans [!DNL Analytics].
 
-Par exemple, si vous affichez la variable [!UICONTROL AMO Clicks] et [!UICONTROL AMO Cost] mesures par compte, qui est une dimension Advertising Cloud, vous verrez alors le total [!UICONTROL AMO Clicks] et [!UICONTROL AMO Cost] par compte.
+Par exemple, si vous affichez la variable [!UICONTROL AMO Clicks] et [!UICONTROL AMO Cost] mesures par compte, qui est une dimension Publicité Adobe, vous verrez alors le total [!UICONTROL AMO Clicks] et [!UICONTROL AMO Cost] par compte.
 
-![Exemple de mesures Advertising Cloud dans un rapport utilisant une dimension Advertising Cloud](/help/integrations/assets/a4adc-traffic-supported-dimension.png)
+![Exemple de mesures Adobe Advertising dans un rapport à l’aide d’une dimension Adobe Advertising](/help/integrations/assets/a4adc-traffic-supported-dimension.png)
 
-Toutefois, si vous affichez la variable [!UICONTROL AMO Clicks] et [!UICONTROL AMO Cost] mesures par une dimension sur la page (telle que Page), pour laquelle Advertising Cloud ne fournit pas de données, puis la variable [!UICONTROL AMO Clicks] et [!UICONTROL AMO Cost] pour chaque page sera zéro (0).
+Toutefois, si vous affichez la variable [!UICONTROL AMO Clicks] et [!UICONTROL AMO Cost] mesures par une dimension sur la page (telle que Page), pour laquelle Adobe Advertising ne fournit pas de données, puis la variable [!UICONTROL AMO Clicks] et [!UICONTROL AMO Cost] pour chaque page sera zéro (0).
 
-![Exemple de mesures Advertising Cloud dans un rapport utilisant une dimension non prise en charge](/help/integrations/assets/a4adc-traffic-unsupported-dimension.png)
+![Exemple de mesures de publicité Adobe dans un rapport utilisant une dimension non prise en charge](/help/integrations/assets/a4adc-traffic-unsupported-dimension.png)
 
-### Utilisation [!UICONTROL AMO ID Instances] comme substitut des clics avec des Dimensions non Advertising Cloud
+### Utilisation [!UICONTROL AMO ID Instances] comme substitut des clics avec des Dimensions publicitaires non Adobes
 
-Puisque vous ne pouvez pas utiliser [!UICONTROL AMO Clicks] avec les dimensions sur site, vous pouvez rechercher un équivalent aux clics. Vous pouvez être tenté d’utiliser les visites comme substitut, mais elles ne sont pas la meilleure option, car chaque visiteur peut avoir plusieurs visites. (Voir[Différence entre les clics et les visites](#clicks-vs-visits).&quot; Nous vous recommandons plutôt d’utiliser [!UICONTROL AMO ID Instances]: nombre de captures de l’AMO ID. while [!UICONTROL AMO ID Instances] ne correspondra pas [!UICONTROL AMO Clicks] exactement, il s’agit de la meilleure option pour mesurer le trafic de clics sur le site. Pour plus d’informations, voir[Validation des données pour [!DNL Analytics for Advertising Cloud]](#data-validation).&quot;
+Puisque vous ne pouvez pas utiliser [!UICONTROL AMO Clicks] avec les dimensions sur site, vous pouvez rechercher un équivalent aux clics. Vous pouvez être tenté d’utiliser les visites comme substitut, mais elles ne sont pas la meilleure option, car chaque visiteur peut avoir plusieurs visites. (Voir[Différence entre les clics et les visites](#clicks-vs-visits).&quot; Nous vous recommandons plutôt d’utiliser [!UICONTROL AMO ID Instances]: nombre de captures de l’AMO ID. while [!UICONTROL AMO ID Instances] ne correspondra pas [!UICONTROL AMO Clicks] exactement, il s’agit de la meilleure option pour mesurer le trafic de clics sur le site. Pour plus d’informations, voir[Validation des données pour [!DNL Analytics for Advertising]](#data-validation).&quot;
 
 ![Exemple d&#39;un [!UICONTROL AMO ID Instances] au lieu de [!UICONTROL AMO Clicks] pour une dimension non prise en charge](/help/integrations/assets/a4adc-amo-id-instances.png)
 
 >[!MORELIKETHIS]
 >
->* [Présentation de [!DNL Analytics for Advertising Cloud]](overview.md)
->* [Advertising Cloud ID utilisés par [!DNL Analytics]](/help/integrations/analytics/ids.md)
->* [Mesures Advertising Cloud dans Analysis Workspace](/help/integrations/analytics/advertising-cloud-metrics-in-analytics.md)
->* [[!DNL Analytics] Données dans Advertising Cloud](/help/integrations/analytics/analytics-data-in-advertising-cloud.md)
->* [Pourquoi les données peuvent varier entre Advertising Cloud et [!DNL Marketing Channels]](/help/integrations/analytics/marketing-channels/mc-data-variances.md)
+>* [Présentation de [!DNL Analytics for Advertising]](overview.md)
+>* [Adobe des identifiants publicitaires utilisés par [!DNL Analytics]](/help/integrations/analytics/ids.md)
+>* [Adobe des mesures publicitaires dans Analysis Workspace](/help/integrations/analytics/advertising-cloud-metrics-in-analytics.md)
+>* [[!DNL Analytics] Données dans Adobe Advertising](/help/integrations/analytics/analytics-data-in-advertising-cloud.md)
+>* [Pourquoi les données peuvent varier entre la publicité Adobe et [!DNL Marketing Channels]](/help/integrations/analytics/marketing-channels/mc-data-variances.md)
 

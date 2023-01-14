@@ -3,7 +3,7 @@ title: Duplication de placements
 description: Découvrez comment dupliquer un ou plusieurs emplacements.
 feature: DSP Placements
 exl-id: d22a61a8-4f1b-41ee-b4fb-3124bec81a2f
-source-git-commit: 5ed402a7c83072a7af6a06757050486c6d7d7080
+source-git-commit: ad978a021c063377e4c91ed41e902d98a03749e4
 workflow-type: tm+mt
 source-wordcount: '306'
 ht-degree: 0%
@@ -24,16 +24,27 @@ Dupliquez un ou plusieurs emplacements pour créer des emplacements avec des par
 Voir &quot;[Ce qui n’est pas dupliqué](#placement-not-duplicated)&quot; pour une liste de paramètres d’emplacement qui ne sont pas dupliqués.
 
 1. Dans le menu principal, cliquez sur **[!UICONTROL Campaigns]**.
+
 1. Cliquez sur le nom de la campagne.
+
 1. Dans le sous-menu, cliquez sur **[!UICONTROL Placements]**.
+
 1. Effectuez l’une des opérations suivantes :
+
    * Pour dupliquer un emplacement, cliquez sur  **[!UICONTROL ...]>[!UICONTROL Duplicate]** en regard du nom du module.
+
    * Pour dupliquer plusieurs emplacements :
+
       1. Cochez la case en regard de chaque emplacement à dupliquer.
+
       1. Dans la barre d’outils des actions en bloc, cliquez sur **[!UICONTROL Duplicate]**.
+
 1. Spécifiez les nouveaux paramètres d’emplacement :
+
    1. (Emplacements uniques) Saisissez le nouveau nom de l’emplacement.
+
    1. Dans le **[!UICONTROL Choose Package (Required)]** , sélectionnez le package parent ou **[!UICONTROL No package]*.
+
    1. (Facultatif) Modifiez les paramètres par défaut.
 
    Les paramètres s’appliquent à tous les emplacements sélectionnés.

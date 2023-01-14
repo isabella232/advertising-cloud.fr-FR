@@ -3,7 +3,7 @@ title: Dupliquer un package
 description: Découvrez comment dupliquer un package.
 feature: DSP Packages
 exl-id: 4c37883f-5feb-4513-9573-ed4e32606132
-source-git-commit: 5ed402a7c83072a7af6a06757050486c6d7d7080
+source-git-commit: ad978a021c063377e4c91ed41e902d98a03749e4
 workflow-type: tm+mt
 source-wordcount: '246'
 ht-degree: 0%
@@ -22,18 +22,27 @@ Dupliquez un package pour créer un package avec des paramètres similaires. Vou
 Voir &quot;[Ce qui n’est pas dupliqué](#package-not-duplicated)&quot; pour une liste de paramètres d’emplacement qui ne sont pas dupliqués.
 
 1. Dans le menu principal, cliquez sur **[!UICONTROL Campaigns]**.
+
 1. Cliquez sur le nom de la campagne pour ouvrir la [!UICONTROL Packages] vue.
+
 1. En regard du nom du module, cliquez sur  **[!UICONTROL ...]>[!UICONTROL Duplicate]**.
+
 1. Spécifiez les nouveaux paramètres de module :
+
    1. Saisissez le nouveau nom du package.
+
    1. (Facultatif) Modifiez les paramètres par défaut.
 
       Par défaut :
 
       * Le nouveau kit est affecté à l’annonceur et à la campagne d’origine.
+
       * Le nouveau paquet devient principal aujourd&#39;hui.<!-- and the flight continues for NN  days. -->
+
       * Les emplacements dans le package d’origine sont copiés dans le nouveau package.
+
       * Les publicités et les pixels d’événement de niveau placement ne sont pas copiés dans le nouveau module.
+
 1. Cliquez sur **[!UICONTROL Submit]**.
 
 ## Ce qui n’est pas dupliqué {#package-not-duplicated}

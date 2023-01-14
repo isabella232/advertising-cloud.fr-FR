@@ -3,20 +3,20 @@ title: À propos de [!UICONTROL Deal ID Inbox]
 description: En savoir plus sur les [!UICONTROL Deal ID inbox] qui vous permet d’accepter les offres privées que vous avez déjà négociées avec les éditeurs sur [!DNL FreeWheel], [!DNL Google Authorized Buyers] (anciennement connu sous le nom de [!DNL AdX]), and [!DNL Magnite DV+] (anciennement [!DNL Rubicon]).
 feature: DSP Private Inventory, DSP Deal IDs
 exl-id: 959ad1d4-4671-4967-9f73-ec5b0464d0cd
-source-git-commit: 39f491a39bdc9d8dd820eb4c69594dda71d8b3c2
+source-git-commit: ad978a021c063377e4c91ed41e902d98a03749e4
 workflow-type: tm+mt
-source-wordcount: '491'
+source-wordcount: '490'
 ht-degree: 0%
 
 ---
 
 # À propos de [!UICONTROL Deal ID Inbox]
 
-DSP [!UICONTROL Deal ID inbox] vous permet de configurer rapidement des offres qu’Advertising Cloud DSP a importées d’éditeurs par le biais de plateformes côté offre (SSP), afin que vous n’ayez pas à configurer chaque opération manuellement. Vous pouvez accepter les offres d’inventaire privé garanties et non garanties que vous avez déjà négociées avec les éditeurs sur [!DNL FreeWheel], [!DNL Google Authorized Buyers] (anciennement connu sous le nom de [!DNL AdX]), et [!DNL Magnite DV+] (anciennement [!DNL Rubicon]) de la variable [!UICONTROL Deal ID inbox].
+Le DSP de la publicité [!UICONTROL Deal ID inbox] vous permet de configurer rapidement des offres que DSP a importées depuis des éditeurs par le biais de plateformes côté offre (SSP), afin que vous n’ayez pas à configurer chaque opération manuellement. Vous pouvez accepter les offres d’inventaire privé garanties et non garanties que vous avez déjà négociées avec les éditeurs sur [!DNL FreeWheel], [!DNL Google Authorized Buyers] (anciennement connu sous le nom de [!DNL AdX]), et [!DNL Magnite DV+] (anciennement [!DNL Rubicon]) de la variable [!UICONTROL Deal ID inbox].
 
 >[!NOTE]
 >
->Advertising Cloud DSP est le premier DSP à intégrer à la [!DNL FreeWheel] API.
+>La DSP publicitaire est la première DSP à intégrer à la [!DNL FreeWheel] API.
 
 Dans le [!UICONTROL Deal ID inbox], vous pouvez afficher les détails de l’opération à mesure que votre éditeur les voit, accélérer la configuration de l’opération et éviter les erreurs de saisie manuelle.
 

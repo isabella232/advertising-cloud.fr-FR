@@ -1,22 +1,22 @@
 ---
-title: Collecte de données de clics et d’impressions à partir des campagnes Advertising Cloud DSP
-description: Découvrez comment capturer des impressions basées sur des cookies et des événements de clic à partir de publicités Advertising Cloud DSP à l’aide de pixels d’Audience Manager.
+title: Collecte de données de clics et d’impressions à partir de campagnes Advertising DSP
+description: Découvrez comment capturer des impressions basées sur des cookies et des événements de clic à partir de publicités Advertising DSP à l’aide de pixels d’Audience Manager.
 feature: Integration with Adobe Audience Manager
 exl-id: eb717148-00ab-428a-97b9-e8396a5c47b0
-source-git-commit: 8de057df8bf2b67f20a915e6e711902f11176747
+source-git-commit: ad978a021c063377e4c91ed41e902d98a03749e4
 workflow-type: tm+mt
-source-wordcount: '1062'
+source-wordcount: '1055'
 ht-degree: 0%
 
 ---
 
-# Collecte de données d’exposition multimédia à partir des campagnes Advertising Cloud DSP
+# Collecte de données Media Exposure à partir de campagnes Advertising DSP
 
-*Annonceurs avec Advertising Cloud DSP uniquement*
+*Publicitaires avec DSP Advertising uniquement*
 
-*Annonceurs avec intégration Advertising Cloud-Adobe Audience Manager uniquement*
+*Annonceurs avec une intégration Advertising-Adobe Audience Manager par Adobe uniquement*
 
-Ce document explique comment baliser les publicités Advertising Cloud DSP pour capturer des événements d’impression et de clic basés sur des cookies à l’aide de pixels d’Audience Manager, ainsi que des tâches supplémentaires nécessaires à l’utilisation des données.
+Ce document explique comment baliser les publicités Advertising DSP pour capturer des événements d’impression et de clic basés sur des cookies à l’aide de pixels d’Audience Manager, ainsi que des tâches supplémentaires nécessaires à l’utilisation des données.
 
 Les pixels d’événement ne capturent pas les événements qui se produisent dans des environnements sans cookie, tels que les applications mobiles et la télévision connectée (CTV).
 
@@ -77,7 +77,7 @@ Où :
 
 Les deux types de pixels peuvent contenir des paramètres supplémentaires sous la forme *paires clé-valeur* pour collecter des caractéristiques ou fournir des métadonnées de campagne (un nom d’emplacement ou un nom de campagne, par exemple) pour d’autres rapports. Une paire clé-valeur se compose de deux éléments connexes : a *key*, qui est une constante qui définit le jeu de données, et une *value*, qui est une variable qui appartient au jeu.
 
-Dans la paire clé-valeur, la variable valeur peut être soit un identifiant codé en dur, soit un identifiant codé en dur. *macro*, qui est une petite unité de code autonome remplacée dynamiquement par les valeurs correspondantes lors du chargement de la balise publicitaire pour le suivi de campagne et d’utilisateur. Pour les paramètres relatifs aux campagnes, vous pouvez utiliser [Macros DSP](/help/dsp/campaign-management/macros.md) au lieu d’utiliser des macros d’Audience Manager pour envoyer les attributs de campagne avec les données d’impression ou de clic correspondantes à l’Audience Manager, en utilisant un seul pixel sur toutes les publicités. Les macros DSP que vous insérez dans les pixels de l’événement doivent être des valeurs appropriées pour les paires clé-valeur que vous incluez dans les pixels. Par exemple, pour la variable `d_placement` clé, vous utiliseriez la macro DSP `${TM_PLACEMENT_ID_NUM}` comme valeur pour capturer les identifiants d’emplacement générés par la macro Advertising Cloud.
+Dans la paire clé-valeur, la variable valeur peut être soit un identifiant codé en dur, soit un identifiant codé en dur. *macro*, qui est une petite unité de code autonome remplacée dynamiquement par les valeurs correspondantes lors du chargement de la balise publicitaire pour le suivi de campagne et d’utilisateur. Pour les paramètres relatifs aux campagnes, vous pouvez utiliser [Macros DSP](/help/dsp/campaign-management/macros.md) au lieu d’utiliser des macros d’Audience Manager pour envoyer les attributs de campagne avec les données d’impression ou de clic correspondantes à l’Audience Manager, en utilisant un seul pixel sur toutes les publicités. Les macros DSP que vous insérez dans les pixels de l’événement doivent être des valeurs appropriées pour les paires clé-valeur que vous incluez dans les pixels. Par exemple, pour la variable `d_placement` clé, vous utiliseriez la macro DSP `${TM_PLACEMENT_ID_NUM}` comme valeur pour capturer les identifiants d’emplacement générés par la macro Adobe Advertising.
 
 Pour obtenir la liste des macros prises en charge par Audience Manager pour les pixels d’événement d’impression, voir &quot;[Capture des données d’impression de campagne via des appels de pixel](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/media-data-integration/impression-data-pixels.html#supported-key-value-pairs).&quot;
 
@@ -87,7 +87,7 @@ Pour obtenir la liste des macros prises en charge par Audience Manager pour les 
 >
 >* La bonne pratique consiste à inclure les identifiants de campagne, d’emplacement, de contenu créatif (publicitaire) et de site afin que vous puissiez utiliser les attributs de campagne pour créer des caractéristiques d’Audience Manager.
 >* Pour créer des rapports d’Audience Optimization, des paramètres supplémentaires sont requis.
->* Dans les paires clé-valeur, remplacez les valeurs par la valeur appropriée. [Macros DSP](/help/dsp/campaign-management/macros.md) vous pouvez donc utiliser un seul pixel pour toutes les publicités dans toutes les campagnes. Par exemple, modifiez `d_campaign=[%campaignID%]`to `d_campaign=${TM_CAMPAIGN_ID_NUM}` pour capturer les identifiants de campagne générés par la macro Advertising Cloud.
+>* Dans les paires clé-valeur, remplacez les valeurs par la valeur appropriée. [Macros DSP](/help/dsp/campaign-management/macros.md) vous pouvez donc utiliser un seul pixel pour toutes les publicités dans toutes les campagnes. Par exemple, modifiez `d_campaign=[%campaignID%]`to `d_campaign=${TM_CAMPAIGN_ID_NUM}` pour capturer les identifiants de campagne générés par la macro Adobe Advertising.
 >* Si nécessaire, vous pouvez créer vos propres paramètres avec des valeurs codées en dur. Exemple : `d_DSP=AdCloud`
 
 
@@ -132,7 +132,7 @@ Exemple de caractéristique qui renseigne les données au niveau de l’utilisat
 
 >[!MORELIKETHIS]
 >
->* [Macros Advertising Cloud DSP](/help/dsp/campaign-management/macros.md)
+>* [Macros DSP](/help/dsp/campaign-management/macros.md)
 >* [Présentation de l’envoi DSP données d’exposition aux médias à Adobe Audience Manager](overview.md)
 >* [Cas d’utilisation](use-cases.md)
 

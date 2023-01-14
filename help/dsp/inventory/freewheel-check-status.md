@@ -3,16 +3,16 @@ title: Vérification de l’état des publicités pour un [!DNL [!DNL FreeWheel]
 description: Découvrez comment trouver l’état des publicités pour [!DNL Freewheel] offres garanties par programmation.
 feature: DSP Private Inventory, DSP Deal IDs
 exl-id: 57c365f6-41cf-4ab6-b71d-fe9984eaf115
-source-git-commit: 39f491a39bdc9d8dd820eb4c69594dda71d8b3c2
+source-git-commit: ad978a021c063377e4c91ed41e902d98a03749e4
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '228'
 ht-degree: 0%
 
 ---
 
 # Vérification de l’état des publicités pour [!DNL Freewheel] Offres garanties par la programmation
 
-Déterminer si des publicités envoyées à [!DNL Freewheel] ont réussi. Vous pouvez soumettre à nouveau n’importe quelle publicité, si nécessaire.
+Déterminer si votre publicité envoie des [!DNL Freewheel] ont réussi. Vous pouvez soumettre à nouveau n’importe quelle publicité, si nécessaire.
 
 Pour toute question ou problème concernant le renvoi, contactez votre [!DNL Adobe] l&#39;équipe du compte.
 

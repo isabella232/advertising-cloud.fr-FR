@@ -1,11 +1,11 @@
 ---
-source-git-commit: ee08ad4b0061d0a6e7459e92dc32f4f10d081451
+source-git-commit: ad978a021c063377e4c91ed41e902d98a03749e4
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '31'
 ht-degree: 0%
 
 ---
-# Documentation diverse pour Advertising Cloud
+# Documentation diverse pour Adobe Advertising
 
 Ce dossier est destiné aux fichiers image et autres fichiers de ressources pour les fichiers du dossier /privacy/ uniquement.
 

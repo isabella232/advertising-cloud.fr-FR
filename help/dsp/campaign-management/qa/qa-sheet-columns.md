@@ -3,9 +3,9 @@ title: Colonnes dans les feuilles de calcul téléchargées/téléchargées
 description: Référencez les colonnes dans les feuilles de calcul AQ Excel téléchargées.
 feature: DSP Placements
 exl-id: 8a8dceed-f77d-4b6b-a842-f57528125c92
-source-git-commit: 12056598ae436123a867e6eaefde47657242dc73
+source-git-commit: ad978a021c063377e4c91ed41e902d98a03749e4
 workflow-type: tm+mt
-source-wordcount: '781'
+source-wordcount: '782'
 ht-degree: 0%
 
 ---
@@ -31,7 +31,7 @@ ht-degree: 0%
 | [!UICONTROL Basic] | [!UICONTROL Package Name] | Le nom du package parent, le cas échéant. | — |
 | [!UICONTROL Goals] | [!UICONTROL Start Date] | Date de début de l’emplacement. | — |
 | [!UICONTROL Goals] | [!UICONTROL End Date] | Date de fin de l’emplacement. | — |
-| [!UICONTROL Goals] | [!UICONTROL Day parting] | Si les tranches horaires sont *[!UICONTROL ON]* ou *[!UICONTROL OFF]*.<br><b>Remarque :</b> Pour vérifier le planning réel des tranches horaires, ouvrez les paramètres de placement dans [!DNL DSP]. | — |
+| [!UICONTROL Goals] | [!UICONTROL Day parting] | Si les tranches horaires sont *[!UICONTROL ON]* ou *[!UICONTROL OFF]*.<br><b>Remarque :</b> Pour vérifier le planning réel des tranches horaires, ouvrez les paramètres d’emplacement dans DSP. | — |
 | [!UICONTROL Goals] | [!UICONTROL Budget] | Le budget de placement, s’il en existe un. | Oui |
 | [!UICONTROL Goals] | [!UICONTROL Budget Interval] | L’intervalle de budget : &lt;i span=&quot;&quot; id=&quot;0&quot; translate=&quot;no&quot; />*, *[!UICONTROL Weekly]*, *[!UICONTROL Monthly]* ou *[!UICONTROL All Time]*.[!UICONTROL >Daily] | Oui |
 | [!UICONTROL Goals] | [!UICONTROL Optimization Goal] | L’objectif du paquet. | — |

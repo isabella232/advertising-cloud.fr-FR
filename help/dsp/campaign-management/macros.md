@@ -1,18 +1,18 @@
 ---
-title: Macros Advertising Cloud DSP
+title: Macros sur les DSP publicitaires
 description: Référencez les macros disponibles pour le suivi général et pour effectuer le suivi des clics sur les publicités tierces.
 feature: DSP Ads
 exl-id: e31cc2e5-ad1f-4555-a87b-0e4c3731fe5f
-source-git-commit: b3fc18cf84713adcff5a4208db537b03904cfa08
+source-git-commit: ad978a021c063377e4c91ed41e902d98a03749e4
 workflow-type: tm+mt
-source-wordcount: '935'
+source-wordcount: '929'
 ht-degree: 0%
 
 ---
 
-# Macros Advertising Cloud DSP
+# Macros sur les DSP publicitaires
 
-Une macro est une courte commande ou un raccourci pour une instruction et suit généralement le format `${MACRO_NAME}`. Les macros incluses dans le code créatif ou les URL de clic publicitaire se développent en une chaîne de code plus longue que le serveur d’annonces peut comprendre. Le serveur de publicités Advertising Cloud DSP exécute les macros lorsque la publicité est diffusée ou fait l’objet d’un clic.
+Une macro est une courte commande ou un raccourci pour une instruction et suit généralement le format `${MACRO_NAME}`. Les macros incluses dans le code créatif ou les URL de clic publicitaire se développent en une chaîne de code plus longue que le serveur d’annonces peut comprendre. Le serveur de publicités DSP exécute les macros lorsque la publicité est diffusée ou fait l’objet d’un clic.
 
 Les macros de serveur d’annonces sont utiles pour transmettre des informations importantes à DSP ou à des serveurs d’annonces tiers. Les macros sont le plus souvent utilisées lors du trafic de métadonnées ou de code créatif tiers et personnalisés (tels que les pixels tiers).
 
@@ -80,7 +80,7 @@ Pour effectuer un suivi précis des clics pour les publicités à l’aide de ba
 
 DSP insère automatiquement les macros d’affichage des clics dans une balise d’affichage tierce lorsque vous :
 
-* Exportation des balises d’annonce à partir d’un partenaire de serveur d’annonces Advertising Cloud <!-- [Needs PM confirmation.] -->
+* Exportation des balises publicitaires à partir d’un partenaire de serveur de publicités <!-- [Needs PM confirmation.] -->
 * Chargement en masse [!DNL Flashtalking] ou [!DNL Google DoubleClick for Advertisers] balises publicitaires directement dans DSP
 
 Si une macro de clic est manquante lors de la création d’une publicité display, DSP affiche un message d’avertissement vous invitant à insérer manuellement la macro de clic d’affichage appropriée dans la zone appropriée de la balise.

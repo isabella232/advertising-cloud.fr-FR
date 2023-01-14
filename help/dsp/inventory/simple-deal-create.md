@@ -1,11 +1,11 @@
 ---
-title: '"Créez un [!UICONTROL Simple Ad Serving] Deal"'
-description: '"Découvrez comment créer un pixel de suivi pour un [!UICONTROL Simple Ad Serving] deal."'
+title: "Créez un [!UICONTROL Simple Ad Serving] Deal"
+description: "Découvrez comment créer un pixel de suivi pour un [!UICONTROL Simple Ad Serving] deal."
 feature: DSP Simple Ad Serving
 exl-id: d8de85ec-616c-44ed-9a1a-cc25713ad4a4
-source-git-commit: 089d91f7d1b06e29d27ac95a46834127d19c141d
+source-git-commit: ad978a021c063377e4c91ed41e902d98a03749e4
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '386'
 ht-degree: 0%
 
 ---
@@ -33,7 +33,7 @@ ht-degree: 0%
       1. Cliquez sur **[!UICONTROL Next]**.
    1. Dans les détails du flux, modifiez les détails du flux, puis cliquez sur **[!UICONTROL Next]**.
 
-      Advertising Cloud DSP génère automatiquement un emplacement nommé &quot;Emplacement SAS - &lt;*nom de l&#39;opération*>,&quot; pour la publicité. Dans l’emplacement, l’opération est automatiquement ciblée dans la variable [!UICONTROL Inventory Targets] . Toutes les autres options de ciblage ne sont pas applicables.
+      DSP génère automatiquement un emplacement nommé &quot;Emplacement SAS - &lt;*nom de l&#39;opération*>,&quot; pour la publicité. Dans l’emplacement, l’opération est automatiquement ciblée dans la variable [!UICONTROL Inventory Targets] . Toutes les autres options de ciblage ne sont pas applicables.
 
 
 

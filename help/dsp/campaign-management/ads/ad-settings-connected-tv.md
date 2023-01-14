@@ -3,9 +3,9 @@ title: Paramètres des publicités télévisées connectées
 description: Reportez-vous à la description des paramètres de publicité disponibles pour les publicités télévisées connectées.
 feature: DSP Ads
 exl-id: 4daae9e4-27eb-4496-9186-f33aebd8daae
-source-git-commit: bcece4bfec6f8a765cced3ee230fd8cbf3055b7b
+source-git-commit: ad978a021c063377e4c91ed41e902d98a03749e4
 workflow-type: tm+mt
-source-wordcount: '498'
+source-wordcount: '495'
 ht-degree: 0%
 
 ---
@@ -58,7 +58,7 @@ Il s’agit de la même chose que la variable **[!UICONTROL Height]** champ .
 
 **[!UICONTROL VAST Tag]:** (Publicités utilisant uniquement des balises VAST ; lecture seule) La balise VAST tierce que vous avez saisie en tant que source de la publicité.
 
-**[!UICONTROL Final VAST Tag]:** (Publicités utilisant uniquement des balises VAST ; lecture seule) La balise VAST tierce que vous avez saisie en tant que source de la publicité avec les éléments nécessaires [Macros de suivi Advertising Cloud DSP](/help/dsp/campaign-management/macros.md) insérés, le cas échéant.
+**[!UICONTROL Final VAST Tag]:** (Publicités utilisant uniquement des balises VAST ; lecture seule) La balise VAST tierce que vous avez saisie en tant que source de la publicité avec les éléments nécessaires [Macros de suivi des DSP publicitaires](/help/dsp/campaign-management/macros.md) insérés, le cas échéant.
 
 **[!UICONTROL Clock Number]**: (Utilisé uniquement au Royaume-Uni ; disponible uniquement pour les utilisateurs autorisés) Identifiant unique utilisé pour s’assurer que la publicité appropriée est diffusée. Si ce paramètre n’est pas applicable, laissez-le vide.
 
@@ -84,5 +84,5 @@ Les paramètres suivants s’appliquent à chaque pixel que vous créez ou modif
 >* [Créer une publicité unique](ad-create.md)
 >* [Liste des emplacements associés à une publicité](/help/dsp/campaign-management/ads/ad-list-placements.md)
 >* [Spécifications des publicités](ad-specs.md)
->* [Macros Advertising Cloud DSP](/help/dsp/campaign-management/macros.md)
+>* [Macros DSP](/help/dsp/campaign-management/macros.md)
 

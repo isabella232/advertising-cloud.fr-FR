@@ -1,18 +1,18 @@
 ---
-title: Présentation de Campaign Management dans Advertising Cloud DSP
+title: Présentation de Campaign Management dans les DSP publicitaires
 description: Découvrez la hiérarchie et les composants de la gestion de campagne.
 feature: DSP Packages, DSP Placements, DSP Ads
 exl-id: c94e08d0-0dd5-4cf9-8df2-9eb4c591375c
-source-git-commit: d180b91f7bf5ae72a51e5335638a98c5fc4b4e86
+source-git-commit: ad978a021c063377e4c91ed41e902d98a03749e4
 workflow-type: tm+mt
-source-wordcount: '324'
+source-wordcount: '320'
 ht-degree: 0%
 
 ---
 
-# Présentation de Campaign Management dans Advertising Cloud DSP
+# Présentation de Campaign Management dans les DSP publicitaires
 
-Les campagnes Advertising Cloud DSP présentent la hiérarchie suivante :
+DSP campagnes présentent la hiérarchie suivante :
 
 * Campagne
    * Package(s)
@@ -20,7 +20,7 @@ Les campagnes Advertising Cloud DSP présentent la hiérarchie suivante :
          * Publicités
 
 <!-- Do clients think in terms of insertion orders? If yes, then work in the following info.:
-In Advertising Cloud DSP, an insertion order is represented as a campaign, and line items are represented as packages. Each package will include placements, which can use different strategies and tactics to deliver the line item requirements.
+In Advertising DSP, an insertion order is represented as a campaign, and line items are represented as packages. Each package will include placements, which can use different strategies and tactics to deliver the line item requirements.
 -->
 
 ## [!UICONTROL Campaigns]

@@ -1,7 +1,7 @@
 ---
 title: Questions fréquentes
 description: xxx
-source-git-commit: 2e0395dc1e5aa52adc83c1aaea49793fd5555390
+source-git-commit: ad978a021c063377e4c91ed41e902d98a03749e4
 workflow-type: tm+mt
 source-wordcount: '367'
 ht-degree: 0%
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 ## title
 
-https://adobeadcloud.zendesk.com/agent/tickets/14214 Par défaut, Adobe Analytics consigne tous les événements capturés dans chaque rapport. &quot;[!UICONTROL Unspecified]&quot; représentent des événements de fin de formulaire qui n’étaient pas connectés à Advertising Cloud. Par exemple, dans le rapport Plateforme publicitaire, les conversions organiques ou les conversions pilotées par une campagne par e-mail tombent dans &quot;non spécifié&quot;.
+https://adobeadcloud.zendesk.com/agent/tickets/14214 Par défaut, Adobe Analytics consigne tous les événements capturés dans chaque rapport. &quot;[!UICONTROL Unspecified]&quot; représentent des événements de remplissage de formulaire qui n’étaient pas connectés à Adobe Advertising. Par exemple, dans le rapport Plateforme publicitaire, les conversions organiques ou les conversions pilotées par une campagne par e-mail tombent dans &quot;non spécifié&quot;.
 
 Vous pouvez utiliser le filtre pour supprimer les événements non spécifiés des rapports en supprimant la coche par l’option &quot;Inclure non spécifié (aucun)&quot;. <!-- Not sure if this is in DSP or in Analytics Workspace -->
 

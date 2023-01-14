@@ -3,9 +3,9 @@ title: Optimisation
 description: En savoir plus sur les fonctionnalités d’optimisation.
 feature: DSP Introduction, DSP Optimization
 exl-id: 75c144d5-2790-415d-ade9-de2803ff9054
-source-git-commit: d10e1c24ee7c93eaab3fd4fefe853860226cc8e2
+source-git-commit: ad4ab8b9b0a4b5b1cc4aab540900363d2fe671c2
 workflow-type: tm+mt
-source-wordcount: '175'
+source-wordcount: '171'
 ht-degree: 0%
 
 ---
@@ -14,9 +14,9 @@ ht-degree: 0%
 
 Lorsque vous configurez une campagne par programmation, l’un des éléments clés à prendre en compte est l’objectif de la campagne et la manière dont vous la traduirez en IPC mesurables. Cette traduction définit la manière dont vous configurez les objectifs d’optimisation de la campagne.
 
-Advertising Cloud DSP optimise les mesures qui vous intéressent le plus en deux phases. Tout d’abord, il déplace les dépenses vers les emplacements ou les tactiques les plus performants, en fonction de l’objectif d’optimisation du package. Deuxièmement, il ajuste les enchères en temps réel pour refléter la valeur économique en temps réel qui équilibre a) la nécessité d&#39;exécuter intégralement votre budget avec b) les IPC choisis. Ensemble, ces phases d’optimisation garantissent que votre budget est dépensé efficacement pour atteindre les objectifs de votre campagne.
+La publicité DSP optimisée pour les mesures qui vous intéressent le plus en deux phases. Tout d’abord, il déplace les dépenses vers les emplacements ou les tactiques les plus performants, en fonction de l’objectif d’optimisation du package. Deuxièmement, il ajuste les enchères en temps réel pour refléter la valeur économique en temps réel qui équilibre a) la nécessité d&#39;exécuter intégralement votre budget avec b) les IPC choisis. Ensemble, ces phases d’optimisation garantissent que votre budget est dépensé efficacement pour atteindre les objectifs de votre campagne.
 
-Pour chacun de vos emplacements et modules, vous pouvez choisir un objectif d’optimisation. Les objectifs d’optimisation disponibles incluent des options prédéfinies, telles que &quot;[!UICONTROL Lowest Cost per Click]&quot; et des objectifs personnalisés que vous avez configurés en tant qu’objectifs dans Advertising Cloud Search.
+Pour chacun de vos emplacements et modules, vous pouvez choisir un objectif d’optimisation. Les objectifs d’optimisation disponibles incluent des options prédéfinies, telles que &quot;[!UICONTROL Lowest Cost per Click],&quot; et les objectifs personnalisés que vous avez configurés en tant qu’objectifs dans [!DNL Adobe Advertising Search].
 
 >[!MORELIKETHIS]
 >

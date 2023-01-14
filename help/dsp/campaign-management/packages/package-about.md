@@ -1,16 +1,16 @@
 ---
-title: À propos de la gestion de modules dans Advertising Cloud DSP
+title: À propos de la gestion de modules dans Advertising DSP
 description: Découvrez la gestion des packages.
 feature: DSP Packages
 exl-id: 06d77698-62ae-466b-8cf7-c9148907ba6d
-source-git-commit: 5ed402a7c83072a7af6a06757050486c6d7d7080
+source-git-commit: ad978a021c063377e4c91ed41e902d98a03749e4
 workflow-type: tm+mt
-source-wordcount: '224'
+source-wordcount: '222'
 ht-degree: 0%
 
 ---
 
-# À propos de la gestion de modules dans Advertising Cloud DSP
+# À propos de la gestion de modules dans Advertising DSP
 
 Utilisez les packages pour regrouper des emplacements à diffuser selon un budget défini, un objectif de performance et une stratégie de fréquence personnalisée. DSP optimise les packages en transférant les budgets vers les emplacements les plus performants du package. Vous pouvez organiser les packages par format d’emplacement, type de stock, fournisseur de données, persona ou toute autre caractéristique reconnaissable. Les packages sont facultatifs.
 

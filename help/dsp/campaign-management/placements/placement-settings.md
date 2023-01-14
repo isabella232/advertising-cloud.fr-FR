@@ -3,9 +3,9 @@ title: Paramètres d’emplacement
 description: Voir la description des paramètres d’emplacement disponibles.
 feature: DSP Placements
 exl-id: 36097132-e589-4d49-bf86-54f61eae5b67
-source-git-commit: 0f5bdf041c0de60730efe5190d438a6d29752034
+source-git-commit: ad978a021c063377e4c91ed41e902d98a03749e4
 workflow-type: tm+mt
-source-wordcount: '3422'
+source-wordcount: '3418'
 ht-degree: 0%
 
 ---
@@ -169,7 +169,7 @@ Insérez un code postal par ligne ou saisissez plusieurs valeurs séparées par 
 
 **[!UICONTROL Inventory Sources]:** Sources d’inventaire à inclure ou à exclure en tant que cibles. Pour la plupart des types d’emplacements, tous les types d’inventaire et toutes les sources pour chaque type sont inclus par défaut. Pour [!DNL Roku] emplacements, vous devez spécifier le type d’inventaire et les sources. Vous pouvez choisir parmi les types de stock suivants :
 
-* [!UICONTROL Public]: (Tous les types d’emplacements, à l’exception de Roku) Tous les stocks d’échange ouverts auxquels Advertising Cloud a accès. Vous pouvez inclure et exclure l’inventaire public.
+* [!UICONTROL Public]: (Tous les types d’emplacements, à l’exception de Roku) Tous les stocks d’échange ouverts auxquels DSP a accès. Vous pouvez inclure et exclure l’inventaire public.
 
    Vous pouvez afficher la liste par source ou par flux. Lorsque vous affichez la liste par flux, vous pouvez effectuer une recherche par nom de flux, clé de flux ou balise de caractéristique sélectionnée.
 
@@ -226,7 +226,7 @@ Les publicités sortantes apparaissent généralement au-dessus du contenu sous 
 >
 >Pour les campagnes de performances, la bonne pratique consiste à sélectionner *[!UICONTROL All Sites]*.
 
-**[!UICONTROL Site Categories]:** (Facultatif) disponible lorsque **[!UICONTROL Paste list of targeted sites]** is *[!UICONTROL Off]*) Catégories de site au sein des niveaux de site sélectionnés pour inclure ou exclure (mais pas les deux) en tant que cibles. Effectuez un choix parmi les listes de sites verticales que Advertising Cloud a mises en correspondance en fonction de l’objet du site :
+**[!UICONTROL Site Categories]:** (Facultatif) disponible lorsque **[!UICONTROL Paste list of targeted sites]** is *[!UICONTROL Off]*) Catégories de site au sein des niveaux de site sélectionnés pour inclure ou exclure (mais pas les deux) en tant que cibles. Faites votre choix parmi les listes de sites verticales que DSP a mises en correspondance en fonction de l’objet du site :
 
 1. Cliquez sur ![Modifier](/help/dsp/assets/edit.png).
 1. Spécifiez les catégories de site à inclure ou à exclure :
@@ -257,7 +257,7 @@ Les publicités sortantes apparaissent généralement au-dessus du contenu sous 
 
 >[!NOTE]
 >
->* Des listes de sites bloqués au niveau du compte et de l’annonceur sont également appliquées, en plus d’Advertising Cloud DSP [liste de sites bloqués globalement](/help/dsp/introduction/features/brand-safety-media-quality.md), qui inclut les sites considérés comme dangereux pour les publicités.
+>* Des listes de sites bloqués au niveau du compte et de l’annonceur sont également appliquées, en plus des DSP [liste de sites bloqués globalement](/help/dsp/introduction/features/brand-safety-media-quality.md), qui inclut les sites considérés comme dangereux pour les publicités.
 >* Les listes de sites bloqués remplacent toujours les listes de sites ciblés. Si un emplacement exclut et inclut la même cible pour une publicité, la cible est exclue.
 
 

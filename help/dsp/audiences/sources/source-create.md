@@ -2,9 +2,10 @@
 title: Création d’une source d’audience pour activer les audiences propriétaires
 description: Découvrez comment créer une source pour importer des audiences dans votre compte ou un compte publicitaire.
 feature: DSP Audiences
-source-git-commit: d1ebbd79b6ccf0249829feef134122f083060563
+exl-id: 16eb7cdb-4364-4e94-ba73-0f2d4d200cb9
+source-git-commit: ad978a021c063377e4c91ed41e902d98a03749e4
 workflow-type: tm+mt
-source-wordcount: '220'
+source-wordcount: '216'
 ht-degree: 0%
 
 ---
@@ -19,7 +20,7 @@ Créez une source pour importer des audiences dans votre compte DSP ou un compte
 
 >[!NOTE]
 >
->Après avoir créé une source pour le [!DNL Real-Time CDP], vous devrez activer votre [!DNL Real-Time CDP] audiences par le biais de la destination Adobe Advertising Cloud DSP dans [!DNL Real-Time CDP] pour commencer à les importer. Voir [les étapes du workflow d’activation ;](source-about.md#workflow-sources).
+>Après avoir créé une source pour le [!DNL Real-Time CDP], vous devrez activer votre [!DNL Real-Time CDP] audiences via la destination Adobe Advertising DSP dans [!DNL Real-Time CDP] pour commencer à les importer. Voir [les étapes du workflow d’activation ;](source-about.md#workflow-sources).
 
 1. Dans le menu principal, cliquez sur **[!UICONTROL Audiences] > [!UICONTROL Sources (BETA)].
 
@@ -37,9 +38,9 @@ Créez une source pour importer des audiences dans votre compte DSP ou un compte
 
 1. Cliquez sur **[!UICONTROL Save]**.
 
-1. Dans Experience Platform, créez une connexion de destination Adobe Advertising Cloud DSP à l’aide du [!UICONTROL Source Key] qui a été généré dans les paramètres source DSP.
+1. Dans Experience Platform, créez une connexion de destination de DSP Advertising à l’aide du [!UICONTROL Source Key] qui a été généré dans les paramètres source DSP.
 
-Pour obtenir des instructions sur l’activation de la connexion de destination Advertising Cloud, la sélection de segments et l’accès aux autorisations de contrôle, voir &quot;[Connexion Adobe Advertising Cloud DSP](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud-connection.html).&quot;
+Pour obtenir des instructions sur l’activation de la connexion DSP destination, la sélection de segments et l’accès aux autorisations de contrôle, voir &quot;[Connexion Adobe Advertising Cloud DSP](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud-connection.html).&quot;
 
 >[!MORELIKETHIS]
 >

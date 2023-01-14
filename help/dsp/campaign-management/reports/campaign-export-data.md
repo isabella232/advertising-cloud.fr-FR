@@ -1,18 +1,18 @@
 ---
-title: Exporter des données à partir d’une vue de gestion de campagne
+title: Exportation de données à partir d’une vue Campaign Management
 description: Découvrez comment exporter les données d'une vue de gestion de campagne de n'importe quel type vers un fichier de feuille de calcul.
 feature: DSP Campaign Data Views
 exl-id: 393b0726-d26c-4d0b-8926-98fc27259286
-source-git-commit: d10e1c24ee7c93eaab3fd4fefe853860226cc8e2
+source-git-commit: ad978a021c063377e4c91ed41e902d98a03749e4
 workflow-type: tm+mt
 source-wordcount: '122'
 ht-degree: 0%
 
 ---
 
-# Exporter des données à partir d’une vue de gestion de campagne
+# Exportation de données à partir d’une vue Campaign Management
 
-Vous pouvez exporter un instantané de la vue actuelle de gestion de campagne filtrée vers un fichier au format Microsoft Excel tableur (XLSX). Vous pouvez exporter des données pour :
+Vous pouvez exporter un instantané de la vue actuelle de gestion de campagne filtrée vers un fichier au format de feuille de calcul Excel Microsoft (XLSX). Vous pouvez exporter des données pour :
 
 * Toutes les campagnes
 * Une campagne spécifique
@@ -23,8 +23,10 @@ Vous pouvez exporter un instantané de la vue actuelle de gestion de campagne fi
 * Toutes les publicités
 
 1. Dans le menu principal, cliquez sur **[!UICONTROL Campaigns]** et ouvrez la vue que vous souhaitez exporter.
-1. Dans la barre d’outils supérieure droite, cliquez sur **[!UICONTROL ...]>[!UICONTROL Export]**.
-Le fichier est enregistré dans le dossier Téléchargements par défaut de votre navigateur.
+
+1. Dans la barre d’outils supérieure droite, cliquez sur  **[!UICONTROL ...]>[!UICONTROL Export]**.
+
+   Le fichier est enregistré dans le dossier Téléchargements par défaut de votre navigateur.
 
 >[!MORELIKETHIS]
 >

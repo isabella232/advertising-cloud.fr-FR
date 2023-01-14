@@ -3,7 +3,7 @@ title: Bonnes pratiques pour créer un objectif personnalisé
 description: Découvrez les bonnes pratiques pour créer des objectifs personnalisés afin de définir vos événements de succès.
 feature: DSP Optimization, DSP Best Practices
 exl-id: 54b16325-4b72-48a3-a2e0-4e342229211c
-source-git-commit: 7cb39998041d151ece7809adc8a2e872b922e5fc
+source-git-commit: ad978a021c063377e4c91ed41e902d98a03749e4
 workflow-type: tm+mt
 source-wordcount: '573'
 ht-degree: 0%
@@ -26,7 +26,7 @@ Si l’objectif de votre campagne est les recettes ([!UICONTROL Highest ROAS - C
 >
 > A [!UICONTROL Property Weight] de un équivaut à une valeur de un pour chaque $1 de recettes suivi.
 >
-> Par exemple, une conversion de 250 $ avec un poids de 1 est signalée comme étant de 250 $. Si la mesure de conversion se voit attribuer un poids de 0,5, la conversion de 250 $ est signalée comme étant de 125 $ dans Advertising Cloud (Conversion de 250 $ * 0,5). [!UICONTROL Property Weight] = 125 $).
+> Par exemple, une conversion de 250 $ avec un poids de 1 est signalée comme étant de 250 $. Si la mesure de conversion se voit attribuer un poids de 0,5, la conversion de 250 $ est signalée comme étant de 125 $ dans Adobe Advertising (250 $ Conversion * 0,5 [!UICONTROL Property Weight] = 125 $).
 
 ### Exemple pour une campagne avec le[!UICONTROL Lowest CPA - Custom Goal]&quot;Objectif d’optimisation
 
@@ -38,7 +38,7 @@ Si l’objectif de votre campagne est le coût par acquisition le plus faible et
 >
 > A [!UICONTROL Property Weight] de un équivaut à une valeur de un pour chaque conversion suivie.
 >
-> Par exemple, si 10 conversions d’envoi de demande sont suivies, 10 conversions d’envoi de demande sont signalées.  Si la mesure de conversion se voit attribuer un poids de 0,5, les 10 conversions sont signalées comme étant de cinq (5) dans Advertising Cloud (10 conversions * 0,5). [!UICONTROL Property Weight] = 5).
+> Par exemple, si 10 conversions d’envoi de demande sont suivies, 10 conversions d’envoi de demande sont signalées.  Si la mesure de conversion se voit attribuer un poids de 0,5, les 10 conversions sont signalées comme étant de cinq (5) dans Adobe Advertising (10 conversions * 0,5) [!UICONTROL Property Weight] = 5).
 
 ## Objectifs personnalisés avec plusieurs propriétés
 

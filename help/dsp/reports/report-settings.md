@@ -3,9 +3,9 @@ title: Paramètres des rapports personnalisés
 description: Reportez-vous à la description des paramètres de rapport personnalisés.
 feature: DSP Custom Reports
 exl-id: 1d37fc96-0f9b-4eb2-ba8d-9534f627adaf
-source-git-commit: 4e389d687f8974028181a03534aff1abf6b43831
+source-git-commit: ad4ab8b9b0a4b5b1cc4aab540900363d2fe671c2
 workflow-type: tm+mt
-source-wordcount: '972'
+source-wordcount: '966'
 ht-degree: 0%
 
 ---
@@ -57,11 +57,11 @@ Pour appliquer un ou plusieurs filtres, procédez comme suit :
 
 **[!UICONTROL Report Headers]:** Si *[!UICONTROL Include]* ou *[!UICONTROL Do Not Include]* en-têtes de colonne.
 
-**[!UICONTROL Attribution Rule Settings]:** (Tous) [!UICONTROL Custom], [!UICONTROL Conversion], [!UICONTROL Device], [!UICONTROL Geo], [!UICONTROL Segment], et [!UICONTROL Site] rapports avec [!UICONTROL Conversion Metrics] ou [!UICONTROL Custom Goals] colonnes; publicitaires avec suivi de conversion Advertising Cloud uniquement) Dans le rapport, comment attribuer des données de conversion dans une série d’événements qui mènent à une conversion. Vous pouvez choisir plusieurs règles si vous souhaitez comparer les différences entre les règles.
+**[!UICONTROL Attribution Rule Settings]:** (Tous) [!UICONTROL Custom], [!UICONTROL Conversion], [!UICONTROL Device], [!UICONTROL Geo], [!UICONTROL Segment], et [!UICONTROL Site] rapports avec [!UICONTROL Conversion Metrics] ou [!UICONTROL Custom Goals] colonnes; publicitaires avec suivi de conversion Adobe Advertising uniquement) Dans le rapport, comment attribuer des données de conversion dans une série d’événements qui mènent à une conversion. Vous pouvez choisir plusieurs règles si vous souhaitez comparer les différences entre les règles.
 
 >[!NOTE]
 >
->Les chemins de conversion incluent toutes les impressions et tous les clics dans les fenêtres d’impression ou de recherche en amont des clics de l’annonceur, qui sont configurés dans Advertising Cloud Search. Les clics sont préférés aux impressions lors de l’attribution de conversion. Tous les clics dans un chemin de conversion reçoivent un crédit complet en fonction de la règle d’attribution. Les impressions ne reçoivent du crédit que lorsqu’aucun clic n’est suivi dans le chemin de conversion.
+>Les chemins de conversion incluent toutes les impressions et tous les clics dans les fenêtres d’impression ou de recherche en amont des clics de l’annonceur, qui sont configurés dans [!DNL Adobe Advertising Search]. Les clics sont préférés aux impressions lors de l’attribution de conversion. Tous les clics dans un chemin de conversion reçoivent un crédit complet en fonction de la règle d’attribution. Les impressions ne reçoivent du crédit que lorsqu’aucun clic n’est suivi dans le chemin de conversion.
 
 * *[!UICONTROL Last Event]:* Attribue des conversions au dernier clic ou impression dans le chemin de conversion.
 
@@ -75,11 +75,11 @@ Pour appliquer un ou plusieurs filtres, procédez comme suit :
 
 * *[!UICONTROL U-shaped]:* Attribue la conversion à tous les événements du chemin de conversion, mais donne le plus de poids aux premier et dernier événements, avec successivement moins de poids aux événements au milieu du chemin de conversion.
 
-* *[!UICONTROL Display Only]:*  Attribue des conversions au dernier clic ou impression DSP dans le chemin de conversion. Cela inclut les publicités vidéo et télévisées et exclut les clics sur les publicités Advertising Cloud Search.
+* *[!UICONTROL Display Only]:*  Attribue des conversions au dernier clic ou impression DSP dans le chemin de conversion. Cela inclut les publicités vidéo et télévisées et exclut les clics sur [!DNL Adobe Advertising Search] publicités.
 
 * *[!UICONTROL Social Only]:* Obsolète
 
-<!-- See also [How Attribution Rules Are Calculated for Adobe Advertising Cloud](). -->
+<!-- See also [How Attribution Rules Are Calculated for Adobe Advertising](). -->
 
 **[!UICONTROL Paths as Columns]:**  (Tous) [!UICONTROL Custom], [!UICONTROL Conversion], [!UICONTROL Device], [!UICONTROL Geo], [!UICONTROL Segment], et [!UICONTROL Site] rapports avec [!UICONTROL Conversion Metrics] ou [!UICONTROL Custom Goals] Colonnes) Quels types de conversions signaler les événements précédents qui se sont produits sur le même appareil ? Vous pouvez inclure jusqu’à trois types. Pour chaque type sélectionné, une colonne distincte est incluse pour chaque mesure de conversion et est ajoutée avec le suffixe spécifié ([!UICONTROL (tl)], [!UICONTROL (ct)]ou [!UICONTROL (vt)]) :
 

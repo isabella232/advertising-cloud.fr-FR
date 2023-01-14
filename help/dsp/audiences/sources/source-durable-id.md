@@ -1,10 +1,11 @@
 ---
-title: 'Activation des segments authentifiés à partir de partenaires d’ID durables '
+title: Activation des segments authentifiés à partir de partenaires d’ID durables
 description: Découvrez comment activer des audiences authentifiées par le biais d’une solution d’ID durable.
 feature: DSP Audiences
-source-git-commit: 155ab740084bebfba5fd992a23706129668fcc90
+exl-id: 44635b74-1874-4781-bd1a-a4dadae049e0
+source-git-commit: ad978a021c063377e4c91ed41e902d98a03749e4
 workflow-type: tm+mt
-source-wordcount: '296'
+source-wordcount: '294'
 ht-degree: 0%
 
 ---
@@ -13,7 +14,7 @@ ht-degree: 0%
 
 *Fonction bêta*
 
-Pour activer les audiences authentifiées par le biais d’une solution d’ID durable dans Advertising Cloud DSP, vos segments doivent être traduits en [!DNL RampIDs], qui sont reconnaissables dans un environnement admissible. Pour ce faire, vous pouvez effectuer l’une des opérations suivantes :
+Pour activer les audiences authentifiées par le biais d’une solution d’ID durable dans Advertising DSP, vos segments doivent être traduits en [!DNL RampIDs], qui sont reconnaissables dans un environnement admissible. Pour ce faire, vous pouvez effectuer l’une des opérations suivantes :
 
 * Utilisation de l’intégration DSP avec la [!DNL Adobe Real-Time Customer Data Profile (CDP)] et le [!DNL Adobe-LiveRamp Retrieval API].
 
@@ -49,7 +50,7 @@ Pour activer les audiences authentifiées par le biais d’une solution d’ID d
 
    * Ciblage des segments partagés à partir de [!DNL LiveRamp] en utilisant le processus d’activation du segment standard.
 
-   * Collaborez avec votre équipe d’assistance Advertising Cloud pour valider la distribution correcte des données.
+   * Collaborez avec votre équipe d’assistance Adobe Advertising pour valider la distribution correcte des données.
 
 Pour en savoir plus sur l’intégration DSP avec [!DNL LiveRamp], contactez `adcloud-support@adobe.com`.
 
@@ -58,6 +59,6 @@ Pour en savoir plus sur l’intégration DSP avec [!DNL LiveRamp], contactez `ad
 >* [À propos de l’activation de segments authentifiés à partir des sources d’audience](source-about.md)
 >* [Création d’une source d’audience pour activer les audiences propriétaires](source-create.md)
 >* [Paramètres de la source d’audience](source-settings.md)
->* [Connexion Adobe Advertising Cloud DSP](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud-connection.html)
+>* [Connexion à Adobe Advertising DSP](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud-connection.html)
 >* [À propos de la gestion de l’audience](/help/dsp/audiences/audience-about.md)
 

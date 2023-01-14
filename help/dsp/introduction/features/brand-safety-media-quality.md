@@ -3,9 +3,9 @@ title: Sécurité des marques et qualité des médias
 description: En savoir plus sur la sécurité de la marque et les fonctionnalités de qualité multimédia.
 feature: DSP Introduction
 exl-id: df5be5d4-490e-479f-b76d-4fda4acd4201
-source-git-commit: b436936e3a0edcb78497fadb6f3c4086412baaa5
+source-git-commit: ad978a021c063377e4c91ed41e902d98a03749e4
 workflow-type: tm+mt
-source-wordcount: '1365'
+source-wordcount: '1350'
 ht-degree: 0%
 
 ---
@@ -14,13 +14,13 @@ ht-degree: 0%
 
 <!-- Check on logo sizes in staging environment -- I made them all 100 pixels high except for DoubleVerify, which is 150 (harder to see at 100), but some instances look larger in VS Code. -->
 
-Advertising Cloud DSP fournit une suite de fonctionnalités de protection de la marque pour s’assurer que chacune de vos campagnes atteint des utilisateurs réels dans un environnement sécurisé.
+Advertising DSP fournit une suite de fonctionnalités de protection de la marque pour s’assurer que chacune de vos campagnes atteint des utilisateurs réels dans un environnement sécurisé.
 
 Notre équipe de surveillance des fraudes travaille en étroite collaboration avec les principaux partenaires de l’industrie, tels que [!DNL Interactive Advertising Bureau], [!DNL Trust and Accountability Group] [!DNL (TAG)], et [!DNL WhiteOps], pour organiser soigneusement l’inventaire sur notre plateforme. Grâce à une gestion proactive de notre offre, DSP veille à ce que tous les annonceurs de la plate-forme soient protégés du trafic non humain (robots, robots d’indexation, trafic du centre de données et fraude) et à ne diffuser que dans des contextes sécurisés contre la marque.
 
-En plus d’offrir une gestion centralisée de la qualité, nous pensons à donner aux annonceurs les moyens de concevoir les contrôles qui s’alignent sur leur marque. Adobe Advertising Cloud offre des intégrations avec [!DNL Comscore], [!DNL DoubleVerify], [!DNL Integral Ad Science], [!DNL Oracle Data Cloud], et [!DNL Peer39], en veillant à ce que chaque annonceur puisse choisir le niveau de protection anti-fraude souhaité, le filtrage contextuel et le ciblage des mots-clés.
+En plus d’offrir une gestion centralisée de la qualité, nous pensons à donner aux annonceurs les moyens de concevoir les contrôles qui s’alignent sur leur marque. DSP offre des intégrations avec [!DNL Comscore], [!DNL DoubleVerify], [!DNL Integral Ad Science], [!DNL Oracle Data Cloud], et [!DNL Peer39], en veillant à ce que chaque annonceur puisse choisir le niveau de protection anti-fraude souhaité, le filtrage contextuel et le ciblage des mots-clés.
 
-## Initiatives de qualité Advertising Cloud DSP
+## Initiatives de qualité
 
 ### Vérification de l’inventaire avec [!DNL Ads.txt] Assistance
 
@@ -66,17 +66,17 @@ Le mapping de l’inventaire est le processus détaillé de révision et d’int
 
    * **[!UICONTROL T3]** - Contenu généré par l’utilisateur et contenu de niche
 
-* **Classification de site :** Pour faciliter le ciblage et le blocage du contenu, nous balisons chaque propriété avec une catégorie de site définie par Advertising Cloud en fonction du contenu de la propriété. Vous pouvez [cibler ou exclure ces catégories de site pour chaque emplacement ;](/help/dsp/campaign-management/placements/placement-settings.md) en fonction des objectifs de placement.
+* **Classification de site :** Pour faciliter le ciblage et le blocage du contenu, nous balisons chaque propriété avec une catégorie de site DSP définie en fonction du contenu de la propriété. Vous pouvez [cibler ou exclure ces catégories de site pour chaque emplacement ;](/help/dsp/campaign-management/placements/placement-settings.md) en fonction des objectifs de placement.
 
 ### Prise en charge complète du blocage de site
 
-Advertising Cloud DSP fournit à la fois une liste de sites bloqués globalement et la possibilité de créer des listes de sites bloqués personnalisées pour les annonceurs et les comptes.
+DSP fournit à la fois une liste de sites bloqués globalement et la possibilité de créer des listes de sites bloqués personnalisées pour les annonceurs et les comptes.
 
-#### Liste globale des sites bloqués d’Advertising Cloud DSP {#global-blocked-sites}
+#### DSP Liste globale des sites bloqués {#global-blocked-sites}
 
-Advertising Cloud DSP tient à jour une liste des sites bloqués globalement considérés comme dangereux pour l’exécution des publicités. Cette liste contient des sites présentant des contenus répréhensibles (tels que la haine ou la terreur) et des sites infectés par des robots, des faux preroll, des domaines discordants et d&#39;autres activités frauduleuses.
+DSP tient à jour une liste de sites bloqués globalement considérés comme dangereux pour l’exécution des publicités. Cette liste contient des sites présentant des contenus répréhensibles (tels que la haine ou la terreur) et des sites infectés par des robots, des faux preroll, des domaines discordants et d&#39;autres activités frauduleuses.
 
-Dans le cadre de notre initiative de sécurité des marques (Brand Safety) visant à éradiquer les activités qui fraudent les publicitaires, tous les sites sont analysés à l’aide des mesures figurant dans la liste des sites bloqués du graphique. Tous les sites qui ne réussissent pas les contrôles de sécurité de la marque sont ajoutés à la liste des sites bloqués globalement. Étant donné qu’Advertising Cloud DSP gère cette liste de manière dynamique, les sites peuvent l’activer ou la désactiver à tout moment, en fonction des dernières analyses de sécurité de la marque.
+Dans le cadre de notre initiative de sécurité des marques (Brand Safety) visant à éradiquer les activités qui fraudent les publicitaires, tous les sites sont analysés à l’aide des mesures figurant dans la liste des sites bloqués du graphique. Tous les sites qui ne réussissent pas les contrôles de sécurité de la marque sont ajoutés à la liste des sites bloqués globalement. DSP gère cette liste de manière dynamique. Aussi, les sites peuvent-ils s’y placer ou la quitter à tout moment, en fonction des dernières analyses de sécurité de la marque.
 
 Lorsque vous incluez un site sur la liste des sites bloqués globalement comme cible d’emplacement, le site est marqué d’un point d’exclamation rouge (!). Cela indique que les publicités ne s’exécuteront pas sur le site marqué.
 

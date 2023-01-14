@@ -1,21 +1,22 @@
 ---
 title: Présentation de l’envoi DSP données d’exposition aux médias à Adobe Audience Manager
-description: Découvrez comment utiliser les pixels d’événement d’Audience Manager pour capturer les données de niveau impression et de clic des campagnes Advertising Cloud DSP
+description: Découvrez comment utiliser les pixels d’événement d’Audience Manager pour capturer les données de niveau impression et de clic des campagnes Advertising DSP
 feature: Integration with Adobe Audience Manager
-source-git-commit: e861fc53ba14d783c763b291cdc618e5f1d4124f
+exl-id: 916b7deb-511e-4fbf-96d9-b274a48dc748
+source-git-commit: ad978a021c063377e4c91ed41e902d98a03749e4
 workflow-type: tm+mt
-source-wordcount: '551'
+source-wordcount: '547'
 ht-degree: 0%
 
 ---
 
 # Présentation de l’envoi DSP données d’exposition aux médias à Adobe Audience Manager
 
-*Annonceurs avec Advertising Cloud DSP uniquement*
+*Publicitaires avec DSP Advertising uniquement*
 
-*Annonceurs avec intégration Advertising Cloud-Adobe Audience Manager uniquement*
+*Annonceurs avec une intégration Advertising-Adobe Audience Manager par Adobe uniquement*
 
-Les clients Advertising Cloud DSP disposant de Adobe Audience Manager peuvent utiliser les pixels d’événement d’Audience Manager pour capturer les données au niveau de l’impression et les données au niveau des clics des campagnes DSP. Les pixels d’événement envoient les données sous forme de signaux exploitables à l’Audience Manager. Ces signaux permettent différents cas d’utilisation DSP, tels qu’une segmentation plus poussée, une gestion des fréquences, des analyses marketing et des informations sur les rapports.
+Les clients Advertising DSP avec Adobe Audience Manager peuvent utiliser les pixels d’événement d’Audience Manager pour capturer les données de niveau impression et de niveau clic des campagnes DSP. Les pixels d’événement envoient les données sous forme de signaux exploitables à l’Audience Manager. Ces signaux permettent différents cas d’utilisation DSP, tels qu’une segmentation plus poussée, une gestion des fréquences, des analyses marketing et des informations sur les rapports.
 
 DSP ne vous charge pas d&#39;envoyer ces signaux à l&#39;Audience Manager. Cependant, vous payez les coûts standard d’ingestion des Audiences Manager en fonction des appels au serveur, selon votre contrat d’Audience Manager. L’Audience Manager supprime les événements en double qui sont suivis de deux manières différentes, de sorte que chaque événement ne soit chargé qu’une seule fois.
 
@@ -51,6 +52,6 @@ L’Audience Manager effectue le suivi des clics de la même manière que les im
 
 >[!MORELIKETHIS]
 >
->* [Collecte de données de clics et d’impressions à partir des campagnes Advertising Cloud DSP](collect.md)
+>* [Collecte de données de clics et d’impressions à partir de campagnes Advertising DSP](collect.md)
 >* [Cas d’utilisation](use-cases.md)
 

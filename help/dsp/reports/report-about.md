@@ -3,7 +3,7 @@ title: À propos des rapports personnalisés
 description: Découvrez les options de création manuelle de rapports personnalisés ou d’utilisation de modèles de rapports préconfigurés.
 feature: DSP Custom Reports
 exl-id: 59fc1894-1c9d-451d-b644-5640dd311547
-source-git-commit: b40c6f08b94e546e5fc068c46b279292a4d8a14f
+source-git-commit: ad978a021c063377e4c91ed41e902d98a03749e4
 workflow-type: tm+mt
 source-wordcount: '651'
 ht-degree: 0%
@@ -40,7 +40,7 @@ Vous pouvez générer les rapports une seule fois ou programmer leur génératio
       >
       >Ce rapport contient des données sur le segment de facturation. Si une impression diffusée par un utilisateur ou un appareil appartient à plusieurs segments, un seul segment facturable est crédité de l’impression.
 
-   * **[!UICONTROL Conversion]:** Utilisez ce rapport pour comprendre les performances de vos campagnes en fonction des mesures de conversion capturées à l’aide du suivi de conversion Advertising Cloud. Ce rapport comprend l’attribution multipoint.
+   * **[!UICONTROL Conversion]:** Utilisez ce rapport pour comprendre les performances de vos campagnes en fonction des mesures de conversion capturées à l’aide du suivi de conversion Adobe Advertising. Ce rapport comprend l’attribution multipoint.
 
    * **[!UICONTROL Device]:** Utilisez ce modèle prérenseigné pour afficher les mesures clés par dimensions liées à l’appareil.
 

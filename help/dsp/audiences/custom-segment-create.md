@@ -1,18 +1,18 @@
 ---
 title: Création et implémentation d’un segment personnalisé
-description: Découvrez comment créer et implémenter un segment personnalisé pour effectuer le suivi des utilisateurs exposés aux publicités ou des utilisateurs qui visitent vos pages web.
+description: Découvrez comment créer et mettre en oeuvre un segment personnalisé pour effectuer le suivi des utilisateurs exposés aux publicités ou des utilisateurs qui visitent vos pages web.
 feature: DSP Segments
 exl-id: 691903e2-773e-4205-837e-822f435f57a7
-source-git-commit: ea9c5ba9263be2c1607d682ac035caae70621020
+source-git-commit: ad978a021c063377e4c91ed41e902d98a03749e4
 workflow-type: tm+mt
-source-wordcount: '343'
+source-wordcount: '342'
 ht-degree: 0%
 
 ---
 
 # Création et implémentation d’un segment personnalisé
 
-Vous pouvez collecter vos propres données d’audience propriétaires en créant et en implémentant un segment Advertising Cloud personnalisé. Vous pouvez utiliser ce segment pour effectuer le suivi a) des utilisateurs exposés aux publicités provenant de périphériques de bureau, mobiles et CTV, et b) des utilisateurs qui visitent des pages web spécifiques. Vous pouvez ensuite recibler les utilisateurs du segment avec des publicités supplémentaires ou empêcher les utilisateurs du segment de recevoir des publicités supplémentaires.
+Vous pouvez collecter vos propres données d’audience propriétaires en créant et en implémentant un segment DSP personnalisé. Vous pouvez utiliser ce segment pour effectuer le suivi a) des utilisateurs exposés aux publicités provenant de périphériques de bureau, mobiles et CTV, et b) des utilisateurs qui visitent des pages web spécifiques. Vous pouvez ensuite recibler les utilisateurs du segment avec des publicités supplémentaires ou empêcher les utilisateurs du segment de recevoir des publicités supplémentaires.
 
 >[!NOTE]
 >

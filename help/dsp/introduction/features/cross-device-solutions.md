@@ -3,16 +3,16 @@ title: Solutions multi-appareils
 description: En savoir plus sur les fonctionnalités multi-appareils.
 feature: DSP Introduction
 exl-id: 29f8ec41-35a6-4a29-a638-82a2929a8fe6
-source-git-commit: d7afcc2200adc41e583d21712226cb25f35aab66
+source-git-commit: ad4ab8b9b0a4b5b1cc4aab540900363d2fe671c2
 workflow-type: tm+mt
-source-wordcount: '1006'
+source-wordcount: '999'
 ht-degree: 0%
 
 ---
 
 # Solutions multi-appareils
 
-Intégration d’Advertising Cloud DSP avec [!DNL LiveRamp] vous permet d’étendre votre audience à tous les appareils connus d’une personne, et pas seulement aux appareils suivis par votre marque. L’intégration fournit également une mesure de limitation et d’attribution des fréquences sur tous les appareils.
+Intégration de la DSP Advertising à [!DNL LiveRamp] vous permet d’étendre votre audience à tous les appareils connus d’une personne, et pas seulement aux appareils suivis par votre marque. L’intégration fournit également une mesure de limitation et d’attribution des fréquences sur tous les appareils.
 
 Lorsque vous utilisez un graphique d’appareil basé sur les personnes pris en charge, vous pouvez :
 
@@ -76,9 +76,9 @@ Vous pouvez inclure les mesures suivantes dans les rapports personnalisés :
 
 ## Mesure d’attribution basée sur les personnes
 
-*Annonceurs avec suivi des conversions Advertising Cloud uniquement*
+*Publicitaires avec suivi des conversions Advertising par Adobe uniquement*
 
-Avec l’attribution basée sur les personnes, vous pouvez attribuer des conversions qui ont eu lieu sur un appareil différent de celui sur lequel l’exposition au média s’est produite. La mesure d’attribution basée sur les personnes est disponible dans DSP, Advertising Cloud Search et Advertising Cloud Creative pour les annonceurs qui ont implémenté des pixels de conversion Advertising Cloud sur leurs sites.
+Avec l’attribution basée sur les personnes, vous pouvez attribuer des conversions qui ont eu lieu sur un appareil différent de celui sur lequel l’exposition au média s’est produite. La mesure d’attribution basée sur les personnes est disponible dans DSP, [!DNL Adobe Advertising Creative], et [!DNL Adobe Advertising Search] pour les annonceurs qui ont implémenté des pixels de conversion Adobe Advertising sur leurs sites.
 
 ### Activation de la mesure d’attribution basée sur les personnes
 

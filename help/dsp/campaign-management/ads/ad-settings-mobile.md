@@ -3,9 +3,9 @@ title: Paramètres des publicités mobiles
 description: Consultez la description des paramètres d’annonce disponibles pour les annonces mobiles.
 feature: DSP Ads
 exl-id: f67c4ba0-1011-4ad6-bd36-98c312b81b67
-source-git-commit: bcece4bfec6f8a765cced3ee230fd8cbf3055b7b
+source-git-commit: ad978a021c063377e4c91ed41e902d98a03749e4
 workflow-type: tm+mt
-source-wordcount: '620'
+source-wordcount: '616'
 ht-degree: 0%
 
 ---
@@ -40,7 +40,7 @@ ht-degree: 0%
 
 **[!UICONTROL Display Code]:** URL de la ressource créative tierce. Quelconque [timestamp] et [[timestamp]] seront remplacés par des valeurs réelles.
 
-**[!UICONTROL Final Display Code]:** URL de la ressource créative tierce, avec les [Macros de suivi Advertising Cloud DSP](/help/dsp/campaign-management/macros.md) insérés, le cas échéant.
+**[!UICONTROL Final Display Code]:** URL de la ressource créative tierce, avec les [Macros de suivi des DSP publicitaires](/help/dsp/campaign-management/macros.md) insérés, le cas échéant.
 
 ### [!UICONTROL Basic]: Publicités vidéo
 
@@ -76,7 +76,7 @@ Il s’agit de la même chose que la variable **[!UICONTROL Height]** champ .
 
 **[!UICONTROL VAST Tag]:** (Publicités utilisant uniquement des balises VAST ; lecture seule) La balise VAST tierce que vous avez saisie en tant que ressource créative.
 
-**[!UICONTROL Final VAST Tag]:** (Publicités utilisant uniquement des balises VAST ; lecture seule) La balise VAST tierce que vous avez saisie en tant que ressource créative avec les éléments nécessaires [Macros de suivi Advertising Cloud DSP](/help/dsp/campaign-management/macros.md) insérés, le cas échéant.
+**[!UICONTROL Final VAST Tag]:** (Publicités utilisant uniquement des balises VAST ; lecture seule) La balise VAST tierce que vous avez saisie en tant que ressource créative avec les éléments nécessaires [Macros de suivi des DSP publicitaires](/help/dsp/campaign-management/macros.md) insérés, le cas échéant.
 
 **[!UICONTROL Wmode]:** (Certains types d’annonces) Mode fenêtre : *[!UICONTROL window]*, *[!UICONTROL transparent]* ou *[!UICONTROL opaque]*.
 
@@ -106,5 +106,5 @@ Obsolète
 >* [Créer une publicité unique](ad-create.md)
 >* [Liste des emplacements associés à une publicité](/help/dsp/campaign-management/ads/ad-list-placements.md)
 >* [Spécifications des publicités](ad-specs.md)
->* [Macros Advertising Cloud DSP](/help/dsp/campaign-management/macros.md)
+>* [Macros DSP](/help/dsp/campaign-management/macros.md)
 

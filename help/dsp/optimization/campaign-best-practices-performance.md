@@ -3,16 +3,16 @@ title: Bonnes pratiques pour configurer des campagnes de performances
 description: Découvrez les bonnes pratiques pour configurer vos campagnes axées sur les performances, qui incluent des emplacements optimisés pour le CPA le plus bas ou le ROAS le plus élevé.
 feature: DSP Optimization, DSP Best Practices
 exl-id: fc64680d-9d1c-4f74-a8b9-2e9b670c00eb
-source-git-commit: 22821c0fe8c2864ab36d7aa1141a7527cc08a35b
+source-git-commit: ad978a021c063377e4c91ed41e902d98a03749e4
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '1247'
 ht-degree: 0%
 
 ---
 
 # Bonnes pratiques pour configurer des campagnes de performances
 
-Advertising Cloud peut optimiser vos campagnes axées sur les performances pour les emplacements présentant le coût par acquisition le plus faible (CPA) ou le retour sur dépenses publicitaires le plus élevé (ROAS).
+DSP peut optimiser vos campagnes axées sur les performances pour les placements dont le coût par acquisition est le plus faible (CPA) ou dont le retour sur dépenses publicitaires est le plus élevé (ROAS).
 
 Consultez les bonnes pratiques suivantes pour les campagnes de performances :
 
@@ -55,7 +55,7 @@ Les modules d’entonnoir inférieurs incluent des emplacements qui ciblent les 
 
 #### Stratégies de positionnement recommandées pour le reciblage
 
-* Si l’annonceur est un client Adobe Analytics ou Adobe Audience Manager, vous pouvez créer des segments propriétaires (tels que les visiteurs de la page d’accueil, les pages de produits ou les abandons de panier) et les utiliser comme cibles d’emplacement dans Advertising Cloud.
+* Si l’annonceur est un client Adobe Analytics ou Adobe Audience Manager, vous pouvez créer des segments propriétaires (tels que les visiteurs de la page d’accueil, les pages de produits ou les personnes ayant abandonné leur panier) et les utiliser comme cibles d’emplacement dans DSP.
 
 * Évitez d’affecter trop de budget à un emplacement ciblé sur l’audience. En règle générale, budgétez 30 $ pour 1 000 utilisateurs par mois.
 
