@@ -3,9 +3,9 @@ title: Création et implémentation d’un segment d’opt-out de vente du CCPA
 description: Découvrez comment créer et mettre en oeuvre un segment pour effectuer le suivi des identifiants d’utilisateurs à partir des demandes d’opposition à la vente des consommateurs.
 feature: CCPA, DSP Segments
 exl-id: aebe0c5b-382f-4e4a-b145-c32f32d216ca
-source-git-commit: ad978a021c063377e4c91ed41e902d98a03749e4
+source-git-commit: 17482b831c5db7ef6c211f87b2e408443180746e
 workflow-type: tm+mt
-source-wordcount: '421'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ Une fois la balise de pixel de segment implémentée, Adobe Advertising commence
 
 >[!NOTE]
 >
->* Pour plus d’informations sur la manière de communiquer les demandes d’opposition à la vente du CCPA à Adobe Advertising à l’aide de l’API Adobe Experience Platform Privacy Service, voir [https://experienceleague.adobe.com/docs/advertising-cloud/privacy/ad-cloud-ccpa-opt-out-of-sale.html](https://experienceleague.adobe.com/docs/advertising-cloud/privacy/ad-cloud-ccpa-opt-out-of-sale.html).
+>* Pour plus d’informations sur la manière de communiquer les demandes d’opposition à la vente du CCPA à Adobe Advertising à l’aide de l’API Adobe Experience Platform Privacy Service, voir [https://experienceleague.adobe.com/docs/advertising-cloud/privacy/ccpa-opt-out-of-sale.html](https://experienceleague.adobe.com/docs/advertising-cloud/privacy/ccpa-opt-out-of-sale.html).
 >* Pour effectuer le suivi des utilisateurs qui visitent des pages web à des fins non liées au suivi des événements d’opposition à la vente des informations personnelles (CCPA), ainsi que des utilisateurs exposés à des publicités provenant d’ordinateurs de bureau, de périphériques mobiles et de télévisions, créez une [segment personnalisé](/help/dsp/audiences/custom-segment-create.md).
 
 
@@ -61,7 +61,7 @@ Une fois la balise de pixel de segment implémentée, Adobe Advertising commence
 
 >[!MORELIKETHIS]
 >
->* [Adobe Advertising Support pour le California Consumer Privacy Act : Prise en charge de l’exclusion des clients](https://experienceleague.adobe.com/docs/advertising-cloud/privacy/ad-cloud-ccpa-opt-out-of-sale.html)
+>* [Adobe Advertising Support pour le California Consumer Privacy Act : Prise en charge de l’exclusion des clients](/help/privacy/ccpa-opt-out-of-sale.md)
 >* [A propos [!UICONTROL CCPA Opt-out-of-Sale] Segments et rapports](ccpa-opt-out-about.md)
 >* [Récupération des rapports d’exclusion de la vente pour les consommateurs](ccpa-opt-out-segment-report-retrieve.md)
 >* [Création et implémentation d’un segment personnalisé](custom-segment-create.md)

@@ -3,9 +3,9 @@ title: Présentation de [!DNL Analytics for Advertising]
 description: Présentation de [!DNL Analytics for Advertising]
 feature: Integration with Adobe Analytics
 exl-id: 31367c8b-3410-4110-9ae6-11defe625355
-source-git-commit: ad4ab8b9b0a4b5b1cc4aab540900363d2fe671c2
+source-git-commit: 17482b831c5db7ef6c211f87b2e408443180746e
 workflow-type: tm+mt
-source-wordcount: '1076'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -47,7 +47,7 @@ Pour utiliser [!DNL Analytics] en tant qu’outil de reporting multimédia payan
 
 [Adobe des identifiants publicitaires dans [!DNL Analytics]](ids.md) fonctionne comme les autres eVars, avec une expiration personnalisée et persistante. Par défaut, l’intervalle de recherche en amont des attributions est défini sur 60 jours pendant la mise en oeuvre d’Adobe Advertising. Pour modifier ce paramètre, utilisez les [!DNL Adobe] l&#39;équipe du compte.
 
-Les dimensions Adobe Advertising sont ajoutées avec le suffixe &quot;(AMO ID)&quot; (par exemple, &quot;Type de publicité (AMO ID)&quot;). Voir &quot;[Adobe des mesures publicitaires dans Analysis Workspace](advertising-cloud-metrics-in-analytics.md)&quot; pour une liste des dimensions disponibles.
+Les dimensions Adobe Advertising sont ajoutées avec le suffixe &quot;(AMO ID)&quot; (par exemple, &quot;Type de publicité (AMO ID)&quot;). Voir &quot;[Adobe des mesures publicitaires dans Analysis Workspace](advertising-metrics-in-analytics.md)&quot; pour une liste des dimensions disponibles.
 
 >[!NOTE]
 >
@@ -78,7 +78,7 @@ Vous pouvez utiliser vos événements standard et personnalisés depuis [!DNL An
 
 Votre équipe de publicité d’Adobe vous aidera à identifier et à mapper les événements qui s’appliquent aux performances de médias payants dans Adobe Advertising, où ils apparaîtront dans [!UICONTROL Search] > [!UICONTROL Admin] > [!UICONTROL Transaction Properties].
 
-Voir &quot;[Mesures Analytics dans Adobe Advertising](analytics-data-in-advertising-cloud.md)&quot; pour une liste de mesures disponibles.
+Voir &quot;[Mesures Analytics dans Adobe Advertising](analytics-data-in-advertising.md)&quot; pour une liste de mesures disponibles.
 
 ### Segments Analytics pour le reciblage de site
 
@@ -111,6 +111,6 @@ Pour découvrir comment créer un rapport d’entrée sur le site Adobe Advertis
 >* [Adobe des identifiants publicitaires utilisés par Analytics](ids.md)
 >* [Code JavaScript pour Analytics pour la publicité](/help/integrations/analytics/javascript.md)
 >* [Écarts de données attendus entre [!DNL Analytics] et Adobe Advertising](data-variances.md)
->* [Adobe des mesures publicitaires dans Analysis Workspace](/help/integrations/analytics/advertising-cloud-metrics-in-analytics.md)
->* [[!DNL Analytics] Données dans Adobe Advertising](/help/integrations/analytics/analytics-data-in-advertising-cloud.md)
+>* [Adobe des mesures publicitaires dans Analysis Workspace](/help/integrations/analytics/advertising-metrics-in-analytics.md)
+>* [[!DNL Analytics] Données dans Adobe Advertising](/help/integrations/analytics/analytics-data-in-advertising.md)
 

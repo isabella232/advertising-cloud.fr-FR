@@ -3,9 +3,9 @@ title: Importation de segments Adobe Audience Manager pour le ciblage des public
 description: Découvrez comment importer votre [!DNL Adobe] Audiences dans les DSP publicitaires et la recherche à l’aide de Adobe Audience Manager
 feature: Integration with Adobe Audience Manager
 exl-id: 08a40148-b7d2-442b-81e8-f3aec4fca7df
-source-git-commit: ad4ab8b9b0a4b5b1cc4aab540900363d2fe671c2
+source-git-commit: 17482b831c5db7ef6c211f87b2e408443180746e
 workflow-type: tm+mt
-source-wordcount: '773'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -138,7 +138,7 @@ Segment membership data is sent only after one of the following events occurs:
 
 Dans DSP, les noms de segment sont organisés par taxonomie de l’Audience Manager et disponibles avec les décomptes d’adhésion de segment correspondants dans :
 
-* [Paramètres d’emplacement](https://experienceleague.adobe.com/docs/advertising-cloud/dsp/campaign-management/placements/placement-settings.html?#audience-targeting): Sur le [!UICONTROL Adobe Segments] de l’onglet [!UICONTROL Audience Targeting] .
+* [Paramètres d’emplacement](/help/dsp/campaign-management/placements/placement-settings.md#audience-targeting): Sur le [!UICONTROL Adobe Segments] de l’onglet [!UICONTROL Audience Targeting] .
 
 * Dans [paramètres d’audience](/help/dsp/audiences/audience-settings.md): Sur le [!UICONTROL Adobe Segments] .
 

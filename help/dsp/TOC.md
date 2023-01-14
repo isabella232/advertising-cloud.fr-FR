@@ -8,7 +8,7 @@ user-guide-title: Guide d’DSP de publicité
 user-guide-description: Découvrez les principales fonctionnalités, tâches, paramètres et autres ressources nécessaires pour gérer, optimiser et établir des rapports sur vos stratégies de publicité display à lʼaide dʼAdvertising DSP.
 breadcrumb-title: Guide de DSP
 index: true
-source-git-commit: ad978a021c063377e4c91ed41e902d98a03749e4
+source-git-commit: 17482b831c5db7ef6c211f87b2e408443180746e
 workflow-type: tm+mt
 source-wordcount: '948'
 ht-degree: 5%
@@ -36,10 +36,10 @@ ht-degree: 5%
    + [Financement du compte](/help/dsp/introduction/billing/account-funding.md)
    + [Devises prises en charge](/help/dsp/currency.md)
    + Prise en charge de la confidentialité des consommateurs {#privacy}
-      + [Prise en charge du Règlement général sur la protection des données](https://experienceleague.adobe.com/docs/advertising-cloud/privacy/ad-cloud-gdpr.html)
+      + [Prise en charge du Règlement général sur la protection des données](https://experienceleague.adobe.com/docs/advertising-cloud/privacy/gdpr.html)
       + Prise en charge de la CCPA {#ccpa}
-         + [Prise en charge de la California Consumer Privacy Act : Accès et suppression des données des consommateurs](https://experienceleague.adobe.com/docs/advertising-cloud/privacy/ccpa/ad-cloud-ccpa-access-delete.html)
-         + [Prise en charge de la California Consumer Privacy Act : Droit d’opposition à la vente des consommateurs](https://experienceleague.adobe.com/docs/advertising-cloud/privacy/ccpa/ad-cloud-ccpa-opt-out-of-sale.html)
+         + [Prise en charge de la California Consumer Privacy Act : Accès et suppression des données des consommateurs](https://experienceleague.adobe.com/docs/advertising-cloud/privacy/ccpa/ccpa-access-delete.html)
+         + [Prise en charge de la California Consumer Privacy Act : Droit d’opposition à la vente des consommateurs](https://experienceleague.adobe.com/docs/advertising-cloud/privacy/ccpa/ccpa-opt-out-of-sale.html)
    + Stratégies et directives {#policies}
       + [Stratégie des exigences en matière de publicités](https://experienceleague.adobe.com/docs/advertising-cloud/policies/ad-requirements-policy.html)
       + [Instructions de segments d’intégrité acceptables](https://experienceleague.adobe.com/docs/advertising-cloud/policies/health-segment-guidelines.html)

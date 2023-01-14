@@ -2,9 +2,9 @@
 title: Configuration de tests A/B pour les publicités Adobe dans Adobe Target
 description: Découvrez comment configurer un test A/B dans [!DNL Target] pour votre DSP et [!DNL Search] publicités.
 exl-id: 97055645-4b2f-4795-830d-9ce89ae2ad15
-source-git-commit: ad4ab8b9b0a4b5b1cc4aab540900363d2fe671c2
+source-git-commit: 17482b831c5db7ef6c211f87b2e408443180746e
 workflow-type: tm+mt
-source-wordcount: '1654'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -220,7 +220,7 @@ Dans Analysis Workspace, si vous constatez que les données d’activité et d�
 * [Présentation des tests A/B](https://experienceleague.adobe.com/docs/target/using/activities/abtest/test-ab.html) - Décrit les activités de test A/B que vous pouvez utiliser avec DSP publicités.
 * [Offres et expériences](https://experienceleague.adobe.com/docs/target/using/experiences/experiences.html) - Expressions [!DNL Target] outils permettant de déterminer le contenu sur site auquel DSP utilisateurs de test sont exposés.
 * [Signaux, caractéristiques et segments](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/signal-trait-segment.html) - Définit certains des outils d’Audience Manager qui peuvent vous aider à DSP les tests d’affichage publicitaire.
-* [Présentation d’Analytics for Advertising](https://experienceleague.adobe.com/docs/advertising-cloud/integrations/analytics/overview.html) - Introduit Analytics for Advertising, qui vous permet d’effectuer le suivi des interactions de site par clics publicitaires et affichages publicitaires dans vos instances Analytics.
+* [Présentation d’Analytics for Advertising](/help/integrations/analytics/overview.md) - Introduit Analytics for Advertising, qui vous permet d’effectuer le suivi des interactions de site par clics publicitaires et affichages publicitaires dans vos instances Analytics.
 
 <!-- 
 >[!MORELIKETHIS]

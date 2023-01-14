@@ -2,13 +2,13 @@
 title: Paramètres de destination du rapport
 description: Consultez les détails requis pour les destinations de votre rapport, par type de destination.
 feature: DSP Custom Reports
-source-git-commit: ff14691fd2b6fa56c303dca3ac0e4c897c322f72
+exl-id: 584c9c69-7b94-4e5c-bcc1-277ac2689d8e
+source-git-commit: 17482b831c5db7ef6c211f87b2e408443180746e
 workflow-type: tm+mt
 source-wordcount: '265'
 ht-degree: 0%
 
 ---
-
 
 # Paramètres de destination du rapport
 
@@ -22,7 +22,7 @@ Les détails requis pour les destinations de rapport hors courrier électronique
 
 **[!UICONTROL Name]:** Un nom qui vous aide à identifier la destination.
 
-**[!UICONTROL S3 Bucket URL]:** Chemin d’accès complet au dossier sur la [!DNL Amazon Simple Storage Service] (S3) vers lequel le rapport sera chargé. Exemple : `s3://adcloud_account/reports`
+**[!UICONTROL S3 Bucket URL]:** Chemin d’accès complet au dossier sur la [!DNL Amazon Simple Storage Service] (S3) vers lequel le rapport sera chargé. Exemple : `s3://dsp_account/reports`
 
 **[!UICONTROL Access Key ID]:** L’identifiant de clé d’accès à ([!DNL Amazon S3]) (fourni par [!DNL Amazon]).
 

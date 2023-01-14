@@ -3,7 +3,7 @@ title: Écarts de données attendus entre [!DNL Analytics] et Adobe Advertising
 description: Écarts de données attendus entre [!DNL Analytics] et Adobe Advertising
 feature: Integration with Adobe Analytics
 exl-id: 34685e04-d4f9-4e27-b83e-b56164244b2b
-source-git-commit: ad4ab8b9b0a4b5b1cc4aab540900363d2fe671c2
+source-git-commit: 17482b831c5db7ef6c211f87b2e408443180746e
 workflow-type: tm+mt
 source-wordcount: '3278'
 ht-degree: 0%
@@ -93,7 +93,7 @@ Si vous êtes connecté [!DNL Search], vous trouverez une liste de modèles d’
 
 #### Attribution de date d’événement dans Adobe Advertising
 
-Dans Adobe Advertising, vous pouvez générer des rapports sur les données de conversion en fonction de la date de clic/événement associée (la date de l’événement de clic ou d’impression) ou de la date de transaction (la date de conversion). Le concept de rapport de date de clic/d’événement n’existe pas dans [!DNL Analytics]; toutes les conversions suivies dans [!DNL Analytics] sont signalés par date de transaction. Par conséquent, une même conversion peut être signalée avec des dates différentes dans Adobe Advertising et [!DNL Analytics]. Prenons l’exemple d’un utilisateur qui clique sur une publicité le 1er janvier et effectue une conversion le 5 janvier. Si vous affichez les données de conversion par date d’événement dans Adobe Advertising, la conversion sera signalée le 1er janvier, lorsque le clic a eu lieu. Dans [!DNL Analytics], la même conversion sera signalée le 5 janvier.
+Dans Adobe Advertising, vous pouvez générer des rapports sur les données de conversion en fonction de la date de clic/événement associée (la date de l’événement de clic ou d’impression) ou de la date de transaction (la date de conversion). Le concept de rapport de date de clic/d’événement n’existe pas dans [!DNL Analytics]; toutes les conversions suivies dans [!DNL Analytics] sont signalés par date de transaction. Par conséquent, une même conversion peut être signalée avec des dates différentes dans Adobe Advertising et [!DNL Analytics]. Prenons l’exemple d’un utilisateur qui clique sur une publicité le 1er janvier et effectue une conversion le 5 janvier. Si vous consultez les données de conversion par date d’événement dans Adobe Advertising, la conversion sera signalée le 1er janvier, lorsque le clic a eu lieu. Dans [!DNL Analytics], la même conversion sera signalée le 5 janvier.
 
 ![Exemple de conversion attribuée à des dates différentes](/help/integrations/assets/a4adc-conversions-based-on.png)
 
@@ -223,7 +223,7 @@ Les données de clic peuvent également être enregistrées dans des environneme
 
 ### Utilisation de mesures de trafic Adobe Advertising pour les Dimensions publicitaires non Adobes
 
-Adobe Advertising fournit à Analytics [mesures de trafic spécifiques à la publicité et dimensions associées provenant de DSP et [!DNL [!DNL Search]]](advertising-cloud-metrics-in-analytics.md). Les mesures fournies par Adobe Advertising s’appliquent uniquement aux dimensions Adobe Advertising spécifiées et les données ne sont pas disponibles pour les autres dimensions dans [!DNL Analytics].
+Adobe Advertising fournit à Analytics [mesures de trafic spécifiques à la publicité et dimensions associées provenant de DSP et [!DNL [!DNL Search]]](advertising-metrics-in-analytics.md). Les mesures fournies par Adobe Advertising s’appliquent uniquement aux dimensions Adobe Advertising spécifiées et les données ne sont pas disponibles pour les autres dimensions dans [!DNL Analytics].
 
 Par exemple, si vous affichez la variable [!UICONTROL AMO Clicks] et [!UICONTROL AMO Cost] mesures par compte, qui est une dimension Publicité Adobe, vous verrez alors le total [!UICONTROL AMO Clicks] et [!UICONTROL AMO Cost] par compte.
 
@@ -243,7 +243,7 @@ Puisque vous ne pouvez pas utiliser [!UICONTROL AMO Clicks] avec les dimensions 
 >
 >* [Présentation de [!DNL Analytics for Advertising]](overview.md)
 >* [Adobe des identifiants publicitaires utilisés par [!DNL Analytics]](/help/integrations/analytics/ids.md)
->* [Adobe des mesures publicitaires dans Analysis Workspace](/help/integrations/analytics/advertising-cloud-metrics-in-analytics.md)
->* [[!DNL Analytics] Données dans Adobe Advertising](/help/integrations/analytics/analytics-data-in-advertising-cloud.md)
+>* [Adobe des mesures publicitaires dans Analysis Workspace](/help/integrations/analytics/advertising-metrics-in-analytics.md)
+>* [[!DNL Analytics] Données dans Adobe Advertising](/help/integrations/analytics/analytics-data-in-advertising.md)
 >* [Pourquoi les données peuvent varier entre la publicité Adobe et [!DNL Marketing Channels]](/help/integrations/analytics/marketing-channels/mc-data-variances.md)
 
