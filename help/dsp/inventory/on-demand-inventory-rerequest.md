@@ -2,10 +2,9 @@
 title: Demande de nouveau [!DNL On Demand] Premium Offres d’inventaire
 description: Découvrez comment demander à nouveau [!DNL On Demand] les contrats précédemment refusés.
 feature: DSP On Demand Inventory
-exl-id: db5a5708-16e3-4304-8bd0-f1aa8ecd0e3c
-source-git-commit: 39f491a39bdc9d8dd820eb4c69594dda71d8b3c2
+source-git-commit: 3059a5b211a8a219b02930f7f5763d5ec1467b8e
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '348'
 ht-degree: 0%
 
 ---

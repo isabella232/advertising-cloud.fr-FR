@@ -2,10 +2,9 @@
 title: A propos [!UICONTROL Simple Ad Serving]
 description: En savoir plus sur [!UICONTROL Simple Ad Serving] traite à l’aide de pixels de suivi d’événement.
 feature: DSP Simple Ad Serving
-exl-id: d65d1d8e-4d10-4d1d-86d3-f4457c29ae8d
-source-git-commit: cdb4f7c014ee4c7606c2e6acd5b3e2bfd08b275d
+source-git-commit: 3059a5b211a8a219b02930f7f5763d5ec1467b8e
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '226'
 ht-degree: 0%
 
 ---

@@ -2,13 +2,12 @@
 title: A propos [!UICONTROL Report Destinations]
 description: Découvrez la gestion des emplacements de diffusion pour vos rapports personnalisés.
 feature: DSP Custom Reports
-source-git-commit: ff14691fd2b6fa56c303dca3ac0e4c897c322f72
+source-git-commit: 3059a5b211a8a219b02930f7f5763d5ec1467b8e
 workflow-type: tm+mt
 source-wordcount: '166'
 ht-degree: 0%
 
 ---
-
 
 # A propos [!UICONTROL Report Destinations]
 
@@ -43,3 +42,4 @@ Vous pouvez créer de nouvelles destinations et modifier et supprimer des destin
 >* [[!UICONTROL Report Destination] Paramètres](/help/dsp/reports/report-destinations/report-destination-settings.md)
 >* [Modifier une [!UICONTROL Report Destination]](/help/dsp/reports/report-destinations/report-destination-edit.md)
 >* [Suppression d’une [!UICONTROL Report Destination]](/help/dsp/reports/report-destinations/report-destination-delete.md)
+

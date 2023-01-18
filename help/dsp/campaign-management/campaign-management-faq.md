@@ -1,16 +1,15 @@
 ---
-title: Questions fréquentes sur la gestion des campagnes
+title: Questions fréquentes à propos de Campaign Management
 description: En savoir plus sur la gestion des campagnes, notamment la période de latence des modifications et ce qui se passe lorsque vous apportez des modifications au budget pendant un vol.
 feature: DSP Packages, DSP Placements
-exl-id: 9034ab2c-b8b0-4759-bc87-5f73857bb062
-source-git-commit: d10e1c24ee7c93eaab3fd4fefe853860226cc8e2
+source-git-commit: 3059a5b211a8a219b02930f7f5763d5ec1467b8e
 workflow-type: tm+mt
 source-wordcount: '401'
 ht-degree: 0%
 
 ---
 
-# Questions fréquentes sur la gestion des campagnes
+# Questions fréquentes à propos de Campaign Management
 
 <!-- Most of this information should be moved into the relevant topics (especially editing topics). -->
 
@@ -40,7 +39,7 @@ ht-degree: 0%
 
 * Comment le rythme des packages change-t-il le dernier jour d’un vol ?
 
-   Le dernier jour d&#39;un vol, la journée est réduite de 24 heures à 23 heures afin que le budget de la formule ne soit pas dépassé. En outre, la stratégie de remplissage du package passe automatiquement à &quot;[!UICONTROL Frontload]&quot;, même s’il est défini sur &quot;[!UICONTROL even]&quot;. Cela signifie que 65 % du budget quotidien doit être affecté avant 11h30 heure de l’Est.
+   Le dernier jour d&#39;un vol, la journée est réduite de 24 heures à 23 heures afin que le budget de la formule ne soit pas dépassé. En outre, la stratégie de remplissage du module passe automatiquement à &quot;[!UICONTROL Frontload],&quot; même s’il est défini sur &quot;[!UICONTROL even].&quot; Cela signifie que 65 % du budget quotidien doit être affecté avant 11h30 heure de l’Est.
 
 >[!MORELIKETHIS]
 >

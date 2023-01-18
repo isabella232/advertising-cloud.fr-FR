@@ -2,8 +2,7 @@
 title: Présentation de l’envoi DSP données d’exposition aux médias à Adobe Audience Manager
 description: Découvrez comment utiliser les pixels d’événement d’Audience Manager pour capturer les données de niveau impression et de clic des campagnes Advertising DSP
 feature: Integration with Adobe Audience Manager
-exl-id: 916b7deb-511e-4fbf-96d9-b274a48dc748
-source-git-commit: ad978a021c063377e4c91ed41e902d98a03749e4
+source-git-commit: 3059a5b211a8a219b02930f7f5763d5ec1467b8e
 workflow-type: tm+mt
 source-wordcount: '547'
 ht-degree: 0%

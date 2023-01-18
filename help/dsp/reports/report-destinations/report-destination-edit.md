@@ -2,13 +2,12 @@
 title: Modification d’une destination de rapport
 description: Découvrez comment modifier une destination de rapport.
 feature: DSP Custom Reports
-source-git-commit: 1ae45d0ceee2efc4fc52b86fd6737d4c7467a6ca
+source-git-commit: 3059a5b211a8a219b02930f7f5763d5ec1467b8e
 workflow-type: tm+mt
 source-wordcount: '76'
 ht-degree: 1%
 
 ---
-
 
 # Modification d’une destination de rapport
 

@@ -2,8 +2,7 @@
 title: En utilisant la variable [!DNL Last Event Service] Bibliothèque JavaScript avec [!DNL Web SDK]
 description: Découvrez les étapes à suivre pour passer de l’utilisation de la méthode [!DNL Analytics] [!DNL visitorAPI] vers la bibliothèque [!DNL Experience Platform] [!DNL Web SDK] de votre bibliothèque [!DNL Analytics for Advertising] implémentation.
 feature: Integration with Adobe Analytics
-exl-id: 96537244-1c5c-4d9a-a44e-ba7fcea9381d
-source-git-commit: ad978a021c063377e4c91ed41e902d98a03749e4
+source-git-commit: 3059a5b211a8a219b02930f7f5763d5ec1467b8e
 workflow-type: tm+mt
 source-wordcount: '196'
 ht-degree: 0%

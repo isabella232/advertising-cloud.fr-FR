@@ -2,8 +2,7 @@
 title: Raccourcis clavier
 description: Référencez les raccourcis clavier disponibles dans les paramètres d’emplacement.
 feature: DSP Placements
-exl-id: bef0406c-9c10-48ec-b069-b887ef8f66ae
-source-git-commit: d10e1c24ee7c93eaab3fd4fefe853860226cc8e2
+source-git-commit: 3059a5b211a8a219b02930f7f5763d5ec1467b8e
 workflow-type: tm+mt
 source-wordcount: '101'
 ht-degree: 0%
@@ -12,18 +11,18 @@ ht-degree: 0%
 
 # Raccourcis clavier
 
-Dans les paramètres d’emplacement, utilisez les raccourcis clavier pour naviguer rapidement <!-- and to create ads and placements -->.
+Dans les paramètres d’emplacement, utilisez les raccourcis clavier pour naviguer rapidement.<!-- and to create ads and placements -->.
 
 | Page(s) applicable(s) | Raccourci | Description |
 | ---------------| ----------- | ---------------------- |
-| Paramètres d’emplacement | o | Permet de passer aux paramètres [!UICONTROL Goals] |
-| Paramètres d’emplacement | g | Permet de passer aux paramètres [!UICONTROL Geos] |
-| Paramètres d’emplacement | i | Permet de passer aux paramètres [!UICONTROL Inventory] |
-| Paramètres d’emplacement | s | Permet de passer aux paramètres [!UICONTROL Sites] |
-| Paramètres d’emplacement | a | Permet de passer aux paramètres [!UICONTROL Audience] |
-| Paramètres d’emplacement | b | Permet de passer aux paramètres [!UICONTROL Brand Safety] |
-| Paramètres d’emplacement | t | Permet de passer aux paramètres [!UICONTROL Tracking] |
-| Paramètres d’emplacement | l | Permet de passer aux paramètres [!UICONTROL Adobe Labs] |
+| Paramètres d’emplacement | o | Vous déplace vers la [!UICONTROL Goals] paramètres |
+| Paramètres d’emplacement | g | Vous déplace vers la [!UICONTROL Geos] paramètres |
+| Paramètres d’emplacement | i | Vous déplace vers la [!UICONTROL Inventory] paramètres |
+| Paramètres d’emplacement | s | Vous déplace vers la [!UICONTROL Sites] paramètres |
+| Paramètres d’emplacement | a | Vous déplace vers la [!UICONTROL Audience] paramètres |
+| Paramètres d’emplacement | b | Vous déplace vers la [!UICONTROL Brand Safety] paramètres |
+| Paramètres d’emplacement | t | Vous déplace vers la [!UICONTROL Tracking] paramètres |
+| Paramètres d’emplacement | l | Vous déplace vers la [!UICONTROL Adobe Labs] paramètres |
 
 {style=&quot;table-layout:auto&quot;}
 

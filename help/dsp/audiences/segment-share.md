@@ -2,7 +2,7 @@
 title: Partage ou arrêt du partage d’un segment
 description: Découvrez comment partager ou arrêter le partage d’un segment d’exclusion de la vente personnalisé ou CCPA avec d’autres comptes d’utilisateurs DSP.
 feature: DSP Segments
-source-git-commit: a29258fd09efabafa0d9b44ac3c52506ac835167
+source-git-commit: 3059a5b211a8a219b02930f7f5763d5ec1467b8e
 workflow-type: tm+mt
 source-wordcount: '156'
 ht-degree: 0%

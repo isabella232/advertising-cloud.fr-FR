@@ -2,7 +2,7 @@
 title: Modification d’une audience réutilisable
 description: Découvrez comment modifier une audience réutilisable.
 feature: DSP Audiences
-source-git-commit: 4310a5cb01fc1969ff28143c3a7cb652118b410e
+source-git-commit: 3059a5b211a8a219b02930f7f5763d5ec1467b8e
 workflow-type: tm+mt
 source-wordcount: '421'
 ht-degree: 0%

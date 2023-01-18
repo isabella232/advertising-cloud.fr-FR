@@ -2,7 +2,7 @@
 title: Affichage des détails sur une audience réutilisable
 description: Découvrez comment afficher la configuration et la taille de l’audience pour une audience réutilisable.
 feature: DSP Audiences
-source-git-commit: b835b9d8549faff6d4dbf9f03d14205028828880
+source-git-commit: 3059a5b211a8a219b02930f7f5763d5ec1467b8e
 workflow-type: tm+mt
 source-wordcount: '125'
 ht-degree: 0%

@@ -1,7 +1,7 @@
 ---
 title: Modification d’une liste de sites bloqués au niveau du compte ou de l’annonceur
 description: Découvrez comment gérer la liste des sites bloqués pour un compte ou un annonceur.
-source-git-commit: 4a5c4a2f180eba26818137bf9c31f212b342543a
+source-git-commit: 3059a5b211a8a219b02930f7f5763d5ec1467b8e
 workflow-type: tm+mt
 source-wordcount: '184'
 ht-degree: 0%

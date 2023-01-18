@@ -2,8 +2,7 @@
 title: Liste des emplacements associés à une publicité
 description: Découvrez comment afficher les emplacements associés à une publicité.
 feature: DSP Ads
-exl-id: 82c4f1b4-56fd-411f-a027-3f93ffb3867b
-source-git-commit: d10e1c24ee7c93eaab3fd4fefe853860226cc8e2
+source-git-commit: 3059a5b211a8a219b02930f7f5763d5ec1467b8e
 workflow-type: tm+mt
 source-wordcount: '83'
 ht-degree: 0%
@@ -17,7 +16,7 @@ Affichez une liste d’emplacements associés à une publicité pour afficher le
 1. Dans le menu principal, cliquez sur **[!UICONTROL Campaigns]**.
 1. Cliquez sur le nom de la campagne.
 1. Dans le sous-menu, cliquez sur **[!UICONTROL Ads]**.
-1. En regard du nom de la publicité, cliquez sur **... >[!UICONTROL See placements]**.
+1. En regard du nom de la publicité, cliquez sur  **... >[!UICONTROL See placements]**.
 
 >[!MORELIKETHIS]
 >

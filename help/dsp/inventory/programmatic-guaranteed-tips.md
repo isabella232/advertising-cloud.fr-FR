@@ -2,8 +2,7 @@
 title: Conseils pour négocier un accord garanti programmatique
 description: Découvrez des conseils pour négocier un contrat PG garanti par un programme et des listes des responsabilités de l’acheteur et de l’éditeur.
 feature: DSP Private Inventory, DSP Deal IDs, DSP Programmatic Guaranteed Deals
-exl-id: b754f993-b52f-4527-a246-bf232038c7cd
-source-git-commit: 39f491a39bdc9d8dd820eb4c69594dda71d8b3c2
+source-git-commit: 3059a5b211a8a219b02930f7f5763d5ec1467b8e
 workflow-type: tm+mt
 source-wordcount: '145'
 ht-degree: 0%

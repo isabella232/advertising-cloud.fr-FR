@@ -2,8 +2,7 @@
 title: Segments d’intégrité compatibles avec la publicité Adobe
 description: Consultez les instructions pour les segments d’audience et les tactiques acceptables liés à l’intégrité à utiliser comme alternatives au ciblage des segments d’audience liés à l’intégrité.
 feature: Policies
-exl-id: fd4fdf5e-9159-4a89-8447-12051deae61b
-source-git-commit: ad4ab8b9b0a4b5b1cc4aab540900363d2fe671c2
+source-git-commit: 3059a5b211a8a219b02930f7f5763d5ec1467b8e
 workflow-type: tm+mt
 source-wordcount: '348'
 ht-degree: 0%

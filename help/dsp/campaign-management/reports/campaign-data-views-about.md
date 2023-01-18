@@ -2,8 +2,7 @@
 title: À propos des vues de données de campagne
 description: Découvrez comment personnaliser les vues de données pour les campagnes, les packages, les emplacements et les publicités.
 feature: DSP Campaign Data Views
-exl-id: acc312b9-2de4-4e2f-9b59-b91f23d82357
-source-git-commit: 19d6a2edf07eecf874537dd9d356737ed9156bd9
+source-git-commit: 3059a5b211a8a219b02930f7f5763d5ec1467b8e
 workflow-type: tm+mt
 source-wordcount: '358'
 ht-degree: 0%
@@ -45,6 +44,6 @@ Dans toutes les vues de gestion de campagne ([!UICONTROL Campaigns], [!UICONTROL
 >* [Gestion des visualisations des données](campaign-data-visualization-manage.md)
 >* [Affichage des sites, publicités et détails de fréquence d’un emplacement](placement-details-view.md)
 >* [Affichage des rapports de diagnostic de placement](placement-diagnostics.md)
->* [Exporter des données à partir d’une vue de gestion de campagne](campaign-export-data.md)
+>* [Exportation de données à partir d’une vue Campaign Management](campaign-export-data.md)
 >* [Vidéo : DSP structure de compte et interface utilisateur](https://experienceleague.adobe.com/docs/advertising-cloud-learn/tutorials/dsp/ui.html)
 
