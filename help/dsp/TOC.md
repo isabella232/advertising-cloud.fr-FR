@@ -8,9 +8,9 @@ user-guide-title: Guide d’DSP de publicité
 user-guide-description: Découvrez les principales fonctionnalités, tâches, paramètres et autres ressources nécessaires pour gérer, optimiser et établir des rapports sur vos stratégies de publicité display à lʼaide dʼAdvertising DSP.
 breadcrumb-title: Guide de DSP
 index: true
-source-git-commit: e9d9d51302d32b06af805917db2f46e5f6daee62
+source-git-commit: d928b19b868ffc87d5962391f06d765f9da7c13a
 workflow-type: tm+mt
-source-wordcount: '910'
+source-wordcount: '930'
 ht-degree: 5%
 
 ---
@@ -36,10 +36,10 @@ ht-degree: 5%
    + [Financement du compte](/help/dsp/introduction/billing/account-funding.md)
    + [Devises prises en charge](/help/dsp/currency.md)
    + Prise en charge de la confidentialité des consommateurs {#privacy}
-      + [Prise en charge du Règlement général sur la protection des données](/help/privacy/gdpr.md)
+      + [Prise en charge du Règlement général sur la protection des données](https://experienceleague.adobe.com/docs/advertising-cloud/privacy/gdpr.html)
       + Prise en charge de la CCPA {#ccpa}
-         + [Prise en charge de la California Consumer Privacy Act : Accès et suppression des données des consommateurs](/help/privacy/ccpa/ccpa-access-delete.md)
-         + [Prise en charge de la California Consumer Privacy Act : Droit d’opposition à la vente des consommateurs](/help/privacy/ccpa/ccpa-opt-out-of-sale.md)
+         + [Prise en charge de la California Consumer Privacy Act : Accès et suppression des données des consommateurs](https://experienceleague.adobe.com/docs/advertising-cloud/privacy/ccpa/ccpa-access-delete.html)
+         + [Prise en charge de la California Consumer Privacy Act : Droit d’opposition à la vente des consommateurs](https://experienceleague.adobe.com/docs/advertising-cloud/privacy/ccpa/ccpa-opt-out-of-sale.html)
    + Stratégies et directives {#policies}
       + [Stratégie des exigences en matière de publicités](/help/policies/ad-requirements-policy.md)
       + [Instructions de segments d’intégrité acceptables](/help/policies/health-segment-guidelines.md)
